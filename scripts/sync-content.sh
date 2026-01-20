@@ -56,4 +56,11 @@ if [ -d "$QUARTZ_CONTENT/Tópicos" ]; then
     fi
 fi
 
+# Corrigir caminhos de imagens para Quartz (converter relativos para absolutos)
+# No Quartz, caminhos relativos como ../../Recursos/ não funcionam, precisa ser /Recursos/
+echo "Corrigindo caminhos de imagens para Quartz..."
+find "$QUARTZ_CONTENT" -name "*.md" -type f -exec sed -i '' 's|../../Recursos/|/Recursos/|g' {} \;
+find "$QUARTZ_CONTENT" -name "*.md" -type f -exec sed -i '' 's|../Recursos/|/Recursos/|g' {} \;
+echo "  ✓ Caminhos de imagens corrigidos"
+
 echo "Sincronização concluída com sucesso!"
