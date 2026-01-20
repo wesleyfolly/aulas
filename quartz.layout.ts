@@ -45,7 +45,8 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
-      folderDefaultState: "open",
+      title: "",
+      folderDefaultState: "collapsed",
       filterFn: (node) => {
         // Ocultar pasta Recursos da navegação, mas manter arquivos acessíveis via links
         return node.slugSegment !== "tags" && node.slugSegment !== "Recursos"
@@ -75,7 +76,8 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
-      folderDefaultState: "open",
+      title: "",
+      folderDefaultState: "collapsed",
       filterFn: (node) => {
         // Ocultar pasta Recursos da navegação, mas manter arquivos acessíveis via links
         return node.slugSegment !== "tags" && node.slugSegment !== "Recursos"
