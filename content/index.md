@@ -1,6 +1,11 @@
+---
+title: Aulas - Prof. Wesley Folly
+date: false
+---
+
 # Aulas - Prof. Wesley Folly
 
-Bem-vindo ao portal de aulas do IFF. Aqui você encontra materiais, recursos e conteúdos das disciplinas.
+Bem-vindo às minhas aulas. Aqui você encontra materiais, recursos e conteúdos das disciplinas ;D s2
 
 ---
 

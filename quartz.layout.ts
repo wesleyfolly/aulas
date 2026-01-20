@@ -21,8 +21,14 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.ConditionalRender({
+      component: Component.ContentMeta(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
     Component.TagList(),
   ],
   left: [
@@ -39,6 +45,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
+      folderDefaultState: "open",
       filterFn: (node) => {
         // Ocultar pasta Recursos da navegação, mas manter arquivos acessíveis via links
         return node.slugSegment !== "tags" && node.slugSegment !== "Recursos"
@@ -68,6 +75,7 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
+      folderDefaultState: "open",
       filterFn: (node) => {
         // Ocultar pasta Recursos da navegação, mas manter arquivos acessíveis via links
         return node.slugSegment !== "tags" && node.slugSegment !== "Recursos"
