@@ -1,3 +1,22 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Esconder o botão raiz do Explorer (deixar tópicos na raiz)
+.explorer {
+  // Esconder botão desktop do explorer (o wrapper vazio)
+  button.desktop-explorer {
+    display: none !important;
+  }
+
+  // Garantir que o conteúdo sempre apareça (não fique colapsado)
+  &.collapsed .explorer-content {
+    display: block !important;
+    visibility: visible !important;
+  }
+
+  // Remover margem superior do conteúdo já que não tem mais o botão
+  .explorer-content {
+    margin-top: 0 !important;
+  }
+}
