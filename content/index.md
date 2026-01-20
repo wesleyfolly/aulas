@@ -1,9 +1,9 @@
 ---
-title: Aulas
+title: Aulas do Wesley
 ---
 
 # Aulas
 
-Bem-vindo ao repositório de aulas do IFF.
+Bem-vindo ao meu repositório de aulas.
 
-Navegue pelos tópicos disponíveis usando o menu lateral.
+Navegue pelos tópicos disponíveis usando o menu lateral ;D
