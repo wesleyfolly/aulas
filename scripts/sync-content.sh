@@ -3,9 +3,20 @@
 # Script para sincronizar pasta Aulas do vault Obsidian para content/ do Quartz
 # Usa rsync para sincronização incremental (só copia arquivos modificados)
 
-# Caminhos
-VAULT_AULAS="/Users/wesleyfolly/Library/CloudStorage/Dropbox/obsidian vault/03 - IFF/Aulas"
-QUARTZ_CONTENT="/Users/wesleyfolly/Library/CloudStorage/Dropbox/life-code/areas/profissional/aulas-quartz-github/content"
+# Verificar variáveis de ambiente necessárias
+if [ -z "$OBSIDIAN_VAULT_PATH" ]; then
+    echo "Erro: OBSIDIAN_VAULT_PATH não está definida"
+    exit 1
+fi
+
+if [ -z "$LIFECODE_PATH" ]; then
+    echo "Erro: LIFECODE_PATH não está definida"
+    exit 1
+fi
+
+# Caminhos usando variáveis de ambiente
+VAULT_AULAS="$OBSIDIAN_VAULT_PATH/03 - IFF/Aulas"
+QUARTZ_CONTENT="$LIFECODE_PATH/areas/profissional/aulas-quartz-github/content"
 
 # Verificar se a pasta origem existe
 if [ ! -d "$VAULT_AULAS" ]; then
@@ -58,9 +69,17 @@ fi
 
 # Corrigir caminhos de imagens para Quartz (converter relativos para absolutos)
 # No Quartz, caminhos relativos como ../../Recursos/ não funcionam, precisa ser /Recursos/
+# Detectar se estamos no macOS (sed -i '' requer sufixo vazio) ou Linux (sed -i requer sufixo)
 echo "Corrigindo caminhos de imagens para Quartz..."
-find "$QUARTZ_CONTENT" -name "*.md" -type f -exec sed -i '' 's|../../Recursos/|/Recursos/|g' {} \;
-find "$QUARTZ_CONTENT" -name "*.md" -type f -exec sed -i '' 's|../Recursos/|/Recursos/|g' {} \;
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    # macOS
+    find "$QUARTZ_CONTENT" -name "*.md" -type f -exec sed -i '' 's|../../Recursos/|/Recursos/|g' {} \;
+    find "$QUARTZ_CONTENT" -name "*.md" -type f -exec sed -i '' 's|../Recursos/|/Recursos/|g' {} \;
+else
+    # Linux
+    find "$QUARTZ_CONTENT" -name "*.md" -type f -exec sed -i 's|../../Recursos/|/Recursos/|g' {} \;
+    find "$QUARTZ_CONTENT" -name "*.md" -type f -exec sed -i 's|../Recursos/|/Recursos/|g' {} \;
+fi
 echo "  ✓ Caminhos de imagens corrigidos"
 
 echo "Sincronização concluída com sucesso!"

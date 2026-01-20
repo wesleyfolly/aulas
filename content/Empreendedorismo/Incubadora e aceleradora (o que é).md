@@ -1,0 +1,1 @@
+# Incubadora e aceleradora (o que é)

@@ -1,1 +1,0 @@
-# Ollama - gerenciamento de modelos de IA

@@ -1,0 +1,7 @@
+﻿Parâmetro,função
+-PN,do not perform host discovery
+-n,never perform DNS resolution (to prevent DNS leaks)
+-sV,determine service version/info
+-p,ports to scan
+-sT,full TCP connection scan
+,

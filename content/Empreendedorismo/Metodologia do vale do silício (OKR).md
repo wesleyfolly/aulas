@@ -1,0 +1,1 @@
+# Metodologia do vale do silício (OKR)
