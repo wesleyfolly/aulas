@@ -9,19 +9,19 @@
 - Não é máquina virtual!
 - Única missão da vida de um container é fazer uma aplicação específica funcionar!
 
-![image.png](../../Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image.png)
+![image.png](/Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image.png)
 
 ## Exemplo sem container
 
-![image.png](../../Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image%201.png)
+![image.png](/Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image%201.png)
 
 ## Exemplo com container
 
-![image.png](../../Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image%202.png)
+![image.png](/Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image%202.png)
 
 ## Docker x VMs
 
-![image.png](../../Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image%203.png)
+![image.png](/Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image%203.png)
 
 ## Surgimento do Docker
 
@@ -46,7 +46,7 @@ sudo chroot /mycontainer /bin/bash
 
 - Exemplo de container nativo no Linux puro
 
-![image.png](../../Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image%204.png)
+![image.png](/Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image%204.png)
 
 - 2000s: Surgimento de tecnologias de virtualização e de isolamento de recursos, como LXC (Linux Containers).
 - 2013 Lançamento do Docker, que popularizou o uso de containers ao simplificar sua criação, distribuição e gerenciamento.
@@ -106,7 +106,7 @@ CMD ["npm", "start"]
 - Imagens Docker são templates imutáveis que são utilizados para criar containers. Elas contêm tudo que é necessário para rodar uma aplicação: código, runtime, bibliotecas, variáveis de ambiente, e arquivos de configuração.
 - Imagens são construídas em camadas. Cada instrução em um Dockerfile cria uma nova camada na imagem. Isso facilita o versionamento e a reutilização de camadas entre diferentes imagens.
 
-![image.png](../../Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image%205.png)
+![image.png](/Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image%205.png)
 
 ## Volumes
 
