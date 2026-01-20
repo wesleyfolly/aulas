@@ -34,10 +34,4 @@ Bem-vindo às minhas aulas. Aqui você encontra materiais, recursos e conteúdos
 
 ---
 
-## Recursos
-
-Materiais de apoio, apostilas e arquivos estão disponíveis na pasta [[Recursos]].
-
----
-
 > **Contato:** wesley.souza@iff.edu.br

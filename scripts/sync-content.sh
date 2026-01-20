@@ -40,32 +40,9 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# Reorganizar estrutura: mover tópicos de Tópicos/ para o nível raiz
-# Isso faz com que os tópicos apareçam diretamente no primeiro nível no GitHub Pages
-if [ -d "$QUARTZ_CONTENT/Tópicos" ]; then
-    echo "Reorganizando estrutura: movendo tópicos para o primeiro nível..."
-    cd "$QUARTZ_CONTENT"
-    
-    # Mover cada pasta de Tópicos/ para o nível raiz
-    for dir in Tópicos/*/; do
-        if [ -d "$dir" ]; then
-            dirname=$(basename "$dir")
-            # Só mover se não existir no destino (evitar conflitos)
-            if [ ! -d "$dirname" ]; then
-                mv "$dir" "$dirname"
-                echo "  ✓ Movido: $dirname"
-            fi
-        fi
-    done
-    
-    # Remover pasta Tópicos se estiver vazia
-    if [ -d "Tópicos" ] && [ -z "$(ls -A Tópicos 2>/dev/null)" ]; then
-        rmdir "Tópicos"
-        echo "  ✓ Pasta Tópicos removida (vazia)"
-    elif [ -d "Tópicos" ]; then
-        echo "  ⚠ Pasta Tópicos ainda contém arquivos, mantendo..."
-    fi
-fi
+# Estrutura atual: Aulas/ contém Comece por aqui/, Logs de Aula/, Tópicos/, Recursos/
+# Mantemos a hierarquia original - não movemos mais conteúdo de Tópicos/ para raiz
+echo "Estrutura mantida: Comece por aqui, Logs de Aula, Tópicos, Recursos"
 
 # Corrigir caminhos de imagens para Quartz (converter relativos para absolutos)
 # No Quartz, caminhos relativos como ../../Recursos/ não funcionam, precisa ser /Recursos/

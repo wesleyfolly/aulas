@@ -2,21 +2,24 @@
 
 // put your custom CSS here!
 
-// Esconder o botão raiz do Explorer (deixar tópicos na raiz)
+// Remove the Explorer wrapper button and show content directly at root
 .explorer {
-  // Esconder botão desktop do explorer (o wrapper vazio)
+  // Hide the desktop toggle button (the wrapper with empty title and fold arrow)
   button.desktop-explorer {
     display: none !important;
   }
 
-  // Garantir que o conteúdo sempre apareça (não fique colapsado)
+  // Force explorer content to always be visible, even when collapsed
+  .explorer-content {
+    display: block !important;
+    visibility: visible !important;
+    overflow: visible !important;
+    margin-top: 0 !important;
+  }
+
+  // Override collapsed state for desktop
   &.collapsed .explorer-content {
     display: block !important;
     visibility: visible !important;
-  }
-
-  // Remover margem superior do conteúdo já que não tem mais o botão
-  .explorer-content {
-    margin-top: 0 !important;
   }
 }
