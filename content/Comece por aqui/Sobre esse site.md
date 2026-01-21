@@ -1,6 +1,8 @@
 ---
 tipo: conceito
 resumo: "Guia sobre a interface do site, funcionalidades disponíveis e explicação sobre Map of Content (MOC)"
+aliases:
+  - Sobre esse site
 tags:
   - interface
   - guia

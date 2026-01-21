@@ -1,3 +1,8 @@
+---
+aliases:
+  - Empreendedorismo
+---
+
 # Empreendedorismo
 
 <aside>

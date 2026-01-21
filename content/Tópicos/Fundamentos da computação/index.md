@@ -1,3 +1,8 @@
+---
+aliases:
+  - Fundamentos da computação
+---
+
 # Fundamentos da computação
 
 > *Planejamento geral da disciplina de Fundamentos da computação. Seja bem-vindo :)*

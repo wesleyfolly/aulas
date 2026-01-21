@@ -1,3 +1,8 @@
+---
+aliases:
+  - Roadmap do futuro
+---
+
 # 🚀 Roadmap do futuro
 
 > [!quote] 

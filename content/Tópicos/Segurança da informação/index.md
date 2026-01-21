@@ -1,3 +1,8 @@
+---
+aliases:
+  - Segurança da informação
+---
+
 # Segurança da Informação
 
 <aside>

@@ -1,3 +1,8 @@
+---
+aliases:
+  - Outras habilidades adjacentes
+---
+
 # Outras habilidades adjacentes
 
 [[Windows]]

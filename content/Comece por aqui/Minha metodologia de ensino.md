@@ -1,6 +1,8 @@
 ---
 tipo: conceito
 resumo: "Explicação da metodologia de ensino focada em execução, uso de ferramentas modernas e desenvolvimento de habilidades práticas em um mundo dominado por IA"
+aliases:
+  - Minha metodologia de ensino
 tags:
   - metodologia
   - ensino

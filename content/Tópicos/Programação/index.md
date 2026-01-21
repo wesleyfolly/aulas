@@ -1,3 +1,8 @@
+---
+aliases:
+  - Programação
+---
+
 # Programação
 
 > *Este espaço é um guia usado em minhas aulas de **Programação**. O objetivo é listar alguns **tópicos** e não necessariamente prover todo o conteúdo necessário.*

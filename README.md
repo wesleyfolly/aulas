@@ -19,6 +19,16 @@ Este projeto utiliza o Quartz para transformar notas Markdown do Obsidian em um 
 
 ## 🚀 Como Usar
 
+### ⚡ Processo Rápido: Sync, Build e Commit
+
+Para atualizar o conteúdo das aulas, execute sempre nesta ordem:
+
+1. **SYNC**: `./scripts/sync-content.sh` - Sincroniza conteúdo do Obsidian
+2. **BUILD**: `npx quartz build` - Valida que não há erros
+3. **COMMIT**: `git add content/ && git commit -m "..." && git push` - Publica as mudanças
+
+Veja detalhes completos na seção [Atualizar Conteúdo das Aulas](#atualizar-conteúdo-das-aulas) abaixo.
+
 ### Primeira Configuração (já concluída)
 
 O projeto já está configurado e publicado. Se precisar reconfigurar:
@@ -32,27 +42,35 @@ O projeto já está configurado e publicado. Se precisar reconfigurar:
    - Acesse: https://github.com/wesleyfolly/aulas/actions
    - O workflow "Deploy Quartz site to GitHub Pages" será executado automaticamente
 
-### Atualizar Conteúdo das Aulas
+### Atualizar Conteúdo das Aulas {#atualizar-conteúdo-das-aulas}
 
-Sempre que você atualizar as aulas no Obsidian, siga estes passos:
+Sempre que você atualizar as aulas no Obsidian, siga **obrigatoriamente** estes passos na ordem:
 
 ```bash
 # 1. Navegar para o diretório do projeto
 cd /Users/wesleyfolly/Library/CloudStorage/Dropbox/life-code/areas/profissional/aulas-quartz-github
 
-# 2. Sincronizar conteúdo do Obsidian para content/
+# 2. SYNC: Sincronizar conteúdo do Obsidian para content/
 ./scripts/sync-content.sh
 
-# 3. Verificar mudanças (opcional)
+# 3. BUILD: Fazer build do site para verificar se não há erros
+npx quartz build
+
+# 4. Verificar mudanças (opcional, mas recomendado)
 git status
 
-# 4. Adicionar, commitar e fazer push
+# 5. COMMIT: Adicionar, commitar e fazer push
 git add content/
-git commit -m "Atualizar conteúdo das aulas"
+# Se houver mudanças em outros arquivos (ex: quartz.layout.ts), adicione também:
+git add .
+git commit -m "Atualizar conteúdo das aulas - [descrição das mudanças]"
 git push
 ```
 
-O GitHub Actions fará o build e deploy automaticamente após o push.
+**⚠️ Importante:**
+- O build local (passo 3) é **obrigatório** antes do commit para garantir que não há erros
+- Se o build falhar, corrija os erros antes de fazer commit e push
+- O GitHub Actions fará o build e deploy automaticamente após o push, mas é essencial validar localmente primeiro
 
 ### Testar Build Localmente
 
@@ -101,6 +119,19 @@ O script usa `rsync` para sincronização incremental:
 - **Flags:** `-av --delete` (preserva permissões, timestamps, e remove arquivos deletados)
 
 ## 🔧 Comandos Úteis
+
+### Processo Completo de Atualização
+
+```bash
+# Fluxo completo: Sync → Build → Commit
+cd /Users/wesleyfolly/Library/CloudStorage/Dropbox/life-code/areas/profissional/aulas-quartz-github
+./scripts/sync-content.sh          # 1. Sync
+npx quartz build                    # 2. Build
+git add content/                    # 3. Commit (adicionar mudanças)
+git add .                           # Adicionar outras mudanças se houver
+git commit -m "Atualizar conteúdo das aulas - [descrição]"
+git push                            # 4. Push
+```
 
 ### Desenvolvimento
 

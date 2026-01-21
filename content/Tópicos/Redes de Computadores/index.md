@@ -1,3 +1,8 @@
+---
+aliases:
+  - Redes de Computadores
+---
+
 # Redes de Computadores
 
 > *Planejamento geral da disciplina de redes. Email do professor. wesley.souza@iff.edu.br*
@@ -120,7 +125,7 @@ Roadmap da **Produção Acadêmica**](https://www.notion.so/Roadmap-da-Produ-o-A
         Equipe: Júlia, Jamily e Sarah Regina, Sarah Renata, Camilly e Geovanna
         
         Equipe Slow: Gabriel, Felipe, Emanuel e Kauan
-        
+    
     - Conteúdo
         
         09/04/2025 - Apresentação do professor e da disciplina 

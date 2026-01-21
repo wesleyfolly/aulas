@@ -1,6 +1,8 @@
 ---
 tipo: conceito
 resumo: "Regras e boas práticas gerais aplicadas a todas as disciplinas, incluindo normas sobre trabalhos, provas, aulas e laboratório"
+aliases:
+  - Regras e boas práticas
 tags:
   - regras
   - boas-praticas

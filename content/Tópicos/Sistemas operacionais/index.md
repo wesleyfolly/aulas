@@ -1,3 +1,8 @@
+---
+aliases:
+  - Sistemas operacionais
+---
+
 # Sistemas operacionais
 
 automatização de tarefas

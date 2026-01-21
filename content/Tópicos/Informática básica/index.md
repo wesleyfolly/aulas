@@ -1,3 +1,8 @@
+---
+aliases:
+  - Informática básica
+---
+
 # Informática básica
 
 > *Planejamento geral da disciplina de informática básica. Email do professor:  wesley.souza@iff.edu.br*

@@ -1,6 +1,8 @@
 ---
 tipo: aula
 resumo: "Roadmap completo do processo de produção acadêmica, desde a ideação até a apresentação de trabalhos em eventos"
+aliases:
+  - Roadmap da Produção Acadêmica
 tags:
   - produção-acadêmica
   - roadmap

@@ -1,3 +1,8 @@
+---
+aliases:
+  - Organização e produtividade
+---
+
 # Organização e produtividade
 
 Cursos para copiar estrutura
