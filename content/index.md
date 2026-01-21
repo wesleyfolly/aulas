@@ -43,7 +43,7 @@ Acompanhe o que aconteceu em cada aula, incluindo tópicos abordados, trabalhos 
 
 - [[Tópicos/Empreendedorismo/index|Empreendedorismo]] - Negócios, inovação e carreira
 - [[Tópicos/Roadmap do futuro/index|Roadmap do futuro]] - Tecnologias emergentes e automação
-- [[Tópicos/Roadmap da Produção Acadêmica/index|Roadmap da Produção Acadêmica]] - Guia para produção acadêmica
+- [[Tópicos/Roadmap da Produção Acadêmica/index|Roadmap da Produção Acadêmica]] - Guia para produção acadêmica (escrever artigos e ir em eventos)
 
 ### Outras Disciplinas
 
