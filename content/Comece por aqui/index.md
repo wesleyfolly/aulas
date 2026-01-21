@@ -19,7 +19,7 @@ tags:
 
 Antes de tudo, entenda como navegar por este ambiente de conhecimento:
 
-- [[Sobre esse site]] — Aprenda sobre a interface, menu lateral, dark mode, modo leitura e o conceito de Map of Content (MOC)
+- [[Sobre esse site]] — Aprenda sobre a interface, menu lateral, dark mode, modo leitura e como navegar pelo conteúdo
 
 ### 2️⃣ Entenda minha metodologia
 
@@ -40,7 +40,7 @@ Para que tudo funcione bem, é importante conhecer as diretrizes:
 Depois de ler essas páginas, você estará pronto para:
 
 1. **Explorar as disciplinas** — Navegue pelos tópicos que te interessam
-2. **Começar pelos MOCs** — Em cada disciplina, procure pelo arquivo `index.md` (ou `00-MOC`) para ver o mapa completo do assunto
+2. **Começar pela página principal** — Ao clicar em cada disciplina/tópico, você estará na página principal que contém conteúdo e links para outras páginas. Além disso, você também pode clicar diretamente em cada página pelo menu lateral e ir direto para um assunto específico.
 3. **Usar os recursos** — Aproveite os materiais, links e conteúdos disponíveis
 
 ---

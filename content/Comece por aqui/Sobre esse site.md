@@ -1,12 +1,11 @@
 ---
 tipo: conceito
-resumo: "Guia sobre a interface do site, funcionalidades disponíveis e explicação sobre Map of Content (MOC)"
+resumo: "Guia sobre a interface do site e funcionalidades disponíveis para navegação"
 aliases:
   - Sobre esse site
 tags:
   - interface
   - guia
-  - moc
   - navegacao
 ---
 
@@ -47,36 +46,29 @@ Você pode alternar entre o **modo escuro** (dark mode) e o **modo claro** (ligh
 
 O **modo leitura** remove elementos de navegação e foca apenas no conteúdo, ideal para quando você quer se concentrar apenas na leitura sem distrações (é o símbolo do livro aberto).
 
-## 🗺️ Map of Content (MOC)
+## 🗺️ Navegando pelas Disciplinas
 
-### O que é um MOC?
+### Como explorar o conteúdo?
 
-Dentro de cada **Tópico/Disciplina**, você vai encontrar um arquivo que começa com **`00-MOC`**. 
+Cada **disciplina/tópico** tem uma **página principal** que funciona como ponto de partida para explorar todo o conteúdo relacionado.
 
-**MOC** significa **Map of Content** (Mapa de Conteúdo).
+Pense nela como:
 
-### Por que isso é importante?
-
-O arquivo `00-MOC` é a **página principal** de cada assunto. Ele funciona como um **mapa** que te guia por toda a rede de notas relacionadas àquele tópico.
-
-Pense nele como:
-
-- 🗺️ Um **índice interativo** — mostra todos os conteúdos disponíveis
+- 🗺️ Um **mapa interativo** — mostra todos os conteúdos disponíveis
 - 🔗 Um **hub de conexões** — links para todas as notas relacionadas
 - 📍 Um **ponto de partida** — comece por aqui para explorar o assunto
 - 🧭 Um **guia de navegação** — te ajuda a não se perder na rede de conhecimento
 
 ### Como usar?
 
-1. **Comece pelo MOC** — quando quiser estudar um assunto, vá primeiro ao arquivo `00-MOC` daquele tópico
+1. **Comece pela página principal** — quando quiser estudar um assunto, vá primeiro à página principal daquele tópico
 2. **Explore os links** — clique nos links que te interessam para navegar pelas notas
-3. **Use como referência** — volte ao MOC sempre que precisar encontrar algo específico
-4. **Veja as conexões** — o MOC mostra como os conceitos se relacionam entre si
+3. **Use como referência** — volte à página principal sempre que precisar encontrar algo específico
+4. **Veja as conexões** — a página principal mostra como os conceitos se relacionam entre si
 
 ### Exemplo prático
 
-Se você está estudando **Redes de Computadores**, comece pelo arquivo:
-- `00 - MOC - Redes de Computadores`
+Se você está estudando **Redes de Computadores**, comece pela página principal dessa disciplina.
 
 Lá você encontrará links para:
 - Conceitos básicos
