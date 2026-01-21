@@ -13,9 +13,9 @@ Bem-vindo às minhas aulas. Aqui você encontra materiais, recursos e conteúdos
 
 Se você é novo neste site, comece por estas páginas:
 
-- [[03 - IFF/Aulas/Comece por aqui/Sobre esse site|Sobre esse site]] - Entenda o propósito deste site
-- [[03 - IFF/Aulas/Comece por aqui/Minha metodologia de ensino|Minha metodologia de ensino]] - Como trabalho em sala de aula
-- [[03 - IFF/Aulas/Comece por aqui/Regras e boas práticas|Regras e boas práticas]] - Diretrizes importantes para as aulas
+- [[Comece por aqui/Sobre esse site|Sobre esse site]] - Entenda o propósito deste site
+- [[Comece por aqui/Minha metodologia de ensino|Minha metodologia de ensino]] - Como trabalho em sala de aula
+- [[Comece por aqui/Regras e boas práticas|Regras e boas práticas]] - Diretrizes importantes para as aulas
 
 ---
 
@@ -23,7 +23,7 @@ Se você é novo neste site, comece por estas páginas:
 
 Acompanhe o que aconteceu em cada aula, incluindo tópicos abordados, trabalhos e avaliações marcadas:
 
-- [[03 - IFF/Aulas/Logs de Aula/index|Logs de Aula]] - Índice completo organizado por curso e turma
+- [[Logs de Aula/index|Logs de Aula]] - Índice completo organizado por curso e turma
 
 ---
 
@@ -31,26 +31,26 @@ Acompanhe o que aconteceu em cada aula, incluindo tópicos abordados, trabalhos 
 
 ### Programação e Desenvolvimento
 
-- [[03 - IFF/Aulas/Tópicos/Programação/index|Programação]] - Conceitos, linguagens e projetos
-- [[03 - IFF/Aulas/Tópicos/Fundamentos da computação/index|Fundamentos da computação]] - Base teórica da computação
+- [[Tópicos/Programação/index|Programação]] - Conceitos, linguagens e projetos
+- [[Tópicos/Fundamentos da computação/index|Fundamentos da computação]] - Base teórica da computação
 
 ### Redes e Infraestrutura
 
-- [[03 - IFF/Aulas/Tópicos/Redes de Computadores/index|Redes de Computadores]] - Conceitos, protocolos e configuração
-- [[03 - IFF/Aulas/Tópicos/Segurança da informação/index|Segurança da informação]] - Cybersegurança e proteção de dados
+- [[Tópicos/Redes de Computadores/index|Redes de Computadores]] - Conceitos, protocolos e configuração
+- [[Tópicos/Segurança da informação/index|Segurança da informação]] - Cybersegurança e proteção de dados
 
 ### Competências Profissionais
 
-- [[03 - IFF/Aulas/Tópicos/Empreendedorismo/index|Empreendedorismo]] - Negócios, inovação e carreira
-- [[03 - IFF/Aulas/Tópicos/Roadmap do futuro/index|Roadmap do futuro]] - Tecnologias emergentes e automação
-- [[03 - IFF/Aulas/Tópicos/Roadmap da Produção Acadêmica/index|Roadmap da Produção Acadêmica]] - Guia para produção acadêmica
+- [[Tópicos/Empreendedorismo/index|Empreendedorismo]] - Negócios, inovação e carreira
+- [[Tópicos/Roadmap do futuro/index|Roadmap do futuro]] - Tecnologias emergentes e automação
+- [[Tópicos/Roadmap da Produção Acadêmica/index|Roadmap da Produção Acadêmica]] - Guia para produção acadêmica
 
 ### Outras Disciplinas
 
-- [[03 - IFF/Aulas/Tópicos/Informática básica/index|Informática básica]] - Introdução à computação
-- [[03 - IFF/Aulas/Tópicos/Sistemas operacionais/index|Sistemas operacionais]] - Fundamentos de SO
-- [[03 - IFF/Aulas/Tópicos/Organização e produtividade/index|Organização e produtividade]] - Gestão pessoal
-- [[03 - IFF/Aulas/Tópicos/Outras habilidades adjacentes/index|Outras habilidades adjacentes]] - Habilidades complementares e ferramentas
+- [[Tópicos/Informática básica/index|Informática básica]] - Introdução à computação
+- [[Tópicos/Sistemas operacionais/index|Sistemas operacionais]] - Fundamentos de SO
+- [[Tópicos/Organização e produtividade/index|Organização e produtividade]] - Gestão pessoal
+- [[Tópicos/Outras habilidades adjacentes/index|Outras habilidades adjacentes]] - Habilidades complementares e ferramentas
 
 ---
 
