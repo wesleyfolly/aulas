@@ -1,3 +1,16 @@
+---
+tipo: aula
+resumo: "Inteligência Artificial: introdução aos conceitos básicos, tipos de IA (fraca, forte, geral), subáreas (machine learning, NLP, visão computacional) e ferramentas como ChatGPT, Midjourney, DALL-E e Bing AI."
+tags:
+  - aula
+  - inteligência-artificial
+  - IA
+  - machine-learning
+  - ferramentas
+  - tecnologia
+  - empreendedorismo
+---
+
 # Inteligência Artificial
 
 # Introdução à Inteligência Artificial

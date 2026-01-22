@@ -1,3 +1,16 @@
+---
+tipo: aula
+resumo: "Empreendedorismo digital: fundamentos, modelos de negócios digitais (e-commerce, infoprodutos, serviços online), planejamento estratégico, marketing digital, operações e gestão, crescimento e escalabilidade. Inclui trabalho prático para planejar fonte de renda digital."
+tags:
+  - aula
+  - empreendedorismo-digital
+  - negócios-digitais
+  - e-commerce
+  - marketing-digital
+  - tecnologia
+  - empreendedorismo
+---
+
 # Empreendedorismo digital
 
 1. **Introdução ao Empreendedorismo Digital**

@@ -5,15 +5,6 @@ aliases:
 
 # Segurança da Informação
 
-<aside>
-💡 *Este espaço é um material complementar relativo às minhas aulas. Email do professor wesley.souza@iff.edu.br*
-
-</aside>
-
-**Nessa página você se prepara para o futuro** → [Roadmap do futuro](https://www.notion.so/Roadmap-do-futuro-1e19e0c91d368070a585f0b763d5bcc9?pvs=21) 
-
-**Nessa você é guiado a produzir um artigo** → [
-Roadmap da **Produção Acadêmica**](https://www.notion.so/Roadmap-da-Produ-o-Acad-mica-2419e0c91d3680f09696e597d84a0320?pvs=21) 
 
 [[Possível Cronograma da disciplina]]
 

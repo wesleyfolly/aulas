@@ -1,3 +1,15 @@
+---
+tipo: aula
+resumo: "Desafio de leitura: lista de livros recomendados sobre empreendedorismo, produtividade e desenvolvimento pessoal, incluindo títulos como Trabalhe 4 horas por semana, O poder do hábito e Pai rico pai pobre."
+tags:
+  - aula
+  - leitura
+  - desafio
+  - livros
+  - empreendedorismo
+  - desenvolvimento-pessoal
+---
+
 # Desafio de leitura
 
 [[Como resumir um livro]]

@@ -8,10 +8,6 @@ aliases:
 > *Este espaço é um guia usado em minhas aulas de **Programação**. O objetivo é listar alguns **tópicos** e não necessariamente prover todo o conteúdo necessário.*
 > 
 
-**Nessa página você se prepara para o futuro** → [Roadmap do futuro](https://www.notion.so/Roadmap-do-futuro-1e19e0c91d368070a585f0b763d5bcc9?pvs=21) 
-
-**Nessa você é guiado a produzir um artigo** → [
-Roadmap da **Produção Acadêmica**](https://www.notion.so/Roadmap-da-Produ-o-Acad-mica-2419e0c91d3680f09696e597d84a0320?pvs=21) 
 
 [[Tarefas e trabalhos]]
 
@@ -37,7 +33,7 @@ Roadmap da **Produção Acadêmica**](https://www.notion.so/Roadmap-da-Produ-o-A
 
 [[Recursos e Ferramentas]]
 
-[[Estrutura de dados (dependência)]]
+[[Estrutura de dados]]
 
 [[Paradigmas de programação]]
 
@@ -45,7 +41,7 @@ Roadmap da **Produção Acadêmica**](https://www.notion.so/Roadmap-da-Produ-o-A
 
 [[Materiais]]
 
-[[GitHub e controle de versão]]
+[[03 - IFF/Aulas/Tópicos/Programação/GitHub e controle de versão]]
 
 ---
 

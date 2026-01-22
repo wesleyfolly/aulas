@@ -1,3 +1,15 @@
+---
+tipo: aula
+resumo: "Conceitos fundamentais de empreendedorismo: definições, formas de empreendedorismo (negócios, social, intra-empreendedorismo, pessoal), pesquisa de mercado e plano de negócio."
+tags:
+  - aula
+  - conceitos-básicos
+  - empreendedorismo
+  - fundamentos
+  - pesquisa-de-mercado
+  - plano-de-negócio
+---
+
 # Conceitos básicos
 
 > *A maior parte dos conceitos básicos estão presentes na apostila. Mas alguns destaques colocaremos por aqui...*

@@ -1,3 +1,16 @@
+---
+tipo: aula
+resumo: "Materiais de apoio: apostilas, livros e recursos educacionais sobre empreendedorismo, incluindo sumário de apostila com aulas sobre conceitos, pesquisa de mercado, marketing e plano de negócios. Links para cursos e plataformas de aprendizado."
+tags:
+  - aula
+  - materiais
+  - recursos
+  - apostila
+  - livros
+  - cursos
+  - empreendedorismo
+---
+
 # Materiais
 
 # Apostilas e livros

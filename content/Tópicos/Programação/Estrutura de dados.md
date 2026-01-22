@@ -1,4 +1,4 @@
-# Estrutura de dados (dependência)
+# Estrutura de dados
 
 <aside>
 📗 O que são estrutura de dados? São formas de organizar **conjuntos** de dados na programação, assim como as **operações** nesses conjuntos.

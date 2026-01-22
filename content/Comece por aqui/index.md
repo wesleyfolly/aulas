@@ -25,7 +25,7 @@ Antes de tudo, entenda como navegar por este ambiente de conhecimento:
 
 Saiba como eu ensino e o que espero de você:
 
-- [[Minha metodologia de ensino]] — Descubra como funciona minha abordagem de ensino focada em execução e uso de ferramentas modernas
+- [[Minha metodologia de ensino]] — Aqui eu explico minha abordagem de ensino focada em execução e uso de ferramentas modernas
 
 ### 3️⃣ Conheça as regras
 

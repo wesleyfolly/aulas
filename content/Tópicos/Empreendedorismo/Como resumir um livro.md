@@ -1,3 +1,15 @@
+---
+tipo: aula
+resumo: "Metodologia para resumir livros: sistema de anotações, perguntas fundamentais sobre o livro, identificação da ideia principal por capítulo e aplicação prática do conhecimento."
+tags:
+  - aula
+  - leitura
+  - resumo
+  - metodologia
+  - aprendizagem
+  - empreendedorismo
+---
+
 # Como resumir um livro
 
 1. Ter um sistema de anotações.

@@ -5,13 +5,6 @@ aliases:
 
 # Informática básica
 
-> *Planejamento geral da disciplina de informática básica. Email do professor:  wesley.souza@iff.edu.br*
-> 
-
-**Nessa página você se prepara para o futuro** → [Roadmap do futuro](https://www.notion.so/Roadmap-do-futuro-1e19e0c91d368070a585f0b763d5bcc9?pvs=21) 
-
-**Nessa você é guiado a produzir um artigo** → [
-Roadmap da **Produção Acadêmica**](https://www.notion.so/Roadmap-da-Produ-o-Acad-mica-2419e0c91d3680f09696e597d84a0320?pvs=21) 
 
 # Trabalho de edição de texto
 

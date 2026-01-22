@@ -1,3 +1,15 @@
+---
+tipo: aula
+resumo: "Aplicativos e sites especializados em resumos de livros para leitura rápida e eficiente. Inclui recomendações de plataformas como Blinkist e 12min, vantagens e desvantagens, e estratégias para ler centenas de livros por ano através de resumos."
+tags:
+  - aula
+  - leitura
+  - resumo
+  - aplicativos
+  - empreendedorismo
+  - produtividade
+---
+
 # Aplicativos e sites de resumo
 
 <aside>
