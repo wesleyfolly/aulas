@@ -39,22 +39,24 @@ Ao converter links do Notion para wikilinks do Obsidian:
 - **Nunca usar links markdown padrão** para arquivos internos: `[texto](link.md)`
 
 ### 1.4 Imagens
-**⚠️ REGRA DE OURO: Caminhos Relativos Nativos**
+**⚠️ REGRA DE OURO: Caminhos Relativos no Obsidian, Absolutos no Quartz**
 
-Para imagens, **SEMPRE** usar **Wikilinks com Caminho Relativo** (`Relative path to file`). Esta é a estratégia definitiva que funciona nativamente tanto no Obsidian quanto no Quartz, sem necessidade de scripts de conversão.
+Para imagens, **SEMPRE** usar **Wikilinks com Caminho Relativo** no Obsidian (ex: `../../Recursos/...`). O script de sync converte automaticamente para caminhos absolutos (`/Recursos/...`) no Quartz, preservando a sintaxe dos Wikilinks.
 
-- ✅ **CORRETO:** `![[../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Texto alternativo]]`
-- ❌ **ERRADO:** `![Texto alternativo](../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png)`
+- ✅ **CORRETO (Obsidian):** `![[../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Texto alternativo]]`
+- ✅ **CORRETO (Quartz após sync):** `![[/Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Texto alternativo]]` (conversão automática)
+- ❌ **ERRADO:** `![Texto alternativo](../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png)` (markdown padrão)
 
-**Por quê usar Wikilinks com Caminhos Relativos?**
+**Por quê usar Wikilinks com Caminhos Relativos no Obsidian?**
 - A sintaxe markdown padrão `![texto](caminho)` pode não renderizar corretamente no Obsidian
 - Wikilinks `![[caminho|texto]]` são a sintaxe nativa do Obsidian e funcionam melhor
-- O Quartz processa wikilinks corretamente através do plugin `ObsidianFlavoredMarkdown`
-- **Caminhos relativos funcionam nativamente em ambos os ambientes** - não há necessidade de conversão
-- **Evita corrupção de sintaxe** - scripts de conversão (sed/regex) corrompem os colchetes `[[...]]` dos Wikilinks
+- **Caminhos relativos funcionam perfeitamente no Obsidian** - resolve a partir do arquivo atual
+- **O script de sync converte automaticamente** caminhos relativos para absolutos no Quartz, preservando a sintaxe `[[...]]`
+- **Evita caminhos malformados no Quartz** - o Quartz gera caminhos como `../.././../Recursos/...` quando usa relativos diretamente
 
 **Formato de Caminhos para Imagens:**
-- **Usar caminhos relativos ao arquivo:** `../../Recursos/...` ou `../Recursos/...` conforme a profundidade
+- **No Obsidian:** Usar caminhos relativos ao arquivo: `../../Recursos/...` ou `../Recursos/...` conforme a profundidade
+- **No Quartz (após sync):** O script converte automaticamente para `/Recursos/...` (caminho absoluto)
 - **Manter espaços naturais nos nomes:** Não usar encoding de URL (como `%20`) - os espaços devem estar naturais no Wikilink
 - **Evitar espaços no nome dos arquivos de imagem:** Usar hífens (ex: `image-1.png` em vez de `image 1.png`) para facilitar compatibilidade
 - **Verificar se as imagens foram copiadas** da pasta de migração para a pasta de Recursos correta
@@ -64,7 +66,8 @@ Para imagens, **SEMPRE** usar **Wikilinks com Caminho Relativo** (`Relative path
 Arquivo: Tópicos/Empreendedorismo/Aplicativos e sites de resumo.md
 Imagem: Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png
 
-Caminho relativo correto: ![[../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Texto alternativo]]
+No Obsidian (escrever): ![[../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Texto alternativo]]
+No Quartz (após sync): ![[/Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Texto alternativo]]
 ```
 
 ---
