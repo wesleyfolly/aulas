@@ -39,24 +39,23 @@ Ao converter links do Notion para wikilinks do Obsidian:
 - **Nunca usar links markdown padrão** para arquivos internos: `[texto](link.md)`
 
 ### 1.4 Imagens
-**⚠️ REGRA DE OURO: Caminhos Relativos no Obsidian, Absolutos no Quartz**
+**⚠️ REGRA DE OURO: Caminhos Relativos à Raiz do Content**
 
-Para imagens, **SEMPRE** usar **Wikilinks com Caminho Relativo** no Obsidian (ex: `../../Recursos/...`). O script de sync converte automaticamente para caminhos absolutos (`/Recursos/...`) no Quartz, preservando a sintaxe dos Wikilinks.
+Para imagens, **SEMPRE** usar **Wikilinks com Caminho Relativo à Raiz do Content** (ex: `Recursos/...`). O Quartz processa isso nativamente e gera caminhos relativos corretos no HTML.
 
-- ✅ **CORRETO (Obsidian):** `![[../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Texto alternativo]]`
-- ✅ **CORRETO (Quartz após sync):** `![[/Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Texto alternativo]]` (conversão automática)
+- ✅ **CORRETO:** `![[Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Texto alternativo]]`
+- ❌ **ERRADO:** `![[../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Texto alternativo]]` (caminho relativo ao arquivo - gera caminhos malformados no Quartz)
 - ❌ **ERRADO:** `![Texto alternativo](../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png)` (markdown padrão)
 
-**Por quê usar Wikilinks com Caminhos Relativos no Obsidian?**
-- A sintaxe markdown padrão `![texto](caminho)` pode não renderizar corretamente no Obsidian
-- Wikilinks `![[caminho|texto]]` são a sintaxe nativa do Obsidian e funcionam melhor
-- **Caminhos relativos funcionam perfeitamente no Obsidian** - resolve a partir do arquivo atual
-- **O script de sync converte automaticamente** caminhos relativos para absolutos no Quartz, preservando a sintaxe `[[...]]`
-- **Evita caminhos malformados no Quartz** - o Quartz gera caminhos como `../.././../Recursos/...` quando usa relativos diretamente
+**Por quê usar Caminhos Relativos à Raiz do Content?**
+- O Quartz espera caminhos relativos à raiz do `content/`, não relativos ao arquivo atual
+- Quando você usa `../../Recursos/...`, o Quartz não resolve o caminho corretamente e gera caminhos malformados como `../.././../Recursos/...`
+- Usando `Recursos/...` (relativo à raiz), o Quartz processa corretamente e gera o caminho relativo correto no HTML
+- **Funciona tanto no Obsidian quanto no Quartz** - o Obsidian resolve caminhos relativos à raiz do vault corretamente
+- **Não há necessidade de scripts de conversão** - o Quartz processa nativamente através do plugin ObsidianFlavoredMarkdown e Assets
 
 **Formato de Caminhos para Imagens:**
-- **No Obsidian:** Usar caminhos relativos ao arquivo: `../../Recursos/...` ou `../Recursos/...` conforme a profundidade
-- **No Quartz (após sync):** O script converte automaticamente para `/Recursos/...` (caminho absoluto)
+- **SEMPRE usar caminho relativo à raiz do content:** `Recursos/...` (não `../../Recursos/...`)
 - **Manter espaços naturais nos nomes:** Não usar encoding de URL (como `%20`) - os espaços devem estar naturais no Wikilink
 - **Evitar espaços no nome dos arquivos de imagem:** Usar hífens (ex: `image-1.png` em vez de `image 1.png`) para facilitar compatibilidade
 - **Verificar se as imagens foram copiadas** da pasta de migração para a pasta de Recursos correta
@@ -66,8 +65,7 @@ Para imagens, **SEMPRE** usar **Wikilinks com Caminho Relativo** no Obsidian (ex
 Arquivo: Tópicos/Empreendedorismo/Aplicativos e sites de resumo.md
 Imagem: Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png
 
-No Obsidian (escrever): ![[../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Texto alternativo]]
-No Quartz (após sync): ![[/Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Texto alternativo]]
+Caminho correto: ![[Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Texto alternativo]]
 ```
 
 ---
