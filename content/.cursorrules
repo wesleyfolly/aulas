@@ -1,0 +1,232 @@
+# Regras para Trabalho com Aulas IFF
+
+## Contexto
+Este arquivo contém regras específicas para trabalhar com arquivos dentro da pasta `03 - IFF/Aulas/`. Essas regras são críticas para manter a integridade dos links e garantir compatibilidade com Quartz.
+
+**Nota:** A pasta `03 - IFF/Aulas/` é o Content do Quartz. Este arquivo `.cursorrules` está configurado para ser ignorado pelo Quartz (já configurado no `quartz.config.ts`).
+
+---
+
+## 1. Regras de Links (CRÍTICO)
+
+### 1.1 Escopo de Links para Quartz
+**⚠️ REGRA FUNDAMENTAL:** O Quartz só enxerga links dentro do escopo da pasta `03 - IFF/Aulas/`. 
+
+- ✅ **PERMITIDO:** Links para arquivos dentro de `03 - IFF/Aulas/` (ex: `[[Tópicos/Redes de Computadores/Conceitos básicos]]`)
+- ❌ **PROIBIDO:** Links para arquivos fora de `03 - IFF/Aulas/` (ex: links para `01 - Criação de conteúdo/` ou outras pastas raiz)
+
+**Sempre verificar:** Antes de criar qualquer link, confirmar que o arquivo destino está dentro de `03 - IFF/Aulas/`.
+
+### 1.2 Conversão de Links do Notion
+Ao converter links do Notion para wikilinks do Obsidian:
+
+1. **Sempre usar caminhos completos** quando houver ambiguidade entre disciplinas
+   - ❌ **ERRADO:** `[[Conceitos básicos]]` (pode apontar para Empreendedorismo ou Redes)
+   - ✅ **CORRETO:** `[[Tópicos/Redes de Computadores/Conceitos básicos|Conceitos básicos]]`
+
+2. **Verificar a pasta correta da disciplina** antes de criar links
+   - Para Redes de Computadores → usar `Tópicos/Redes de Computadores/`
+   - Para Empreendedorismo → usar `Tópicos/Empreendedorismo/`
+   - Para Programação → usar `Tópicos/Programação/`
+   - Sempre verificar o contexto da disciplina antes de criar o link
+
+3. **Links para headings específicos**
+   - Quando um link do Notion se refere a uma seção específica dentro de um arquivo, usar a sintaxe de heading:
+   - ✅ **CORRETO:** `[[Tópicos/Redes de Computadores/Endereçamento IPv4#Lista de exercício completa|Lista de exercício completa]]`
+
+### 1.3 Formato de Links
+- **Sempre usar wikilinks:** `[[Nome do Arquivo]]` ou `[[Caminho/Completo/Nome do Arquivo|Texto de Exibição]]`
+- **Nunca usar links markdown padrão** para arquivos internos: `[texto](link.md)`
+
+### 1.4 Imagens
+**⚠️ REGRA IMPORTANTE:** Para imagens, sempre usar **wikilinks do Obsidian** em vez de sintaxe markdown padrão.
+
+- ✅ **CORRETO:** `![[../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Texto alternativo]]`
+- ❌ **ERRADO:** `![Texto alternativo](../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png)`
+
+**Por quê?**
+- A sintaxe markdown padrão `![texto](caminho)` pode não renderizar corretamente no Obsidian
+- Wikilinks `![[caminho|texto]]` são a sintaxe nativa do Obsidian e funcionam melhor
+- O Quartz processa wikilinks corretamente através do plugin `ObsidianFlavoredMarkdown`
+
+**Caminhos para imagens:**
+- Usar caminhos relativos ao arquivo: `../../Recursos/...`
+- Evitar espaços no nome dos arquivos de imagem (usar hífens: `image-1.png` em vez de `image 1.png`)
+- Verificar se as imagens foram copiadas da pasta de migração para a pasta de Recursos correta
+
+---
+
+## 2. Estrutura de Arquivos de Logs de Aula
+
+### 2.1 Frontmatter Padrão
+Todos os arquivos em `Logs de Aula/` devem ter frontmatter:
+
+```yaml
+---
+tipo: log-aula
+resumo: Anotações de aula, incluindo tópicos abordados, trabalhos e provas marcadas
+tags:
+  - aula
+  - log
+  - [nome-disciplina]
+---
+```
+
+### 2.2 Estrutura Padrão
+- **Seção 1:** `# 📝 Anotações da Aula`
+  - Equipes (se aplicável)
+  - Conteúdo (com datas em negrito)
+- **Seção 2:** `# 📋 Trabalhos e Avaliações`
+  - Organizado por bimestres ou avaliações
+
+### 2.3 Formatação de Datas
+- Sempre usar **negrito** para datas: `**DD/MM/AAAA**`
+- Formato: `**DD/MM/AAAA** - Descrição do conteúdo`
+
+---
+
+## 3. Formatação de Conteúdo
+
+### 3.1 Callouts
+Usar callouts do Obsidian para informações importantes:
+
+- `> [!INFO]` - Para informações gerais e observações
+- `> [!TIP]` - Para dicas e sugestões
+- `> [!WARNING]` - Para avisos importantes
+- `> [!SUMMARY]` - Para resumos
+
+### 3.2 Listas e Estrutura
+- Usar listas numeradas para sequências de passos
+- Usar listas com marcadores para itens sem ordem específica
+- Manter hierarquia clara com níveis de heading (#, ##, ###)
+
+### 3.3 Blocos de Código
+- Sempre especificar a linguagem nos blocos de código: ` ```bash `, ` ```python `, etc.
+- Para comandos Docker, usar `bash` ou `shell`
+
+---
+
+## 4. Trabalhos e Tarefas
+
+### 4.1 Estrutura de Trabalhos
+Ao formatar trabalhos e tarefas:
+
+1. Usar seções hierárquicas claras
+2. Incluir objetivos, pré-requisitos e etapas quando aplicável
+3. Formatar comandos em blocos de código
+4. Usar callouts para observações importantes
+
+### 4.2 Links em Trabalhos
+- Sempre verificar se os links apontam para arquivos dentro de `03 - IFF/Aulas/`
+- Usar caminhos completos quando necessário para evitar ambiguidade
+
+---
+
+## 5. Verificação de Contexto de Disciplina
+
+**⚠️ REGRA CRÍTICA:** Sempre verificar a pasta correta da disciplina antes de criar links.
+
+### Processo de Verificação:
+1. Identificar a disciplina do arquivo atual (ex: Redes 2TI 2025 → Redes de Computadores)
+2. Buscar notas correspondentes na pasta correta: `Tópicos/[Nome da Disciplina]/`
+3. Usar caminho completo no link: `[[Tópicos/[Nome da Disciplina]/[Nome do Arquivo]|Texto de Exibição]]`
+
+### Exemplos por Disciplina:
+- **Redes de Computadores:** `Tópicos/Redes de Computadores/`
+- **Empreendedorismo:** `Tópicos/Empreendedorismo/`
+- **Programação:** `Tópicos/Programação/`
+- **Segurança da Informação:** `Tópicos/Segurança da informação/`
+- **Roadmap do futuro:** `Tópicos/Roadmap do futuro/`
+
+---
+
+## 6. Checklist Antes de Finalizar
+
+Antes de finalizar qualquer edição em arquivos de `03 - IFF/Aulas/`:
+
+- [ ] Todos os links do Notion foram convertidos para wikilinks?
+- [ ] Todos os links apontam para arquivos dentro de `03 - IFF/Aulas/`?
+- [ ] Links usam caminhos completos quando há risco de ambiguidade?
+- [ ] Links para headings específicos usam a sintaxe `#heading`?
+- [ ] **Imagens usam wikilinks** `![[caminho|texto]]` em vez de markdown padrão?
+- [ ] Imagens foram copiadas da pasta de migração para a pasta de Recursos correta?
+- [ ] Nomes de arquivos de imagem não têm espaços (usar hífens)?
+- [ ] Frontmatter está presente e correto?
+- [ ] Datas estão em negrito?
+- [ ] Callouts foram usados para informações importantes?
+- [ ] Estrutura hierárquica está clara?
+- [ ] Blocos de código têm syntax highlighting?
+
+---
+
+## 7. Exemplos de Boas Práticas
+
+### ✅ Exemplo Correto (Redes de Computadores)
+```markdown
+**Tarefa 1:** Realizar uma leitura das páginas [[Tópicos/Redes de Computadores/Conceitos básicos|Conceitos básicos]] e [[Tópicos/Redes de Computadores/Modelos OSI e TCP IP|Modelos OSI e TCP IP]]
+
+Lista de exercício → [[Tópicos/Redes de Computadores/Endereçamento IPv4#Lista de exercício completa|Lista de exercício completa]]
+```
+
+### ❌ Exemplo Incorreto
+```markdown
+**Tarefa 1:** Realizar uma leitura das páginas [[Conceitos básicos]] e [[Modelos OSI e TCP IP]]
+
+Lista de exercício → [Lista de exercício completa](https://www.notion.so/...)
+```
+
+### ✅ Exemplo Correto (Imagens)
+```markdown
+![[../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/blinkist.png|Blinkist]]
+
+![[../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Desafio de leitura 1]]
+```
+
+### ❌ Exemplo Incorreto (Imagens)
+```markdown
+![Blinkist](../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/blinkist.png)
+
+![Desafio de leitura 1](../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image 1.png)
+```
+
+---
+
+## 8. Manutenção e Atualização das Regras
+
+### 8.1 Documentação de Novas Regras
+**⚠️ REGRA OBRIGATÓRIA:** Sempre que novas regras ou preferências forem estabelecidas durante uma conversa:
+
+1. **Imediatamente anotar** a nova regra/preferência neste arquivo `.cursorrules`
+2. **Adicionar na seção apropriada** ou criar nova seção se necessário
+3. **Manter o arquivo atualizado** como fonte única da verdade
+
+### 8.2 Resolução de Conflitos
+Quando o usuário solicitar algo que conflite com regras existentes neste arquivo:
+
+1. **Identificar o conflito** explicitamente
+2. **Perguntar ao usuário:** "Isso conflita com a regra X neste arquivo. Deseja alterar esse comportamento?"
+3. **Se o usuário confirmar:**
+   - Executar a mudança solicitada
+   - **Atualizar imediatamente** este arquivo `.cursorrules` com a nova regra/preferência
+   - Documentar a mudança claramente
+4. **Se o usuário não confirmar:**
+   - Seguir a regra existente no arquivo
+   - Explicar por que a regra existe
+
+### 8.3 Processo de Atualização
+Ao atualizar este arquivo:
+
+- Manter a estrutura hierárquica clara
+- Adicionar data/contexto quando relevante (em comentários se necessário)
+- Garantir que as regras não sejam contraditórias
+- Priorizar regras mais específicas sobre regras gerais
+
+---
+
+## 9. Notas Finais
+
+- **Sempre priorizar clareza sobre brevidade** - é melhor usar caminhos completos do que criar links ambíguos
+- **Verificar contexto da disciplina** antes de criar qualquer link
+- **Testar mentalmente** se o link funcionaria no Quartz (está dentro do escopo?)
+- **Manter consistência** na formatação entre arquivos similares
+- **Este arquivo é a fonte única da verdade** - sempre consultá-lo antes de tomar decisões sobre formatação e links

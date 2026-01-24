@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "pt-BR",
     baseUrl: "wesleyfolly.github.io/aulas",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", ".cursorrules", "**/.cursorrules", ".DS_Store"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

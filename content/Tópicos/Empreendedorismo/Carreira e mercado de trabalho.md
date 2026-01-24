@@ -12,21 +12,21 @@ tags:
 
 # Carreira e mercado de trabalho (intra-empreendedorismo)
 
-# Plataformas de freelance (trabalho independente)
+## Plataformas de freelance (trabalho independente)
 
-> *plataforma de mercado para trabalho freelancer e remoto, de contratação de trabalhadores independentes*
-> 
+> [!INFO] Definição
+> Plataforma de mercado para trabalho freelancer e remoto, de contratação de trabalhadores independentes.
 
-99freelas
+### Principais plataformas
 
-workana
+- **99freelas** - Plataforma brasileira de freelancers
+- **Workana** - Marketplace de trabalho remoto e freelance
+- **GetNinjas** - Plataforma de contratação de serviços
 
-getninjas
+## Análise de vagas de TI
 
-Análise de vagas de TI
+### Áreas de atuação
 
-Segurança da informação - 
-
-Programação - 
-
-Montagem e manutenção
+- **Segurança da informação** - Análise de requisitos e oportunidades
+- **Programação** - Demanda e habilidades necessárias
+- **Montagem e manutenção** - Mercado e competências técnicas

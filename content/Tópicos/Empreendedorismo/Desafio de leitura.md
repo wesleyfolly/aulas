@@ -12,17 +12,20 @@ tags:
 
 # Desafio de leitura
 
-[[Como resumir um livro]]
+## Recursos relacionados
 
-[[Aplicativos e sites de resumo]]
+- [[Como resumir um livro]]
+- [[Aplicativos e sites de resumo]]
 
-1. Trabalhe 4 horas por semana (Timothy Ferriss)
-2. O poder do hábito
-3. Como fazer acontecer
-4. Pai rico pai pobre
-5. A única coisa
-6. Os 7 hábitos das pessoas altamente eficazes
-7. Como fazer amigos e influenciar pessoas
-8. 4 horas para o corpo
-9. Essencialismo
-10.
+## Lista de livros recomendados
+
+1. **Trabalhe 4 horas por semana** - Timothy Ferriss
+2. **O poder do hábito** - Charles Duhigg
+3. **Como fazer acontecer** - David Allen
+4. **Pai rico pai pobre** - Robert Kiyosaki
+5. **A única coisa** - Gary Keller
+6. **Os 7 hábitos das pessoas altamente eficazes** - Stephen Covey
+7. **Como fazer amigos e influenciar pessoas** - Dale Carnegie
+8. **4 horas para o corpo** - Timothy Ferriss
+9. **Essencialismo** - Greg McKeown
+10. *[Adicione mais livros conforme necessário]*

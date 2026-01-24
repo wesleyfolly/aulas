@@ -12,11 +12,31 @@ tags:
 
 # Como resumir um livro
 
-1. Ter um sistema de anotações.
-2. Responder e anotar as Perguntas fundamentais
-    - Qual assunto do livro? Qual área de conhecimento?
-    - Qual a experiência do autor?
-    - O que ele quer me ensinar?
-    - Qual a ideia principal?
-3. Anotar a ideia principal de cada capítulo
-4. Anotar em detalhes o que eu vou fazer na prática com esse conhecimento
+## Metodologia em 4 passos
+
+### 1. Ter um sistema de anotações
+
+Estabeleça um método consistente para organizar suas anotações (digital ou físico).
+
+### 2. Responder e anotar as perguntas fundamentais
+
+Antes de começar a leitura, responda:
+
+- Qual assunto do livro? Qual área de conhecimento?
+- Qual a experiência do autor?
+- O que ele quer me ensinar?
+- Qual a ideia principal?
+
+### 3. Anotar a ideia principal de cada capítulo
+
+Identifique e registre o conceito central de cada capítulo para ter uma visão estruturada do livro.
+
+### 4. Anotar em detalhes o que você vai fazer na prática com esse conhecimento
+
+> [!TIP] Aplicação prática
+> O conhecimento só tem valor quando aplicado. Defina ações concretas que você tomará baseado no que aprendeu.
+
+## Recursos relacionados
+
+- [[Desafio de leitura]]
+- [[Aplicativos e sites de resumo]]
