@@ -44,25 +44,8 @@ fi
 # Mantemos a hierarquia original - não movemos mais conteúdo de Tópicos/ para raiz
 echo "Estrutura mantida: Comece por aqui, Logs de Aula, Tópicos, Recursos"
 
-# CONVERSÃO DE CAMINHOS RELATIVOS PARA ABSOLUTOS NOS WIKILINKS
-# O Obsidian funciona melhor com caminhos relativos (../../Recursos/...)
-# Mas o Quartz precisa de caminhos absolutos com o subpath do baseUrl (/aulas/Recursos/...)
-# para funcionar corretamente no GitHub Pages quando há um baseUrl configurado
-# Este script converte APENAS os caminhos dentro de Wikilinks, preservando a sintaxe [[...]]
-echo "Convertendo caminhos relativos para absolutos nos Wikilinks de imagens..."
-
-# Detectar se estamos no macOS (sed -i '' requer sufixo vazio) ou Linux (sed -i requer sufixo)
-if [[ "$OSTYPE" == "darwin"* ]]; then
-    # macOS - converter caminhos relativos dentro de Wikilinks para absolutos com subpath
-    # Padrão: ![[../../Recursos/...]] -> ![[/aulas/Recursos/...]]
-    # Padrão: ![[../Recursos/...]] -> ![[/aulas/Recursos/...]]
-    find "$QUARTZ_CONTENT" -name "*.md" -type f -exec sed -i '' 's|!\[\[\.\.\/\.\.\/Recursos/|![[/aulas/Recursos/|g' {} \;
-    find "$QUARTZ_CONTENT" -name "*.md" -type f -exec sed -i '' 's|!\[\[\.\.\/Recursos/|![[/aulas/Recursos/|g' {} \;
-else
-    # Linux
-    find "$QUARTZ_CONTENT" -name "*.md" -type f -exec sed -i 's|!\[\[\.\.\/\.\.\/Recursos/|![[/aulas/Recursos/|g' {} \;
-    find "$QUARTZ_CONTENT" -name "*.md" -type f -exec sed -i 's|!\[\[\.\.\/Recursos/|![[/aulas/Recursos/|g' {} \;
-fi
-echo "  ✓ Caminhos de imagens convertidos para absolutos com subpath nos Wikilinks"
+# O Quartz processa caminhos relativos nativamente através do plugin ObsidianFlavoredMarkdown
+# e do plugin Assets. Não há necessidade de conversão - o Quartz resolve os caminhos corretamente.
+# Os caminhos relativos (../../Recursos/...) funcionam perfeitamente no Quartz.
 
 echo "Sincronização concluída com sucesso!"
