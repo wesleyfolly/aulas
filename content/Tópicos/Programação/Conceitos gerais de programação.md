@@ -2,7 +2,7 @@
 
 # **Linguagens** naturais **vs linguagens de** programação
 
-![Untitled/Recursos/Programação/Conceitos gerais de programação/Untitled.png)
+![Untitled](../../Recursos/Programação/Conceitos gerais de programação/Untitled.png)
 
 Humanos possuem linguagens. Exemplo: linguagem corporal e escrita.
 
@@ -14,7 +14,7 @@ Há duas formas diferentes de **transformar um programa de uma linguagem de pro
 
 # Compilação
 
-![Untitled/Recursos/Programação/Conceitos gerais de programação/Untitled 1.png)
+![Untitled](../../Recursos/Programação/Conceitos gerais de programação/Untitled 1.png)
 
 O código fonte do programa é traduzido uma vez gerando um código executável. 
 
@@ -30,7 +30,7 @@ O programa que utiliza o código fonte para executar as funções chama-se inter
 
 O utilizador final precisa do código fonte e do programa interpretador.
 
-![Untitled/Recursos/Programação/Conceitos gerais de programação/Untitled 2.png)
+![Untitled](../../Recursos/Programação/Conceitos gerais de programação/Untitled 2.png)
 
 Qual é melhor? Compilação ou interpretação?
 

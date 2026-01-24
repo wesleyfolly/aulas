@@ -15,7 +15,7 @@
 
 Índice
 
-![Untitled/Recursos/Segurança da informação/Anonimato e privacidade/Untitled.png)
+![Untitled](../../Recursos/Segurança da informação/Anonimato e privacidade/Untitled.png)
 
 ---
 
@@ -23,9 +23,9 @@
 
 - o que é TOR
     
-    ![Untitled/Recursos/Segurança da informação/Anonimato e privacidade/Untitled 1.png)
+    ![Untitled](../../Recursos/Segurança da informação/Anonimato e privacidade/Untitled 1.png)
     
-    ![/Recursos/Segurança da informação/Anonimato e privacidade/Untitled 2.png)
+    ![](../../Recursos/Segurança da informação/Anonimato e privacidade/Untitled 2.png)
     
     Tor é um software livre e de **código aberto** que proporciona a comunicação **anônima** e **segura** ao navegar na Internet e em atividades online, protegendo contra a **censura** e principalmente a **privacidade.**
     
@@ -69,7 +69,7 @@ Ao acessar a rede Tor procurar pela hidden wiki
 
 - O que é um poxy?
     
-    ![Untitled/Recursos/Segurança da informação/Anonimato e privacidade/Untitled 3.png)
+    ![Untitled](../../Recursos/Segurança da informação/Anonimato e privacidade/Untitled 3.png)
     
     [Free Proxy List](https://free-proxy-list.net/)
     
@@ -114,7 +114,7 @@ Para usar o firefox pelo tor e proxychains
 
 - o que é uma VPN
     
-    ![Untitled/Recursos/Segurança da informação/Anonimato e privacidade/Untitled 4.png)
+    ![Untitled](../../Recursos/Segurança da informação/Anonimato e privacidade/Untitled 4.png)
     
 
 ---

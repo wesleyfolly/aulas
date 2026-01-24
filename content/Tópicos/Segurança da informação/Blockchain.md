@@ -6,17 +6,17 @@ A blockchain é definida como um livro de registro aberto que oferece **descentr
 
 A palavra “blockchain” foi escrita pela primeira vez no white paper da Bitcoin em 2009 por **Satoshi Nakamoto**. A partir daí, percorreu um longo caminho para cair em aceitação de organizações e de seus fãs. Neste momento, o Bitcoin está a caminho de implementar a rede denominada lightning e outros recursos avançados que elevarão a tecnologia para outro patamar.
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled.png)
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 1.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 1.png)
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 2.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 2.png)
 
 ## **Como funciona uma Blockchain?**
 
 Como é uma rede **peer-to-peer**, o usuário precisa iniciar uma transação. Uma vez feito, um bloco será alocado para esta referida transação. O bloco de transação também será transmitido para a rede e todos os nós da rede registrarão a transação mencionada. Caso toda a tecnologia de segurança criptográfica não encontre nada de errado, o bloco é então validado e incorporado na **cadeia de blocos**.
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 3.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 3.png)
 
 ## **Benefícios Notáveis da Tecnologia Blockchain**
 
@@ -24,7 +24,7 @@ A tecnologia Blockchain é rica em recursos. Também é extremamente benéfica a
 
 Também é imutável e mais segura que sistemas tradicionais. 
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 4.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 4.png)
 
 ## **Rede de Blockchain Pública vs Privada**
 
@@ -40,7 +40,7 @@ Existe uma diferença vital entre a rede centralizada, descentralizada e distrib
 - Descentralizada: Não há autoridade centralizada e todos podem participar da rede.
 - Distribuída: Os nós independentes interagem entre si. Além disso, cada nó é interconectado.
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 5.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 5.png)
 
 ## T**ermos da Blockchain**
 
@@ -56,7 +56,7 @@ Os contratos inteligentes são acionados quando um acordo é selado, e tudo ocor
 
 Para se certificar de que eles funcionam conforme o esperado, eles são analisados e gerenciados pelos reguladores criptográficos. Eles também são úteis para negociações arriscadas quando há muita incerteza de mercado.
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 6.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 6.png)
 
 ## **Como os Contratos Inteligentes Funcionam?**
 
@@ -64,7 +64,7 @@ O contrato inteligente funciona entre duas partes. Ele é usado para fazer corre
 
 As três principais características dos contratos inteligentes incluem a liquidação automatizada e registrada de contratos e a falta de uma terceira pessoa envolvida.
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 7.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 7.png)
 
 ## **Quais as Vantagens dos Contratos Inteligentes?**
 
@@ -72,7 +72,7 @@ As vantagens incluem total transparência, sem burocracia, resultados confiávei
 
 - Mais vantagens
     
-    ![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 8.png)
+    ![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 8.png)
     
 
 ## **Desvantagens dos Contratos Inteligentes**
@@ -127,11 +127,11 @@ A principal diferença entre a rede centralizada e descentralizada é a ausênci
 
 ## **Ecossistema da Web 3.0**
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 9.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 9.png)
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 10.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 10.png)
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 11.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 11.png)
 
 ## **Blockchain vs Banco de Dados**
 
@@ -139,9 +139,9 @@ A blockchain é descentralizada, e também armazena dados. No entanto, há difer
 
 A principal diferença é, naturalmente, a ausência de uma autoridade centralizada. Dados escritos pela blockchain também são imutáveis, o que, por sua vez, fornece integridade. O banco de dados, por outro lado, oferece a operação CRUD. 
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 12.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 12.png)
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 13.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 13.png)
 
 ## **Diferentes Tipos de Tokens**
 
@@ -155,7 +155,7 @@ Os **security tokens (tokens de segurança)** São tokens emitidos por uma ICO
 
 Já os **NFTs** representam artigos únicos e insubstituíveis, principalmente utilizados no mercado de artes.
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 14.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 14.png)
 
 ## Meio ambiente e as criptomoedas
 
@@ -167,7 +167,7 @@ Já os **NFTs** representam artigos únicos e insubstituíveis, principalmente
 
 [A single bitcoin transaction creates as much waste as throwing out two iPhones, economists find](https://markets.businessinsider.com/news/currencies/bitcoin-btc-energy-consumption-waste-iphone-crypto-mining-2021-9)
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 15.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 15.png)
 
 Argumentos contra criptos
 
@@ -189,9 +189,9 @@ Muitas moedas estão migrando para Proof of Stake que é mais eficiente que Proo
 
 --
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 16.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 16.png)
 
-![Untitled/Recursos/Segurança da informação/Blockchain/Untitled 17.png)
+![Untitled](../../Recursos/Segurança da informação/Blockchain/Untitled 17.png)
 
 A maior parte deste conteúdo foi retirado de: 
 

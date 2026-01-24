@@ -22,7 +22,7 @@ tags:
 
 ## Reconhecimento da rede local
 
-![/Recursos/Redes de Computadores/Tarefas e trabalhos/Untitled.png)
+![](../../Recursos/Redes de Computadores/Tarefas e trabalhos/Untitled.png)
 
 Você irá criar um arquivo de texto (com capa e conteúdo) descrevendo a sua rede doméstica.
 

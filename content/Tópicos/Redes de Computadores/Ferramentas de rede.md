@@ -39,7 +39,7 @@ Essa ferramenta é utilizada para duas funções principais.
 - Saber se um IP está ativo;
 - Saber o tempo de resposta desse equipamento
 
-![Untitled/Recursos/Redes de Computadores/Ferramentas de rede/Untitled.png)
+![Untitled](../../Recursos/Redes de Computadores/Ferramentas de rede/Untitled.png)
 
 # **Traceroute (Tracert no Windows)**
 

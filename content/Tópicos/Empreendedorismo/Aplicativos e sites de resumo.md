@@ -41,7 +41,7 @@ Existem sites e aplicativos especializados em disponibilizar resumos de livros, 
 
 ### Blinkist
 
-!/Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/blinkist.png|Blinkist]]
+![[../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/blinkist.png|Blinkist]]
 
 > [!INFO] Aplicativo recomendado
 > [Blinkist](http://blinkist.com)
@@ -63,8 +63,9 @@ Existem sites e aplicativos especializados em disponibilizar resumos de livros, 
 
 ## Desafio de leitura
 
-!/Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Desafio de leitura 1]]
+![[../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Desafio de leitura 1]]
 
-!/Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image-1.png|Desafio de leitura 2]]
+![[../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image-1.png|Desafio de leitura 2]]
 
 ---
+

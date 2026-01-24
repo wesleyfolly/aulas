@@ -31,7 +31,7 @@ intitle:Test.Page.for.Apache "It worked!"
 
 Basta clicar na setinha
 
-![Untitled/Recursos/Segurança da informação/Coleta de informações/Google hacking/Untitled.png)
+![Untitled](../../Recursos/Segurança da informação/Coleta de informações/Google hacking/Untitled.png)
 
 (GHDB) É um banco de dados de google dorks. 
 

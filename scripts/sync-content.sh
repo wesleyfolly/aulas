@@ -44,19 +44,14 @@ fi
 # Mantemos a hierarquia original - não movemos mais conteúdo de Tópicos/ para raiz
 echo "Estrutura mantida: Comece por aqui, Logs de Aula, Tópicos, Recursos"
 
-# Corrigir caminhos de imagens para Quartz (converter relativos para absolutos)
-# No Quartz, caminhos relativos como ../../Recursos/ não funcionam, precisa ser /Recursos/
-# Detectar se estamos no macOS (sed -i '' requer sufixo vazio) ou Linux (sed -i requer sufixo)
-echo "Corrigindo caminhos de imagens para Quartz..."
-if [[ "$OSTYPE" == "darwin"* ]]; then
-    # macOS
-    find "$QUARTZ_CONTENT" -name "*.md" -type f -exec sed -i '' 's|../../Recursos/|/Recursos/|g' {} \;
-    find "$QUARTZ_CONTENT" -name "*.md" -type f -exec sed -i '' 's|../Recursos/|/Recursos/|g' {} \;
-else
-    # Linux
-    find "$QUARTZ_CONTENT" -name "*.md" -type f -exec sed -i 's|../../Recursos/|/Recursos/|g' {} \;
-    find "$QUARTZ_CONTENT" -name "*.md" -type f -exec sed -i 's|../Recursos/|/Recursos/|g' {} \;
-fi
-echo "  ✓ Caminhos de imagens corrigidos"
+# ESTRATÉGIA DE CAMINHOS RELATIVOS NATIVOS
+# O script agora apenas copia os arquivos mantendo o conteúdo 100% fiel ao original.
+# Os Wikilinks com caminhos relativos (ex: ![[../../Recursos/...]]) funcionam nativamente
+# tanto no Obsidian quanto no Quartz através do plugin ObsidianFlavoredMarkdown.
+# NÃO há necessidade de conversão de caminhos - isso estava corrompendo a sintaxe dos Wikilinks.
+# 
+# REMOVIDO: Conversão automática de caminhos usando sed (linhas 47-60)
+# Motivo: O sed estava corrompendo a sintaxe dos Wikilinks (![[...]] virava !/...]])
+# Solução: Usar caminhos relativos nativos que funcionam em ambos os ambientes
 
 echo "Sincronização concluída com sucesso!"

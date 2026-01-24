@@ -46,4 +46,4 @@
     
     [](https://www.offensive-security.com/reports/sample-penetration-testing-report.pdf)
     
-    ![/Recursos/Segurança da informação/Tarefas e trabalhos/Untitled.png)
+    ![](../../Recursos/Segurança da informação/Tarefas e trabalhos/Untitled.png)

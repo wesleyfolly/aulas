@@ -27,7 +27,7 @@
 
 ---
 
-![image.png/Recursos/Redes de Computadores/Montagem e configuração de rede/image.png)
+![image.png](../../Recursos/Redes de Computadores/Montagem e configuração de rede/image.png)
 
 # **Conteúdo Programático**
 

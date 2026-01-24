@@ -43,7 +43,7 @@ arp-scan eth0 10.64.143.75/16
 
 OBS: Para utilizar máquinas virtuais em rede local sem ter que ter outro adaptador de rede, usar a opção abaixo:
 
-![Untitled/Recursos/Segurança da informação/Ataques em rede local/Untitled.png)
+![Untitled](../../Recursos/Segurança da informação/Ataques em rede local/Untitled.png)
 
 MITM attack
 

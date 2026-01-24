@@ -7,7 +7,7 @@
 
 [[Glossário de computação em nuvem]]
 
-![/Recursos/Redes de Computadores/Endereçamento IPv6/Untitled.png)
+![](../../Recursos/Redes de Computadores/Endereçamento IPv6/Untitled.png)
 
 # **Principais benefícios da computação em nuvem**
 
@@ -66,7 +66,7 @@ Muitos provedores em nuvem oferecem um amplo conjunto de políticas, tecnologias
 
 Há três maneiras diferentes de implantar serviços de nuvem: em uma nuvem pública, nuvem privada ou nuvem híbrida. 
 
-![/Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 1.png)
+![](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 1.png)
 
 ☁️ **Nuvem pública**
 
@@ -84,7 +84,7 @@ Nuvens híbridas combinam nuvens públicas e privadas ligadas por uma tecnologia
 
 A maioria dos serviços de computação em nuvem se enquadra em quatro categorias amplas: IaaS (infraestrutura como serviço), PaaS (plataforma como serviço), sem servidor e SaaS (software como serviço). Às vezes, eles são chamados de "pilha" de computação em nuvem, pois são criados uns sobre os outros. 
 
-![/Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 2.png)
+![](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 2.png)
 
 - **IaaS (infraestrutura como serviço) [Saiba mais sobre o IaaS](https://azure.microsoft.com/pt-br/overview/what-is-iaas/)**
     

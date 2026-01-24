@@ -21,9 +21,9 @@ ifconfig // no linux
 ipconfig // no windows
 ```
 
-![Untitled/Recursos/Redes de Computadores/Endereçamento IPv6/Untitled.png)
+![Untitled](../../Recursos/Redes de Computadores/Endereçamento IPv6/Untitled.png)
 
-![Untitled/Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 1.png)
+![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 1.png)
 
 # **Classes de endereços IPv4:**
 
@@ -33,9 +33,9 @@ ipconfig // no windows
 - Classe D: Usada para multicast.
 - Classe E: Reservada para uso futuro ou pesquisa.
 
-![Untitled/Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 2.png)
+![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 2.png)
 
-![Untitled/Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 3.png)
+![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 3.png)
 
 O esquema de classes foi descontinuado em 1993 e substituído pelo esquema CIDR. Porém ainda é utilizado em alguns casos.
 
@@ -49,7 +49,7 @@ A CIDR (Classless Inter-Domain Routing) é uma metodologia usada para alocar end
 - A máscara de sub-rede é usada para dividir o endereço IP em endereço de rede e endereço de host.
 - Por exemplo, uma máscara de sub-rede para uma classe C seria 255.255.255.0.
 
-![Untitled/Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 4.png)
+![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 4.png)
 
 [Cálculo de sub-redes - Curso Redes #12](https://www.youtube.com/watch?v=wBUxveZAgco)
 
@@ -59,7 +59,7 @@ A CIDR (Classless Inter-Domain Routing) é uma metodologia usada para alocar end
 - Broadcast (255.255.255.255): Usado para enviar informações a todos os dispositivos na rede.
 - Faixas de endereços privados: Não podem ser roteados na Internet, usados para redes internas.
 
-![Redes privadas/Recursos/Redes de Computadores/Conceitos básicos/Untitled 5.png)
+![Redes privadas](../../Recursos/Redes de Computadores/Conceitos básicos/Untitled 5.png)
 
 Redes privadas
 

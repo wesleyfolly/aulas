@@ -8,7 +8,7 @@ O processo envolve uma análise nas atividades do sistema, que envolvem a busca 
 
 O teste de intrusão possui um relatório como resultado, onde constam todas as análises, vulnerabilidades e muitas vezes também a **solução** técnica para os problemas.
 
-![Untitled/Recursos/Segurança da informação/Preparando o terreno/Untitled.png)
+![Untitled](../../Recursos/Segurança da informação/Preparando o terreno/Untitled.png)
 
 Um Ethical Hacker (Hacker Ético) é um profissional de tecnologia da informação que trabalha na área de Segurança da Informação, com a função de encontrar vulnerabilidades de segurança que um hacker malicioso poderia potencialmente explorar. Para tanto, este profissional precisa desenvolver habilidades em técnicas de penetração de sistemas, Redes de Computadores e dispositivos computacionais em geral.
 
@@ -31,14 +31,14 @@ O profissional desta área deve ter conhecimentos iguais ou superiores a um hack
 6. Implantação de [backdoors](https://pt.wikipedia.org/wiki/Backdoor) e [rootkits](https://pt.wikipedia.org/wiki/Rootkit): o invasor deixa instalado um programa que facilita o seu retorno ao software. Esses tipos de programas são chamados de *backdoors* (“portas dos fundos”) e *rootkits* (programas que se mantêm no núcleo do sistema operacional, difíceis de serem localizados).
 7. Eliminação de vestígios: as invasões são registradas através do histórico (logs) ou de arquivos temporários. Para apagar os rastros o invasor terá que apagar esses registros, podendo tornar impossível ser identificado.
 
-![Untitled/Recursos/Segurança da informação/Preparando o terreno/Untitled 1.png)
+![Untitled](../../Recursos/Segurança da informação/Preparando o terreno/Untitled 1.png)
 
 > *Não existe uma forma correta de se definir esses estágios. Existem vários modelos que são aceitos.*
 > 
 
 # Tipos de testes de intrusão
 
-![Untitled/Recursos/Segurança da informação/Preparando o terreno/Untitled 2.png)
+![Untitled](../../Recursos/Segurança da informação/Preparando o terreno/Untitled 2.png)
 
 # Metodologias de testes de intrusão
 
@@ -74,7 +74,7 @@ Apesar de existirem alguns métodos, existe um padrão que geralmente é seguido
 
 O padrão de execução PTES consiste em sete (7) seções principais. Eles abrangem tudo relacionado a um pentest – desde a comunicação inicial e o raciocínio por trás de um teste, até as fases de coleta de inteligência e modelagem de ameaças, nas quais os testadores estão trabalhando nos bastidores para entender melhor a organização testada, através da pesquisa de vulnerabilidades, exploração e pós-exploração, onde os conhecimentos técnicos de segurança dos testadores passam a ser combinados com o entendimento comercial do trabalho e, finalmente, com os relatórios, que capturam todo o processo, de uma maneira que faça sentido para o cliente.
 
-![Untitled/Recursos/Segurança da informação/Preparando o terreno/Untitled 3.png)
+![Untitled](../../Recursos/Segurança da informação/Preparando o terreno/Untitled 3.png)
 
 Mais informações: [http://www.pentest-standard.org/index.php/Main_Page](http://www.pentest-standard.org/index.php/Main_Page)
 
@@ -86,7 +86,7 @@ O Manual de Metodologia de Teste de Segurança de Código Aberto (OSSTMM) é rev
 
 Foi desenvolvido principalmente como uma metodologia de auditoria de segurança, avaliando os requisitos regulamentares e do setor. Não é para ser usado como uma metodologia autônoma, mas para servir como base para o desenvolvimento de uma metodologia adaptada às regulamentações e estruturas necessárias.
 
-![Untitled/Recursos/Segurança da informação/Preparando o terreno/Untitled 4.png)
+![Untitled](../../Recursos/Segurança da informação/Preparando o terreno/Untitled 4.png)
 
 Mais informações: [https://www.isecom.org/OSSTMM.3.pdf](https://www.isecom.org/OSSTMM.3.pdf)
 
@@ -98,7 +98,7 @@ OWASP é uma comunidade online que produz artigos, metodologias, documentação,
 
 OWASP Top 10 é a lista das 10 vulnerabilidades de aplicativos mais vistas. Também mostra seus riscos, impactos e contramedidas. Atualizada a cada três ou quatro anos, a versão mais recente foi atualizada em 2017
 
-![Untitled/Recursos/Segurança da informação/Preparando o terreno/Untitled 5.png)
+![Untitled](../../Recursos/Segurança da informação/Preparando o terreno/Untitled 5.png)
 
 Mais informações: [https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
 
@@ -108,7 +108,7 @@ Mais informações: [https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Pro
 
 Desenvolvido pelo National Institute of Standards and Technology dos EUA, este guia envolve aspectos técnicos da realização de pentest. Apresentando recomendações práticas e procedimentos para execução de análise de vulnerabilidades em aplicações e redes, auditoria de conformidade, entre outros serviços. É utilizado como referência para ações preventivas de segurança, permitindo a identificação e a mitigação de vulnerabilidades
 
-![Untitled/Recursos/Segurança da informação/Preparando o terreno/Untitled 6.png)
+![Untitled](../../Recursos/Segurança da informação/Preparando o terreno/Untitled 6.png)
 
 Mais informações: [https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-115.pdf](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-115.pdf)
 
@@ -125,7 +125,7 @@ The framework applies to organisations considered to perform "vitally important 
 - Monitoring
 - Response and recovery planning
 
-![Untitled/Recursos/Segurança da informação/Preparando o terreno/Untitled 7.png)
+![Untitled](../../Recursos/Segurança da informação/Preparando o terreno/Untitled 7.png)
 
 # Ambiente de hacking e estudo
 

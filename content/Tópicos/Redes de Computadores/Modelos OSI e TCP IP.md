@@ -10,7 +10,7 @@
 
 </aside>
 
-![Untitled/Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled.png)
+![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled.png)
 
 1. **Camada 1: Física**
     - **Explicação**: Responsável pela transmissão e recepção de bits brutos através de um meio físico.
@@ -41,7 +41,7 @@
     - **Exemplos de Protocolos e Utilização**: HTTP, FTP, SMTP.
     - **Utilização**: Fornece interfaces de rede para aplicativos como navegadores web e clientes de email.
 
-![Untitled/Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 1.png)
+![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 1.png)
 
 [Modelo OSI](https://www.youtube.com/watch?v=7sW8CXVx7IU)
 
@@ -52,7 +52,7 @@
 
 </aside>
 
-![Untitled/Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 2.png)
+![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 2.png)
 
 1. **Camada de Aplicação**:
     - **Utilização**: Responsável pela comunicação de alto nível, facilita serviços como navegação na web, envio de emails e transferência de arquivos.
@@ -69,7 +69,7 @@
 
 Os dois modelos são fundamentais para a compreensão de como as redes funcionam, e ambos têm suas vantagens e desvantagens. Enquanto o modelo OSI é mais teórico e pode ser usado para descrever qualquer tipo de rede, o modelo TCP/IP é mais prático e é usado especificamente para descrever a suite de protocolos da Internet.
 
-![Untitled/Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 3.png)
+![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 3.png)
 
 <aside>
 📢 Exemplo prático: Usar o wireshark para visualizar as camadas do modelo TCP/IP.
@@ -78,7 +78,7 @@ Os dois modelos são fundamentais para a compreensão de como as redes funcionam
 
 # Protocolos de rede e suas camadas
 
-![Untitled/Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 4.png)
+![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 4.png)
 
 <aside>
 <img src="https://www.notion.so/icons/light-bulb_purple.svg" alt="https://www.notion.so/icons/light-bulb_purple.svg" width="40px" /> Os protocolos de rede são essenciais para a comunicação entre dispositivos em uma rede. Eles definem regras e convenções para a comunicação entre dispositivos. Aqui estão alguns dos principais protocolos de rede

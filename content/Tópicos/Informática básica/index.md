@@ -121,7 +121,7 @@ aliases:
 - Clique em **“+ Em branco”** para criar uma nova planilha.
 - Renomeie a planilha para: Controle de Gastos Pessoais.
 
-![image.png/Recursos/Informática Básica/image.png)
+![image.png](../../Recursos/Informática Básica/image.png)
 
 ## **3.**
 

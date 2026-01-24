@@ -15,7 +15,7 @@
 - Reconhecimento da rede local
     
     
-    ![/Recursos/Segurança da informação/Tarefas e trabalhos/Untitled.png)
+    ![](../../Recursos/Segurança da informação/Tarefas e trabalhos/Untitled.png)
     
     Você irá criar um arquivo de texto (com capa e conteúdo) descrevendo a sua rede doméstica.
     

@@ -77,7 +77,7 @@ pesquisar: subfinder
 > 
 - Recapitulando alguns conceitos
     
-    ![Untitled/Recursos/Segurança da informação/Tarefas e trabalhos/Untitled.png)
+    ![Untitled](../../Recursos/Segurança da informação/Tarefas e trabalhos/Untitled.png)
     
 
 [[Escaneamento de IPs e portas (Port Scanning)]]

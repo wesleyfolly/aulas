@@ -12,7 +12,7 @@
 
 **Os paradigmas podem ser divididos em 2 grandes grupos.**
 
-![Untitled/Recursos/Programação/Conceitos gerais de programação/Untitled.png)
+![Untitled](../../Recursos/Programação/Conceitos gerais de programação/Untitled.png)
 
 <aside>
 💡 Uma linguagem pode se encaixar em **um ou mais** paradigmas. A maior parte das linguagens que usamos no dia a dia são multiparadigma.
@@ -110,7 +110,7 @@ Os principais elementos da programação imperativa são:
         
         A arquitetura de von Neumann é como uma cozinha onde **a receita (programa)** e **os ingredientes (dados)** ficam guardados no mesmo armário (memória), e o **chefe (CPU)** busca, interpreta e executa passo a passo.
         
-        ![image.png/Recursos/Programação/Paradigmas de programação/image.png)
+        ![image.png](../../Recursos/Programação/Paradigmas de programação/image.png)
         
 - Paradigma dominante e bem estabelecido
 - Modelagem natural de aplicações do mundo real
@@ -163,7 +163,7 @@ Para isso, qualquer programa pode ser reduzido a 3 estruturas:
 - Estruturas de decisão: onde, a partir de um teste lógico, determinado trecho de código é executado, ou não.
 - Estruturas de iteração: onde, a partir de um teste lógico, determinado trecho de código é repetido por um número finito de vezes.
 
-![Untitled/Recursos/Programação/Conceitos gerais de programação/Untitled 1.png)
+![Untitled](../../Recursos/Programação/Conceitos gerais de programação/Untitled 1.png)
 
 Tendo, na prática, sido transformada na [programação modular](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_modular) (ou procedural), a Programação estruturada orienta os programadores para a criação de estruturas simples em seus programas, usando as subrotinas e as funções. Foi a forma dominante na criação de [software](https://pt.wikipedia.org/wiki/Software)  anterior à programação orientada por objetos.
 

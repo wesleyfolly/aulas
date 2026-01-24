@@ -39,20 +39,33 @@ Ao converter links do Notion para wikilinks do Obsidian:
 - **Nunca usar links markdown padrão** para arquivos internos: `[texto](link.md)`
 
 ### 1.4 Imagens
-**⚠️ REGRA IMPORTANTE:** Para imagens, sempre usar **wikilinks do Obsidian** em vez de sintaxe markdown padrão.
+**⚠️ REGRA DE OURO: Caminhos Relativos Nativos**
+
+Para imagens, **SEMPRE** usar **Wikilinks com Caminho Relativo** (`Relative path to file`). Esta é a estratégia definitiva que funciona nativamente tanto no Obsidian quanto no Quartz, sem necessidade de scripts de conversão.
 
 - ✅ **CORRETO:** `![[../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Texto alternativo]]`
 - ❌ **ERRADO:** `![Texto alternativo](../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png)`
 
-**Por quê?**
+**Por quê usar Wikilinks com Caminhos Relativos?**
 - A sintaxe markdown padrão `![texto](caminho)` pode não renderizar corretamente no Obsidian
 - Wikilinks `![[caminho|texto]]` são a sintaxe nativa do Obsidian e funcionam melhor
 - O Quartz processa wikilinks corretamente através do plugin `ObsidianFlavoredMarkdown`
+- **Caminhos relativos funcionam nativamente em ambos os ambientes** - não há necessidade de conversão
+- **Evita corrupção de sintaxe** - scripts de conversão (sed/regex) corrompem os colchetes `[[...]]` dos Wikilinks
 
-**Caminhos para imagens:**
-- Usar caminhos relativos ao arquivo: `../../Recursos/...`
-- Evitar espaços no nome dos arquivos de imagem (usar hífens: `image-1.png` em vez de `image 1.png`)
-- Verificar se as imagens foram copiadas da pasta de migração para a pasta de Recursos correta
+**Formato de Caminhos para Imagens:**
+- **Usar caminhos relativos ao arquivo:** `../../Recursos/...` ou `../Recursos/...` conforme a profundidade
+- **Manter espaços naturais nos nomes:** Não usar encoding de URL (como `%20`) - os espaços devem estar naturais no Wikilink
+- **Evitar espaços no nome dos arquivos de imagem:** Usar hífens (ex: `image-1.png` em vez de `image 1.png`) para facilitar compatibilidade
+- **Verificar se as imagens foram copiadas** da pasta de migração para a pasta de Recursos correta
+
+**Exemplo Prático:**
+```
+Arquivo: Tópicos/Empreendedorismo/Aplicativos e sites de resumo.md
+Imagem: Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png
+
+Caminho relativo correto: ![[../../Recursos/Empreendedorismo/Desafio de leitura/Aplicativos e sites de resumo/image.png|Texto alternativo]]
+```
 
 ---
 
@@ -223,7 +236,61 @@ Ao atualizar este arquivo:
 
 ---
 
-## 9. Notas Finais
+## 9. Processo de Sync, Build e Deploy para Quartz
+
+### 9.1 Localização do Repositório Quartz
+O repositório Quartz está localizado em:
+`/Users/wesleyfolly/Library/CloudStorage/Dropbox/life-code/areas/profissional/aulas-quartz-github`
+
+### 9.2 Script de Sincronização
+O script `scripts/sync-content.sh` sincroniza o conteúdo de `03 - IFF/Aulas` para `content/` do Quartz.
+
+**Variáveis de ambiente necessárias:**
+- `OBSIDIAN_VAULT_PATH="/Users/wesleyfolly/Dropbox/obsidian vault"`
+- `LIFECODE_PATH="/Users/wesleyfolly/Library/CloudStorage/Dropbox/life-code"`
+
+### 9.3 Processo Completo (Sync → Build → Commit → Push)
+
+**1. Sync (Sincronizar conteúdo):**
+```bash
+cd "/Users/wesleyfolly/Library/CloudStorage/Dropbox/life-code/areas/profissional/aulas-quartz-github"
+export OBSIDIAN_VAULT_PATH="/Users/wesleyfolly/Dropbox/obsidian vault"
+export LIFECODE_PATH="/Users/wesleyfolly/Library/CloudStorage/Dropbox/life-code"
+bash scripts/sync-content.sh
+```
+
+**Nota:** O script de sync agora apenas copia os arquivos mantendo o conteúdo 100% fiel ao original. Os Wikilinks com caminhos relativos funcionam nativamente no Quartz através do plugin `ObsidianFlavoredMarkdown` - não há necessidade de conversão.
+
+**2. Build (Gerar site estático):**
+```bash
+cd "/Users/wesleyfolly/Library/CloudStorage/Dropbox/life-code/areas/profissional/aulas-quartz-github"
+npm run quartz build
+```
+
+**3. Commit e Push:**
+```bash
+cd "/Users/wesleyfolly/Library/CloudStorage/Dropbox/life-code/areas/profissional/aulas-quartz-github"
+git add -A
+git commit -m "Sync: [descrição das mudanças]"
+git push origin main
+```
+
+### 9.4 Notas Importantes
+
+**Estratégia de Caminhos Relativos Nativos:**
+- O script de sync **NÃO altera mais o conteúdo** dos arquivos `.md` - apenas copia fielmente
+- Wikilinks com caminhos relativos `![[../../Recursos/...]]` funcionam nativamente no Quartz
+- **Não há necessidade de conversão** - isso evita corrupção da sintaxe dos Wikilinks
+- O Quartz processa wikilinks corretamente através do plugin `ObsidianFlavoredMarkdown`
+
+**Processo:**
+- O GitHub Pages faz deploy automaticamente após o push via workflow
+- Sempre verificar se as imagens foram copiadas corretamente antes do commit
+- Verificar nos logs se o arquivo copiado para `content/` manteve os colchetes `[[...]]` intactos
+
+---
+
+## 10. Notas Finais
 
 - **Sempre priorizar clareza sobre brevidade** - é melhor usar caminhos completos do que criar links ambíguos
 - **Verificar contexto da disciplina** antes de criar qualquer link

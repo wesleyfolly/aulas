@@ -2,7 +2,7 @@
 
 # A tríade CID
 
-![Untitled/Recursos/Segurança da informação/Tarefas e trabalhos/Untitled.png)
+![Untitled](../../Recursos/Segurança da informação/Tarefas e trabalhos/Untitled.png)
 
 # Confidencialidade
 

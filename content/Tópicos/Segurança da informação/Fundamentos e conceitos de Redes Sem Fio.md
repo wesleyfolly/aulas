@@ -13,14 +13,14 @@
     - Roteador: Distribui o sinal sem fio.
     - Dispositivo Móvel: Smartphones, laptops que recebem o sinal.
         
-        ![Untitled/Recursos/Segurança da informação/Ataques em rede local/Ferramentas de redes sem fio (802 11)/Fundamentos e conceitos de Redes Sem Fio/Untitled.png)
+        ![Untitled](../../Recursos/Segurança da informação/Ataques em rede local/Ferramentas de redes sem fio (802 11)/Fundamentos e conceitos de Redes Sem Fio/Untitled.png)
         
 
 - **Frequência e Espectro de Rádio**: As redes sem fio operam em diferentes faixas de frequência como 2.4GHz e 5GHz.
     
-    ![Untitled/Recursos/Segurança da informação/Ataques em rede local/Ferramentas de redes sem fio (802 11)/Fundamentos e conceitos de Redes Sem Fio/Untitled 1.png)
+    ![Untitled](../../Recursos/Segurança da informação/Ataques em rede local/Ferramentas de redes sem fio (802 11)/Fundamentos e conceitos de Redes Sem Fio/Untitled 1.png)
     
-    ![Untitled/Recursos/Segurança da informação/Ataques em rede local/Ferramentas de redes sem fio (802 11)/Fundamentos e conceitos de Redes Sem Fio/Untitled 2.png)
+    ![Untitled](../../Recursos/Segurança da informação/Ataques em rede local/Ferramentas de redes sem fio (802 11)/Fundamentos e conceitos de Redes Sem Fio/Untitled 2.png)
     
 
 # História e evolução
@@ -64,7 +64,7 @@ As redes sem fio têm uma história rica e diversificada, moldando a forma como 
 
 As redes sem fio continuam a evoluir, tornando-se cada vez mais integradas ao nosso dia a dia, desde aplicativos de consumo até soluções empresariais e industriais.
 
-![Untitled/Recursos/Segurança da informação/Ataques em rede local/Ferramentas de redes sem fio (802 11)/Fundamentos e conceitos de Redes Sem Fio/Untitled 3.png)
+![Untitled](../../Recursos/Segurança da informação/Ataques em rede local/Ferramentas de redes sem fio (802 11)/Fundamentos e conceitos de Redes Sem Fio/Untitled 3.png)
 
 # Tipos de redes sem fio
 

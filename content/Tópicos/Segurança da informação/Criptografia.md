@@ -6,13 +6,13 @@ A criptografia é um mecanismo de segurança muito eficaz e pode ser entendido c
 
 Para obter essas transformações na mensagem, faz-se uso de algoritmos predefinidos e uma chave secreta, que codifica a mensagem em outra e depois é decodificada quando chega ao seu destino com a chave secreta.
 
-![Untitled/Recursos/Segurança da informação/Criptografia/Untitled.png)
+![Untitled](../../Recursos/Segurança da informação/Criptografia/Untitled.png)
 
 [Criptografia | Nerdologia Tech](https://www.youtube.com/watch?v=_Eeg1LxVWa8)
 
 # Criptografia simétrica
 
-![Untitled/Recursos/Segurança da informação/Criptografia/Untitled 1.png)
+![Untitled](../../Recursos/Segurança da informação/Criptografia/Untitled 1.png)
 
 A criptografia simétrica é um tipo de criptografia onde só existe uma chave (uma chave secreta) que é usada em ambas as partes do processo, ou seja, tanto na **encriptação** quanto na **decriptação**.
 
@@ -39,15 +39,15 @@ Possui duas funções:
 
 É geralmente utilizada para transferir a **chave secreta** da criptografia assimétrica.
 
-![Untitled/Recursos/Segurança da informação/Criptografia/Untitled 2.png)
+![Untitled](../../Recursos/Segurança da informação/Criptografia/Untitled 2.png)
 
 [Online RSA Encryption, Decryption And Key Generator Tool | Devglan](https://www.devglan.com/online-tools/rsa-encryption-decryption)
 
 [Criptografia Assimétrica - Segurança da Informação - Dicionário de Informática](https://www.youtube.com/watch?v=GeSnN8Tt04U)
 
-![Untitled/Recursos/Segurança da informação/Criptografia/Untitled 3.png)
+![Untitled](../../Recursos/Segurança da informação/Criptografia/Untitled 3.png)
 
-![Untitled/Recursos/Segurança da informação/Criptografia/Untitled 4.png)
+![Untitled](../../Recursos/Segurança da informação/Criptografia/Untitled 4.png)
 
 # Hash, o que é e pra que serve
 
@@ -96,7 +96,7 @@ Essas características fazem a assinatura digital ser fundamentalmente diferente
 
 [Assinatura Digital e Hash - Segurança da Informação - Informática](https://www.youtube.com/watch?v=UlRCVihN3pE)
 
-![Untitled/Recursos/Segurança da informação/Criptografia/Untitled 5.png)
+![Untitled](../../Recursos/Segurança da informação/Criptografia/Untitled 5.png)
 
 # Certificado digital
 
@@ -127,7 +127,7 @@ O que tem nesse certificado?
 
 # Verificando o certificado digital do site do IFF
 
-![image.png/Recursos/Segurança da informação/Criptografia/image.png)
+![image.png](../../Recursos/Segurança da informação/Criptografia/image.png)
 
 ---
 

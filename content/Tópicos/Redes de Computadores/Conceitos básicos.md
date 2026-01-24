@@ -17,7 +17,7 @@
 
 </aside>
 
-![Untitled/Recursos/Redes de Computadores/Endereçamento IPv6/Untitled.png)
+![Untitled](../../Recursos/Redes de Computadores/Endereçamento IPv6/Untitled.png)
 
 # **Tipos**
 
@@ -32,7 +32,7 @@
 
 </aside>
 
-![Untitled/Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 1.png)
+![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 1.png)
 
 # **Topologias**
 
@@ -48,7 +48,7 @@
 
 </aside>
 
-![Untitled/Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 2.png)
+![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 2.png)
 
 # **Evolução e história das redes**
 
@@ -98,7 +98,7 @@
 7. **Servidores:** Servidores são computadores poderosos que armazenam, enviam e processam dados. Eles fornecem recursos e serviços para outros computadores e dispositivos em uma rede.
 8. **Cabos de Rede:** Cabos como cabos Ethernet (Cat5, Cat6), cabos coaxiais e cabos de fibra óptica são usados para conectar dispositivos de rede. Eles são um componente essencial da infraestrutura física de uma rede.
 
-![Untitled/Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 3.png)
+![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 3.png)
 
 <aside>
 📢 Exemplos prático: Descoberta de roteadores e clientes com aircrack-ng no Kali Linux
@@ -111,27 +111,27 @@
     - **Descrição**: Consiste em pares de fios de cobre isolados que são trançados para reduzir a interferência eletromagnética.
     - **Uso**: Muito usado em redes locais (LANs) e em sistemas de telefonia.
     
-    ![Untitled/Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 4.png)
+    ![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 4.png)
     
 2. **Cabo Coaxial**:
     - **Descrição**: Possui um núcleo de cobre condutor rodeado por um isolante, um blindagem metálica e uma capa externa.
     - **Uso**: Antigamente usado em redes Ethernet e ainda comum em conexões de televisão a cabo.
     
-    ![Untitled/Recursos/Redes de Computadores/Conceitos básicos/Untitled 5.png)
+    ![Untitled](../../Recursos/Redes de Computadores/Conceitos básicos/Untitled 5.png)
     
-    ![Untitled/Recursos/Redes de Computadores/Conceitos básicos/Untitled 6.png)
+    ![Untitled](../../Recursos/Redes de Computadores/Conceitos básicos/Untitled 6.png)
     
 3. **Fibra Óptica**:
     - **Descrição**: Usa pulsos de luz para transmitir dados através de filamentos de vidro ou plástico.
     - **Uso**: Ideal para distâncias longas e altas velocidades, comumente usado em backbones de internet e redes de telecomunicações.
     
-    ![Untitled/Recursos/Redes de Computadores/Conceitos básicos/Untitled 7.png)
+    ![Untitled](../../Recursos/Redes de Computadores/Conceitos básicos/Untitled 7.png)
     
 4. **Comunicação sem Fio (Wi-Fi, Bluetooth, etc.)**:
     - **Descrição**: Utiliza ondas de rádio ou infravermelho para transmitir dados sem a necessidade de cabos físicos.
     - **Uso**: Ampla aplicação em redes domésticas, comunicação entre dispositivos móveis e pontos de acesso à internet.
     
-    ![Untitled/Recursos/Redes de Computadores/Conceitos básicos/Untitled 8.png)
+    ![Untitled](../../Recursos/Redes de Computadores/Conceitos básicos/Untitled 8.png)
     
 
 <aside>
