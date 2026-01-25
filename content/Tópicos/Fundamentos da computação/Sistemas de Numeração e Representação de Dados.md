@@ -1,6 +1,16 @@
+---
+tipo: aula
+resumo: "Sistemas de Numeração e Representação de Dados: sistemas decimal, binário, octal e hexadecimal, aritmética binária e representação de dados (números, texto, cores)."
+tags:
+  - aula
+  - sistemas-numeração
+  - representação-dados
+  - fundamentos
+---
 # Sistemas de Numeração e Representação de Dados
 
-[Binary Game](https://learningcontent.cisco.com/games/binary/index.html)
+> [!tip] Recurso Interativo
+> [Binary Game](https://learningcontent.cisco.com/games/binary/index.html) - Jogo interativo para aprender sistema binário
 
 1. **Sistema de Numeração Decimal**
     - Definição e exemplos.

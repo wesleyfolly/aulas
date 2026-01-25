@@ -1,3 +1,12 @@
+---
+tipo: aula
+resumo: "Sistemas Operacionais: introdução, funções básicas, tipos, exemplos (Windows, macOS, Linux, Android, iOS), interfaces CLI vs GUI e segurança."
+tags:
+  - aula
+  - sistemas-operacionais
+  - SO
+  - fundamentos
+---
 # Sistemas Operacionais
 
 1. **Introdução:**

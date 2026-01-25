@@ -43,7 +43,7 @@ tags:
 
 ### Definição de Objetivos e Metas
 
-Estabelecer objetivos claros e mensuráveis usando metodologias como [[Metodologia do vale do silício (OKR)|OKR]].
+Estabelecer objetivos claros e mensuráveis usando metodologias como [[Metodologia do vale do silício (OKR)]].
 
 ### Plano de Negócios Digital
 

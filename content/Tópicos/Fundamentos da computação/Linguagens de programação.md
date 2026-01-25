@@ -1,3 +1,12 @@
+---
+tipo: aula
+resumo: "Linguagens de programação: introdução, tipos (baixo e alto nível), paradigmas, linguagens comuns (Python, Java, C++, JavaScript), compiladores, interpretadores e IDEs."
+tags:
+  - aula
+  - linguagens-de-programação
+  - programação
+  - fundamentos
+---
 # Linguagens de programação
 
 1. **Introdução:**

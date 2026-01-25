@@ -58,6 +58,7 @@ Para imagens, **SEMPRE** usar **Wikilinks com Caminho Relativo à Raiz do Conten
 - **SEMPRE usar caminho relativo à raiz do content:** `Recursos/...` (não `../../Recursos/...`)
 - **Manter espaços naturais nos nomes:** Não usar encoding de URL (como `%20`) - os espaços devem estar naturais no Wikilink
 - **Evitar espaços no nome dos arquivos de imagem:** Usar hífens (ex: `image-1.png` em vez de `image 1.png`) para facilitar compatibilidade
+- **⚠️ IMPORTANTE - Texto Alternativo:** Não usar números no final do texto alternativo (ex: `|Desafio de leitura 1`). O Quartz interpreta números como dimensões de largura, resultando em imagens de 1px, 2px, etc. Use apenas texto: `|Desafio de leitura`
 - **Verificar se as imagens foram copiadas** da pasta de migração para a pasta de Recursos correta
 
 **Exemplo Prático:**
@@ -291,7 +292,125 @@ git push origin main
 
 ---
 
-## 10. Notas Finais
+## 10. Manutenção e Auditoria de Disciplinas
+
+### 10.1 Processo de Auditoria Completa
+Ao trabalhar com uma disciplina, sempre realizar uma auditoria completa para identificar e corrigir problemas:
+
+**Checklist de Auditoria:**
+1. **Verificar links inconsistentes:**
+   - Links do Notion que deveriam ser wikilinks para arquivos locais
+   - Links com caminhos completos desnecessários (quando na mesma pasta)
+   - Links com aliases desnecessários ou problemáticos (ex: asteriscos)
+   - Links markdown padrão `[texto](link.md)` que deveriam ser wikilinks
+
+2. **Verificar conteúdo incompleto:**
+   - Arquivos que terminam abruptamente
+   - Placeholders não preenchidos (ex: `*[Adicione mais...]*`)
+   - Seções marcadas como "Em desenvolvimento" sem conteúdo
+
+3. **Verificar links externos:**
+   - Links do Notion que podem ter arquivos locais correspondentes
+   - Links quebrados ou desatualizados
+
+4. **Verificar estrutura:**
+   - Seções que deveriam estar em outro lugar (ex: trabalhos no início vs. final)
+   - Organização lógica do conteúdo
+
+### 10.2 Correções Padrão Aplicadas
+
+**Links:**
+- ✅ Converter links do Notion para wikilinks quando arquivo local existe
+- ✅ Simplificar caminhos completos quando arquivo está na mesma pasta
+- ✅ Remover aliases desnecessários ou problemáticos (ex: `[[Startups|Startups *]]` → `[[Startups]]`)
+- ✅ Usar wikilinks simples quando não há ambiguidade: `[[Nome do Arquivo]]`
+
+**Conteúdo:**
+- ✅ Remover placeholders não preenchidos
+- ✅ Atualizar informações desatualizadas (ex: ferramentas de IA, datas)
+- ✅ Completar seções incompletas quando possível
+
+**Estrutura:**
+- ✅ Mover seções para posições mais lógicas (ex: trabalhos para o final do arquivo index)
+- ✅ Criar referências a novos arquivos criados (ex: arquivo de trabalhos)
+
+### 10.3 Atualização de Conteúdo Técnico
+
+**Ao atualizar notas técnicas (ex: Inteligência Artificial):**
+1. **Pesquisar informações atuais** sobre o tema
+2. **Adicionar ferramentas e tecnologias recentes**
+3. **Organizar por categorias** (texto, imagens, áudio, vídeo, programação)
+4. **Incluir orientações de uso** (quando usar cada ferramenta)
+5. **Adicionar seção de aplicações práticas** (ex: no empreendedorismo)
+6. **Atualizar datas** (ex: "2025" → "2026" quando apropriado)
+7. **Manter estrutura hierárquica clara** com seções e subseções
+
+**Exemplo de atualização:**
+- Adicionar novas ferramentas (Claude, Gemini, Perplexity, etc.)
+- Organizar por tipo de uso (texto, imagens, áudio, vídeo, programação)
+- Incluir dicas sobre quando usar cada ferramenta
+- Adicionar seção de aplicações práticas no contexto da disciplina
+
+### 10.4 Criação de Arquivos de Trabalhos
+
+**⚠️ REGRA OBRIGATÓRIA - Nomenclatura:**
+O arquivo de trabalhos **SEMPRE** deve seguir o formato: `Trabalhos e Projetos de [Nome da Disciplina].md`
+
+**Exemplos:**
+- ✅ `Trabalhos e Projetos de Empreendedorismo.md`
+- ✅ `Trabalhos e Projetos de Fundamentos da computação.md`
+- ❌ `Trabalhos.md` (formato antigo, não usar)
+- ❌ `Trabalhos e Projetos.md` (sem nome da disciplina)
+
+**Quando criar arquivo separado para trabalhos:**
+1. **Criar arquivo dedicado** com o nome no formato obrigatório: `Trabalhos e Projetos de [Nome da Disciplina].md`
+2. **Título interno do arquivo** deve ser: `# Trabalhos e Projetos de [Nome da Disciplina]`
+3. **Adicionar referência no index.md** da disciplina
+4. **Posicionar a seção no final** do arquivo index (após conteúdo principal)
+5. **Usar callout informativo** explicando o propósito do arquivo
+
+**Formato da referência no index.md:**
+```markdown
+## 📋 Trabalhos e Projetos
+
+> [!info] Tarefas da Disciplina
+> No arquivo [[Trabalhos e Projetos de [Nome da Disciplina]]] estão listadas as possíveis tarefas a cumprir na disciplina.
+```
+
+**Frontmatter padrão:**
+```yaml
+---
+tipo: aula
+resumo: "Trabalhos e projetos da disciplina [Nome da Disciplina]: [descrição breve]."
+tags:
+  - aula
+  - trabalhos
+  - projetos
+  - [tag-disciplina]
+---
+```
+
+### 10.5 Processo de Aplicação em Outras Disciplinas
+
+**Para aplicar as mesmas práticas em outras disciplinas:**
+
+1. **Ler todos os arquivos** da pasta da disciplina
+2. **Executar auditoria completa** usando checklist acima
+3. **Aplicar correções padrão** sistematicamente
+4. **Atualizar conteúdo desatualizado** quando identificado
+5. **Reorganizar estrutura** se necessário
+6. **Criar arquivos separados** para trabalhos quando apropriado
+
+**Ordem sugerida:**
+1. Verificar links (mais crítico para funcionamento)
+2. Remover placeholders e completar conteúdo
+3. Atualizar informações técnicas
+4. Reorganizar estrutura
+5. Criar referências a novos arquivos
+
+---
+
+## 11. Notas Finais
 
 - **Sempre priorizar clareza sobre brevidade** - é melhor usar caminhos completos do que criar links ambíguos
 - **Verificar contexto da disciplina** antes de criar qualquer link

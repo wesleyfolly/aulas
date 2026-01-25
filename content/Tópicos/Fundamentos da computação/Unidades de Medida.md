@@ -1,3 +1,11 @@
+---
+tipo: aula
+resumo: "Unidades de Medida: bit e byte, unidades de armazenamento (KB, MB, GB, TB, PB), velocidade de dados (Kbps, Mbps, Gbps), processamento (Hz, KHz, MHz, GHz) e conversões."
+tags:
+  - aula
+  - unidades-medida
+  - fundamentos
+---
 # Unidades de Medida
 
 1. **Introdução:**

@@ -1,3 +1,12 @@
+---
+tipo: aula
+resumo: "Algoritmos: introdução aos conceitos, características, tipos, representação (pseudocódigo e diagramas de fluxo) e análise de complexidade."
+tags:
+  - aula
+  - algoritmos
+  - programação
+  - fundamentos
+---
 # Algoritmos
 
 1. **Introdução:**

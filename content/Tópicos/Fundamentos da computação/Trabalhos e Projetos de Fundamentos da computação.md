@@ -1,4 +1,13 @@
-# Trabalhos
+---
+tipo: aula
+resumo: "Trabalhos e projetos da disciplina Fundamentos da Computação: organização de eventos e trabalho teórico-prático avaliativo."
+tags:
+  - aula
+  - trabalhos
+  - projetos
+  - fundamentos
+---
+# Trabalhos e Projetos de Fundamentos da computação
 
 # Equipes
 

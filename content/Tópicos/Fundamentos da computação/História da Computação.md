@@ -1,3 +1,12 @@
+---
+tipo: aula
+resumo: "História da computação: linha do tempo desde os primórdios até os dias atuais, incluindo documentários, filmes e séries sobre o tema."
+tags:
+  - aula
+  - história
+  - computação
+  - fundamentos
+---
 # História da Computação
 
 # Linha do tempo
@@ -20,7 +29,8 @@
 16. **1998:** Google é fundado por Larry Page e Sergey Brin.
 17. **2007:** Apple lança o primeiro iPhone, popularizando os smartphones.
 18. **2010:** O lançamento do iPad inicia a era dos tablets.
-19. **2023:** Hoje, estamos na era da inteligência artificial, com dispositivos como os assistentes virtuais (por exemplo, ChatGPT) e a computação em nuvem dominando a paisagem tecnológica.
+19. **2023:** Início da popularização massiva da inteligência artificial generativa com assistentes virtuais (por exemplo, ChatGPT) e a computação em nuvem dominando a paisagem tecnológica.
+20. **2024-2026:** Consolidação da IA generativa, avanços em modelos multimodais e integração de IA em ferramentas cotidianas.
 
 # Documentários, filmes e séries
 

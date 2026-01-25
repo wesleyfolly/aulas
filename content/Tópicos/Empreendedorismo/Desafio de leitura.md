@@ -28,4 +28,3 @@ tags:
 7. **Como fazer amigos e influenciar pessoas** - Dale Carnegie
 8. **4 horas para o corpo** - Timothy Ferriss
 9. **Essencialismo** - Greg McKeown
-10. *[Adicione mais livros conforme necessário]*

@@ -1,3 +1,12 @@
+---
+tipo: aula
+resumo: "Hardware: componentes físicos do computador, tipos de computadores, componentes internos, periféricos, portas e conectores, montagem e manutenção."
+tags:
+  - aula
+  - hardware
+  - computador
+  - fundamentos
+---
 # Hardware
 
 1. **Introdução ao Hardware:**

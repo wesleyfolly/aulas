@@ -1,3 +1,12 @@
+---
+tipo: aula
+resumo: "Redes de Computadores: introdução, benefícios, tipos (LAN, WAN, MAN, PAN), componentes, modelo OSI, protocolos e endereçamento IP."
+tags:
+  - aula
+  - redes
+  - computadores
+  - fundamentos
+---
 # Redes de Computadores
 
 1. **Introdução:**

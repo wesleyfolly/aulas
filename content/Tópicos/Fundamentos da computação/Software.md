@@ -1,3 +1,12 @@
+---
+tipo: aula
+resumo: "Software: definição, tipos (sistema, aplicativo, desenvolvimento), interação com hardware, sistemas operacionais, código aberto vs. proprietário e desenvolvimento de software."
+tags:
+  - aula
+  - software
+  - programação
+  - fundamentos
+---
 # Software
 
 1. **Introdução:**
