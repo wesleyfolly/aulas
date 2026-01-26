@@ -8,7 +8,7 @@ tags:
   - tarefas
 ---
 
-# Tarefas e Trabalhos
+# Trabalhos e Projetos de Segurança da Informação
 
 > [!quote] Aprendizado Prático
 > *Não é necessário realizar todas as tarefas abaixo, somente as que forem solicitadas pelo professor.*
