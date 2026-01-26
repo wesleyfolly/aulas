@@ -1,7 +1,54 @@
-# Glossário de computação em nuvem
+---
+tipo: referencia
+resumo: "Glossário de termos e conceitos relacionados à computação em nuvem e tecnologias associadas."
+tags:
+  - referencia
+  - redes-de-computadores
+  - cloud-computing
+  - glossario
+---
 
-# Containers
+# Glossário de Computação em Nuvem
 
-A conteinerização, também conhecida como virtualização baseada em containers, é um método utilizado na implantação e execução de aplicativos distribuídos sem a necessidade de configuração de uma VM (Máquina virtual) completa para cada um deles.
+> [!quote] Termos Essenciais
+> *Conheça os principais termos e conceitos utilizados no universo da computação em nuvem.*
 
-Na **virtualização** a empresa precisa instalar um sistema operacional para a aplicação rodar, no **container** apenas a aplicação pode ser instalada.
+---
+
+## 📦 Containers
+
+> [!info] Definição
+> A **conteinerização** é um método de virtualização leve que permite executar aplicações de forma isolada, sem a necessidade de uma máquina virtual completa.
+
+### Containers vs Virtualização
+
+| Aspecto | Virtualização | Containers |
+|---------|---------------|------------|
+| **Sistema Operacional** | Cada VM tem seu próprio SO | Compartilham o SO do host |
+| **Recursos** | Mais pesado | Leve e eficiente |
+| **Inicialização** | Minutos | Segundos |
+| **Isolamento** | Completo | Nível de processo |
+
+> [!tip] Na Prática
+> Na **virtualização** a empresa precisa instalar um sistema operacional para a aplicação rodar. No **container** apenas a aplicação é instalada.
+
+---
+
+## 🔧 Outros Termos
+
+| Termo | Definição |
+|-------|-----------|
+| **IaaS** | Infrastructure as a Service — Infraestrutura como serviço |
+| **PaaS** | Platform as a Service — Plataforma como serviço |
+| **SaaS** | Software as a Service — Software como serviço |
+| **Serverless** | Computação sem servidor gerenciado |
+| **Kubernetes** | Orquestrador de containers |
+| **Docker** | Plataforma de containerização |
+
+---
+
+## 📚 Recursos Relacionados
+
+> [!success] Veja Também
+> [[Computação em nuvem]]
+

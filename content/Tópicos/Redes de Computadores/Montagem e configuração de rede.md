@@ -1,254 +1,250 @@
-# Montagem e configuração de rede
+---
+tipo: aula
+resumo: "Aula prática de montagem e configuração de redes, incluindo crimpagem de cabos, configuração de roteadores e switches."
+tags:
+  - aula
+  - redes-de-computadores
+  - pratica
+  - crimpagem
+  - roteador
+  - switch
+---
 
-# Configuração de IP (windows e linux)
+# Montagem e Configuração de Rede
 
-# Escaneamento e análise de Rede
-
-# Crimpagem de cabos
-
-# **Objetivos da Aula**
-
-- **Compreender** os padrões de cabeamento estruturado (T568A e T568B).
-- **Aprender** a preparar e crimpar cabos de rede Ethernet (UTP) utilizando conectores RJ-45.
-- **Identificar** as diferenças entre cabos diretos e crossover e suas aplicações.
-- **Realizar** testes de conectividade e solucionar possíveis problemas na crimpagem.
+> [!quote] Mãos na Massa
+> *A prática é fundamental para consolidar o conhecimento em redes. Aqui você aprenderá desde a crimpagem de cabos até a configuração de equipamentos.*
 
 ---
 
-# **Materiais Necessários**
+## 🎯 Objetivos da Aula
 
-- **Cabos UTP** Categoria 5e ou 6 (par trançado).
-- **Conectores RJ-45** adequados para cabos sólidos ou flexíveis.
-- **Alicate de crimpagem** para conectores RJ-45.
-- **Decapador de cabos** ou estilete.
-- **Testador de cabos de rede** (cabo LAN tester).
-- **Aparelhos para teste** (dois computadores ou um computador e um switch).
-- **EPI**: Óculos de proteção (opcional).
+> [!success] Competências a Desenvolver
 
----
-
-![image.png](../../Recursos/Redes de Computadores/Montagem e configuração de rede/image.png)
-
-# **Conteúdo Programático**
-
-1. **Introdução aos Cabos de Rede**
-    - Tipos de cabos (UTP, STP, coaxial, fibra óptica).
-    - Categorias de cabos UTP (Cat5e, Cat6, etc.).
-2. **Padrões de Cabeamento**
-    - **TIA/EIA-568A** e **TIA/EIA-568B**.
-    - Aplicações dos padrões (cabo direto vs. crossover).
-3. **Ferramentas e Materiais**
-    - Função de cada ferramenta.
-    - Tipos de conectores e cabos.
-4. **Procedimentos de Crimpagem**
-    - Preparação do cabo.
-    - Sequência de cores e organização dos fios.
-    - Técnicas de inserção e crimpagem do conector.
-5. **Testes e Solução de Problemas**
-    - Uso do testador de cabos.
-    - Identificação de falhas comuns.
+- **Compreender** os padrões de cabeamento estruturado (T568A e T568B)
+- **Aprender** a preparar e crimpar cabos Ethernet (UTP) com conectores RJ-45
+- **Identificar** as diferenças entre cabos diretos e crossover
+- **Realizar** testes de conectividade e solucionar problemas
 
 ---
 
-# **Passo a Passo Detalhado**
+## 🧰 Materiais Necessários
 
-## **1. Introdução Teórica (30 minutos)**
-
-## **a) Apresentação dos Padrões de Cabeamento**
-
-- **Padrão T568A:**
-    
-    
-    | Pino | Cor do Fio |
-    | --- | --- |
-    | 1 | Branco e Verde |
-    | 2 | Verde |
-    | 3 | Branco e Laranja |
-    | 4 | Azul |
-    | 5 | Branco e Azul |
-    | 6 | Laranja |
-    | 7 | Branco e Marrom |
-    | 8 | Marrom |
-- **Padrão T568B:**
-    
-    
-    | Pino | Cor do Fio |
-    | --- | --- |
-    | 1 | Branco e Laranja |
-    | 2 | Laranja |
-    | 3 | Branco e Verde |
-    | 4 | Azul |
-    | 5 | Branco e Azul |
-    | 6 | Verde |
-    | 7 | Branco e Marrom |
-    | 8 | Marrom |
-- **Aplicações:**
-    - **Cabo Direto:** Mesmo padrão nas duas extremidades (T568B/T568B ou T568A/T568A).
-    - **Cabo Crossover:** Padrão T568A em uma extremidade e T568B na outra.
-
-Na prática, **o padrão 568B é o mais usado** por ser historicamente mais adotado pelas empresas de telecomunicações.
-
-## **2. Demonstração Prática (15 minutos)**
-
-- O instrutor deve mostrar como crimpar um cabo passo a passo, explicando cada etapa.
-
-**Vídeo de apoio:**
-
-- [Como crimpar um cabo de rede RJ-45 - Tutorial Prático](https://www.youtube.com/watch?v=XXXXXX)
-
-*(Nota: Insira um link válido para um vídeo de demonstração.)*
-
-## **3. Atividade Prática dos Alunos (1 hora)**
-
-## **a) Preparação do Cabo**
-
-1. **Medir e Cortar o Cabo:**
-    - Definir o comprimento necessário.
-    - Utilizar o alicate para cortar o cabo.
-2. **Remover a Capa Externa:**
-    - Com o decapador ou estilete, retirar aproximadamente 2 cm da capa.
-    - **Cuidado:** Não danificar os fios internos.
-
-## **b) Organização dos Fios**
-
-1. **Desembaraçar os Pares Trançados:**
-    - Separar os quatro pares de fios.
-2. **Alinhar os Fios de Acordo com o Padrão Escolhido:**
-    - Seguir a sequência de cores do padrão T568B (mais utilizado).
-3. **Endireitar os Fios:**
-    - Utilizar os dedos para alinhar e endireitar os fios.
-
-**Imagem dos fios organizados segundo o padrão:**
-
-*(O instrutor deve fornecer imagens para auxiliar os alunos.)*
-
-## **c) Corte Uniforme dos Fios**
-
-- Com os fios alinhados, cortar as pontas para que fiquem niveladas e com aproximadamente 1,5 cm de comprimento.
-
-## **d) Inserção no Conector RJ-45**
-
-1. **Verificar a Orientação do Conector:**
-    - A trava do conector deve estar voltada para baixo.
-2. **Inserir os Fios no Conector:**
-    - Introduzir os fios no conector, certificando-se de que cada fio está em sua posição correta.
-    - A capa externa do cabo deve entrar um pouco no conector para dar firmeza.
-
-## **e) Crimpagem do Conector**
-
-1. **Posicionar o Conector no Alicate:**
-    - Inserir o conector na posição correta no alicate de crimpagem.
-2. **Aplicar Pressão:**
-    - Apertar firmemente o alicate até o fim do curso.
-
-## **f) Repetir o Processo na Outra Extremidade**
-
-- Decidir se será um cabo direto ou crossover e repetir os passos anteriores conforme o padrão adequado.
-
-## **g) Teste do Cabo**
-
-1. **Utilizar o Testador de Cabos:**
-    - Conectar cada extremidade do cabo no testador.
-    - Ligar o dispositivo e verificar se todos os pares estão conectados corretamente.
-2. **Analisar os Resultados:**
-    - Se o teste indicar falhas, identificar e corrigir os problemas.
-
-## **4. Discussão e Solução de Problemas**
-
-- **Erros Comuns:**
-    - Fios na ordem incorreta.
-    - Fios não totalmente inseridos no conector.
-    - Má crimpagem resultando em contatos frouxos.
-- **Dicas:**
-    - Sempre verificar a sequência de cores antes de crimpar.
-    - Garantir que os fios estejam alinhados e nivelados.
-    - Não decapar muito a capa externa para evitar interferências.
+| Material | Especificação |
+|----------|---------------|
+| **Cabos UTP** | Categoria 5e ou 6 (par trançado) |
+| **Conectores RJ-45** | Para cabos sólidos ou flexíveis |
+| **Alicate de crimpagem** | Para conectores RJ-45 |
+| **Decapador** | Ou estilete |
+| **Testador de cabos** | Cabo LAN tester |
+| **Equipamentos de teste** | Computadores ou switch |
+| **EPI** | Óculos de proteção (opcional) |
 
 ---
 
-# Configuração de roteadores
+![[Recursos/Redes de Computadores/Montagem e configuração de rede/pinagem-rj45-t568a.png|Pinagem RJ-45 T568A]]
 
-## **1. Introdução**
+---
 
-- **O que é um Roteador:** Dispositivo que encaminha pacotes de dados entre redes de computadores, criando ou mantendo uma tabela de rotas para determinar os melhores caminhos.
-- **Função dos Roteadores:** Conectar diferentes redes, gerenciar o tráfego de rede, decidir o caminho que a informação seguirá para chegar ao destino.
-- **Roteadores vs. Switches:** Roteadores operam na camada 3 (rede), enquanto switches operam na camada 2 (enlace de dados). (existem exceções)
+## 📋 Conteúdo Programático
 
-## **2. Tipos de Roteadores**
+> [!info] Estrutura da Aula
 
-- **Roteadores Domésticos:** Para usuários domésticos, simples, com funcionalidades limitadas de configuração.
-- **Roteadores Empresariais:** Suportam uma maior carga de tráfego, mais opções de configuração e segurança.
-- **Roteadores de Borda:** Conectam redes empresariais à internet.
-- **Roteadores de Núcleo:** Operam no coração de grandes redes, gerenciando grandes volumes de dados.
+1. **Introdução aos Cabos de Rede**: Tipos (UTP, STP, coaxial, fibra) e categorias
+2. **Padrões de Cabeamento**: TIA/EIA-568A e 568B
+3. **Ferramentas e Materiais**: Função de cada ferramenta
+4. **Procedimentos de Crimpagem**: Passo a passo detalhado
+5. **Testes e Solução de Problemas**: Identificação de falhas
 
-## **3. Configuração Básica de um Roteador**
+---
 
-- **Acesso ao Roteador:**
-    - Usar cabo de console e software de terminal (como PuTTY).
-- **Configuração Inicial:**
-    - **Hostname:** **`Router(config)# hostname [nome do roteador]`**
-    - **Senhas:** Configuração de senha de console e VTY para acesso remoto.
-    - **Interfaces:** **`Router(config-if)# ip address [endereço IP] [máscara de sub-rede]`** e **`Router(config-if)# no shutdown`**
-    - **Teste de Conectividade:** Uso do comando **`ping`** para verificar a conectividade.
+## 🔌 Padrões de Cabeamento
 
-## **4. Configurações Avançadas**
+### Padrão T568A
 
-- **Rotas Estáticas:** **`Router(config)# ip route [destino] [máscara] [gateway]`**
-- **Protocolos de Roteamento Dinâmico:** Introdução básica ao OSPF e EIGRP.
-- **Segurança:** Configuração básica de firewall e ACLs para proteger a rede.
+| Pino | Cor do Fio |
+|------|------------|
+| 1 | Branco e Verde |
+| 2 | Verde |
+| 3 | Branco e Laranja |
+| 4 | Azul |
+| 5 | Branco e Azul |
+| 6 | Laranja |
+| 7 | Branco e Marrom |
+| 8 | Marrom |
 
-# Configuração de switches
+### Padrão T568B
 
-# 1. Introdução
+| Pino | Cor do Fio |
+|------|------------|
+| 1 | Branco e Laranja |
+| 2 | Laranja |
+| 3 | Branco e Verde |
+| 4 | Azul |
+| 5 | Branco e Azul |
+| 6 | Verde |
+| 7 | Branco e Marrom |
+| 8 | Marrom |
 
-- **O que é um Switch:** Um dispositivo de rede que conecta outros dispositivos em uma rede de computadores usando pacotes para receber, e encaminhar dados ao dispositivo destino.
-- **Funções Básicas:**
-    - Filtragem de pacotes por endereços MAC.
-    - Encaminhamento de pacotes para a porta correta.
-    - Eliminação de colisões em ambientes de rede.
-- **Switch vs. Hub:**
-    - **Switch:** Decide onde enviar um pacote após receber e ler o endereço de destino.
-    - **Hub:** Envia pacotes para todos os dispositivos conectados, independentemente do destino.
+> [!tip] Na Prática
+> O **padrão T568B é o mais usado** por ser historicamente adotado pelas empresas de telecomunicações.
 
-## **2. Tipos de Switches**
+---
 
-- **Switches Gerenciáveis:** Oferecem funcionalidades avançadas como VLANs, QoS, e segurança, permitindo uma gestão e configuração detalhada.
-- **Switches Não Gerenciáveis:** São plug-and-play, sem opções de configuração.
-- **Switches de Camada 2:** Operam usando endereços MAC para encaminhamento de pacotes dentro da mesma rede.
-- **Switches de Camada 3:** Realizam funções de roteamento, usando IPs para interconectar diferentes redes.
+## 🔀 Tipos de Cabos
 
-## **3. Configuração Básica de um Switch**
+| Tipo | Padrão | Uso |
+|------|--------|-----|
+| **Cabo Direto** | Mesmo padrão nas duas pontas (B/B ou A/A) | PC ↔ Switch, PC ↔ Roteador |
+| **Cabo Crossover** | T568A em uma ponta, T568B na outra | PC ↔ PC, Switch ↔ Switch |
 
-**Objetivo:** Ensinar os passos iniciais para acessar e configurar um switch.
+> [!info] Nota
+> Equipamentos modernos com Auto-MDIX detectam automaticamente o tipo de cabo.
 
-**Conteúdo:**
+---
 
-- **Acesso ao Switch:**
-    - Conectar ao switch via cabo de console.
-    - Usar um software de terminal (como PuTTY) para acessar o switch.
-- **Configuração Inicial:**
-    - **Definir Hostname:** **`Switch(config)# hostname [nome do switch]`**
-    - **Configurar Senhas:**
-        - Senha de console: **`Switch(config)# line console 0`** seguido de **`Switch(config-line)# password [senha]`** e **`Switch(config-line)# login`**
-        - Senha VTY: **`Switch(config)# line vty 0 15`** seguido de **`Switch(config-line)# password [senha]`** e **`Switch(config-line)# login`**
-    - **Salvar Configuração:** **`Switch# copy running-config startup-config`**
-- **Interfaces e Portas:**
-    - Visualização: **`Switch# show interfaces status`**
+## 🛠️ Passo a Passo da Crimpagem
 
-## **4. Configurações Avançadas**
+### 1️⃣ Preparação do Cabo
 
-**Objetivo:** Introduzir configurações mais complexas como VLANs, segurança de porta e agregação de link.
+1. **Medir e cortar** o comprimento necessário
+2. **Remover a capa externa** (~2 cm com decapador)
+3. **Cuidado**: Não danificar os fios internos
 
-**Conteúdo:**
+### 2️⃣ Organização dos Fios
 
-- **VLANs:**
-    - Criação de VLAN: **`Switch(config)# vlan [número da vlan]`**
-    - Atribuir porta à VLAN: **`Switch(config)# interface [tipo e número da interface]`** seguido de **`Switch(config-if)# switchport access vlan [número da vlan]`**
-- **Segurança de Porta (Port Security):**
-    - Ativar segurança: **`Switch(config-if)# switchport port-security`**
-    - Definir número máximo de MACs: **`Switch(config-if)# switchport port-security maximum [número]`**
-- **Link Aggregation (EtherChannel):**
-    - Configurar EtherChannel: **`Switch(config)# interface port-channel [número]`**
-    - Adicionar interfaces ao grupo: **`Switch(config-if)# channel-group [número] mode active`**
+1. **Desembaraçar** os pares trançados
+2. **Alinhar** conforme o padrão escolhido (T568B)
+3. **Endireitar** os fios com os dedos
 
-# Configuração de clientes
+### 3️⃣ Corte Uniforme
+
+- Cortar as pontas para ficarem **niveladas** (~1,5 cm)
+
+### 4️⃣ Inserção no Conector
+
+1. **Verificar orientação**: Trava voltada para baixo
+2. **Inserir os fios**: Cada fio em sua posição
+3. **Capa externa**: Deve entrar no conector
+
+### 5️⃣ Crimpagem
+
+1. **Posicionar** conector no alicate
+2. **Apertar firmemente** até o fim
+
+### 6️⃣ Teste
+
+1. Conectar no **testador de cabos**
+2. Verificar se todos os **pares estão corretos**
+
+---
+
+## ⚠️ Erros Comuns e Dicas
+
+> [!warning] Problemas Frequentes
+
+| Erro | Solução |
+|------|---------|
+| Fios na ordem incorreta | Verificar sequência antes de crimpar |
+| Fios não totalmente inseridos | Empurrar até o fim do conector |
+| Má crimpagem | Apertar firmemente o alicate |
+| Capa muito decapada | Manter ~2 cm de exposição |
+
+---
+
+## 📡 Configuração de Roteadores
+
+### Conceitos Básicos
+
+| Termo | Definição |
+|-------|-----------|
+| **Roteador** | Encaminha pacotes entre redes diferentes |
+| **Camada** | Opera na camada 3 (Rede) |
+| **Função** | Conectar redes, gerenciar tráfego, definir rotas |
+
+### Tipos de Roteadores
+
+| Tipo | Uso |
+|------|-----|
+| **Doméstico** | Residências, funcionalidades simples |
+| **Empresarial** | Alta carga, mais configurações |
+| **De Borda** | Conexão empresa ↔ internet |
+| **De Núcleo** | Coração de grandes redes |
+
+### Comandos Básicos (Cisco IOS)
+
+```cisco
+! Definir hostname
+Router(config)# hostname MeuRoteador
+
+! Configurar interface
+Router(config)# interface GigabitEthernet0/0
+Router(config-if)# ip address 192.168.1.1 255.255.255.0
+Router(config-if)# no shutdown
+
+! Rota estática
+Router(config)# ip route 10.0.0.0 255.0.0.0 192.168.1.254
+```
+
+---
+
+## 🔄 Configuração de Switches
+
+### Conceitos Básicos
+
+| Termo | Definição |
+|-------|-----------|
+| **Switch** | Conecta dispositivos na mesma rede |
+| **Camada** | Opera na camada 2 (Enlace) |
+| **Função** | Filtra e encaminha por endereço MAC |
+
+### Switch vs Hub
+
+| Dispositivo | Comportamento |
+|-------------|---------------|
+| **Switch** | Envia apenas para o destino correto |
+| **Hub** | Envia para todos os dispositivos |
+
+### Tipos de Switches
+
+| Tipo | Características |
+|------|-----------------|
+| **Gerenciável** | VLANs, QoS, segurança, configuração avançada |
+| **Não Gerenciável** | Plug-and-play, sem configuração |
+| **Camada 2** | Usa endereços MAC |
+| **Camada 3** | Também faz roteamento |
+
+### Comandos Básicos (Cisco IOS)
+
+```cisco
+! Definir hostname
+Switch(config)# hostname MeuSwitch
+
+! Senha de console
+Switch(config)# line console 0
+Switch(config-line)# password minhasenha
+Switch(config-line)# login
+
+! Criar VLAN
+Switch(config)# vlan 10
+Switch(config-vlan)# name Vendas
+
+! Atribuir porta à VLAN
+Switch(config)# interface FastEthernet0/1
+Switch(config-if)# switchport access vlan 10
+
+! Salvar configuração
+Switch# copy running-config startup-config
+```
+
+---
+
+## 🔐 Segurança de Porta (Port Security)
+
+```cisco
+! Ativar port security
+Switch(config-if)# switchport port-security
+Switch(config-if)# switchport port-security maximum 2
+Switch(config-if)# switchport port-security violation shutdown
+```
+

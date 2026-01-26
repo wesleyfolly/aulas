@@ -1,57 +1,74 @@
 ---
 title: "Redes de Computadores"
+tipo: índice
+resumo: "Página principal da disciplina de Redes de Computadores, abordando desde conceitos básicos até configuração avançada de redes."
+tags:
+  - índice
+  - redes-de-computadores
 aliases:
   - Redes de Computadores
 ---
 
 # Redes de Computadores
 
+> [!quote] Conectando o Mundo
+> *Redes de computadores são a espinha dorsal da comunicação digital moderna, conectando bilhões de dispositivos ao redor do mundo.*
 
-> [!INFO]
-> Materiais complementares
+---
 
-[[Conteúdo e materiais]]
+## 🎯 Organização da Disciplina
 
-[[Cursos online]]
+> [!tip] Links Rápidos
+> Acesse rapidamente as informações organizacionais da disciplina.
 
-[[Certificações de redes]]
+- [[Trabalhos e Projetos de Redes de Computadores|📝 Trabalhos e Projetos]]
+- [[Análise de mercado|📊 Análise de Mercado]]
 
-[[Entretenimento]]
+---
 
-[[Eventos da área]]
+## 📚 Conteúdo Principal
 
-[[Jogos]]
+> [!info] Tópicos Fundamentais
+> Conteúdo essencial para compreender redes de computadores.
 
-[[Análise de mercado]]
+| Tópico | Descrição |
+|--------|-----------|
+| [[Conceitos básicos]] | Definições, tipos de rede, topologias e equipamentos |
+| [[Modelos OSI e TCP IP\|Modelos OSI e TCP/IP]] | Camadas de rede e protocolos |
+| [[Ferramentas de rede]] | Comandos e utilitários para diagnóstico |
+| [[Endereçamento IPv4]] | Classes, sub-redes e CIDR |
+| [[Endereçamento IPv6]] | A nova geração do protocolo IP |
+| [[Montagem e configuração de rede]] | Prática de implementação |
+| [[Segurança de Redes]] | Proteção e boas práticas |
 
-> [!INFO]
-> Tópicos **Principais**
+---
 
-[[Conceitos básicos]]
+## 🔧 Tópicos Avançados
 
-[[Modelos OSI e TCP IP|Modelos OSI e TCP/IP]]
+> [!tip] Aprofundamento
+> Conteúdo complementar para expandir seus conhecimentos.
 
-[[Ferramentas de rede]]
+| Tópico | Descrição |
+|--------|-----------|
+| [[Computação em nuvem]] | Cloud computing e seus modelos |
+| [[Análise de tráfego]] | Wireshark e captura de pacotes |
+| [[Python para redes de computadores]] | Automação e scripts |
+| [[DevOps]] | Integração entre desenvolvimento e operações |
+| [[Redes sem fio e sua segurança]] | Wi-Fi e vulnerabilidades |
 
-[[Endereçamento IPv4]]
+---
 
-[[Montagem e configuração de rede]]
+## 📖 Materiais Complementares
 
-[[Segurança de Redes]]
+> [!success] Recursos de Aprendizado
+> Explore materiais adicionais para aprofundar seus estudos.
 
-[[Endereçamento IPv6]]
+| Recurso | Descrição |
+|---------|-----------|
+| [[Conteúdo e materiais]] | Livros, apostilas e documentação |
+| [[Cursos online]] | Plataformas e cursos recomendados |
+| [[Certificações de redes]] | CCNA, CompTIA Network+ e outras |
+| [[Entretenimento]] | Filmes e séries sobre tecnologia |
+| [[Eventos da área]] | Conferências e meetups |
+| [[Jogos]] | Games para aprender redes |
 
-[[Tarefas e trabalhos]]
-
-> [!INFO]
-> Tópicos **secundários**
-
-[[Computação em nuvem]]
-
-[[Análise de tráfego]]
-
-[[Python para redes de computadores]]
-
-[[DevOps]]
-
-[Docker - gerenciamento de containers](https://www.notion.so/Docker-gerenciamento-de-containers-1a79e0c91d3680aca876d27e19380191?pvs=21)

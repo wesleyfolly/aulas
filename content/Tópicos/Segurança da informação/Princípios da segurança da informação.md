@@ -17,7 +17,7 @@ tags:
 
 ## 🔐 A Tríade CID
 
-![[Recursos/Segurança da informação/introducao-a-seguranca-da-informacao.png|Tríade CID]]
+![[Recursos/Segurança da informação/Introdução à Segurança da informação/principios-da-seguranca-da-informacao.png|Tríade CID]]
 
 > [!info] Os Três Pilares
 > **C**onfidencialidade, **I**ntegridade e **D**isponibilidade são os princípios fundamentais que guiam todas as práticas de segurança.

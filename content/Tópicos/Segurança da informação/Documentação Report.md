@@ -90,7 +90,7 @@ tags:
 | [PrimoConnect Sample](https://pentestreports.com/reports/PrimoConnect/SAMPLE+Security+Testing+Findings.pdf) | Relatório comercial de exemplo |
 | [Offensive Security Sample](https://www.offensive-security.com/reports/sample-penetration-testing-report.pdf) | Modelo da Offensive Security |
 
-![[Recursos/Segurança da informação/seguranca-da-informacao.png|Segurança da Informação]]
+![[Recursos/Segurança da informação/Documentação Report/documentacao-report.png|Modelo de Relatório de Pen Test]]
 
 ---
 

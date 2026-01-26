@@ -1,60 +1,122 @@
-# GitHub e controle de versão
+---
+tipo: aula
+resumo: "Introdução ao Git e GitHub para controle de versão, comandos básicos e fluxo de trabalho."
+tags:
+  - aula
+  - programacao
+  - git
+  - github
+  - versionamento
+---
 
-# O que é git?
+# GitHub e Controle de Versão
 
-é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.
+> [!quote] Histórico de Código
+> *Git permite rastrear todas as mudanças do seu código, facilitando colaboração e recuperação de versões anteriores.*
 
-O Git foi inicialmente projetado e desenvolvido por Linus Torvalds para o desenvolvimento do kernel Linux, mas foi adotado por muitos outros projetos.
+---
 
-Cada diretório de trabalho do Git é um repositório com um histórico completo e habilidade total de acompanhamento das revisões, não dependente de acesso a uma rede ou a um servidor central.
+## 🔄 O que é Git?
 
-# O que é github
+> [!info] Definição
+> Sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.
 
-É um sistema web que provê a hospedagem de repositórios git.
+| Característica | Descrição |
+|----------------|-----------|
+| **Criador** | Linus Torvalds (para o kernel Linux) |
+| **Tipo** | Distribuído |
+| **Repositório** | Histórico completo em cada diretório de trabalho |
+| **Independência** | Não depende de acesso a rede ou servidor central |
 
-Assim não é preciso configurar nem manter um servidor.
+---
 
-# Instalação
+## 🌐 O que é GitHub?
 
-[Downloads](https://git-scm.com/downloads)
+> [!success] Plataforma Web
+> Sistema web que provê a hospedagem de repositórios Git. Assim não é preciso configurar nem manter um servidor.
 
-para verificar a instalação 
+---
+
+## 📥 Instalação
+
+🔗 [Downloads do Git](https://git-scm.com/downloads)
+
+**Verificar instalação:**
 
 ```bash
-git -- version
+git --version
 ```
 
-# Utilização
+---
 
-Ir na pasta que você deseja criar ou sincronizar um repositório clicar com botão direito e ir em Git Bash Here.
+## ⚙️ Configuração Inicial
 
-antes precisamos nos identificar para futuros commits
+> [!tip] Identificação
+> Antes de fazer commits, precisamos nos identificar:
 
+```bash
 git config --global user.email "fulano@gmail.com"
-git config --global [user.name](http://user.name/) "Fulano da Silva"
+git config --global user.name "Fulano da Silva"
+```
 
-*tomar cuidado para se der control c control v não ter espaços vazios no início do comando.*
+> [!warning] Atenção
+> Cuidado ao copiar e colar: não deixe espaços vazios no início do comando.
 
-git init - para inicializar um repositório git vazio
+---
 
-git branch -M main - para modificar o nome da branch principal para main
+## 🚀 Comandos Básicos
 
-`git remote add origin [https://github.com/wesleyfolly/class-exercises.git](https://github.com/wesleyfolly/class-exercises.git)` - para criar uma conexão com um repositório remoto
+### Inicialização
 
-git add arquivo - para adicionar um arquivo ao sistema git
+| Comando | Descrição |
+|---------|-----------|
+| `git init` | Inicializa um repositório Git vazio |
+| `git branch -M main` | Modifica nome da branch principal para main |
+| `git remote add origin URL` | Cria conexão com repositório remoto |
 
-git status - para visualizar o que está no stage. O que está para ser comitado
+### Fluxo de Trabalho
 
-git commit -m "primeiro commit" - para "salvar" as alterações no repositório
+| Comando | Descrição |
+|---------|-----------|
+| `git add arquivo` | Adiciona arquivo ao staging |
+| `git status` | Visualiza o que está preparado para commit |
+| `git commit -m "mensagem"` | Salva alterações no repositório |
+| `git push -u origin main` | Envia alterações para repositório remoto |
 
- 
+---
 
-`git push -u origin main` - para jogar alterações para o repositório remoto
+## 📋 Exemplo de Fluxo Completo
 
-# Materiais e referências
+```bash
+# 1. Navegar até a pasta do projeto
+cd meu-projeto
 
-[Como usar Git e Github na prática: Guia para iniciantes | Mayk Brito](https://www.youtube.com/watch?v=2alg7MQ6_sI)
+# 2. Inicializar repositório
+git init
 
-[O QUE É GIT E GITHUB? - definição e conceitos importantes 1/2](https://www.youtube.com/watch?v=DqTITcMq68k)
+# 3. Definir branch principal
+git branch -M main
 
-[COMO USAR GIT E GITHUB NA PRÁTICA! - desde o primeiro commit até o pull request! 2/2](https://www.youtube.com/watch?v=UBAX-13g8OM)
+# 4. Conectar ao repositório remoto
+git remote add origin https://github.com/usuario/repo.git
+
+# 5. Adicionar arquivos
+git add arquivo.py
+
+# 6. Fazer commit
+git commit -m "primeiro commit"
+
+# 7. Enviar para o GitHub
+git push -u origin main
+```
+
+---
+
+## 📚 Materiais e Referências
+
+📺 [Como usar Git e Github na prática: Guia para iniciantes | Mayk Brito](https://www.youtube.com/watch?v=2alg7MQ6_sI)
+
+📺 [O QUE É GIT E GITHUB? - definição e conceitos importantes 1/2](https://www.youtube.com/watch?v=DqTITcMq68k)
+
+📺 [COMO USAR GIT E GITHUB NA PRÁTICA! - desde o primeiro commit até o pull request! 2/2](https://www.youtube.com/watch?v=UBAX-13g8OM)
+

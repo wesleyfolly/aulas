@@ -1,40 +1,84 @@
-# Instalação e configurações
+---
+tipo: aula
+resumo: "Guia de instalação do Python, VS Code e ferramentas necessárias para começar a programar."
+tags:
+  - aula
+  - programacao
+  - python
+  - instalacao
+  - vscode
+---
 
-Para começar, precisamos de alguns itens:
+# Instalação e Configurações
 
-- Python 3
-- VS Code
-- VS Code Python extension
-- (opcional: Ipython)
-- (opcional: Jupyter Notebook)
-- Ao invés do VS Code também é possível utilizar IDEs online como o [https://replit.com/](https://replit.com/)
+> [!quote] Preparando o Ambiente
+> *Antes de programar, precisamos preparar as ferramentas certas.*
 
-Como instalar o python no windows
+---
 
-[Python Brasil-Instalando o Python 3 no Windows](https://python.org.br/instalacao-windows/)
+## 🛠️ Requisitos
 
-Como verificar a versão do python instalada
+> [!info] O que você precisa
 
-`python --version`
+| Ferramenta | Obrigatório | Descrição |
+|------------|-------------|-----------|
+| **Python 3** | ✅ | Linguagem de programação |
+| **VS Code** | ✅ | Editor de código |
+| **Python Extension** | ✅ | Extensão para VS Code |
+| **IPython** | ❌ | Prompt interativo melhorado |
+| **Jupyter Notebook** | ❌ | Ambiente para notebooks |
 
-Gerenciador de pacotes para o python (PIP)
+> [!tip] Alternativa Online
+> Ao invés do VS Code, também é possível utilizar IDEs online como o [Replit](https://replit.com/)
 
-[pip (gerenciador de pacotes)](https://pt.wikipedia.org/wiki/Pip_(gerenciador_de_pacotes))
+---
 
-Utilização
+## 🐍 Instalando Python no Windows
 
-`pip install nome-de-algum-pacote`
+🔗 [Python Brasil - Instalando o Python 3 no Windows](https://python.org.br/instalacao-windows/)
 
-*já é instalado junto com o python
+**Verificar versão instalada:**
 
-Prompt de comando interativo para o python (acrescenta funcionalidades ao prompt padrão)
+```bash
+python --version
+```
 
-[Installing IPython - IPython](https://ipython.org/install.html)
+---
 
-IDE online
+## 📦 Gerenciador de Pacotes (PIP)
 
-[The collaborative browser based IDE](http://replit.com)
+> [!info] O que é PIP?
+> Gerenciador de pacotes para Python. Já vem instalado junto com o Python.
 
-Site oficial do VS Code para download
+🔗 [pip (gerenciador de pacotes)](https://pt.wikipedia.org/wiki/Pip_(gerenciador_de_pacotes))
 
-[Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/download)
+**Instalando um pacote:**
+
+```bash
+pip install nome-do-pacote
+```
+
+---
+
+## 💻 IPython (Opcional)
+
+> [!tip] Prompt Interativo Melhorado
+> Acrescenta funcionalidades ao prompt padrão do Python.
+
+🔗 [Installing IPython](https://ipython.org/install.html)
+
+---
+
+## 🌐 IDE Online
+
+> [!info] Programar no Navegador
+> Se você não puder instalar nada no computador, use uma IDE online.
+
+🔗 [Replit - The collaborative browser based IDE](http://replit.com)
+
+---
+
+## 📥 VS Code
+
+🔗 [Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/download)
+

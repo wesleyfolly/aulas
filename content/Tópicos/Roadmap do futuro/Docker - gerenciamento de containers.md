@@ -1,32 +1,62 @@
-# Docker - gerenciamento de containers
+---
+tipo: aula
+resumo: "Docker: plataforma de virtualização de containers para empacotar, distribuir e executar aplicações de forma isolada."
+tags:
+  - aula
+  - docker
+  - containers
+  - devops
+  - infraestrutura
+---
 
-## O que são containers?
+# Docker - Gerenciamento de Containers
 
-- Containers são como "caixas" que encapsulam uma aplicação e todas as suas dependências (bibliotecas, configurações, etc.)
-- Servem para garantir que uma aplicação e suas dependências sejam executadas de forma consistente em diferentes ambientes, eliminando problemas de compatibilidade.
+> [!quote] Containerização
+> *Docker permite empacotar aplicações com todas as suas dependências, garantindo que rodem de forma consistente em qualquer ambiente.*
 
-- Resolve o problema: “Na minha máquina funciona!”
+---
+
+## 🤔 O que são Containers?
+
+> [!info] Conceito
+> Containers são como "caixas" que encapsulam uma aplicação e todas as suas dependências (bibliotecas, configurações, etc.). Servem para garantir que uma aplicação seja executada de forma consistente em diferentes ambientes.
+
+- Resolve o problema: **"Na minha máquina funciona!"**
 - Não é máquina virtual!
-- Única missão da vida de um container é fazer uma aplicação específica funcionar!
+- Única missão de um container é fazer uma aplicação específica funcionar!
 
-![image.png](../../Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image.png)
+![[Recursos/Roadmap do futuro/Docker - gerenciamento de containers/image.png|Conceito de containers]]
 
-## Exemplo sem container
+---
 
-![image.png](../../Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image%201.png)
+## 📊 Exemplo sem Container
 
-## Exemplo com container
+![[Recursos/Roadmap do futuro/Docker - gerenciamento de containers/image 1.png|Exemplo sem container]]
 
-![image.png](../../Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image%202.png)
+---
 
-## Docker x VMs
+## 📦 Exemplo com Container
 
-![image.png](../../Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image%203.png)
+![[Recursos/Roadmap do futuro/Docker - gerenciamento de containers/image 2.png|Exemplo com container]]
 
-## Surgimento do Docker
+---
 
-- 1990s: Surgiram as primeiras formas de isolamento de processos
-    - O conceito de isolamento de processos surgiu com ferramentas como o chroot, que permite alterar o diretório raiz de um processo, restringindo seu acesso ao restante do sistema operacional.
+## ⚖️ Docker x VMs
+
+![[Recursos/Roadmap do futuro/Docker - gerenciamento de containers/image 3.png|Comparação Docker vs VMs]]
+
+---
+
+## 📜 Surgimento do Docker
+
+| Década | Marco |
+|--------|-------|
+| **1990s** | Primeiras formas de isolamento de processos (chroot) |
+| **2000s** | Surgimento de LXC (Linux Containers) |
+| **2013** | Lançamento do Docker |
+
+> [!example] Exemplo de chroot
+> O conceito de isolamento surgiu com o `chroot`, que permite alterar o diretório raiz de um processo:
 
 ```bash
 # Cria um diretório
@@ -44,50 +74,50 @@ sudo mount -t devpts devpts /mycontainer/dev/pts
 sudo chroot /mycontainer /bin/bash
 ```
 
-- Exemplo de container nativo no Linux puro
+![[Recursos/Roadmap do futuro/Docker - gerenciamento de containers/image 4.png|Container nativo no Linux]]
 
-![image.png](../../Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image%204.png)
+---
 
-- 2000s: Surgimento de tecnologias de virtualização e de isolamento de recursos, como LXC (Linux Containers).
-- 2013 Lançamento do Docker, que popularizou o uso de containers ao simplificar sua criação, distribuição e gerenciamento.
+## 🐳 O que é Docker?
 
-## O que é Docker?
+> [!info] Definição
+> Docker é uma plataforma de virtualização de containers que permite empacotar, distribuir e executar aplicações de forma isolada e consistente. Diferente das máquinas virtuais tradicionais, containers Docker compartilham o kernel do sistema operacional host, tornando-os mais leves e eficientes.
 
-Docker é uma plataforma de virtualização de containers que permite empacotar, distribuir e executar aplicações de forma isolada e consistente. Diferente das máquinas virtuais tradicionais, containers Docker compartilham o kernel do sistema operacional host, tornando-os mais leves e eficientes.
+---
 
-## Principais benefícios do Docker
+## ✨ Principais Benefícios
 
-- Isolamento: Cada container roda de forma isolada, com seus próprios processos, redes e sistemas de arquivos
-- Portabilidade: "Build once, run anywhere" - containers podem ser executados em qualquer ambiente que tenha Docker instalado
-- Eficiência: Containers são mais leves que VMs tradicionais e iniciam mais rapidamente
-- Escalabilidade: Facilita a criação e gerenciamento de múltiplas instâncias da aplicação
+| Benefício | Descrição |
+|-----------|-----------|
+| **Isolamento** | Cada container roda de forma isolada |
+| **Portabilidade** | "Build once, run anywhere" |
+| **Eficiência** | Mais leve que VMs tradicionais |
+| **Escalabilidade** | Facilita múltiplas instâncias |
 
-## Componentes principais do Docker
+---
 
-## Docker Engine
+## 🧩 Componentes Principais
+
+### Docker Engine
 
 O mecanismo principal do Docker que cria e gerencia containers.
 
-## Docker Hub
+### Docker Hub
 
-https://hub.docker.com/search?badges=official
+> [!info] Repositório de Imagens
+> 🔗 [hub.docker.com](https://hub.docker.com/search?badges=official)
 
-O Docker Hub é o registro público oficial de imagens Docker - um repositório centralizado onde você pode encontrar, compartilhar e distribuir imagens Docker. Funciona de forma similar ao GitHub, mas para imagens Docker.
+O Docker Hub é o registro público oficial de imagens Docker:
 
 - Repositório oficial de imagens base e populares
-- Possibilidade de criar repositórios públicos e privados
+- Repositórios públicos e privados
 - Integração com sistemas de CI/CD
-- Controle de versões de imagens através de tags
+- Controle de versões através de tags
 
-## Dockerfile
+### Dockerfile
 
-Dockerfile é um arquivo de texto que contém todas as instruções necessárias para criar uma imagem Docker. 
-
-- A imagem base a ser utilizada
-- Comandos a serem executados durante a construção
-- Arquivos a serem copiados para dentro da imagem
-- Portas a serem expostas
-- Comando padrão a ser executado quando o container iniciar
+> [!info] Arquivo de Configuração
+> Arquivo de texto que contém todas as instruções para criar uma imagem Docker.
 
 ```jsx
 FROM node:14
@@ -99,109 +129,127 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
-## Sobre componentes e camadas
+---
 
-## Imagens
+## 🏗️ Sobre Componentes e Camadas
 
-- Imagens Docker são templates imutáveis que são utilizados para criar containers. Elas contêm tudo que é necessário para rodar uma aplicação: código, runtime, bibliotecas, variáveis de ambiente, e arquivos de configuração.
-- Imagens são construídas em camadas. Cada instrução em um Dockerfile cria uma nova camada na imagem. Isso facilita o versionamento e a reutilização de camadas entre diferentes imagens.
+### Imagens
 
-![image.png](../../Recursos/Roadmap%20do%20futuro/Docker%20-%20gerenciamento%20de%20containers/image%205.png)
+- Templates imutáveis para criar containers
+- Contêm código, runtime, bibliotecas e configurações
+- Construídas em camadas (cada instrução cria uma nova camada)
 
-## Volumes
+![[Recursos/Roadmap do futuro/Docker - gerenciamento de containers/image 5.png|Camadas de imagens Docker]]
 
-- São espaços de armazenamento que os containers usam para persistir dados. (Tipo um HD virtual)
+### Volumes
 
-## Redes
+São espaços de armazenamento para persistir dados (como um HD virtual).
 
-O Docker cria automaticamente algumas redes padrão:
+### Redes
 
-- bridge: Rede padrão para containers em um único host.
-- host: Containers compartilham a rede do host.
-- none: Desabilita a rede para o container
+| Tipo | Descrição |
+|------|-----------|
+| **bridge** | Rede padrão para containers em um único host |
+| **host** | Containers compartilham a rede do host |
+| **none** | Desabilita a rede para o container |
 
-## Instalação do Docker
+---
 
-## Windows
+## 💻 Instalação do Docker
 
-[https://docs.docker.com/desktop/setup/install/windows-install/](https://docs.docker.com/desktop/setup/install/windows-install/)
+### Windows
 
-## Requisitos
+> [!info] Requisitos
+> - Windows 10 ou superior atualizado
+> - WSL versão 1.1.3 ou superior
 
-- Windows 10 ou superior atualizado
-- WSL versão 1.1.3 ou superior
+🔗 [Instalação Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/)
 
-## WSL
+#### Instalando WSL
 
-[https://learn.microsoft.com/pt-br/windows/wsl/install](https://learn.microsoft.com/pt-br/windows/wsl/install)
+🔗 [Documentação WSL](https://learn.microsoft.com/pt-br/windows/wsl/install)
 
-1.  No PowerShell como administrador.
+1. No PowerShell como administrador:
 
 ```bash
 wsl --install
 ```
 
-1. Reiniciar e depois abrir a nova aplicação disponível “Ubuntu” (padrão).
-2. Criar um usuário e senha para o sistema Linux. Após definir, está pronto para uso.
+2. Reiniciar e abrir a aplicação "Ubuntu"
+3. Criar usuário e senha para o sistema Linux
 
-## Docker Desktop
+#### Docker Desktop
 
-1. Instalar
-
-[https://docs.docker.com/desktop/setup/install/windows-install/](https://docs.docker.com/desktop/setup/install/windows-install/)
-
-1. Testar
+1. Baixar e instalar do [site oficial](https://docs.docker.com/desktop/setup/install/windows-install/)
+2. Testar:
 
 ```bash
 docker run hello-world
 ```
 
-## Linux
+### Linux
 
-[https://docs.docker.com/desktop/setup/install/linux/](https://docs.docker.com/desktop/setup/install/linux/)
+🔗 [Instalação para Linux](https://docs.docker.com/desktop/setup/install/linux/)
 
-## Principais comandos do Docker
+---
 
-## Gerenciamento de Imagens
+## 🔧 Principais Comandos do Docker
 
-- `docker build .` - Constrói uma imagem a partir de um Dockerfile
-- `docker pull [imagem]` - Baixa uma imagem do Docker Hub
-- `docker images` - Lista todas as imagens locais
-- `docker rmi [imagem]` - Remove uma imagem específica
+### Gerenciamento de Imagens
 
-## Gerenciamento de Containers
+| Comando | Descrição |
+|---------|-----------|
+| `docker build .` | Constrói uma imagem a partir de um Dockerfile |
+| `docker pull [imagem]` | Baixa uma imagem do Docker Hub |
+| `docker images` | Lista todas as imagens locais |
+| `docker rmi [imagem]` | Remove uma imagem específica |
 
-- `docker run [imagem]` - Cria e inicia um novo container
-- `docker ps` - Lista containers em execução
-- `docker ps -a` - Lista todos os containers (incluindo parados)
-- `docker start [container]` - Inicia um container existente
-- `docker stop [container]` - Para um container em execução
-- `docker rm [container]` - Remove um container
+### Gerenciamento de Containers
 
-## Logs e Debugging
+| Comando | Descrição |
+|---------|-----------|
+| `docker run [imagem]` | Cria e inicia um novo container |
+| `docker ps` | Lista containers em execução |
+| `docker ps -a` | Lista todos os containers |
+| `docker start [container]` | Inicia um container existente |
+| `docker stop [container]` | Para um container em execução |
+| `docker rm [container]` | Remove um container |
 
-- `docker logs [container]` - Exibe logs do container
-- `docker exec -it [container] bash` - Acessa o terminal do container
+### Logs e Debugging
 
-## Opções comuns do docker run
+| Comando | Descrição |
+|---------|-----------|
+| `docker logs [container]` | Exibe logs do container |
+| `docker exec -it [container] bash` | Acessa o terminal do container |
 
-- `-d` - Executa em modo detached (background)
-- `-p [host-port]:[container-port]` - Mapeia portas
-- `-v [host-path]:[container-path]` - Monta volumes
-- `--name [nome]` - Define um nome para o container
-- `-t` - Define uma tag/nome para a imagem durante o build ou execução
+### Opções Comuns do docker run
 
-## Docker-compose
+| Flag | Descrição |
+|------|-----------|
+| `-d` | Executa em modo detached (background) |
+| `-p [host]:[container]` | Mapeia portas |
+| `-v [host]:[container]` | Monta volumes |
+| `--name [nome]` | Define um nome para o container |
+| `-t` | Define uma tag/nome para a imagem |
 
-**Docker Compose** é uma ferramenta para orquestrar aplicações multi-containers, permitindo definir e executar múltiplos containers Docker de forma declarativa através de um único arquivo YAML. Com ele, você pode configurar todos os serviços, redes e volumes necessários para sua aplicação em um único lugar, facilitando o gerenciamento e deploy de aplicações complexas
+---
 
-## Prática: Dockerizando uma aplicação Flask-Login
+## 🎼 Docker Compose
 
-- [https://github.com/devmoreir4/sample-flask-auth](https://github.com/devmoreir4/sample-flask-auth)
+> [!info] Orquestração Multi-Container
+> Docker Compose permite definir e executar múltiplos containers de forma declarativa através de um único arquivo YAML.
 
-- [x]  Adicionar no projeto o arquivo docker-compose.yml
+---
 
-```bash
+## 🎯 Prática: Dockerizando uma Aplicação Flask-Login
+
+🔗 [Repositório do Projeto](https://github.com/devmoreir4/sample-flask-auth)
+
+### Parte I: Banco de Dados em Container
+
+#### 1. Criar docker-compose.yml
+
+```yaml
 services:
   db:
     image: mysql:latest
@@ -218,10 +266,9 @@ services:
       - '3306'
     volumes:
       - ../flask-files/mysql:/var/lib/mysql
-
 ```
 
-- [x]  Criar um arquivo .env na raiz do projeto
+#### 2. Criar arquivo .env
 
 ```bash
 MYSQL_USER=admin
@@ -231,67 +278,44 @@ MYSQL_ROOT_PASSWORD=admin123
 SECRET_KEY = 'secretkeytest'
 ```
 
-- [x]  Executar e buildar o arquivo docker-compose.yml
+#### 3. Executar e buildar
 
 ```bash
 docker-compose up --build
 ```
 
-- [x]  Executar o arquivo app.py
+#### 4. Executar a aplicação
 
 ```bash
 python app.py
 ```
 
-Podemos executar um terminal dentro do container e printar as tabelas para exibir seu conteúdo e garantir que realmente os usuários foram criados. Para isso, vamos fazer o seguinte:
-
-- [x]  Execute o seguinte comando para abrir um shell dentro do container MySQL:
+#### 5. Verificar dados no container MySQL
 
 ```bash
+# Acessar o container
 docker exec -it mysql-container bash
-```
 
-- [ ]  Agora que está dentro do container, conecte-se ao MySQL com:
-
-```bash
+# Conectar ao MySQL
 mysql -u admin -p
-```
 
-- [ ]  Depois de entrar no MySQL, selecione o banco:
-
-```bash
+# Selecionar banco e listar dados
 USE flask-crud;
-```
-
-- [x]  Liste as tabelas
-
-```bash
 SHOW TABLES;
-```
-
-- [x]  Para visualizar os registros da tabela
-
-```bash
 SELECT * FROM user;
-```
 
-- [x]  Para sair do MySQL, use:
-
-```bash
+# Sair
 EXIT;
-```
-
-- [x]  Para sair do container:
-
-```bash
 exit
 ```
 
-## Parte II: Dockerizando 100% do projeto
+---
 
-- [x]  Criar um Dockerfile na raiz do projeto
+### Parte II: Dockerizando 100% do Projeto
 
-```bash
+#### 1. Criar Dockerfile
+
+```dockerfile
 # Usa uma imagem oficial do Python como base
 FROM python:3.11
 
@@ -314,9 +338,9 @@ EXPOSE 5000
 CMD ["python", "app.py"]
 ```
 
-- [x]  Atualizar o arquivo docker-compose.yml
+#### 2. Atualizar docker-compose.yml
 
-```bash
+```yaml
 services:
   app:
     build:
@@ -356,7 +380,7 @@ services:
       retries: 5
 ```
 
-- [x]  Criar um arquivo .dockerignore
+#### 3. Criar .dockerignore
 
 ```bash
 __pycache__/
@@ -365,15 +389,10 @@ __pycache__/
 venv
 ```
 
-- URI significa Uniform Resource Identifier (Identificador Uniforme de Recurso) e é uma sequência de caracteres usada para identificar um recurso na web ou em um sistema de rede. No contexto de bancos de dados, uma URI de banco de dados é uma string de conexão que descreve onde e como se conectar a um banco de dados.
-- Exemplo de URI
-    
-    ```python
-    mysql+pymysql://usuario:senha@localhost:3306/meu_banco_de_dados
-    ```
-    
+#### 4. Atualizar app.py com URI dinâmica
 
-- [x]  Atualizar no arquivo app.py:
+> [!info] O que é URI?
+> Uniform Resource Identifier - string de conexão que descreve onde e como conectar a um banco de dados.
 
 ```python
 app.config['SQLALCHEMY_DATABASE_URI'] = (
@@ -382,46 +401,49 @@ app.config['SQLALCHEMY_DATABASE_URI'] = (
 )
 ```
 
-- [x]  Buildar novamente os containers
+#### 5. Buildar novamente
 
-```python
+```bash
 docker-compose up --build
 ```
 
 ---
 
-## EXTRA
+## 📚 EXTRA: Comandos Docker Compose
 
-## Principais comandos docker-compose
+### Comandos Principais
 
-- `docker-compose up` - Inicia todos os serviços definidos no arquivo docker-compose.yml
-- `docker-compose up --build` - Força o rebuild das imagens antes de iniciar os serviços
-- `docker-compose build [serviço]` - Constrói a imagem do serviço sem executá-lo
-    
-    > 💡 Útil quando você quer apenas preparar o container sem rodar o script principal automaticamente.
-    > 
-- `docker-compose down` - Para e remove todos os containers, redes e volumes definidos
-- `docker-compose ps` - Lista todos os containers em execução do compose
-- `docker-compose logs` - Exibe os logs de todos os serviços
-- `docker-compose logs [serviço]` - Exibe os logs de um serviço específico
-- `docker-compose stop` - Para todos os serviços sem remover os containers
-- `docker-compose start` - Inicia serviços que foram parados
-- `docker-compose restart` - Reinicia todos os serviços
-- `docker-compose exec [serviço] [comando]` - Executa um comando em um serviço específico
-- `docker-compose run [serviço] bash` - Acessa o terminal bash de um serviço específico
+| Comando | Descrição |
+|---------|-----------|
+| `docker-compose up` | Inicia todos os serviços |
+| `docker-compose up --build` | Força rebuild antes de iniciar |
+| `docker-compose build [serviço]` | Constrói imagem sem executar |
+| `docker-compose down` | Para e remove containers/redes/volumes |
+| `docker-compose ps` | Lista containers em execução |
+| `docker-compose logs` | Exibe logs de todos os serviços |
+| `docker-compose logs [serviço]` | Logs de um serviço específico |
+| `docker-compose stop` | Para serviços sem remover |
+| `docker-compose start` | Inicia serviços parados |
+| `docker-compose restart` | Reinicia todos os serviços |
+| `docker-compose exec [serviço] [cmd]` | Executa comando em um serviço |
+| `docker-compose run [serviço] bash` | Acessa terminal de um serviço |
 
-## Flags comuns
+### Flags Comuns
 
-- `-d` - Executa em modo detached (background)
-- `--build` - Força o rebuild das imagens
-    
-    Quando você executa o `docker-compose build` ou usa a flag `--build`, o Docker Compose irá construir todas as imagens definidas no arquivo docker-compose.yml que têm a instrução 'build' especificada. É similar ao comando `docker build`, mas com algumas diferenças importantes:
-    
-    - O Docker Compose automaticamente constrói todas as imagens necessárias em um único comando
-    - Ele mantém um cache das imagens construídas e só reconstrói o que foi modificado
-    - O contexto de build é definido no docker-compose.yml, não sendo necessário especificar o caminho do Dockerfile manualmente
-- `--force-recreate` - Força a recriação dos containers
-- `-f` - Especifica um arquivo compose alternativo
+| Flag | Descrição |
+|------|-----------|
+| `-d` | Executa em modo detached (background) |
+| `--build` | Força rebuild das imagens |
+| `--force-recreate` | Força recriação dos containers |
+| `-f` | Especifica arquivo compose alternativo |
 
-> [!TIP]
-> Essa página foi criada pelos alunos: Kauã Gonçalves e Carlos Armando
+> [!tip] Contribuição
+> Essa página foi criada pelos alunos: **Kauã Gonçalves** e **Carlos Armando**
+
+---
+
+## 📎 Veja Também
+
+- [[Python - principal linguagem]]
+- [[GitHub - gerenciamento de código]]
+

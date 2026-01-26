@@ -1,13 +1,45 @@
+---
+tipo: aula
+resumo: "Idealização: como identificar oportunidades e transformar ideias em projetos práticos."
+tags:
+  - aula
+  - ideias
+  - projetos
+  - oportunidades
+---
+
 # Idealização
 
-https://www.instagram.com/reel/DG6YxhASS5K/?igsh=ZmZocThwOGFucHNx
+> [!quote] Da Ideia à Execução
+> *Mesmo que você não tenha uma boa ideia no momento, é interessante praticar e conhecer as tecnologias. Quando a ideia vier, você conseguirá implementá-la sem ter que estudar tudo do zero.*
 
-Procurar Relatórios e gaps de mercado
+---
 
-Mesmo que você não tenha uma boa ideia no momento. É interessante praticar e conhecer as tecnologias para quando a ideia vier você conseguirá implementá-la sem ter que estudar tudo do zero. 
+## 🎯 Onde Buscar Ideias
 
-O que estamos vendo pela internet:
+> [!tip] Fontes de Inspiração
 
-1. Pessoas ganhando dinheiro produzindo vídeos de IA no insta com tudo no automático
-2. Programa que visualiza a sua tela e posso fazer perguntas sobre o que está na tela
-3. Automatizar  a captação de clientes para venda de serviço de chatbot
+- Procurar **relatórios e gaps de mercado**
+- Observar **tendências nas redes sociais**
+- Identificar **problemas do dia a dia**
+- Acompanhar o que está funcionando para outros
+
+---
+
+## 🔥 O que Estamos Vendo na Internet
+
+> [!info] Tendências Atuais
+
+| # | Ideia | Descrição |
+|---|-------|-----------|
+| 1 | **Vídeos de IA automáticos** | Pessoas ganhando dinheiro produzindo vídeos com IA no Instagram de forma automatizada |
+| 2 | **Assistente de tela** | Programa que visualiza sua tela e responde perguntas sobre o que está nela |
+| 3 | **Captação automatizada** | Automatizar a captação de clientes para venda de serviço de chatbot |
+
+---
+
+## 📺 Referências
+
+> [!tip] Conteúdo Inspirador
+> 🔗 [Reel sobre idealização](https://www.instagram.com/reel/DG6YxhASS5K/?igsh=ZmZocThwOGFucHNx)
+

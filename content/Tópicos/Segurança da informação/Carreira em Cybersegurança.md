@@ -19,9 +19,9 @@ tags:
 > [!info] Visão Geral
 > A cybersegurança é um campo amplo com diversas especializações. Entenda onde cada profissional se encaixa.
 
-![[Recursos/Segurança da informação/seguranca-da-informacao.png|Mapa de carreiras em cybersegurança]]
+![[Recursos/Segurança da informação/Carreira em Cybersegurança/carreira-em-cyberseguranca.png|Times de Segurança]]
 
-![[Recursos/Segurança da informação/seguranca-da-informacao-1.png|Áreas de atuação]]
+![[Recursos/Segurança da informação/Carreira em Cybersegurança/carreira-em-cyberseguranca-1.png|Red Team vs Blue Team]]
 
 ---
 

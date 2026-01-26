@@ -1,9 +1,26 @@
+---
+tipo: recurso
+resumo: "Links e materiais externos para estudo de programação: roadmaps e canais recomendados."
+tags:
+  - recurso
+  - programacao
+  - materiais
+  - roadmap
+---
+
 # Materiais
 
-Developer Roadmaps
+> [!quote] Recursos de Estudo
+> *Uma curadoria de materiais externos para complementar seus estudos.*
 
-[Developer Roadmaps](https://roadmap.sh/roadmaps)
+---
 
-[](https://www.youtube.com/c/RocketSeat/featured)
+## 🗺️ Roadmaps
 
-Canal da Rocket Seat
+🔗 [Developer Roadmaps](https://roadmap.sh/roadmaps) - Guias visuais de carreira para desenvolvedores
+
+---
+
+## 📺 Canais Recomendados
+
+🔗 [Canal da Rocketseat](https://www.youtube.com/c/RocketSeat/featured) - Conteúdo sobre desenvolvimento web e mobile

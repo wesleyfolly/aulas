@@ -1,38 +1,70 @@
-# Projeto Programador nômade minimalista
+---
+tipo: projeto
+resumo: "Projeto de empreendedorismo digital: criar micro produtos com programação, seguindo a filosofia indie hacker."
+tags:
+  - projeto
+  - programacao
+  - empreendedorismo
+  - startup
+  - indie-hacker
+---
 
-> [!INFO]
-> <img src="https://www.notion.so/icons/directional-sign_green.svg" alt="https://www.notion.so/icons/directional-sign_green.svg" width="40px" />
-> Vamos desenvolver essa ideia juntos
+# Projeto: Programador Nômade Minimalista
 
-# Analisar o mercado
+> [!quote] Desenvolva Ideias
+> *Vamos desenvolver essa ideia juntos: criar produtos digitais de forma simples e eficiente.*
 
-https://www.youtube.com/watch?v=oFtjKbXKqbg&t=5205s
+---
 
-[transcrição youtube peter levels.pdf](03%20-%20IFF/Aulas/Recursos/Programação/Projeto%20Programador%20nômade%20minimalista/transcricao_youtube_peter_levels.pdf)
+## 📊 Analisar o Mercado
 
-[Pinokio](https://pinokio.computer/)
+📺 [Entrevista Peter Levels](https://www.youtube.com/watch?v=oFtjKbXKqbg&t=5205s)
 
-Lista de ideias
+![[Recursos/Programação/Projeto Programador nômade minimalista/transcricao_youtube_peter_levels.pdf|Transcrição Peter Levels]]
 
-1. Criar um site usando uma um chatbot pronto com modelo disponível no GitHub/Pinokio
-2. 
+🔗 [Pinokio](https://pinokio.computer/) - Ferramenta para rodar modelos de IA localmente
 
-# Elaborar uma ideia
+---
 
-utilizando o bussiness model canvas
+## 💡 Lista de Ideias
 
-# Modelo de negócio
+1. Criar um site usando um chatbot pronto com modelo disponível no GitHub/Pinokio
+2. *(A expandir)*
 
-# Como entregar um micro produto o mais rápido possível (no ar)
+---
 
-# Como abrir uma startup minimalista
+## 📝 Etapas do Projeto
 
-# Marketing e disponibilização do produto
+### 1. Elaborar uma Ideia
 
-# Como monetizar o produto
+> [!tip] Ferramenta
+> Utilizar o **Business Model Canvas** para estruturar a ideia.
 
-# Recursos
+### 2. Modelo de Negócio
 
-[Aprenda a Utilizar os 700 Mil Modelos Gratuitos na Plataforma Hugging Face!](https://www.youtube.com/watch?v=tf1DKdpulVc)
+Definir como o produto gerará valor e receita.
 
-[Asimov Academy on Instagram: "A Black Friday da Asimov está chegando!  O maior desconto da nossa história será revelado ao vivo no dia 11 de novembro, às 19h30.   Mas teremos vagas limitadas, então para garantir que você vai receber essa oferta, precisa fazer sua pré-inscrição.  Toque no botão e entre no grupo oficial agora."](https://www.instagram.com/p/DB3p_tjs3FO/)
+### 3. MVP (Produto Mínimo Viável)
+
+> [!info] Objetivo
+> Como entregar um micro produto o mais rápido possível (no ar).
+
+### 4. Estrutura Empresarial
+
+Como abrir uma startup minimalista.
+
+### 5. Marketing e Distribuição
+
+Estratégias para disponibilizar o produto ao público.
+
+### 6. Monetização
+
+Como gerar receita com o produto.
+
+---
+
+## 📚 Recursos
+
+📺 [Aprenda a Utilizar os 700 Mil Modelos Gratuitos na Plataforma Hugging Face!](https://www.youtube.com/watch?v=tf1DKdpulVc)
+
+🔗 [Asimov Academy no Instagram](https://www.instagram.com/p/DB3p_tjs3FO/)

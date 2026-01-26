@@ -1,21 +1,65 @@
-# Conteúdo e materiais
+---
+tipo: referencia
+resumo: "Materiais de apoio para a disciplina de Redes de Computadores, incluindo apostilas, vídeos e recursos online."
+tags:
+  - referencia
+  - redes-de-computadores
+  - materiais
+  - apostilas
+---
 
-# Apostilas
+# Conteúdo e Materiais
 
-[Apostila 1 - Fundamentos de redes.pdf](03%20-%20IFF/Aulas/Recursos/Redes%20de%20Computadores/Conteúdo%20e%20materiais/Apostila_1_-_Fundamentos_de_redes.pdf)
+> [!quote] Recursos de Aprendizado
+> *Materiais complementares para aprofundar seus conhecimentos em redes de computadores.*
 
-[Apostila 2 - Redes.pdf](03%20-%20IFF/Aulas/Recursos/Redes%20de%20Computadores/Conteúdo%20e%20materiais/Apostila_2_-_Redes.pdf)
+---
 
-[Apostila 3 - Protocolos e serviços de rede.pdf](03%20-%20IFF/Aulas/Recursos/Redes%20de%20Computadores/Conteúdo%20e%20materiais/Apostila_3_-_Protocolos_e_servios_de_rede.pdf)
+## 📚 Apostilas
 
-# Podcasts
+> [!info] Material de Estudo
 
-# Sites
+| Apostila | Conteúdo |
+|----------|----------|
+| **Apostila 1** | Fundamentos de Redes |
+| **Apostila 2** | Redes |
+| **Apostila 3** | Protocolos e Serviços de Rede |
 
-# Perfis e pessoas
+---
 
-# Livros e Artigos
+## 🎙️ Podcasts
 
-# Canais do youtube / Vídeos
+> [!tip] Em Construção
+> *Conteúdo a ser adicionado.*
 
-[NetworkChuck](https://www.youtube.com/@NetworkChuck)
+---
+
+## 🌐 Sites
+
+> [!tip] Em Construção
+> *Conteúdo a ser adicionado.*
+
+---
+
+## 👥 Perfis e Pessoas
+
+> [!tip] Em Construção
+> *Conteúdo a ser adicionado.*
+
+---
+
+## 📖 Livros e Artigos
+
+> [!tip] Em Construção
+> *Conteúdo a ser adicionado.*
+
+---
+
+## 🎬 Canais do YouTube
+
+> [!success] Recomendados
+
+| Canal | Descrição |
+|-------|-----------|
+| [**NetworkChuck**](https://www.youtube.com/@NetworkChuck) | Conteúdo técnico de redes e cybersecurity em inglês |
+

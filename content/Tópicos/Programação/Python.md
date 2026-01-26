@@ -1,34 +1,60 @@
+---
+tipo: aula
+resumo: "Hub da linguagem Python com links para materiais, notebooks e ideias de práticas."
+tags:
+  - aula
+  - programacao
+  - python
+---
+
 # Python
 
-> [!TIP]
-> Primeiros passos
+> [!quote] Linguagem Versátil
+> *Python é uma linguagem de alto nível, interpretada e de propósito geral, conhecida por sua sintaxe limpa e legível.*
 
-[[Instalação e configurações]]
+---
 
-[[Materiais e conceitos básicos]]
+## 🚀 Primeiros Passos
 
-[[Banco de códigos e Bibliotecas]]
+> [!tip] Começando
 
-> [!INFO]
-> 📗 Notebooks
+- [[Instalação e configurações]]
+- [[Materiais e conceitos básicos]]
+- [[Banco de códigos e Bibliotecas]]
 
-[[Google colaboratory]]
+---
 
-[[Jupyter Notebook|**Jupyter Notebook** ]]
+## 📓 Notebooks
 
-[[JupyterLab|**JupyterLab**]]
+> [!info] Ambientes Interativos
 
-# Possíveis práticas
+- [[Google colaboratory]]
+- [[Jupyter Notebook]]
+- [[JupyterLab]]
 
-1. explorar bibliotecas de python + gpt
-2. Acessar uma página web em intervalos de tempo e informar se algo mudou (e o que mudou) (crypto fear and greed)
-3. Código python para vigiar índice de fear and greed bitcoin e mandar email
-4. Me notificar quando um youtuber publicar um vídeo
-5. Preencher um formulário web automaticamente
-6. ~~Criação de Bot simples para mercado financeiro~~
-7. ~~Aprender sobre JUPYTER NOTEBOOKS~~
-8. Criar programa que interaja com o Notion para funções básicas
-9. Publicações automatizadas em perfis sociais. Pegando informações de outros locais.
-10. Buscar top 10 vídeos mais visualizados de uma lista de canais no youtube
-11. Buscar posts mais curtidos de um perfil
-12. Utilizar biblioteca beautifulSoup ou scrapy para coleta de informações em sites
+---
+
+## 💡 Ideias de Práticas
+
+> [!success] Projetos para Desenvolver
+
+| # | Projeto | Descrição |
+|---|---------|-----------|
+| 1 | **Explorar bibliotecas** | Usar bibliotecas Python + GPT |
+| 2 | **Monitor de páginas** | Acessar página em intervalos e detectar mudanças |
+| 3 | **Fear and Greed** | Vigiar índice Bitcoin e enviar email |
+| 4 | **YouTube Notifier** | Notificar quando youtuber publicar vídeo |
+| 5 | **Automação Web** | Preencher formulário web automaticamente |
+| 6 | **Notion API** | Programa que interaja com Notion |
+| 7 | **Social Media Bot** | Publicações automatizadas em redes sociais |
+| 8 | **YouTube Analytics** | Top 10 vídeos mais visualizados de canais |
+| 9 | **Social Scraper** | Posts mais curtidos de um perfil |
+| 10 | **Web Scraping** | BeautifulSoup ou Scrapy para coleta de dados |
+
+---
+
+## 🔗 Projetos Relacionados
+
+- [[Projeto Automação de vida com python]]
+- [[Projeto Programador nômade minimalista]]
+

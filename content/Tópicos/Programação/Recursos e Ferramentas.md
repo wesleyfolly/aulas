@@ -1,29 +1,57 @@
+---
+tipo: aula
+resumo: "Recursos, ferramentas e cursos online para aprender programação."
+tags:
+  - aula
+  - programacao
+  - recursos
+  - ferramentas
+---
+
 # Recursos e Ferramentas
 
-# Instalação do Python no Windows
+> [!quote] Arsenal do Programador
+> *Conhecer as ferramentas certas acelera seu aprendizado e desenvolvimento.*
 
-- Pela Microsoft store é possível instalar o Python sem a senha de administrador
+---
 
-Cursos online
+## 🐍 Python no Windows
 
-[Curso em Vídeo - Só não aprende quem não quer!](https://www.cursoemvideo.com/)
+> [!tip] Instalação Fácil
+> Pela Microsoft Store é possível instalar o Python **sem a senha de administrador**.
 
-Gerenciador de pacotes para windows
+---
 
-[Chocolatey - The package manager for Windows](https://chocolatey.org/)
+## 📚 Cursos Online
 
-Framework de programação (de acordo com a preferência)
+🔗 [Curso em Vídeo - Só não aprende quem não quer!](https://www.cursoemvideo.com/)
 
-[Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
+---
 
-Um local online para você programar (caso não possa usar o vscode)
+## 📦 Gerenciador de Pacotes Windows
 
-[CodePen](https://codepen.io/)
+🔗 [Chocolatey - The package manager for Windows](https://chocolatey.org/)
 
-Outra opção para codar online
+---
 
-[CodeSandbox: Online Code Editor and IDE for Rapid Web Development](https://codesandbox.io/)
+## 💻 Ferramentas de Desenvolvimento
 
-Primeiros passos no VS Code
+### VS Code
 
-[Introdução ao Visual Studio Code](https://www.devmedia.com.br/introducao-ao-visual-studio-code/34418)
+> [!success] Editor Recomendado
+
+🔗 [Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
+
+📖 [Introdução ao Visual Studio Code](https://www.devmedia.com.br/introducao-ao-visual-studio-code/34418)
+
+---
+
+### IDEs Online
+
+> [!info] Programar no Navegador
+
+| Ferramenta | Descrição |
+|------------|-----------|
+| [CodePen](https://codepen.io/) | Editor online para HTML, CSS e JS |
+| [CodeSandbox](https://codesandbox.io/) | IDE completa no navegador |
+

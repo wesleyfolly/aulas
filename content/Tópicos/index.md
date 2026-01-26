@@ -1,7 +1,7 @@
 ---
 title: "Tópicos e Disciplinas"
 tipo: índice
-resumo: Índice centralizado de todas as disciplinas e tópicos disponíveis, organizados por área de conhecimento
+resumo: "Índice centralizado de todas as disciplinas e tópicos disponíveis, organizados por área de conhecimento."
 tags:
   - índice
   - disciplinas
@@ -10,49 +10,49 @@ tags:
 
 # 📚 Tópicos e Disciplinas
 
-Bem-vindo à seção de Tópicos! Aqui você encontra todas as disciplinas e conteúdos disponíveis, organizados por área de conhecimento.
-
-## 🎓 Programação e Desenvolvimento
-
-### [[Programação/index|Programação]]
-Conceitos, linguagens e projetos práticos de programação.
-
-### [[Fundamentos da computação/index|Fundamentos da computação]]
-Base teórica da computação, incluindo hardware, software, algoritmos e sistemas.
-
-## 🌐 Redes e Infraestrutura
-
-### [[Redes de Computadores/index|Redes de Computadores]]
-Conceitos, protocolos, configuração de redes e ferramentas práticas.
-
-### [[Segurança da informação/index|Segurança da informação]]
-Cybersegurança, testes de intrusão, ferramentas e proteção de dados.
-
-## 💼 Competências Profissionais
-
-### [[Empreendedorismo/index|Empreendedorismo]]
-Negócios, inovação, carreira e desenvolvimento de projetos.
-
-### [[Roadmap do futuro/index|Roadmap do futuro]]
-Tecnologias emergentes, automação, IA e ferramentas modernas.
-
-### [[Roadmap da Produção Acadêmica/index|Roadmap da Produção Acadêmica]]
-Guia completo para produção acadêmica, desde a ideação até a apresentação.
-
-## 📖 Outras Disciplinas
-
-### [[Informática básica/index|Informática básica]]
-Introdução à computação, ferramentas básicas e conceitos fundamentais.
-
-### [[Sistemas operacionais/index|Sistemas operacionais]]
-Fundamentos de sistemas operacionais, gerenciamento de processos e memória.
-
-### [[Organização e produtividade/index|Organização e produtividade]]
-Gestão pessoal, produtividade e organização de trabalho.
-
-### [[Outras habilidades adjacentes/index|Outras habilidades adjacentes]]
-Habilidades complementares, ferramentas e conhecimentos auxiliares.
+> [!quote] Central de Conhecimento
+> *Aqui você encontra todas as disciplinas e conteúdos disponíveis, organizados por área de conhecimento.*
 
 ---
 
-> 💡 **Dica:** Clique em qualquer disciplina acima para acessar sua página principal e explorar todo o conteúdo disponível.
+## 🎓 Programação e Desenvolvimento
+
+| Disciplina | Descrição |
+|------------|-----------|
+| [[Programação/index\|Programação]] | Conceitos, linguagens e projetos práticos |
+| [[Fundamentos da computação/index\|Fundamentos da Computação]] | Hardware, software, algoritmos e sistemas |
+
+---
+
+## 🌐 Redes e Infraestrutura
+
+| Disciplina | Descrição |
+|------------|-----------|
+| [[Redes de Computadores/index\|Redes de Computadores]] | Protocolos, configuração e ferramentas práticas |
+| [[Segurança da informação/index\|Segurança da Informação]] | Cybersegurança, pentesting e proteção de dados |
+| [[Sistemas operacionais/index\|Sistemas Operacionais]] | Windows, Linux e gerenciamento de recursos |
+
+---
+
+## 💼 Competências Profissionais
+
+| Disciplina | Descrição |
+|------------|-----------|
+| [[Empreendedorismo/index\|Empreendedorismo]] | Negócios, inovação e carreira |
+| [[Roadmap do futuro/index\|Roadmap do Futuro]] | IA, automação e ferramentas modernas |
+| [[Roadmap da Produção Acadêmica/index\|Produção Acadêmica]] | Da ideação à publicação de artigos |
+
+---
+
+## 📖 Disciplinas Complementares
+
+| Disciplina | Descrição |
+|------------|-----------|
+| [[Informática básica/index\|Informática Básica]] | Ferramentas básicas e conceitos fundamentais |
+| [[Organização e produtividade/index\|Organização e Produtividade]] | Gestão pessoal e produtividade |
+
+---
+
+> [!tip] Navegação
+> Clique em qualquer disciplina para acessar sua página principal e explorar todo o conteúdo disponível.
+

@@ -1,108 +1,207 @@
-# Ferramentas de rede
+---
+tipo: aula
+resumo: "Ferramentas essenciais para diagnóstico, análise e administração de redes de computadores."
+tags:
+  - aula
+  - redes-de-computadores
+  - ferramentas
+  - diagnostico
+---
 
-# Como usar ferramentas do Linux no windows
+# Ferramentas de Rede
 
-O Windows Subsystem for Linux permite que você rode um ambiente Linux diretamente no Windows. Isso pode ser uma excelente opção se você deseja usar ferramentas baseadas em **Linux**.
+> [!quote] O Arsenal do Administrador
+> *Conhecer as ferramentas certas é essencial para diagnosticar e resolver problemas de rede com eficiência.*
 
-## **Instalar o Windows Subsystem for Linux (WSL)**
+---
 
-Para instalar o WSL:
+## 🐧 Linux no Windows (WSL)
 
-1. Abra o PowerShell como administrador e rode o comando:
-    
-    ```powershell
-    wsl --install
-    ```
-    
-2. Siga as instruções na tela para completar a instalação do WSL e escolha uma distribuição Linux na Microsoft Store (Ubuntu é uma escolha popular).
-3. Após a instalação, abra a linha de comando do Linux através do menu Iniciar.
-4. Atualize os pacotes e instale o programa desejado com:
-    
-    ```bash
-    sudo apt update && sudo apt install programa_que_voce_quer
-    ```
-    
-5. Caso haja problema com a instalação. Tentar instalar um sistema específico. (é preciso reiniciar o windows para reconhecimento da nova máquina virtual no sistema)
+> [!tip] Windows Subsystem for Linux
+> O WSL permite rodar um ambiente Linux diretamente no Windows, ideal para usar ferramentas baseadas em Linux.
+
+### Instalação do WSL
 
 ```powershell
+# Abra o PowerShell como administrador
+wsl --install
+```
+
+```powershell
+# Caso haja problemas, instale uma distribuição específica
 wsl --install ubuntu
 ```
 
-# Ping
+> [!warning] Atenção
+> É necessário reiniciar o Windows após a instalação para reconhecimento da máquina virtual.
+
+### Atualização de Pacotes
+
+```bash
+sudo apt update && sudo apt install programa_que_voce_quer
+```
+
+---
+
+## 🔧 Ferramentas de Diagnóstico
+
+### Ping
+
+> [!info] Teste de Conectividade
+> Verifica se um host está ativo e mede o tempo de resposta.
 
 ```powershell
 ping google.com
 ```
 
-Essa ferramenta é utilizada para duas funções principais.
+| Função | Descrição |
+|--------|-----------|
+| **Verificar atividade** | Confirma se um IP está respondendo |
+| **Medir latência** | Mostra o tempo de resposta (RTT) |
 
-- Saber se um IP está ativo;
-- Saber o tempo de resposta desse equipamento
+![[Recursos/Redes de Computadores/Ferramentas de rede/comando-ping-windows.png|Exemplo de ping]]
 
-![Untitled](../../Recursos/Redes de Computadores/Ferramentas de rede/Untitled.png)
+---
 
-# **Traceroute (Tracert no Windows)**
+### Traceroute / Tracert
+
+> [!info] Rastreamento de Rota
+> Mostra o caminho que os pacotes percorrem até o destino.
 
 ```powershell
+# Windows
 tracert www.iff.edu.br
-traceroute www.iff.edu.br //para linux
+
+# Linux
+traceroute www.iff.edu.br
 ```
 
-- **Utilização**: Traceroute é usado para rastrear a rota que os pacotes de dados tomam da origem ao destino. Ajuda a identificar onde estão ocorrendo atrasos ou problemas na rota.
-- **Exemplo Prático**: Suponha que você esteja enfrentando lentidão ao acessar um website. Você pode usar o comando **`tracert www.exemplo.com`** no prompt de comando do Windows para ver quantos saltos o pacote faz até o servidor do site e quanto tempo cada salto leva.
+> [!tip] Uso Prático
+> Identifica onde estão ocorrendo atrasos ou problemas na rota até um servidor.
 
-# **Whois**
+---
 
-```powershell
+### Whois
+
+> [!info] Consulta de Registro de Domínio
+> Obtém informações sobre o proprietário de um domínio ou IP.
+
+```bash
 whois iff.edu.br
 ```
 
-- **Utilização**: Whois é uma ferramenta usada para obter informações sobre o registro de um domínio ou endereço IP, como o proprietário do domínio, a organização, contato, e endereço.
-- **Exemplo Prático**: Para verificar a quem pertence um domínio, você pode usar um comando Whois, como **`whois exemplo.com`**. Isso retornará informações como o nome do registrante, contato para administração, e datas de expiração do registro.
-- https://registro.br/tecnologia/ferramentas/whois/
+| Informação | Descrição |
+|------------|-----------|
+| **Registrante** | Nome do proprietário do domínio |
+| **Contato** | Email/telefone de administração |
+| **Datas** | Criação e expiração do registro |
 
-# **Nmap**
+🔗 [Whois Registro.br](https://registro.br/tecnologia/ferramentas/whois/)
 
-```powershell
+---
+
+### Nmap
+
+> [!info] Scanner de Rede
+> Descobre hosts e serviços ativos em uma rede.
+
+```bash
+# Ping sweep - lista IPs ativos na rede
 nmap -sn 192.168.1.0/24
 ```
 
-- **Utilização**: Nmap é usado para descobrir hosts e serviços em uma rede de computadores, enviando pacotes para os sistemas e analisando as respostas.
-- **Exemplo Prático**: Você suspeita que existam dispositivos não autorizados conectados à sua rede. Usando o Nmap, você pode escanear sua rede local com **`nmap -sn 192.168.1.0/24`**. Isso realizará um ping sweep para listar quais IPs estão ativos.
-- Quando você usa o parâmetro **`-sn`**, o Nmap envia pacotes ICMP Echo Requests (ping), pacotes TCP usando a flag SYN para a porta 443, e pacotes ARP para redes locais.
+> [!tip] Como Funciona
+> Com o parâmetro `-sn`, o Nmap envia:
+> - Pacotes ICMP Echo Requests (ping)
+> - Pacotes TCP com flag SYN para porta 443
+> - Pacotes ARP para redes locais
 
-# **DNSLookup**
+---
+
+### NSLookup / DNSLookup
+
+> [!info] Consulta DNS
+> Resolve nomes de domínio para endereços IP e vice-versa.
 
 ```powershell
 nslookup www.uenf.br
 ```
 
-- **Utilização**: DNSLookup é uma ferramenta usada para consultar o Sistema de Nomes de Domínio (DNS) para obter o endereço IP associado a um nome de domínio ou vice-versa.
-- **Exemplo Prático**: Para encontrar o endereço IP do site [www.exemplo.com](http://www.exemplo.com/), você pode usar uma ferramenta de DNS Lookup online ou simplesmente digitar **`nslookup www.exemplo.com`** no terminal ou prompt de comando.
+> [!tip] Uso Prático
+> Encontra o endereço IP associado a um site ou diagnostica problemas de DNS.
 
-# **Wireshark**
+---
 
-- **Utilização**: Wireshark é um analisador de protocolo que captura e exibe o conteúdo dos **pacotes** de dados em uma rede em tempo real.
-- **Exemplo Prático**: Você quer verificar se informações sensíveis estão sendo transmitidas sem criptografia. Iniciando o Wireshark e filtrando pelo IP ou protocolo de interesse, você pode capturar o tráfego e analisar os pacotes para verificar se os dados estão sendo enviados de forma segura.
+### Wireshark
 
-# Arp-scan
+> [!info] Analisador de Protocolos
+> Captura e exibe pacotes de dados em tempo real.
 
-```jsx
+| Função | Descrição |
+|--------|-----------|
+| **Captura** | Grava todo o tráfego de uma interface |
+| **Filtros** | Isola protocolos ou IPs específicos |
+| **Análise** | Visualiza conteúdo dos pacotes |
+
+> [!warning] Uso Ético
+> Use apenas em redes que você tem autorização para analisar.
+
+---
+
+### Arp-scan
+
+> [!info] Scanner ARP
+> Lista dispositivos na rede local usando protocolo ARP.
+
+```bash
 arp-scan -l
 ```
 
-# Aircrack-ng
+---
 
-# WiGLE
+### Aircrack-ng
 
-[WiGLE: Wireless Network Mapping](https://www.wigle.net/)
+> [!info] Suite para Redes Sem Fio
+> Conjunto de ferramentas para auditoria de redes Wi-Fi.
 
-# Outras ferramentas para testar
+---
 
-1. **Netcat**: Ferramenta de rede versátil para leitura e escrita de dados através de conexões de rede.
-2. **tcpdump**: Poderoso analisador e sniffer de pacotes.
-3. **NetFlow/Sflow**: Ferramentas para coleta e análise de fluxo de tráfego de rede.
-4. **EtherApe**: Ferramenta gráfica de monitoramento de rede.
-5. **Ostinato**: Gerador de tráfego de rede e analisador de protocolos.
-6. **Network Miner**: Ferramenta forense de rede para análise de tráfego.
-7. **Kismet**: Detector de rede sem fio, sniffer e sistema de detecção de intrusão.
+### WiGLE
+
+> [!info] Mapeamento de Redes Wi-Fi
+> Banco de dados colaborativo de redes sem fio ao redor do mundo.
+
+🔗 [WiGLE: Wireless Network Mapping](https://www.wigle.net/)
+
+---
+
+## 🛠️ Outras Ferramentas
+
+> [!tip] Arsenal Adicional
+
+| Ferramenta | Tipo | Descrição |
+|------------|------|-----------|
+| **Netcat** | Utilitário | Leitura/escrita de dados via conexões de rede |
+| **tcpdump** | Sniffer | Analisador de pacotes em linha de comando |
+| **NetFlow/Sflow** | Análise | Coleta e análise de fluxo de tráfego |
+| **EtherApe** | Gráfico | Monitoramento visual de rede |
+| **Ostinato** | Gerador | Gerador de tráfego e analisador de protocolos |
+| **Network Miner** | Forense | Análise forense de tráfego |
+| **Kismet** | Wireless | Detector e sniffer de redes sem fio |
+
+---
+
+## 📊 Resumo de Comandos
+
+> [!success] Quick Reference
+
+| Comando | Sistema | Função |
+|---------|---------|--------|
+| `ping [host]` | Win/Linux | Testa conectividade |
+| `tracert [host]` | Windows | Rastreia rota |
+| `traceroute [host]` | Linux | Rastreia rota |
+| `nslookup [host]` | Win/Linux | Consulta DNS |
+| `nmap -sn [rede]` | Linux | Scan de hosts |
+| `arp-scan -l` | Linux | Lista dispositivos locais |
+| `whois [domínio]` | Linux | Info de registro |
+

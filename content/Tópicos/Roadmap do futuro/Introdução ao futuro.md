@@ -1,50 +1,80 @@
-# Introdução ao futuro
+---
+tipo: aula
+resumo: "Introdução ao futuro: princípios fundamentais para se adaptar e prosperar na era da IA e automação."
+tags:
+  - aula
+  - futuro
+  - mentalidade
+  - ia
+---
 
-> Saber sobre algo já não importa. Com as IAs, qualquer conhecimento humano está a 5 segundos de distância. Qualquer um pode saber sobre qualquer coisa. O diferencial é `executar mais do que consumir`.
-> 
+# Introdução ao Futuro
 
-## **1. Executar mais do que consumir**
-
-*Saber está fácil, fazer continua raro.*
+> [!quote] A Nova Realidade
+> *Saber sobre algo já não importa. Com as IAs, qualquer conhecimento humano está a 5 segundos de distância. Qualquer um pode saber sobre qualquer coisa. O diferencial é **executar mais do que consumir**.*
 
 ---
 
-## **2. Resolver problemas reais**
+## 🎯 Os 8 Princípios do Futuro
 
-*Foque em aplicar, não em acumular conhecimento.*
-
----
-
-## **3. Aprender em ciclos curtos (feedback loop)**
-
-*Estuda, aplica, erra, corrige — rápido e contínuo.*
+> [!info] Pilares para o Sucesso
+> Estes são os princípios fundamentais para se manter relevante na era da IA.
 
 ---
 
-## **4. Usar IA como extensão da mente**
+### 1️⃣ Executar Mais do que Consumir
 
-*Automatize, sintetize, pense melhor com ela.*
-
----
-
-## **5. Desenvolver habilidades atemporais**
-
-*Comunicação, criatividade, visão estratégica, entre outros*
+> [!tip] Ação > Conhecimento
+> *Saber está fácil, fazer continua raro.*
 
 ---
 
-## **6. Criar algo que funcione sem você**
+### 2️⃣ Resolver Problemas Reais
 
-*Produto, sistema, curso, canal, processo, etc*
-
----
-
-## **7. Estar sempre adaptando**
-
-*Crie um sistema pessoal de aprendizagem contínua*
+> [!tip] Aplicação Prática
+> *Foque em aplicar, não em acumular conhecimento.*
 
 ---
 
-## **8. Saber que IA mudou e ainda vai mudar a humanidade**
+### 3️⃣ Aprender em Ciclos Curtos (Feedback Loop)
 
-*Não tenha nenhuma dúvida quanto a isso*
+> [!tip] Iteração Rápida
+> *Estuda, aplica, erra, corrige — rápido e contínuo.*
+
+---
+
+### 4️⃣ Usar IA como Extensão da Mente
+
+> [!tip] IA como Ferramenta
+> *Automatize, sintetize, pense melhor com ela.*
+
+---
+
+### 5️⃣ Desenvolver Habilidades Atemporais
+
+> [!tip] Skills Duradouras
+> *Comunicação, criatividade, visão estratégica, entre outros.*
+
+- Veja mais em: [[Habilidades atemporais]]
+
+---
+
+### 6️⃣ Criar Algo que Funcione Sem Você
+
+> [!tip] Escalabilidade
+> *Produto, sistema, curso, canal, processo, etc.*
+
+---
+
+### 7️⃣ Estar Sempre Adaptando
+
+> [!tip] Aprendizado Contínuo
+> *Crie um sistema pessoal de aprendizagem contínua.*
+
+---
+
+### 8️⃣ Saber que IA Mudou e Ainda Vai Mudar a Humanidade
+
+> [!warning] Realidade Inegável
+> *Não tenha nenhuma dúvida quanto a isso.*
+

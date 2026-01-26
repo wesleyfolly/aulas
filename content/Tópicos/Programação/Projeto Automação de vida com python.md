@@ -1,15 +1,56 @@
-# Projeto Automação de vida com python
+---
+tipo: projeto
+resumo: "Projeto de automação de tarefas pessoais usando Python: organização de finanças, arquivos e rotinas."
+tags:
+  - projeto
+  - programacao
+  - python
+  - automacao
+  - produtividade
+---
 
-Listar áreas ou tarefas que podem ser automatizadas
+# Projeto: Automação de Vida com Python
 
-1. Acompanhar investimentos financeiros
+> [!quote] Automatize o Repetitivo
+> *Python pode automatizar tarefas do dia a dia, liberando tempo para o que realmente importa.*
 
-Listar principais bibliotecas
+---
 
-1. 
+## 🎯 Objetivo
 
-Referências
+Listar áreas ou tarefas que podem ser automatizadas no dia a dia usando Python.
 
-[Trilha Python Office](https://asimov.academy/trilha-python-office/)
+---
 
-[Asimov Academy on Instagram: "Inscrições abertas para a Asimov, a maior escola de Programação em Python do Brasil.  Uma plataforma completa para você aprender a programar e transformar sua carreira, independentemente de sua área.  Aprenda com trilhas, projetos práticos, atualizações e suporte de professores.  Clique em ‘Saiba Mais’ e conheça agora."](https://www.instagram.com/p/C-_UHJ_sJV-/)
+## 💡 Ideias de Automação
+
+| Área | Descrição |
+|------|-----------|
+| **Finanças** | Acompanhar investimentos financeiros |
+| **Arquivos** | Organizar pastas e renomear arquivos |
+| **E-mails** | Filtrar e responder automaticamente |
+| **Planilhas** | Gerar relatórios automáticos |
+| **Web** | Coletar dados de sites (web scraping) |
+
+---
+
+## 📚 Bibliotecas Úteis
+
+> [!tip] A definir
+> Lista de bibliotecas será expandida conforme o projeto avança.
+
+| Biblioteca | Uso |
+|------------|-----|
+| **pandas** | Manipulação de dados |
+| **openpyxl** | Trabalhar com Excel |
+| **smtplib** | Envio de e-mails |
+| **os / shutil** | Manipulação de arquivos |
+| **schedule** | Agendamento de tarefas |
+
+---
+
+## 📖 Referências
+
+🔗 [Trilha Python Office - Asimov Academy](https://asimov.academy/trilha-python-office/)
+
+🔗 [Asimov Academy no Instagram](https://www.instagram.com/p/C-_UHJ_sJV-/)

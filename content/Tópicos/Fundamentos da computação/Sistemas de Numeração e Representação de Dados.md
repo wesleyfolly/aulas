@@ -7,131 +7,216 @@ tags:
   - representação-dados
   - fundamentos
 ---
+
 # Sistemas de Numeração e Representação de Dados
 
-> [!tip] Recurso Interativo
-> [Binary Game](https://learningcontent.cisco.com/games/binary/index.html) - Jogo interativo para aprender sistema binário
+> [!quote] A Linguagem dos Computadores
+> *Computadores entendem apenas 0s e 1s. Entender sistemas de numeração é entender como eles "pensam".*
 
-1. **Sistema de Numeração Decimal**
-    - Definição e exemplos.
-    - Como é usado na vida cotidiana.
-2. **Sistema de Numeração Binário**
-    - Definição e exemplos.
-    - Conversão de decimal para binário e vice-versa.
-    - A relevância do sistema binário na computação.
-3. **Sistema de Numeração Octal e Hexadecimal**
-    - Definição e exemplos.
-    - Conversão de binário para octal e hexadecimal e vice-versa.
-4. **Aritmética Binária**
-    - Adição e subtração de números binários.
-    - Multiplicação e divisão de números binários.
-5. **Representação de Dados**
-    - Bits e bytes.
-    - Representação de números inteiros e números de ponto flutuante.
-    - Representação de texto (ASCII, Unicode).
-    - Representação de cores (RGB).
-    
+---
 
-## **1. Sistema Decimal (Base 10)**
+## 🎮 Recurso Interativo
 
-O sistema decimal é o sistema de números que usamos no dia a dia, e é baseado em 10 símbolos: 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9.
+> [!tip] Aprenda Jogando!
+> 🔗 [Binary Game](https://learningcontent.cisco.com/games/binary/index.html) - Jogo interativo da Cisco para aprender sistema binário
 
-## Estrutura:
+---
 
-- Unidades: 100
-    
-    100
-    
-- Dezenas: 101
-    
-    101
-    
-- Centenas: 102
-    
-    102
-    
-- ...
+## 📚 Tópicos da Aula
 
-## Exemplo:
+| Tópico | Descrição |
+|--------|-----------|
+| Sistema Decimal | Base 10, usado no dia a dia |
+| Sistema Binário | Base 2, usado pelos computadores |
+| Sistema Octal | Base 8, histórico na computação |
+| Sistema Hexadecimal | Base 16, usado em cores e memória |
+| Aritmética Binária | Operações com números binários |
+| Representação de Dados | Como texto, números e cores são armazenados |
 
-O número 352 em decimal é calculado como:
+---
 
-3×102+5×101+2×100=300+50+2=3523×102+5×101+2×100=300+50+2=352
+## 🔢 Sistema Decimal (Base 10)
 
-## **2. Sistema Binário (Base 2)**
+> [!info] O Sistema do Dia a Dia
+> O sistema decimal usa 10 símbolos: **0, 1, 2, 3, 4, 5, 6, 7, 8, 9**
 
-O sistema binário usa apenas dois símbolos: 0 e 1. É fundamental na computação, pois representa os estados ligado/desligado.
+### Estrutura Posicional
 
-## Estrutura:
+| Posição | Nome | Valor |
+|---------|------|-------|
+| 0 | Unidades | 10⁰ = 1 |
+| 1 | Dezenas | 10¹ = 10 |
+| 2 | Centenas | 10² = 100 |
+| 3 | Milhares | 10³ = 1000 |
 
-- Unidades: 20
-    
-    20
-    
-- Duplas: 21
-    
-    21
-    
-- Quartetos: 22
-    
-    22
-    
-- ...
+### Exemplo
 
-## Exemplo:
+O número **352** em decimal:
+```
+3 × 10² + 5 × 10¹ + 2 × 10⁰
+= 300 + 50 + 2
+= 352
+```
 
-O número 1011 em binário é calculado como:
+---
 
-1×23+0×22+1×21+1×20=8+0+2+1=111×23+0×22+1×21+1×20=8+0+2+1=11
+## 💻 Sistema Binário (Base 2)
 
-## **3. Sistema Octal (Base 8)**
+> [!info] A Linguagem dos Computadores
+> O sistema binário usa apenas 2 símbolos: **0 e 1** (ligado/desligado)
 
-O sistema octal usa oito símbolos: 0, 1, 2, 3, 4, 5, 6 e 7. Era comum em sistemas de computação mais antigos.
+### Estrutura Posicional
 
-## Estrutura:
+| Posição | Valor | Decimal |
+|---------|-------|---------|
+| 0 | 2⁰ | 1 |
+| 1 | 2¹ | 2 |
+| 2 | 2² | 4 |
+| 3 | 2³ | 8 |
+| 4 | 2⁴ | 16 |
+| 5 | 2⁵ | 32 |
+| 6 | 2⁶ | 64 |
+| 7 | 2⁷ | 128 |
 
-- Unidades: 80
-    
-    80
-    
-- Oitavas: 81
-    
-    81
-    
-- 64s: 82
-    
-    82
-    
-- ...
+### Exemplo: Binário → Decimal
 
-## Exemplo:
+O número **1011** em binário:
+```
+1 × 2³ + 0 × 2² + 1 × 2¹ + 1 × 2⁰
+= 8 + 0 + 2 + 1
+= 11 (decimal)
+```
 
-O número 547 em octal é calculado como:
+> [!tip] Por que Binário?
+> Computadores usam circuitos elétricos com dois estados: ligado (1) e desligado (0). O sistema binário representa perfeitamente essa realidade física.
 
-5×82+4×81+7×80=320+32+7=3595×82+4×81+7×80=320+32+7=359
+---
 
-## **4. Sistema Hexadecimal (Base 16)**
+## 8️⃣ Sistema Octal (Base 8)
 
-O sistema hexadecimal usa dezesseis símbolos: 0–9 e A–F, onde A representa 10, B representa 11, C representa 12, D representa 13, E representa 14 e F representa 15.
+> [!info] Sistema Histórico
+> O sistema octal usa 8 símbolos: **0, 1, 2, 3, 4, 5, 6, 7**
 
-## Estrutura:
+### Estrutura Posicional
 
-- Unidades: 160
-    
-    160
-    
-- 16s: 161
-    
-    161
-    
-- 256s: 162
-    
-    162
-    
-- ...
+| Posição | Valor | Decimal |
+|---------|-------|---------|
+| 0 | 8⁰ | 1 |
+| 1 | 8¹ | 8 |
+| 2 | 8² | 64 |
 
-## Exemplo:
+### Exemplo
 
-O número 2A3 em hexadecimal é calculado como:
+O número **547** em octal:
+```
+5 × 8² + 4 × 8¹ + 7 × 8⁰
+= 320 + 32 + 7
+= 359 (decimal)
+```
 
-2×162+10×161+3×160=512+160+3=6752×162+10×161+3×160=512+160+3=675
+---
+
+## 🔷 Sistema Hexadecimal (Base 16)
+
+> [!info] Sistema Compacto
+> O sistema hexadecimal usa 16 símbolos: **0-9** e **A-F**
+
+### Tabela de Conversão
+
+| Hex | Decimal | Hex | Decimal |
+|-----|---------|-----|---------|
+| 0 | 0 | 8 | 8 |
+| 1 | 1 | 9 | 9 |
+| 2 | 2 | A | 10 |
+| 3 | 3 | B | 11 |
+| 4 | 4 | C | 12 |
+| 5 | 5 | D | 13 |
+| 6 | 6 | E | 14 |
+| 7 | 7 | F | 15 |
+
+### Exemplo
+
+O número **2A3** em hexadecimal:
+```
+2 × 16² + A × 16¹ + 3 × 16⁰
+= 2 × 256 + 10 × 16 + 3 × 1
+= 512 + 160 + 3
+= 675 (decimal)
+```
+
+> [!tip] Uso Prático
+> Hexadecimal é muito usado para representar cores (#FF5733), endereços de memória e valores de bytes de forma compacta.
+
+---
+
+## ➕ Aritmética Binária
+
+### Adição
+
+| Operação | Resultado |
+|----------|-----------|
+| 0 + 0 | 0 |
+| 0 + 1 | 1 |
+| 1 + 0 | 1 |
+| 1 + 1 | 10 (0 e "vai um") |
+
+### Exemplo de Soma
+
+```
+    1011  (11 em decimal)
+  + 0110  (6 em decimal)
+  ------
+   10001  (17 em decimal)
+```
+
+---
+
+## 📊 Representação de Dados
+
+### Bits e Bytes
+
+| Unidade | Valor |
+|---------|-------|
+| **1 bit** | 0 ou 1 |
+| **1 byte** | 8 bits |
+| **1 nibble** | 4 bits (meio byte) |
+
+---
+
+### Representação de Texto
+
+| Padrão | Descrição | Exemplo |
+|--------|-----------|---------|
+| **ASCII** | 128 caracteres (7 bits) | 'A' = 65 = 01000001 |
+| **Unicode** | Milhões de caracteres | Suporta emojis, idiomas |
+| **UTF-8** | Unicode variável (1-4 bytes) | Padrão da web |
+
+---
+
+### Representação de Cores (RGB)
+
+> [!info] Sistema RGB
+> Cores são representadas por três valores: **R**ed, **G**reen, **B**lue (0-255 cada)
+
+| Cor | RGB | Hexadecimal |
+|-----|-----|-------------|
+| Vermelho | (255, 0, 0) | #FF0000 |
+| Verde | (0, 255, 0) | #00FF00 |
+| Azul | (0, 0, 255) | #0000FF |
+| Branco | (255, 255, 255) | #FFFFFF |
+| Preto | (0, 0, 0) | #000000 |
+
+---
+
+## 🔄 Tabela de Conversão Rápida
+
+| Decimal | Binário | Octal | Hexadecimal |
+|---------|---------|-------|-------------|
+| 0 | 0000 | 0 | 0 |
+| 1 | 0001 | 1 | 1 |
+| 5 | 0101 | 5 | 5 |
+| 10 | 1010 | 12 | A |
+| 15 | 1111 | 17 | F |
+| 16 | 10000 | 20 | 10 |
+| 255 | 11111111 | 377 | FF |
+

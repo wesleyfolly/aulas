@@ -7,73 +7,116 @@ tags:
   - computação
   - fundamentos
 ---
+
 # História da Computação
 
-# Linha do tempo
+> [!quote] O Passado Ilumina o Futuro
+> *Compreender a história da computação nos ajuda a apreciar a evolução tecnológica e a vislumbrar o futuro.*
 
-1. **1801:** Inventado o Tear Programável por Joseph Marie Jacquard.
-2. **1837:** Charles Babbage projeta a Máquina Analítica, considerada o primeiro conceito de computador.
-3. **1890:** Herman Hollerith cria a Tabuladora para o Censo dos Estados Unidos.
-4. **1936:** Alan Turing propõe a Máquina de Turing, um dispositivo teórico que é considerado o fundamento da computação moderna.
-5. **1943-1944:** Construído o Colossus e o Harvard Mark I, dois dos primeiros computadores programáveis.
-6. **1946:** ENIAC, o primeiro computador eletrônico de propósito geral, é construído.
-7. **1951:** UNIVAC I, o primeiro computador comercial, é produzido.
-8. **1958:** O primeiro circuito integrado é criado por Jack Kilby e Robert Noyce.
-9. **1969:** A ARPANET, precursora da Internet, é lançada.
-10. **1971:** Intel lança o microprocessador 4004.
-11. **1975:** Microsoft é fundada por Bill Gates e Paul Allen.
-12. **1976:** Apple é fundada por Steve Jobs e Steve Wozniak.
-13. **1981:** IBM lança seu primeiro PC.
-14. **1989:** Tim Berners-Lee inventa a World Wide Web.
-15. **1991:** Linus Torvalds lança a primeira versão do sistema operacional Linux.
-16. **1998:** Google é fundado por Larry Page e Sergey Brin.
-17. **2007:** Apple lança o primeiro iPhone, popularizando os smartphones.
-18. **2010:** O lançamento do iPad inicia a era dos tablets.
-19. **2023:** Início da popularização massiva da inteligência artificial generativa com assistentes virtuais (por exemplo, ChatGPT) e a computação em nuvem dominando a paisagem tecnológica.
-20. **2024-2026:** Consolidação da IA generativa, avanços em modelos multimodais e integração de IA em ferramentas cotidianas.
+---
 
-# Documentários, filmes e séries
+## 📜 Linha do Tempo
 
-**Documentários:**
+> [!info] Marcos Históricos
+> Os principais eventos que moldaram a computação moderna.
 
-1. **Triumph of the Nerds** (1996): Este documentário em três partes traça a história dos computadores pessoais.
-2. **The Code** (2011): Um documentário da BBC sobre a história do Linux e do software de código aberto.
-3. **The Internet's Own Boy: The Story of Aaron Swartz** (2014): Este documentário explora a vida e o trabalho do ativista de internet e programador Aaron Swartz.
-4. **Lo and Behold, Reveries of the Connected World** (2016): Dirigido por Werner Herzog, este documentário explora o impacto da internet e da tecnologia no mundo.
+### Era Pré-Computação (1801-1936)
 
-**Filmes:**
+| Ano | Evento | Inventor |
+|-----|--------|----------|
+| **1801** | Tear Programável | Joseph Marie Jacquard |
+| **1837** | Máquina Analítica (primeiro conceito de computador) | Charles Babbage |
+| **1890** | Tabuladora para Censo dos EUA | Herman Hollerith |
+| **1936** | Máquina de Turing (fundamento da computação moderna) | Alan Turing |
 
-1. **WarGames** (1983): Um clássico sobre um adolescente que invade um supercomputador do Departamento de Defesa dos EUA.
-2. **Pirates of Silicon Valley** (1999): Este filme conta a história inicial de Steve Jobs e Bill Gates e a rivalidade entre a Apple e a Microsoft.
-3. **The Social Network** (2010): Este filme narra a ascensão do Facebook e seu fundador, Mark Zuckerberg.
-4. **Steve Jobs** (2015): Este filme dramatiza a vida de Steve Jobs, co-fundador da Apple, durante três momentos cruciais de sua carreira.
+---
 
-**Séries:**
+### Primeiros Computadores (1943-1958)
 
-1. **Halt and Catch Fire** (2014–2017): Esta série de drama da AMC retrata o boom dos computadores pessoais na década de 1980.
-2. **Silicon Valley** (2014–2019): Esta comédia da HBO satiriza a cultura das startups no Vale do Silício.
-3. **Devs** (2020): Este thriller de ficção científica da FX e Hulu aborda questões de computação quântica e determinismo.
-4. **The IT Crowd** (2006–2013): Uma comédia britânica que satiriza a vida no departamento de TI de uma grande corporação.
+| Ano | Evento | Descrição |
+|-----|--------|-----------|
+| **1943-1944** | Colossus e Harvard Mark I | Primeiros computadores programáveis |
+| **1946** | ENIAC | Primeiro computador eletrônico de propósito geral |
+| **1951** | UNIVAC I | Primeiro computador comercial |
+| **1958** | Circuito Integrado | Criado por Jack Kilby e Robert Noyce |
 
-1. **Era pré-computação**
-    - Tear Programável de Jacquard
-    - Máquina Analítica de Charles Babbage
-    - Tabuladora de Herman Hollerith
-2. **Primeiros computadores**
-    - Máquina de Turing
-    - Colossus, Harvard Mark I
-    - ENIAC e UNIVAC I
-3. **A ascensão dos microcomputadores** 
-    - Circuito integrado
-    - Microprocessador Intel 4004
-    - O início da Microsoft e da Apple
-    - IBM PC
-4. **A era da Internet e a World Wide Web**
-    - ARPANET
-    - Invenção da World Wide Web por Tim Berners-Lee
-    - Nascimento do Linux
-    - Google e a era dos motores de busca
-5. **A era da mobilidade e da inteligência artificial**
-    - iPhone e a revolução dos smartphones
-    - O lançamento do iPad e a era dos tablets
-    - Assistente virtual, inteligência artificial e computação em nuvem
+---
+
+### Ascensão dos Microcomputadores (1969-1981)
+
+| Ano | Evento | Descrição |
+|-----|--------|-----------|
+| **1969** | ARPANET | Precursora da Internet |
+| **1971** | Microprocessador 4004 | Lançado pela Intel |
+| **1975** | Microsoft | Fundada por Bill Gates e Paul Allen |
+| **1976** | Apple | Fundada por Steve Jobs e Steve Wozniak |
+| **1981** | IBM PC | Primeiro PC da IBM |
+
+---
+
+### Era da Internet (1989-1998)
+
+| Ano | Evento | Descrição |
+|-----|--------|-----------|
+| **1989** | World Wide Web | Inventada por Tim Berners-Lee |
+| **1991** | Linux | Primeira versão lançada por Linus Torvalds |
+| **1998** | Google | Fundado por Larry Page e Sergey Brin |
+
+---
+
+### Era da Mobilidade e IA (2007-presente)
+
+| Ano | Evento | Impacto |
+|-----|--------|---------|
+| **2007** | iPhone | Popularização dos smartphones |
+| **2010** | iPad | Início da era dos tablets |
+| **2023** | IA Generativa | Popularização massiva com ChatGPT |
+| **2024-2026** | Consolidação da IA | Modelos multimodais e integração em ferramentas cotidianas |
+
+---
+
+## 🎬 Documentários, Filmes e Séries
+
+### 📹 Documentários
+
+| Título | Ano | Descrição |
+|--------|-----|-----------|
+| **Triumph of the Nerds** | 1996 | História dos computadores pessoais (3 partes) |
+| **The Code** | 2011 | História do Linux e software de código aberto (BBC) |
+| **The Internet's Own Boy** | 2014 | Vida de Aaron Swartz, ativista de internet |
+| **Lo and Behold** | 2016 | Impacto da internet no mundo (Werner Herzog) |
+
+---
+
+### 🎥 Filmes
+
+| Título | Ano | Tema |
+|--------|-----|------|
+| **WarGames** | 1983 | Adolescente invade supercomputador do Departamento de Defesa |
+| **Pirates of Silicon Valley** | 1999 | Steve Jobs, Bill Gates e a rivalidade Apple vs Microsoft |
+| **The Social Network** | 2010 | Ascensão do Facebook e Mark Zuckerberg |
+| **Steve Jobs** | 2015 | Vida de Steve Jobs em três momentos cruciais |
+
+---
+
+### 📺 Séries
+
+| Título | Período | Descrição |
+|--------|---------|-----------|
+| **Halt and Catch Fire** | 2014-2017 | Drama sobre o boom dos PCs nos anos 80 |
+| **Silicon Valley** | 2014-2019 | Comédia satirizando startups do Vale do Silício |
+| **Devs** | 2020 | Thriller sobre computação quântica e determinismo |
+| **The IT Crowd** | 2006-2013 | Comédia britânica sobre departamento de TI |
+
+---
+
+## 🔄 Resumo das Eras
+
+> [!tip] Evolução em Cinco Eras
+
+1. **Era pré-computação** - Tear de Jacquard, Máquina de Babbage, Tabuladora de Hollerith
+2. **Primeiros computadores** - Máquina de Turing, Colossus, ENIAC, UNIVAC I
+3. **Ascensão dos microcomputadores** - Circuito integrado, Intel 4004, Microsoft, Apple, IBM PC
+4. **Era da Internet** - ARPANET, World Wide Web, Linux, Google
+5. **Era da mobilidade e IA** - Smartphones, tablets, assistentes virtuais, computação em nuvem
+

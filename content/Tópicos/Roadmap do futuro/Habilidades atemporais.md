@@ -1,81 +1,106 @@
-# Habilidades atemporais
+---
+tipo: aula
+resumo: "Habilidades atemporais: competências humanas que permanecerão relevantes independente das mudanças tecnológicas."
+tags:
+  - aula
+  - habilidades
+  - soft-skills
+  - futuro
+---
 
-> [!INFO]
-> <img src="https://www.notion.so/icons/book-closed_red.svg" alt="https://www.notion.so/icons/book-closed_red.svg" width="40px" />
-> Em um mundo onde a tecnologia está mudando nossa forma de viver e trabalhar, existem habilidades que permanecerão relevantes com o tempo.
+# Habilidades Atemporais
 
-Devemos dominar essas habilidades para nos tornarmos à prova de futuro.
-
-## **🌟 Algumas Habilidades Atemporais Valorizadas Globalmente**
+> [!quote] À Prova de Futuro
+> *Em um mundo onde a tecnologia está mudando nossa forma de viver e trabalhar, existem habilidades que permanecerão relevantes com o tempo. Devemos dominá-las para nos tornarmos à prova de futuro.*
 
 ---
 
-## **1. Pensamento Crítico e Filosofia Analítica**
+## 🌟 Habilidades Valorizadas Globalmente
 
-*Analisar, julgar e argumentar com lógica.*
-
----
-
-## **2. Resolução de Problemas Complexos**
-
-*Lidar com incertezas, ambiguidade e decisões difíceis.*
+> [!info] O que Não Pode Ser Automatizado
+> Estas são as competências humanas que a tecnologia não substitui.
 
 ---
 
-## **3. Comunicação Eficaz**
+### 1️⃣ Pensamento Crítico e Filosofia Analítica
 
-*Clareza ao falar, escrever e escutar.*
-
----
-
-## **4. Criatividade**
-
-*Inovar, imaginar soluções, pensar fora da caixa.*
+> [!tip] Descrição
+> *Analisar, julgar e argumentar com lógica.*
 
 ---
 
-## **5. Adaptabilidade**
+### 2️⃣ Resolução de Problemas Complexos
 
-*Aprender, desaprender, se ajustar rápido.*
-
----
-
-## **6. Aprendizado Contínuo (Learning Agility)**
-
-*Aprender de forma autônoma. Aprender a ser autodidata.* 
+> [!tip] Descrição
+> *Lidar com incertezas, ambiguidade e decisões difíceis.*
 
 ---
 
-## **7. Trabalho em Equipe e Colaboração**
+### 3️⃣ Comunicação Eficaz
 
-*Saber cooperar com diversos perfis.*
-
----
-
-## **8. Inteligência Emocional**
-
-*Autoconsciência, empatia, controle emocional.*
+> [!tip] Descrição
+> *Clareza ao falar, escrever e escutar.*
 
 ---
 
-## **9. Autogestão e Proatividade**
+### 4️⃣ Criatividade
 
-*Gerenciar tempo, energia e metas com autonomia.*
-
----
-
-## **10. Ética e Responsabilidade**
-
-*Integridade, confiabilidade e ética no trabalho.*
+> [!tip] Descrição
+> *Inovar, imaginar soluções, pensar fora da caixa.*
 
 ---
 
-## **11. Curiosidade e Mentalidade de Crescimento**
+### 5️⃣ Adaptabilidade
 
-*Desejo constante de aprender e evoluir.*
+> [!tip] Descrição
+> *Aprender, desaprender, se ajustar rápido.*
 
 ---
 
-## **12. Cultura Digital e Fluência Tecnológica**
+### 6️⃣ Aprendizado Contínuo (Learning Agility)
 
-*Entender e dialogar com tecnologias, mesmo sem ser técnico.*
+> [!tip] Descrição
+> *Aprender de forma autônoma. Aprender a ser autodidata.*
+
+---
+
+### 7️⃣ Trabalho em Equipe e Colaboração
+
+> [!tip] Descrição
+> *Saber cooperar com diversos perfis.*
+
+---
+
+### 8️⃣ Inteligência Emocional
+
+> [!tip] Descrição
+> *Autoconsciência, empatia, controle emocional.*
+
+---
+
+### 9️⃣ Autogestão e Proatividade
+
+> [!tip] Descrição
+> *Gerenciar tempo, energia e metas com autonomia.*
+
+---
+
+### 🔟 Ética e Responsabilidade
+
+> [!tip] Descrição
+> *Integridade, confiabilidade e ética no trabalho.*
+
+---
+
+### 1️⃣1️⃣ Curiosidade e Mentalidade de Crescimento
+
+> [!tip] Descrição
+> *Desejo constante de aprender e evoluir.*
+
+---
+
+### 1️⃣2️⃣ Cultura Digital e Fluência Tecnológica
+
+> [!tip] Descrição
+> *Entender e dialogar com tecnologias, mesmo sem ser técnico.*
+

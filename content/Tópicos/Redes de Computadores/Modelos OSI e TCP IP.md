@@ -1,172 +1,226 @@
+---
+tipo: aula
+resumo: "Modelos de referência OSI e TCP/IP, suas camadas, protocolos e exemplos práticos de utilização."
+tags:
+  - aula
+  - redes-de-computadores
+  - modelo-osi
+  - tcp-ip
+  - protocolos
+---
+
 # Modelos OSI e TCP/IP
 
-> [!INFO]
-> <img src="https://www.notion.so/icons/light-bulb_purple.svg" alt="https://www.notion.so/icons/light-bulb_purple.svg" width="40px" /> O modelo OSI (**Open Systems Interconnection)** é um modelo `conceitual` usado para entender e descrever como diferentes aplicações e protocolos de rede interagem e se comunicam entre si.
+> [!quote] Fundamentos da Comunicação em Rede
+> *Entender os modelos OSI e TCP/IP é essencial para compreender como os dados trafegam pela rede, desde a aplicação até o meio físico.*
 
-> [!INFO]
-> <img src="https://www.notion.so/icons/light-bulb_purple.svg" alt="https://www.notion.so/icons/light-bulb_purple.svg" width="40px" /> O modelo OSI é dividido em sete camadas, cada uma representando um grupo específico de funcionalidades:
+---
 
-![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled.png)
+## 🌐 Modelo OSI (Open Systems Interconnection)
 
-1. **Camada 1: Física**
-    - **Explicação**: Responsável pela transmissão e recepção de bits brutos através de um meio físico.
-    - **Exemplos de Protocolos e Utilização**: Cabos Ethernet, fibra óptica, Wi-Fi.
-    - **Utilização**: Transmite dados como sinais elétricos, ópticos ou de rádio.
-2. **Camada 2: Enlace de Dados (ou Ligação de Dados)**
-    - **Explicação**: Garante a transferência de dados confiável entre dois dispositivos conectados diretamente, tratando de erros e controle de fluxo.
-    - **Exemplos de Protocolos e Utilização**: Ethernet, PPP.
-    - **Utilização**: Controla como os dados são formatados para transmissão e como o acesso ao meio físico é controlado.
-3. **Camada 3: Rede**
-    - **Explicação**: Responsável pelo endereçamento, roteamento e encaminhamento de pacotes entre redes.
-    - **Exemplos de Protocolos e Utilização**: IP, ICMP.
-    - **Utilização**: Define rotas para enviar pacotes de dados de uma rede para outra.
-4. **Camada 4: Transporte**
-    - **Explicação**: Fornece transmissão de dados confiável e controle de fluxo entre dois pontos finais.
-    - **Exemplos de Protocolos e Utilização**: TCP, UDP.
-    - **Utilização**: Garante que os dados sejam entregues sem erros e na sequência correta.
-5. **Camada 5: Sessão**
-    - **Explicação**: Gerencia as sessões de comunicação entre dispositivos, incluindo o estabelecimento, gerenciamento e terminação de conexões.
-    - **Exemplos de Protocolos e Utilização**: NFS, NetBIOS, RPC.
-    - **Utilização**: Permite que usuários em diferentes máquinas estabeleçam sessões entre eles.
-6. **Camada 6: Apresentação**
-    - **Explicação**: Traduz os dados entre o formato que a rede requer e o formato que o aplicativo aceita.
-    - **Exemplos de Protocolos e Utilização**: SSL, TLS.
-    - **Utilização**: Criptografa dados para transferência segura e traduz diferentes formatos de dados.
-7. **Camada 7: Aplicação**
-    - **Explicação**: Camada mais próxima do usuário, fornece serviços de rede a aplicativos do usuário.
-    - **Exemplos de Protocolos e Utilização**: HTTP, FTP, SMTP.
-    - **Utilização**: Fornece interfaces de rede para aplicativos como navegadores web e clientes de email.
+> [!info] Modelo Conceitual
+> O modelo OSI é um modelo **conceitual** usado para entender e descrever como diferentes aplicações e protocolos de rede interagem e se comunicam entre si.
 
-![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 1.png)
+![[Recursos/Redes de Computadores/Modelos OSI e TCP IP/modelo-osi-7-camadas.png|Modelo OSI]]
 
-[Modelo OSI](https://www.youtube.com/watch?v=7sW8CXVx7IU)
+### 📊 As Sete Camadas do Modelo OSI
 
-# **Modelo TCP/IP**
+| Camada | Nome | Função | Protocolos/Exemplos |
+|--------|------|--------|---------------------|
+| **7** | Aplicação | Interface com o usuário e serviços de rede | HTTP, FTP, SMTP |
+| **6** | Apresentação | Tradução, criptografia e compressão | SSL, TLS |
+| **5** | Sessão | Gerencia conexões entre aplicações | NFS, NetBIOS, RPC |
+| **4** | Transporte | Entrega confiável de dados | TCP, UDP |
+| **3** | Rede | Endereçamento e roteamento | IP, ICMP |
+| **2** | Enlace de Dados | Transferência confiável entre dispositivos | Ethernet, PPP |
+| **1** | Física | Transmissão de bits brutos | Cabos, Wi-Fi, Fibra |
 
-> [!INFO]
-> <img src="https://www.notion.so/icons/light-bulb_purple.svg" alt="https://www.notion.so/icons/light-bulb_purple.svg" width="40px" /> O modelo TCP/IP (**Transmission Control Protocol/Internet Protoco**l) é um conjunto de protocolos de comunicação usados para interconectar dispositivos de rede na Internet. O modelo TCP/IP também é baseado em um conceito de camadas, embora tenha menos camadas que o modelo OSI:
+---
 
-![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 2.png)
+### 🔍 Detalhamento das Camadas
 
-1. **Camada de Aplicação**:
-    - **Utilização**: Responsável pela comunicação de alto nível, facilita serviços como navegação na web, envio de emails e transferência de arquivos.
-    - **Protocolos**: HTTP (Hypertext Transfer Protocol), HTTPS (HTTP Secure), FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol), DNS (Domain Name System).
-2. **Camada de Transporte**:
-    - **Utilização**: Gerencia a transmissão de dados entre sistemas e hosts, garantindo, no caso do TCP, que os dados cheguem íntegros e na ordem correta, ou, no caso do UDP, uma transmissão mais rápida porém sem garantia de entrega.
-    - **Protocolos**: TCP (Transmission Control Protocol), UDP (User Datagram Protocol).
-3. **Camada de Internet**:
-    - **Utilização**: Responsável pelo roteamento de pacotes de dados através de redes distintas, garantindo que os dados cheguem ao destino correto.
-    - **Protocolos**: IP (Internet Protocol), ICMP (Internet Control Message Protocol), ARP (Address Resolution Protocol).
-4. **Camada de Acesso à Rede**:
-    - **Utilização**: Trata das questões de como os dados são fisicamente enviados através da rede, incluindo a definição do hardware de rede e os aspectos operacionais.
-    - **Protocolos**: Ethernet, Wi-Fi, PPP (Point-to-Point Protocol).
+> [!tip] Camada 1: Física
+> - **Função**: Transmissão e recepção de bits brutos através de um meio físico
+> - **Exemplos**: Cabos Ethernet, fibra óptica, Wi-Fi
+> - **Utilização**: Transmite dados como sinais elétricos, ópticos ou de rádio
 
-Os dois modelos são fundamentais para a compreensão de como as redes funcionam, e ambos têm suas vantagens e desvantagens. Enquanto o modelo OSI é mais teórico e pode ser usado para descrever qualquer tipo de rede, o modelo TCP/IP é mais prático e é usado especificamente para descrever a suite de protocolos da Internet.
+> [!tip] Camada 2: Enlace de Dados
+> - **Função**: Transferência confiável entre dois dispositivos conectados diretamente
+> - **Exemplos**: Ethernet, PPP
+> - **Utilização**: Controla formatação para transmissão e acesso ao meio físico
 
-![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 3.png)
+> [!tip] Camada 3: Rede
+> - **Função**: Endereçamento, roteamento e encaminhamento de pacotes
+> - **Exemplos**: IP, ICMP
+> - **Utilização**: Define rotas para enviar pacotes entre redes diferentes
 
-> [!INFO]
-> 📢 Exemplo prático: Usar o wireshark para visualizar as camadas do modelo TCP/IP.
+> [!tip] Camada 4: Transporte
+> - **Função**: Transmissão confiável e controle de fluxo entre pontos finais
+> - **Exemplos**: TCP, UDP
+> - **Utilização**: Garante entrega sem erros e na sequência correta
 
-# Protocolos de rede e suas camadas
+> [!tip] Camada 5: Sessão
+> - **Função**: Gerencia sessões de comunicação entre dispositivos
+> - **Exemplos**: NFS, NetBIOS, RPC
+> - **Utilização**: Estabelece e gerencia conexões entre máquinas
 
-![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 4.png)
+> [!tip] Camada 6: Apresentação
+> - **Função**: Tradução de dados entre formatos de rede e aplicação
+> - **Exemplos**: SSL, TLS
+> - **Utilização**: Criptografa dados e traduz diferentes formatos
 
-> [!INFO]
-> <img src="https://www.notion.so/icons/light-bulb_purple.svg" alt="https://www.notion.so/icons/light-bulb_purple.svg" width="40px" /> Os protocolos de rede são essenciais para a comunicação entre dispositivos em uma rede. Eles definem regras e convenções para a comunicação entre dispositivos. Aqui estão alguns dos principais protocolos de rede
+> [!tip] Camada 7: Aplicação
+> - **Função**: Interface entre o usuário e os serviços de rede
+> - **Exemplos**: HTTP, FTP, SMTP
+> - **Utilização**: Fornece interfaces para navegadores, email, etc.
 
-1. **HTTP (HyperText Transfer Protocol):** Usado na web para transferir documentos de hipertexto e outras informações.
-2. **HTTPS (HyperText Transfer Protocol Secure):** Versão segura do HTTP que usa criptografia para proteger a transmissão de dados.
-3. **FTP (File Transfer Protocol):** Usado para transferir arquivos entre um cliente e um servidor em uma rede.
-4. **SFTP (SSH File Transfer Protocol):** Versão segura do FTP que usa SSH para criptografia.
-5. **TCP (Transmission Control Protocol):** Protocolo orientado à conexão usado para a comunicação na Internet. Garante a entrega confiável de dados.
-6. **UDP (User Datagram Protocol):** Protocolo de comunicação orientado a datagramas. É mais rápido, mas menos confiável do que o TCP.
-7. **IP (Internet Protocol):** Usado para encaminhar pacotes através de redes.
-8. **ICMP (Internet Control Message Protocol):** Utilizado na Internet para fornecer relatórios de erros e informações operacionais.
-9. **SSH (Secure Shell):** Usado para gerenciar redes, sistemas e aplicações de forma segura.
-10. **Telnet:** Usado para interação com servidores remotos.
-11. **SMTP (Simple Mail Transfer Protocol):** Utilizado na transferência de e-mails entre servidores.
-12. **POP3 (Post Office Protocol 3):** Usado por clientes de e-mail para recuperar mensagens de um servidor de e-mail.
-13. **IMAP (Internet Message Access Protocol):** Protocolo mais avançado para recuperar mensagens de e-mail de um servidor.
-14. **DNS (Domain Name System):** Utilizado na Internet para traduzir nomes de domínio em endereços IP.
-15. **DHCP (Dynamic Host Configuration Protocol):** Utilizado para atribuir automaticamente endereços IP a dispositivos em uma rede.
-16. **ARP (Address Resolution Protocol):** Utilizado para mapear um endereço IP para um endereço físico (MAC) em uma rede local.
-17. **RDP (Remote Desktop Protocol):** Usado para conectar e controlar um computador remoto.
+![[Recursos/Redes de Computadores/Modelos OSI e TCP IP/modelo-osi-pdu-protocolos.png|Fluxo de dados no modelo OSI]]
 
-Esses são apenas alguns dos muitos protocolos de rede existentes. Cada um tem uma função específica na comunicação de rede.
+📺 [Vídeo: Modelo OSI](https://www.youtube.com/watch?v=7sW8CXVx7IU)
 
-> [!INFO]
-> 📢 Exemplo prático: Usar o wireshark para acessar um site e visualizar os diferentes protocolos envolvidos nesse acesso.
-> - Opções de filtro do wireshark
-> 1. **Filtro por IP**: Se você conhece o endereço IP do servidor do site, você pode usar o filtro **`ip.addr == x.x.x.x`**, substituindo **`x.x.x.x`** pelo IP do servidor.
-> 2. **Filtro por nome de domínio**: Se você quiser filtrar pelo nome de domínio, primeiro certifique-se de capturar o tráfego DNS para resolver o nome de domínio para o IP. Você pode usar o filtro **`dns.qry.name == "exemplo.com"`** para ver as consultas DNS para o domínio, e depois usar o IP resultante com o filtro **`ip.addr`**.
-> 3. **Filtro por protocolo HTTP**: Se o site usa HTTP, você pode usar **`http.request.full_uri contains "exemplo.com"`** para filtrar todas as requisições HTTP para esse domínio.
-> 4. **Combinação de filtros**: Você pode combinar filtros para ser mais específico, como **`ip.addr == x.x.x.x && tcp.port == 80`** para filtrar todo o tráfego para o IP específico na porta HTTP padrão.
+---
 
-# Exemplos práticos de cada camada
+## 🌍 Modelo TCP/IP
 
-## **1. Camada de Aplicação - Usar um Cliente FTP**
+> [!info] Modelo Prático
+> O modelo TCP/IP (Transmission Control Protocol/Internet Protocol) é o conjunto de protocolos usado para interconectar dispositivos na Internet. É mais prático que o OSI, com menos camadas.
 
-**Objetivo**: Transferir um arquivo de um computador para outro usando FTP ou SSH
+![[Recursos/Redes de Computadores/Modelos OSI e TCP IP/comparativo-osi-tcpip.png|Modelo TCP/IP]]
 
-**Passos**:
+### 📊 As Quatro Camadas do TCP/IP
 
-1. **Instale um Servidor FTP**: No computador servidor, instale um software servidor FTP, como o FileZilla Server (para Windows) ou vsftpd (para Linux).
-2. **Configure o Servidor FTP**: Crie um usuário e senha no servidor FTP e designe uma pasta para ser a raiz do FTP.
-3. **Instale um Cliente FTP**: Nos computadores dos alunos, instale um cliente FTP, como o FileZilla Client.
-4. **Conexão FTP**: Utilize o cliente FTP para se conectar ao servidor usando o IP do servidor, o usuário e a senha criados.
-5. **Transferência de Arquivos**: Selecione um arquivo no cliente para ser transferido para o servidor. Execute a transferência e verifique se o arquivo aparece na pasta do servidor.
+| Camada | Função | Protocolos |
+|--------|--------|------------|
+| **Aplicação** | Comunicação de alto nível | HTTP, HTTPS, FTP, SMTP, DNS |
+| **Transporte** | Gerencia transmissão entre sistemas | TCP, UDP |
+| **Internet** | Roteamento de pacotes | IP, ICMP, ARP |
+| **Acesso à Rede** | Transmissão física dos dados | Ethernet, Wi-Fi, PPP |
 
-Caso use o SSH
+---
 
-1. **Abra o Terminal ou Prompt de Comando**: No Windows, você pode usar o PowerShell ou um cliente SSH como o PuTTY. No macOS ou Linux, abra o Terminal.
-2. **Comando de Transferência de Arquivo**:
-    - Para transferir um arquivo do seu computador para o servidor, use:
-        
-        ```ruby
-        scp /caminho/local/do/arquivo usuario@servidor:/caminho/remoto/destino
-        ```
-        
-    - Para transferir um arquivo do servidor para o seu computador, use:
-        
-        ```ruby
-        scp usuario@servidor:/caminho/remoto/do/arquivo /caminho/local/destino
-        ```
-        
-    
-    Substitua **`/caminho/local/do/arquivo`** pelo caminho do arquivo no seu computador, **`usuario`** pelo seu nome de usuário no servidor, **`servidor`** pelo endereço IP ou nome de domínio do servidor, e **`/caminho/remoto/destino`** pelo local no servidor onde você quer armazenar o arquivo.
-    
-3. **Autenticação**: Digite sua senha SSH quando solicitado. Se você estiver usando uma chave SSH para autenticação, certifique-se de que ela esteja disponível para o seu cliente SSH.
-4. **Verificação**: Verifique se o arquivo foi transferido corretamente, conectando-se ao servidor via SSH e navegando até o local de destino ou verificando localmente se o arquivo do servidor foi recebido.
+### 🔄 Comparativo OSI vs TCP/IP
 
-## **2. Camada de Transporte - Uso do Netcat**
+![[Recursos/Redes de Computadores/Modelos OSI e TCP IP/encapsulamento-dados-camadas.png|Encapsulamento de dados]]
 
-**Objetivo**: Criar uma conexão TCP simples entre dois computadores.
+| Aspecto | Modelo OSI | Modelo TCP/IP |
+|---------|-----------|---------------|
+| **Camadas** | 7 camadas | 4 camadas |
+| **Natureza** | Teórico/Conceitual | Prático |
+| **Uso** | Referência educacional | Internet real |
+| **Protocolos** | Independente | Suite específica |
 
-**Passos**:
+> [!success] Exemplo Prático
+> Use o Wireshark para visualizar as camadas do modelo TCP/IP em ação durante uma captura de pacotes.
 
-1. **Preparação**: Escolha dois computadores na rede. Um atuará como servidor e o outro como cliente.
-2. **Servidor**: No computador servidor, abra um terminal e execute **`nc -l 1234`** para ouvir na porta 1234.
-3. **Cliente**: No computador cliente, abra um terminal e conecte-se ao servidor com **`nc [IP do Servidor] 1234`**, substituindo **`[IP do Servidor]`** pelo endereço IP real do servidor.
-4. **Comunicação**: Escreva mensagens no terminal do cliente e pressione Enter. As mensagens aparecerão no terminal do servidor. Responda do servidor, e o texto aparecerá no cliente.
+---
 
-## **3. Camada de Internet - Executar Traceroute**
+## 📡 Protocolos de Rede
 
-**Objetivo**: Analisar a rota percorrida pelos pacotes até um destino na internet.
+![[Recursos/Redes de Computadores/Modelos OSI e TCP IP/protocolos-por-camada-tcpip.png|Protocolos por camada]]
 
-**Passos**:
+> [!info] Definição
+> Os protocolos de rede definem regras e convenções para a comunicação entre dispositivos. Cada um tem uma função específica.
 
-1. **Escolha um Destino**: Decida para qual site ou serviço online você quer traçar a rota (por exemplo, google.com).
-2. **Execute o Traceroute**: No terminal ou prompt de comando, digite **`traceroute google.com`** no Linux ou macOS, ou **`tracert google.com`** no Windows.
-3. **Análise**: Observe a lista de saltos (hops) que o pacote faz para chegar ao destino. Discuta o significado de cada salto, os tempos de resposta e possíveis pontos de falha.
+### 📋 Principais Protocolos
 
-## **4. Camada de Acesso à Rede - Observar o Processo ARP**
+| Protocolo | Descrição |
+|-----------|-----------|
+| **HTTP/HTTPS** | Transferência de documentos web (seguro com HTTPS) |
+| **FTP/SFTP** | Transferência de arquivos (seguro com SFTP) |
+| **TCP** | Protocolo orientado à conexão, entrega confiável |
+| **UDP** | Protocolo de datagramas, mais rápido, sem garantia |
+| **IP** | Encaminhamento de pacotes através de redes |
+| **ICMP** | Relatórios de erros e informações operacionais |
+| **SSH** | Gerenciamento seguro de sistemas remotos |
+| **Telnet** | Interação com servidores remotos (inseguro) |
+| **SMTP** | Transferência de e-mails entre servidores |
+| **POP3/IMAP** | Recuperação de mensagens de e-mail |
+| **DNS** | Tradução de nomes de domínio para IPs |
+| **DHCP** | Atribuição automática de endereços IP |
+| **ARP** | Mapeamento de IP para endereço MAC |
+| **RDP** | Conexão e controle de desktop remoto |
 
-**Objetivo**: Observar como os endereços IP são mapeados para endereços MAC.
+---
 
-**Passos**:
+## 🔬 Exemplos Práticos
 
-1. **Limpe a Tabela ARP**: No computador, abra o terminal ou prompt de comando e execute **`arp -d`** para limpar a tabela ARP.
-2. **Analise o Tráfego com Wireshark**: Inicie o Wireshark e comece a capturar pacotes na interface de rede.
-3. **Gere Tráfego ARP**: Acesse um site na internet ou pingue um endereço IP na sua rede local.
-4. **Observação**: Volte ao Wireshark e filtre por ARP (**`arp`** no filtro de display). Observe as solicitações ARP e respostas, identificando como o IP é mapeado para o MAC.
+### 1️⃣ Camada de Aplicação — Transferência FTP/SSH
+
+> [!tip] Objetivo
+> Transferir um arquivo usando FTP ou SSH.
+
+**Via SSH (SCP):**
+
+```bash
+# Enviar arquivo para servidor
+scp /caminho/local/arquivo usuario@servidor:/caminho/remoto/destino
+
+# Baixar arquivo do servidor
+scp usuario@servidor:/caminho/remoto/arquivo /caminho/local/destino
+```
+
+---
+
+### 2️⃣ Camada de Transporte — Netcat
+
+> [!tip] Objetivo
+> Criar uma conexão TCP simples entre dois computadores.
+
+```bash
+# No servidor (escutar na porta 1234)
+nc -l 1234
+
+# No cliente (conectar ao servidor)
+nc [IP do Servidor] 1234
+```
+
+> [!success] Resultado
+> As mensagens digitadas em um terminal aparecem no outro.
+
+---
+
+### 3️⃣ Camada de Internet — Traceroute
+
+> [!tip] Objetivo
+> Analisar a rota percorrida pelos pacotes até um destino.
+
+```bash
+# Linux/macOS
+traceroute google.com
+
+# Windows
+tracert google.com
+```
+
+---
+
+### 4️⃣ Camada de Acesso à Rede — ARP
+
+> [!tip] Objetivo
+> Observar o mapeamento de IP para MAC.
+
+```bash
+# Limpar tabela ARP
+arp -d
+
+# Visualizar tabela ARP
+arp -a
+```
+
+> [!info] Análise com Wireshark
+> Use o filtro `arp` para visualizar solicitações e respostas ARP.
+
+---
+
+## 🎯 Filtros Úteis do Wireshark
+
+> [!success] Para Análise de Protocolos
+
+| Filtro | Descrição |
+|--------|-----------|
+| `ip.addr == x.x.x.x` | Filtrar por IP específico |
+| `dns.qry.name == "dominio.com"` | Consultas DNS para um domínio |
+| `http.request.full_uri contains "site"` | Requisições HTTP para um site |
+| `ip.addr == x.x.x.x && tcp.port == 80` | IP específico na porta HTTP |
+| `arp` | Pacotes ARP |
+

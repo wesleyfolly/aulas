@@ -1,22 +1,53 @@
-# Inteligência artificial
+---
+tipo: aula
+resumo: "Inteligência Artificial: conceitos de LLMs, fine-tuning, RAG e ferramentas para executar IA localmente."
+tags:
+  - aula
+  - ia
+  - llm
+  - ollama
+---
 
-intro, hugginface, LLMs, finetuning, RAG, entre outros
+# Inteligência Artificial
 
-Ótimo tutorial
+> [!quote] IA na Prática
+> *Entender e usar IA localmente é uma das habilidades mais valiosas para o futuro da tecnologia.*
 
-[How to Set Up and Run DeepSeek-R1 Locally With Ollama](https://www.datacamp.com/tutorial/deepseek-r1-ollama)
+---
 
-## Formas de instalar IAs localmente
+## 📚 Tópicos a Explorar
 
-[Ollama](https://ollama.com/)
+| Tópico | Descrição |
+|--------|-----------|
+| Introdução à IA | Conceitos básicos e história |
+| Hugging Face | Repositório de modelos de IA |
+| LLMs | Large Language Models (modelos de linguagem) |
+| Fine-tuning | Ajuste fino de modelos para tarefas específicas |
+| RAG | Retrieval Augmented Generation |
 
-[LM Studio - Discover, download, and run local LLMs](https://lmstudio.ai/)
+---
 
-Para integrar um chat e não precisar usar o terminal de comando
+## 🛠️ Formas de Instalar IAs Localmente
 
-[Chatbox AI: O seu Copiloto de IA, Melhor Cliente de IA em qualquer dispositivo, Download Gratuito](https://chatboxai.app/pt-PT)
+> [!tip] Execute IA no Seu Computador
 
-## Instalando Deepseek r1 através do ollama
+| Ferramenta | Descrição | Link |
+|------------|-----------|------|
+| **Ollama** | Gerenciador de modelos LLM | 🔗 [ollama.com](https://ollama.com/) |
+| **LM Studio** | Interface visual para LLMs | 🔗 [lmstudio.ai](https://lmstudio.ai/) |
+| **Chatbox AI** | Interface de chat para IAs locais | 🔗 [chatboxai.app](https://chatboxai.app/pt-PT) |
 
-> Ollama é uma **ferramenta de código aberto que permite executar modelos de linguagem de grande porte (LLMs) localmente no computador** É uma plataforma que ajuda os usuários a interagir com LLMs, e é conhecida pela sua simplicidade e facilidade de instalação.
->
+---
+
+## 🚀 Instalando DeepSeek R1 com Ollama
+
+> [!info] O que é Ollama?
+> Ollama é uma **ferramenta de código aberto que permite executar modelos de linguagem de grande porte (LLMs) localmente no computador**. É conhecida pela sua simplicidade e facilidade de instalação.
+
+---
+
+## 📖 Tutorial Recomendado
+
+> [!tip] Guia Completo
+> 🔗 [How to Set Up and Run DeepSeek-R1 Locally With Ollama](https://www.datacamp.com/tutorial/deepseek-r1-ollama)
+
