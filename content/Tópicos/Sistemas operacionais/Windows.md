@@ -6,10 +6,8 @@ Conteúdo
 
 # O prompt de comandos
 
-<aside>
-💡 O prompt de comandos (cmd) é um programa de linha de comando que executa instruções direto no sistema operacional. Nesse caso você não está limitado à interface gráfica.
-
-</aside>
+> [!TIP]
+> O prompt de comandos (cmd) é um programa de linha de comando que executa instruções direto no sistema operacional. Nesse caso você não está limitado à interface gráfica.
 
 Comandos básicos:
 
@@ -60,10 +58,8 @@ help dir - para saber melhor sobre o comando
 
 # Alternativas mais poderosas ao prompt de comandos
 
-<aside>
-💡 O `cmder` é um emulador de terminal para o windows que possibilita executar comandos do unix e muitas outras funcionalidades
-
-</aside>
+> [!TIP]
+> O `cmder` é um emulador de terminal para o windows que possibilita executar comandos do unix e muitas outras funcionalidades
 
 [Cmder | Console Emulator](https://cmder.net/)
 

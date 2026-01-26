@@ -1,115 +1,183 @@
-# Mapeamento de vulnerabilidades
+---
+tipo: aula
+resumo: "Técnicas e ferramentas para mapeamento de vulnerabilidades em sistemas e redes usando Nmap NSE."
+tags:
+  - aula
+  - seguranca-da-informacao
+  - vulnerabilidades
+  - nmap
+  - scanning
+---
 
-> É descobrir as vulnerabilidades (fraquezas) de um sistema ou rede. Essas fraquezas serão utilizadas mais tarde para um possível ataque bem sucedido.
-> 
+# Mapeamento de Vulnerabilidades
 
-# Conceitos
-
-# O mapeamento de vulnerabilidades pode ser:
-
-- manual ou automático;
-- em rede local ou na Internet;
-- autenticado ou não autenticado;
-
-<aside>
-💡 Manual x automático
-
-</aside>
-
-Hackers experientes usam uma combinação das duas técnicas. Um mapeamento **automático**, utiliza softwares que realiza todo o processo de verificação da existência de vulnerabilidades no sistema.
-
-Um mapeamento **manual**, como o nome já diz, não utiliza ferramentas de mapeamento, onde muitas vezes correm muitos falsos positivos e negativos. São utilizadas outras ferramentas mais específicas para olhar e testar cada serviço. É um processo difícil e geralmente o hacker já está com alguma porta ou serviço em mente.
-
-Existem vantagens e desvantagens em ambos os processos.
-
-<aside>
-💡 Rede local x Internet
-
-</aside>
-
-Você pode mapear vulnerabilidades tanto na rede onde você está conectado (**rede local**), ou em alvos que estão na **Intenet** (em outras redes)
-
-Ambos possuem vantagens e desvantagens e dependem de onde seu alvo está.
-
-<aside>
-💡 Autenticado x não autenticado
-
-</aside>
-
-É possível configurar os scanners de vulnerabilidades com usuários e senhas válidos para que seja realizada uma análise ainda mais profunda.
-
-Um mapeamento autenticado demora mais tempo e requer configurações extras porém possui mais resultados.
+> [!quote] Encontrando as Fraquezas
+> *É descobrir as vulnerabilidades (fraquezas) de um sistema ou rede. Essas fraquezas serão utilizadas mais tarde para um possível ataque bem-sucedido.*
 
 ---
 
-# Ferramentas que podem ser utilizadas:
+## 📋 Conceitos Básicos
 
-- nmap
-- nikto
-- ~~nessus~~
+### Tipos de Mapeamento
 
-> Pesquisar por 'mapeamento de vulnerabilidades usando nmap' e 'mapeamento de vulnerabilidades usando nessus'
-> 
+O mapeamento de vulnerabilidades pode ser classificado de três formas:
 
-# Análise de vulnerabilidades com Nmap
+> [!tip] Manual vs Automático
 
-O nmap possui uma poderosa funcionalidade chamada Nmap Scripting Engine (NSE)
+| Tipo | Descrição | Prós | Contras |
+|------|-----------|------|---------|
+| **Automático** | Utiliza softwares que verificam vulnerabilidades | Rápido, abrangente | Falsos positivos/negativos |
+| **Manual** | Não usa ferramentas de scan, testa cada serviço | Mais preciso | Demorado, requer experiência |
 
-Isso permite a utilização, criação e compartilhamento de scripts e com isso é possível realizar análises automatizadas de vulnerabilidades.
+Hackers experientes usam uma **combinação** das duas técnicas.
 
-Em resumo, temos uma biblioteca pronta de scripts de análise de vulnerabilidade.
+> [!tip] Rede Local vs Internet
 
-Esses scripts ficam localizados em `/usr/share/nmap/scripts/`
+| Tipo | Descrição |
+|------|-----------|
+| **Rede Local** | Mapear vulnerabilidades na rede onde você está conectado |
+| **Internet** | Mapear alvos em outras redes (requer mais cuidado) |
 
-Mais informações em [https://nmap.org/book/nse-usage.html](https://nmap.org/book/nse-usage.html)
+> [!tip] Autenticado vs Não Autenticado
 
-<aside>
-👉 Importante: Os scripts são divididos em CATEGORIAS. Iremos nos concentrar nas categorias `vuln` e `exploit`. Porém os scripts também são categorizados em `safe` e `intrusive`. NÃO EXECUTEM SCRIPTS DA CATEGORIA INTRUSIVE EM ALGOS REAIS, SOMENTE EM MÁQUINAS VIRTUAIS. (desculpe ter gritado)
+| Tipo | Descrição |
+|------|-----------|
+| **Autenticado** | Scanner configurado com credenciais válidas — análise mais profunda |
+| **Não Autenticado** | Sem credenciais — mais rápido, menos resultados |
 
-</aside>
+---
 
-Mesmo os scripts da categoria `vuln` podem realizar atividades de `exploit`, então se você não souber o que está fazendo, pode tirar serviços do ar ou prejudicar o alvo. 
+## 🛠️ Ferramentas
 
-Então para saber quais scripts são seguros utilizar sem prejudicar o alvo, foi adicionada uma segunda categorização chamada `safe`.
+| Ferramenta | Uso |
+|------------|-----|
+| **Nmap** | Scanner de rede e vulnerabilidades |
+| **Nikto** | Scanner de vulnerabilidades web |
+| ~~Nessus~~ | Scanner comercial (não abordaremos) |
 
-Para saber mais informações sobre cada script, existe um arquivo chamado ***script.db***
+---
 
-É possível realizar consultas nesse arquivo para entender melhor o que cada script faz e qual a sua categoria.
+## 🔍 Análise de Vulnerabilidades com Nmap
 
-Exemplo:
+> [!info] Nmap Scripting Engine (NSE)
+> O Nmap possui uma poderosa funcionalidade que permite a utilização, criação e compartilhamento de **scripts** para análise automatizada de vulnerabilidades.
 
-```jsx
-head -n 5 script.db
+### Localização dos Scripts
+
+```bash
+/usr/share/nmap/scripts/
 ```
 
-é possível realizar alguns filtros como
+**Documentação:** [nmap.org/book/nse-usage.html](https://nmap.org/book/nse-usage.html)
 
-```jsx
-cat script.db | grep '"vuln"\|"exploit"’
+### Categorias de Scripts
+
+> [!warning] Cuidado com Scripts Intrusivos
+> Os scripts são divididos em categorias. Focaremos em `vuln` e `exploit`, mas atenção à diferença entre `safe` e `intrusive`.
+
+| Categoria | Descrição | Segurança |
+|-----------|-----------|-----------|
+| **safe** | Não afetam o alvo | ✅ Seguros |
+| **intrusive** | Podem derrubar serviços | ⚠️ Usar apenas em labs |
+| **vuln** | Detectam vulnerabilidades | ⚠️ Alguns são intrusivos |
+| **exploit** | Tentam explorar falhas | ❌ Usar apenas em labs |
+
+> [!danger] Atenção
+> **NÃO EXECUTEM SCRIPTS DA CATEGORIA INTRUSIVE EM ALVOS REAIS, SOMENTE EM MÁQUINAS VIRTUAIS!**
+
+Mesmo scripts da categoria `vuln` podem realizar atividades de `exploit` e prejudicar o alvo.
+
+### Consultando Informações dos Scripts
+
+O arquivo `script.db` contém informações sobre cada script:
+
+```bash
+# Ver primeiras linhas
+head -n 5 /usr/share/nmap/scripts/script.db
+
+# Filtrar por categoria
+cat /usr/share/nmap/scripts/script.db | grep '"vuln"\|"exploit"'
 ```
 
-é possível rodar um grupo inteiro de scripts contra um alvo com um só comando
+### Executando Scripts de Vulnerabilidade
 
-```jsx
+```bash
+# Rodar todos os scripts de vulnerabilidade
 nmap --script vuln 10.11.1.10
-```
 
-> Demonstrar na rede local e metasploitable
-> 
+# Rodar script específico
+nmap --script=smb-vuln-ms17-010 192.168.1.1
+
+# Combinar com scan de serviços
+nmap -sV --script vuln 192.168.1.1
+```
 
 ---
 
-# Aplicações Web
+## 🌐 Análise Manual de Aplicações Web
 
-# Algumas procuras manuais
+> [!tip] Buscas Manuais
+> Além de ferramentas automatizadas, a análise manual revela detalhes importantes.
 
-- Análise do código fonte da página
-    
-    Procurar comentários, links escondidos, javascript, framework utilizado, etc
-    
-- Ferramentas de desenvolvedor - Debugger (developer tools)
-    
-    No firefox o nome é Debugger, porém no chrome se chama Sources
-    
-- Ferramentas de desenvolvedor - aba Network
--
+### Técnicas de Análise
+
+| Técnica | O que Procurar |
+|---------|---------------|
+| **Código-fonte da página** | Comentários, links escondidos, JavaScript, framework |
+| **Developer Tools - Debugger** | Scripts carregados, breakpoints |
+| **Developer Tools - Network** | Requisições HTTP, headers, cookies |
+| **Developer Tools - Console** | Erros JavaScript, mensagens de debug |
+
+### Passos para Análise Manual
+
+1. **View Source** — Analise comentários HTML e scripts inline
+2. **Debugger/Sources** — Examine arquivos JavaScript carregados
+3. **Network Tab** — Observe requisições e respostas
+4. **Robots.txt** — Verifique diretórios ocultos
+5. **Sitemap.xml** — Mapeie a estrutura do site
+
+---
+
+## 📊 Workflow de Mapeamento
+
+```
+1. Descoberta de Hosts
+       ↓
+2. Scan de Portas
+       ↓
+3. Detecção de Serviços
+       ↓
+4. Identificação de Versões
+       ↓
+5. Scan de Vulnerabilidades
+       ↓
+6. Validação Manual
+       ↓
+7. Documentação
+```
+
+---
+
+## 🎯 Exemplos Práticos
+
+### Scan Básico de Vulnerabilidades
+
+```bash
+# Scan completo com detecção de versões e vulnerabilidades
+nmap -sV --script vuln 192.168.1.0/24
+```
+
+### Scan de Vulnerabilidade SMB
+
+```bash
+# Verificar EternalBlue
+nmap -p445 --script smb-vuln-ms17-010 192.168.1.1
+```
+
+### Scan de Vulnerabilidades Web
+
+```bash
+# Usar Nikto para web
+nikto -h http://192.168.1.1
+```
+

@@ -11,10 +11,8 @@ aliases:
 
 [[Tarefas e trabalhos]]
 
-<aside>
-📌 5 linguagens mais usadas em 2025
-
-</aside>
+> [!INFO]
+> 5 linguagens mais usadas em 2025
 
 - Python
 - Java
@@ -22,10 +20,8 @@ aliases:
 - C++
 - Go
 
-<aside>
-💡 Conteúdo
-
-</aside>
+> [!TIP]
+> Conteúdo
 
 [[Introdução à programação com python]]
 
@@ -45,10 +41,8 @@ aliases:
 
 ---
 
-<aside>
-⬇️ Programação prática
-
-</aside>
+> [!INFO]
+> Programação prática
 
 [[Python]]
 
@@ -58,35 +52,3 @@ aliases:
 
 [[Projeto Automação de vida com python]]
 
-<aside>
-📌 Organização de aula
-
-</aside>
-
-- Engenharia - Paradigmas 2025.2
-    
-    E-mail para avisos: joana.f@gsuite.iff.edu.br
-    
-    OBS: As equipes que ficarem com os paradigmas declarativos. Tentar trazer exemplos que possam ser usados na programação cotidiana.
-    
-    - Equipes
-        - **Pedro Henrique e Ewerton** → Procedural
-        - **Joana e Bruna** → Orientado a Objetos (POO)
-        - **Paola e João Vitor** → Funcional
-        - **Bruno e Pedro Paulo** → Lógica
-    
-    - Notas de aula
-        
-        09/10/2025 - Trazer ideias de projetos para a próxima aula
-        
-    - Trabalhos e provas
-        
-        ## A1
-        
-        Seminário de Paradigmas (10 pontos)
-        
-        Data de apresentação: 30/10 e 06/11
-        
-        ## **A2**
-        
-        Projeto da disciplina

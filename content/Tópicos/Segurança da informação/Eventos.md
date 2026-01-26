@@ -1,41 +1,68 @@
+---
+tipo: aula
+resumo: "Principais eventos e conferências de segurança da informação no Brasil e no mundo."
+tags:
+  - aula
+  - seguranca-da-informacao
+  - eventos
+  - networking
+---
+
 # Eventos
 
-<aside>
-🇧🇷 **Nacionais**
+> [!quote] Networking é Essencial
+> *Participar de eventos é uma das melhores formas de aprender, fazer networking e se manter atualizado sobre as últimas tendências em segurança.*
 
-</aside>
+---
 
-Bhack – Belo Horizonte MG		[https://www.bhack.com.br/](https://www.bhack.com.br/)
+## 🇧🇷 Eventos Nacionais
 
-Silver bullet 
+> [!tip] Conferências Brasileiras
+> O Brasil possui uma comunidade ativa de segurança com eventos de alta qualidade.
 
-Roadsec – Várias capitais	[http://roadsec.com.br/](http://roadsec.com.br/)
+| Evento | Localização | Descrição |
+|--------|-------------|-----------|
+| [Roadsec](http://roadsec.com.br/) | Várias capitais | Maior evento itinerante de hacking da América Latina |
+| [H2HC](https://www.h2hc.com.br/) | São Paulo | Hackers to Hackers Conference — foco técnico |
+| [BHack](https://www.bhack.com.br/) | Belo Horizonte | Conferência de segurança mineira |
+| [Mind the Sec](https://mindthesec.com.br/) | RJ e SP | Foco em segurança corporativa |
 
-H2HC – São paulo SP
+### 🎯 Eventos Menores e Gratuitos
 
-baythreat - http://baythreat.org
+> [!info] Oportunidades Acessíveis
+> Eventos menores são ótimos para começar a fazer networking.
 
-SampaSec – São paulo. Encontro informal mensal sobre segurança da informação
+- **SampaSec** — Encontro informal mensal sobre segurança da informação em São Paulo
+- **C001 B-sides** — Gratuito, São Paulo
+- **You Shot The Sheriff** — São Paulo
+- **Silver Bullet** — Conferência brasileira
+- **Workshop SegInfo** — Workshops práticos
+- **BayThreat** — [baythreat.org](http://baythreat.org)
 
-C001 B-sides – gratuito; são paulo; 
+---
 
-Mind the Sec – rio de janeiro e são paulo
+## 🌍 Eventos Internacionais
 
-You shot the sherif – São Paulo
+> [!warning] Os Maiores do Mundo
+> Conferências que reúnem os melhores hackers e pesquisadores de segurança do planeta.
 
-workshop seginfo
+| Evento | Localização | Período | Descrição |
+|--------|-------------|---------|-----------|
+| **DEF CON** | Las Vegas, EUA | Agosto | A maior conferência de hackers do mundo |
+| **Black Hat** | Las Vegas, EUA | Agosto | Conferência mais corporativa, ocorre antes da DEF CON |
+| **Ekoparty** | Buenos Aires | Outubro | Principal evento de segurança da América Latina |
+| **DerbyCon** | Louisville, EUA | Setembro | Foco em comunidade e networking |
+| **CCC (Chaos Communication Congress)** | Alemanha | Dezembro | 31C3, 32C3... evento europeu histórico |
 
-<aside>
-🇺🇸 **Internacionais**
+---
 
-</aside>
+## 📅 Dicas para Participar
 
-Blackhat – Geralmente por volta de agosto nos EUA
+> [!success] Aproveitando ao Máximo
 
-Defcom – Ocorre geralmente após o blackhat nos EUA.
+1. **Prepare-se antes** — Estude os temas das palestras antecipadamente
+2. **Participe de CTFs** — Muitos eventos têm competições paralelas
+3. **Faça networking** — Converse com outros participantes
+4. **Villages e Workshops** — Participe das atividades práticas
+5. **After parties** — Onde acontece muito networking informal
 
-Ekoparty – Buenos Aires
-
-31C3 – Alemanha
-
-DerbyCon – Estados Unidos

@@ -15,7 +15,7 @@ tags:
 
 ## Apostilas e livros
 
-[Apostila de Empreendedorismo Rede e-Tec.pdf](Materiais/apostila_empreendedorismo.pdf)
+[Apostila de Empreendedorismo Rede e-Tec.pdf](03%20-%20IFF/Aulas/Recursos/Empreendedorismo/Materiais/apostila_empreendedorismo.pdf)
 
 ## Sites, cursos ou plataformas
 

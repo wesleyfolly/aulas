@@ -1,9 +1,7 @@
 # Estrutura de dados
 
-<aside>
-📗 O que são estrutura de dados? São formas de organizar **conjuntos** de dados na programação, assim como as **operações** nesses conjuntos.
-
-</aside>
+> [!INFO]
+> 📗 O que são estrutura de dados? São formas de organizar **conjuntos** de dados na programação, assim como as **operações** nesses conjuntos.
 
 # Roteiro de estudo
 
@@ -816,16 +814,10 @@ e) O valor 0 sempre indica que existe aresta entre dois vértices.
 
 # **Projeto Prático: Criando um Agente de FAQ com Inteligência Artificial (Agno) e Estruturas de Dados**
 
-<aside>
-💡
-
-OBS: Esse trabalho foi planejado para que você use inteligência artificial em todo o processo. Para cada etapa do projeto use IAs para te guiar em encontrar a melhor solução para o problema e também no auxílio da programação e execução do projeto.
-
-Quando encontrar algum erro ou obstáculo pelo caminho, explique o problema em detalhes para uma IA e tente, junto com ela, contornar o problema.
-
-Documente todo o processo em um arquivo de texto para ser entregue ao professor. Documente também os problemas e o que foi feito para resolver. 
-
-</aside>
+> [!TIP]
+> OBS: Esse trabalho foi planejado para que você use inteligência artificial em todo o processo. Para cada etapa do projeto use IAs para te guiar em encontrar a melhor solução para o problema e também no auxílio da programação e execução do projeto.
+> Quando encontrar algum erro ou obstáculo pelo caminho, explique o problema em detalhes para uma IA e tente, junto com ela, contornar o problema.
+> Documente todo o processo em um arquivo de texto para ser entregue ao professor. Documente também os problemas e o que foi feito para resolver.
 
 # **Visão geral**
 

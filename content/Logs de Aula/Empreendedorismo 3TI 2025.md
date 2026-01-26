@@ -53,7 +53,7 @@ Algumas ferramentas que podem ser usadas:
 
 **Tarefa prática sobre mercado de trabalho e carreira**
 
-Seguiremos esse roteiro → [[Carreira e mercado de trabalho]]
+Seguiremos esse roteiro → [[03 - IFF/Aulas/Tópicos/Empreendedorismo/Carreira e mercado de trabalho]]
 
 Foi definido que acertaremos a data da entrega final na próxima aula dia 18/09.
 

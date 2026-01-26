@@ -5,10 +5,8 @@
 - Definição: IPv4 (Internet Protocol version 4) é a quarta versão do Internet Protocol (IP). É um dos principais protocolos em que se baseia a internet.
 - Foi o primeiro protocolo de rede a ser amplamente adotado e ainda é o protocolo dominante na Internet.
 
-<aside>
-📌 Apresentar o Censys
-
-</aside>
+> [!INFO]
+> Apresentar o Censys
 
 # **Estrutura do endereço IPv4:**
 

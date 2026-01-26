@@ -262,7 +262,7 @@
 
 # Apostilas
 
-[apostila-python-orientacao-a-objetos.pdf](Materiais%20e%20conceitos%20b%C3%A1sicos/apostila-python-orientacao-a-objetos.pdf)
+[apostila-python-orientacao-a-objetos.pdf](03%20-%20IFF/Aulas/Recursos/Programação/Python/Materiais%20e%20conceitos%20básicos/apostila-python-orientacao-a-objetos.pdf)
 
 # Materiais
 
@@ -270,9 +270,7 @@
 
 [Welcome to Python.org](https://www.python.org/)
 
-<aside>
-🧩 Boas práticas
-
-</aside>
+> [!INFO]
+> 🧩 Boas práticas
 
 [[Armazenamento de senhas]]

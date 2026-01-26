@@ -1,14 +1,10 @@
 # Modelos OSI e TCP/IP
 
-<aside>
-<img src="https://www.notion.so/icons/light-bulb_purple.svg" alt="https://www.notion.so/icons/light-bulb_purple.svg" width="40px" /> O modelo OSI (**Open Systems Interconnection)** é um modelo `conceitual` usado para entender e descrever como diferentes aplicações e protocolos de rede interagem e se comunicam entre si.
+> [!INFO]
+> <img src="https://www.notion.so/icons/light-bulb_purple.svg" alt="https://www.notion.so/icons/light-bulb_purple.svg" width="40px" /> O modelo OSI (**Open Systems Interconnection)** é um modelo `conceitual` usado para entender e descrever como diferentes aplicações e protocolos de rede interagem e se comunicam entre si.
 
-</aside>
-
-<aside>
-<img src="https://www.notion.so/icons/light-bulb_purple.svg" alt="https://www.notion.so/icons/light-bulb_purple.svg" width="40px" /> O modelo OSI é dividido em sete camadas, cada uma representando um grupo específico de funcionalidades:
-
-</aside>
+> [!INFO]
+> <img src="https://www.notion.so/icons/light-bulb_purple.svg" alt="https://www.notion.so/icons/light-bulb_purple.svg" width="40px" /> O modelo OSI é dividido em sete camadas, cada uma representando um grupo específico de funcionalidades:
 
 ![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled.png)
 
@@ -47,10 +43,8 @@
 
 # **Modelo TCP/IP**
 
-<aside>
-<img src="https://www.notion.so/icons/light-bulb_purple.svg" alt="https://www.notion.so/icons/light-bulb_purple.svg" width="40px" /> O modelo TCP/IP (**Transmission Control Protocol/Internet Protoco**l) é um conjunto de protocolos de comunicação usados para interconectar dispositivos de rede na Internet. O modelo TCP/IP também é baseado em um conceito de camadas, embora tenha menos camadas que o modelo OSI:
-
-</aside>
+> [!INFO]
+> <img src="https://www.notion.so/icons/light-bulb_purple.svg" alt="https://www.notion.so/icons/light-bulb_purple.svg" width="40px" /> O modelo TCP/IP (**Transmission Control Protocol/Internet Protoco**l) é um conjunto de protocolos de comunicação usados para interconectar dispositivos de rede na Internet. O modelo TCP/IP também é baseado em um conceito de camadas, embora tenha menos camadas que o modelo OSI:
 
 ![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 2.png)
 
@@ -71,19 +65,15 @@ Os dois modelos são fundamentais para a compreensão de como as redes funcionam
 
 ![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 3.png)
 
-<aside>
-📢 Exemplo prático: Usar o wireshark para visualizar as camadas do modelo TCP/IP.
-
-</aside>
+> [!INFO]
+> 📢 Exemplo prático: Usar o wireshark para visualizar as camadas do modelo TCP/IP.
 
 # Protocolos de rede e suas camadas
 
 ![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 4.png)
 
-<aside>
-<img src="https://www.notion.so/icons/light-bulb_purple.svg" alt="https://www.notion.so/icons/light-bulb_purple.svg" width="40px" /> Os protocolos de rede são essenciais para a comunicação entre dispositivos em uma rede. Eles definem regras e convenções para a comunicação entre dispositivos. Aqui estão alguns dos principais protocolos de rede
-
-</aside>
+> [!INFO]
+> <img src="https://www.notion.so/icons/light-bulb_purple.svg" alt="https://www.notion.so/icons/light-bulb_purple.svg" width="40px" /> Os protocolos de rede são essenciais para a comunicação entre dispositivos em uma rede. Eles definem regras e convenções para a comunicação entre dispositivos. Aqui estão alguns dos principais protocolos de rede
 
 1. **HTTP (HyperText Transfer Protocol):** Usado na web para transferir documentos de hipertexto e outras informações.
 2. **HTTPS (HyperText Transfer Protocol Secure):** Versão segura do HTTP que usa criptografia para proteger a transmissão de dados.
@@ -105,15 +95,13 @@ Os dois modelos são fundamentais para a compreensão de como as redes funcionam
 
 Esses são apenas alguns dos muitos protocolos de rede existentes. Cada um tem uma função específica na comunicação de rede.
 
-<aside>
-📢 Exemplo prático: Usar o wireshark para acessar um site e visualizar os diferentes protocolos envolvidos nesse acesso.
-
-- Opções de filtro do wireshark
-    1. **Filtro por IP**: Se você conhece o endereço IP do servidor do site, você pode usar o filtro **`ip.addr == x.x.x.x`**, substituindo **`x.x.x.x`** pelo IP do servidor.
-    2. **Filtro por nome de domínio**: Se você quiser filtrar pelo nome de domínio, primeiro certifique-se de capturar o tráfego DNS para resolver o nome de domínio para o IP. Você pode usar o filtro **`dns.qry.name == "exemplo.com"`** para ver as consultas DNS para o domínio, e depois usar o IP resultante com o filtro **`ip.addr`**.
-    3. **Filtro por protocolo HTTP**: Se o site usa HTTP, você pode usar **`http.request.full_uri contains "exemplo.com"`** para filtrar todas as requisições HTTP para esse domínio.
-    4. **Combinação de filtros**: Você pode combinar filtros para ser mais específico, como **`ip.addr == x.x.x.x && tcp.port == 80`** para filtrar todo o tráfego para o IP específico na porta HTTP padrão.
-</aside>
+> [!INFO]
+> 📢 Exemplo prático: Usar o wireshark para acessar um site e visualizar os diferentes protocolos envolvidos nesse acesso.
+> - Opções de filtro do wireshark
+> 1. **Filtro por IP**: Se você conhece o endereço IP do servidor do site, você pode usar o filtro **`ip.addr == x.x.x.x`**, substituindo **`x.x.x.x`** pelo IP do servidor.
+> 2. **Filtro por nome de domínio**: Se você quiser filtrar pelo nome de domínio, primeiro certifique-se de capturar o tráfego DNS para resolver o nome de domínio para o IP. Você pode usar o filtro **`dns.qry.name == "exemplo.com"`** para ver as consultas DNS para o domínio, e depois usar o IP resultante com o filtro **`ip.addr`**.
+> 3. **Filtro por protocolo HTTP**: Se o site usa HTTP, você pode usar **`http.request.full_uri contains "exemplo.com"`** para filtrar todas as requisições HTTP para esse domínio.
+> 4. **Combinação de filtros**: Você pode combinar filtros para ser mais específico, como **`ip.addr == x.x.x.x && tcp.port == 80`** para filtrar todo o tráfego para o IP específico na porta HTTP padrão.
 
 # Exemplos práticos de cada camada
 

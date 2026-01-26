@@ -1,9 +1,7 @@
 # Computação em nuvem
 
-<aside>
-💡 Computação em nuvem (Cloud computing) é o fornecimento de serviços de computação como software, servidores, banco de dados, redes, tudo na **nuvem**.
-
-</aside>
+> [!TIP]
+> Computação em nuvem (Cloud computing) é o fornecimento de serviços de computação como software, servidores, banco de dados, redes, tudo na **nuvem**.
 
 [[Glossário de computação em nuvem]]
 
@@ -11,52 +9,38 @@
 
 # **Principais benefícios da computação em nuvem**
 
-<aside>
-💡 **Custo**
-
-</aside>
+> [!TIP]
+> **Custo**
 
 A computação em nuvem elimina o gasto de capital com a compra de hardware e software, configuração e execução de datacenters locais, incluindo racks de servidores, disponibilidade constante de eletricidade para energia e refrigeração, além de especialistas de TI para o gerenciamento da infraestrutura. Tudo isso contribui para o alto custo da computação.
 
-<aside>
-💡 **Velocidade**
-
-</aside>
+> [!TIP]
+> **Velocidade**
 
 A maior parte dos serviços de computação em nuvem é fornecida por autosserviço e sob demanda, para que até grandes quantidades de recursos de computação possam ser provisionadas em minutos, normalmente com apenas alguns cliques, fornecendo às empresas muita flexibilidade e aliviando a pressão do planejamento de capacidade.
 
-<aside>
-💡 **Escala global**
+> [!TIP]
+> **Escala global**
 
-</aside>
-
-<aside>
-💡 **Produtividade**
-
-</aside>
+> [!TIP]
+> **Produtividade**
 
 Os benefícios dos serviços de computação em nuvem incluem a capacidade de dimensionamento elástico. Em termos de nuvem, isso significa fornecer a quantidade adequada de recursos de TI (assim como potência de computação maior ou menor, armazenamento e largura de banda) sempre que necessário e na localização geográfica correta.
 
 Datacenters locais normalmente exigem pilhas de equipamentos e implementações, tais como configuração de hardware, correção de software e outras tarefas demoradas de gerenciamento da TI. A computação em nuvem remove a necessidade de muitas destas tarefas, para que as equipes de TI possam investir seu tempo na obtenção de suas metas comerciais mais importantes.
 
-<aside>
-💡 **Desempenho**
+> [!TIP]
+> **Desempenho**
 
-</aside>
-
-<aside>
-💡 **Confiabilidade**
-
-</aside>
+> [!TIP]
+> **Confiabilidade**
 
 Os maiores serviços de computação em nuvem são executados em uma rede mundial de datacenters seguros, que são atualizados regularmente com a mais recente geração de hardware de computação rápido e eficiente. Isso oferece diversos benefícios em um único datacenter corporativo, incluindo latência de rede reduzida para aplicativos e mais economia de escalonamento.
 
 A computação em nuvem facilita e reduz os custos de backup de dados, recuperação de desastre e continuidade dos negócios, já que os dados podem ser espelhados em diversos sites redundantes na rede do provedor em nuvem.
 
-<aside>
-💡 **Segurança**
-
-</aside>
+> [!TIP]
+> **Segurança**
 
 Muitos provedores em nuvem oferecem um amplo conjunto de políticas, tecnologias e controles que fortalecem sua postura geral de segurança, ajudando a proteger os dados, os aplicativos e a infraestrutura contra possíveis ameaças.
 

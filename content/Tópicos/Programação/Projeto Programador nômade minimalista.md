@@ -1,17 +1,14 @@
 # Projeto Programador nômade minimalista
 
-<aside>
-<img src="https://www.notion.so/icons/directional-sign_green.svg" alt="https://www.notion.so/icons/directional-sign_green.svg" width="40px" />
-
-Vamos desenvolver essa ideia juntos
-
-</aside>
+> [!INFO]
+> <img src="https://www.notion.so/icons/directional-sign_green.svg" alt="https://www.notion.so/icons/directional-sign_green.svg" width="40px" />
+> Vamos desenvolver essa ideia juntos
 
 # Analisar o mercado
 
 https://www.youtube.com/watch?v=oFtjKbXKqbg&t=5205s
 
-[transcrição youtube peter levels.pdf](Projeto%20Programador%20n%C3%B4made%20minimalista/transcricao_youtube_peter_levels.pdf)
+[transcrição youtube peter levels.pdf](03%20-%20IFF/Aulas/Recursos/Programação/Projeto%20Programador%20nômade%20minimalista/transcricao_youtube_peter_levels.pdf)
 
 [Pinokio](https://pinokio.computer/)
 

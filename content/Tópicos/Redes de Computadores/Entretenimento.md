@@ -1,9 +1,7 @@
 # Entretenimento
 
-<aside>
-📢 Querem marcar de assistir algum?
-
-</aside>
+> [!INFO]
+> 📢 Querem marcar de assistir algum?
 
 # Filmes
 

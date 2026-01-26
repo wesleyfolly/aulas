@@ -12,10 +12,8 @@
 - Uso: Compartilhamento de dados, comunicação, colaboração, serviços da Internet, etc.
 - Componentes principais: Nós (computadores), conexões (cabos, WiFi), dispositivos de rede.
 
-<aside>
-📢 Exemplo prático: Wireshark para análise básica de pacotes na rede local
-
-</aside>
+> [!INFO]
+> 📢 Exemplo prático: Wireshark para análise básica de pacotes na rede local
 
 ![Untitled](../../Recursos/Redes de Computadores/Endereçamento IPv6/Untitled.png)
 
@@ -27,10 +25,8 @@
 - WAN (Wide Area Network): Redes de grande escala que cobrem cidades, países ou até mesmo o mundo (Exemplo: Internet; telefonia móvel).
 - VPN (Virtual Private Network): Rede privada estabelecida sobre uma rede pública.
 
-<aside>
-📢 Exemplo prático: Uso da VPN Kaspersky e redes Tor com Kali Linux
-
-</aside>
+> [!INFO]
+> 📢 Exemplo prático: Uso da VPN Kaspersky e redes Tor com Kali Linux
 
 ![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 1.png)
 
@@ -43,10 +39,8 @@
 - Árvore (ou Hierárquica): Combinação de topologias de estrela e barramento, com redes de estrela conectadas a um barramento principal.
 - 
 
-<aside>
-📢 Exemplo prático: Criar algumas topologias usando o Packet Tracer
-
-</aside>
+> [!INFO]
+> 📢 Exemplo prático: Criar algumas topologias usando o Packet Tracer
 
 ![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 2.png)
 
@@ -82,10 +76,8 @@
 - **2020s:**
     - 2020s: A Internet das Coisas (IoT), o 5G e a IA continuam a impulsionar a evolução das redes de computadores.
 
-<aside>
-📢 Exemplo prático: [https://archive.org/](https://archive.org/) (olhar google, facebook e outros sites)
-
-</aside>
+> [!INFO]
+> 📢 Exemplo prático: [https://archive.org/](https://archive.org/) (olhar google, facebook e outros sites)
 
 # **Equipamentos**
 
@@ -100,10 +92,8 @@
 
 ![Untitled](../../Recursos/Redes de Computadores/Modelos OSI e TCP IP/Untitled 3.png)
 
-<aside>
-📢 Exemplos prático: Descoberta de roteadores e clientes com aircrack-ng no Kali Linux
-
-</aside>
+> [!INFO]
+> 📢 Exemplos prático: Descoberta de roteadores e clientes com aircrack-ng no Kali Linux
 
 # Meios de comunicação
 
@@ -134,12 +124,8 @@
     ![Untitled](../../Recursos/Redes de Computadores/Conceitos básicos/Untitled 8.png)
     
 
-<aside>
-📢 **Aula prática 1**: Crimpagem de cabo de rede (par trançado)
+> [!INFO]
+> 📢 **Aula prática 1**: Crimpagem de cabo de rede (par trançado)
 
-</aside>
-
-<aside>
-📢 **Aula prática 2**: Configuração de roteador sem fio simples
-
-</aside>
+> [!INFO]
+> 📢 **Aula prática 2**: Configuração de roteador sem fio simples

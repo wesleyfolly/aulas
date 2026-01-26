@@ -423,9 +423,5 @@ docker-compose up --build
 - `--force-recreate` - Força a recriação dos containers
 - `-f` - Especifica um arquivo compose alternativo
 
-<aside>
-💡
-
-Essa página foi criada pelos alunos: Kauã Gonçalves e Carlos Armando
-
-</aside>
+> [!TIP]
+> Essa página foi criada pelos alunos: Kauã Gonçalves e Carlos Armando

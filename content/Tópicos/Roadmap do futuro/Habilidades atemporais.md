@@ -1,11 +1,8 @@
 # Habilidades atemporais
 
-<aside>
-<img src="https://www.notion.so/icons/book-closed_red.svg" alt="https://www.notion.so/icons/book-closed_red.svg" width="40px" />
-
-Em um mundo onde a tecnologia está mudando nossa forma de viver e trabalhar, existem habilidades que permanecerão relevantes com o tempo.
-
-</aside>
+> [!INFO]
+> <img src="https://www.notion.so/icons/book-closed_red.svg" alt="https://www.notion.so/icons/book-closed_red.svg" width="40px" />
+> Em um mundo onde a tecnologia está mudando nossa forma de viver e trabalhar, existem habilidades que permanecerão relevantes com o tempo.
 
 Devemos dominar essas habilidades para nos tornarmos à prova de futuro.
 

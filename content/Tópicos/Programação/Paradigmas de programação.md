@@ -3,10 +3,8 @@
 > Paradigma de programação é um meio de se **classificar** as linguagens de programação baseado em suas funcionalidades. As linguagens podem ser classificadas em vários paradigmas.
 > 
 
-<aside>
-✅ **De forma simples, um paradigma é um molde ou modelo para se resolver um problema.**
-
-</aside>
+> [!SUCCESS]
+> **De forma simples, um paradigma é um molde ou modelo para se resolver um problema.**
 
 [Os Paradigmas da Programação | Explicados](https://www.youtube.com/watch?v=7R6CIDND87Y)
 
@@ -14,10 +12,8 @@
 
 ![Untitled](../../Recursos/Programação/Conceitos gerais de programação/Untitled.png)
 
-<aside>
-💡 Uma linguagem pode se encaixar em **um ou mais** paradigmas. A maior parte das linguagens que usamos no dia a dia são multiparadigma.
-
-</aside>
+> [!TIP]
+> Uma linguagem pode se encaixar em **um ou mais** paradigmas. A maior parte das linguagens que usamos no dia a dia são multiparadigma.
 
 IMPORTANTE: Alguns paradigmas são **modificações** ou **evoluções** de outros, ou seja, não são coisas completamente separadas.
 
@@ -64,10 +60,8 @@ Aqui, você apenas declara o que quer (somar os números), e a função `sum()`
 
 # 1. Programação Imperativa
 
-<aside>
-✅ Programas imperativos são uma sequência de comandos para o computador executar.
-
-</aside>
+> [!SUCCESS]
+> Programas imperativos são uma sequência de comandos para o computador executar.
 
 O nome paradigma **Imperativo**, está ligado ao tempo verbal imperativo, onde o programador diz ao computador: faça isso, depois isso, depois aquilo... 
 
@@ -351,10 +345,8 @@ print("Cotação do dólar em reais:", c.cotacao("BRL"))
 
 # 2. Programação Declarativa
 
-<aside>
-✅ No paradigma declarativo o programador não diz COMO o programa deve agir e sim O QUE ele deve retornar.
-
-</aside>
+> [!SUCCESS]
+> No paradigma declarativo o programador não diz COMO o programa deve agir e sim O QUE ele deve retornar.
 
 Também é possível escrever programas de forma declarativa utilizando linguagens de programação **imperativas**. 
 
@@ -364,10 +356,8 @@ SQL é exemplo de declarativa, onde eu passo o que eu quero, e não como eu quer
 
 # 2.1 Programação funcional
 
-<aside>
-✅ programação funcional é um paradigma de programação que trata a computação como uma avaliação de **funções matemáticas** e que evita estados ou dados **mutáveis**.
-
-</aside>
+> [!SUCCESS]
+> programação funcional é um paradigma de programação que trata a computação como uma avaliação de **funções matemáticas** e que evita estados ou dados **mutáveis**.
 
 Por exemplo, a função:  
 

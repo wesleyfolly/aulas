@@ -1,9 +1,7 @@
 # Análise de mercado
 
-<aside>
-📗 **Objetivo**: Estar antenado com o mercado e suas necessidades. Pode ser aplicado em qualquer área do conhecimento.
-
-</aside>
+> [!INFO]
+> 📗 **Objetivo**: Estar antenado com o mercado e suas necessidades. Pode ser aplicado em qualquer área do conhecimento.
 
 **Qual a técnica utilizada?**
 

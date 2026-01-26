@@ -1,9 +1,7 @@
 # Python
 
-<aside>
-💡 Primeiros passos
-
-</aside>
+> [!TIP]
+> Primeiros passos
 
 [[Instalação e configurações]]
 
@@ -11,10 +9,8 @@
 
 [[Banco de códigos e Bibliotecas]]
 
-<aside>
-📗 Notebooks
-
-</aside>
+> [!INFO]
+> 📗 Notebooks
 
 [[Google colaboratory]]
 

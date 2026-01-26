@@ -105,10 +105,8 @@ Não existe melhor. Caso existisse, o outro deixaria de ser utilizado.
 
 # Termos
 
-<aside>
-📚 Biblioteca - é um conjunto de subprogramas e funções que podem ser reutilizado em programas.
-
-</aside>
+> [!INFO]
+> Biblioteca - é um conjunto de subprogramas e funções que podem ser reutilizado em programas.
 
 > **API**  (`"Application Programming Interface`) que significa em tradução para o português "Interface de Programação de Aplicativos". É parecido com uma biblioteca porém seu foco é a integração entre sistemas. É utilizar a funcionalidade de outros sistemas no seu programa, também chamando funções.
 >

@@ -1,72 +1,148 @@
-# Escaneamento de IPs e portas (Port Scanning)
+---
+tipo: aula
+resumo: "Técnicas de escaneamento de redes e portas usando Nmap, Masscan e outras ferramentas."
+tags:
+  - aula
+  - seguranca-da-informacao
+  - nmap
+  - port-scanning
+  - reconhecimento
+---
 
-> Quais ferramentas serão utilizadas no trabalho? Nmap e Masscan
-> 
+# Escaneamento de IPs e Portas (Port Scanning)
 
-<aside>
-✅ Port Scanner é um programa capaz de varrer endereços IPs em uma rede e também por portas em determinados hots.
+> [!quote] Mapeando a Rede
+> *Descobrir quais hosts estão ativos e quais portas estão abertas é fundamental para qualquer teste de segurança.*
 
-</aside>
-
-# Nmap
-
-`O Nmap é o **port scan** mais usado no mundo e possui várias funcionalidades.`
-
-# Alguns recursos mais utilizados:
-
-- Descobrir quais hosts estão ativos na rede
-- Verificar quais portas estão abertas em cada host
-- Saber o que de fato está rodando em determinada porta
-- Procurar em uma rede hosts que estejam rodando determinado serviço (ou porta aberta)
-- detecção de sistema operacional
-- 
-
-# Alguns parâmetros interessantes:
-
-- A (Enable OS detection, version detection, script scanning, and traceroute) 
-
- -sS Este tipo de varredura é mais rápido do que outros tipos, pois não completa a conexão TCP, reduzindo assim a quantidade de tráfego de rede.
-
--sT
-
--D (decoy) - utilizado para tentar dificultar ou enganar IDSs
-
-- - script vuln (testa todos os scripts disponíveis para descoberta de vulnerabilidades)
-
--sn (sem detecção de portas)
-
-- O (detecção de sistema operacional)
-
--sV (detecção da versão do serviço)
-
-# Exemplos práticos
-
-Para escanear as portas de um determinado IP
-
-```python
-nmap 192.168.18.1
-```
-
-Para descobrir hosts ativos na rede
-
-```python
-nmap -sn 192.168.18.0/24
-// o /24 é a máscara de rede (o tamanho da rede)
-// -sn no portscan
-```
-
-Um vídeo interessante sobre a ferramenta
-
-[Nmap Tutorial to find Network Vulnerabilities](https://www.youtube.com/watch?v=4t4kBkMsDbQ)
-
-Caso deseje utilizar o nmap no windows existe uma versão com interface gráfica chamada de zenmap. 
-
-[Nmap: the Network Mapper - Free Security Scanner](https://nmap.org/)
+> [!info] Ferramentas do Trabalho
+> Nmap e Masscan serão as principais ferramentas utilizadas.
 
 ---
 
-# Masscan
+## 🎯 O que é Port Scanning?
 
-# Outras ferramentas interessantes
+> [!success] Definição
+> Port Scanner é um programa capaz de varrer endereços IPs em uma rede e também portas em determinados hosts.
 
-- Netcat
+---
+
+## 🔍 Nmap
+
+> [!tip] O Scanner Mais Usado do Mundo
+> O Nmap é o port scan mais popular e possui várias funcionalidades poderosas.
+
+### Recursos Principais
+
+| Recurso | Descrição |
+|---------|-----------|
+| **Descoberta de hosts** | Encontrar quais hosts estão ativos na rede |
+| **Scan de portas** | Verificar quais portas estão abertas em cada host |
+| **Detecção de serviços** | Saber o que está rodando em cada porta |
+| **Busca específica** | Procurar hosts com determinado serviço |
+| **Detecção de OS** | Identificar o sistema operacional |
+
+### Parâmetros Importantes
+
+| Parâmetro | Descrição |
+|-----------|-----------|
+| `-A` | Enable OS detection, version detection, script scanning, and traceroute |
+| `-sS` | SYN scan — mais rápido, não completa conexão TCP |
+| `-sT` | TCP connect scan — conexão completa |
+| `-sn` | Sem detecção de portas (apenas descoberta de hosts) |
+| `-sV` | Detecção da versão do serviço |
+| `-O` | Detecção de sistema operacional |
+| `-D` | Decoy — dificultar detecção por IDS |
+| `--script vuln` | Testa scripts de vulnerabilidades |
+
+---
+
+## 💻 Exemplos Práticos
+
+### Escanear portas de um IP
+
+```bash
+nmap 192.168.18.1
+```
+
+### Descobrir hosts ativos na rede
+
+```bash
+nmap -sn 192.168.18.0/24
+# /24 é a máscara de rede (tamanho da rede)
+# -sn = no port scan (apenas descoberta de hosts)
+```
+
+### Scan completo com detecção
+
+```bash
+nmap -A 192.168.18.1
+```
+
+### Scan rápido SYN
+
+```bash
+nmap -sS 192.168.18.1
+```
+
+### Scan de vulnerabilidades
+
+```bash
+nmap --script vuln 192.168.18.1
+```
+
+---
+
+## 📺 Recursos de Aprendizado
+
+- [📺 Nmap Tutorial to find Network Vulnerabilities](https://www.youtube.com/watch?v=4t4kBkMsDbQ)
+- [🔗 Site oficial do Nmap](https://nmap.org/)
+
+> [!tip] Zenmap
+> Para Windows, existe uma versão com interface gráfica chamada **Zenmap**.
+
+---
+
+## ⚡ Masscan
+
+> [!info] Scanner de Alta Velocidade
+> Masscan é um scanner de portas extremamente rápido, capaz de escanear toda a Internet em poucos minutos.
+
+### Características
+
+- Transmite pacotes de forma assíncrona
+- Muito mais rápido que Nmap para scans em larga escala
+- Sintaxe similar ao Nmap
+
+### Exemplo de Uso
+
+```bash
+masscan -p80,443 192.168.1.0/24 --rate=1000
+```
+
+---
+
+## 🛠️ Outras Ferramentas
+
+### Netcat
+
+> [!tip] O Canivete Suíço da Rede
+> Netcat pode ser usado para verificar portas e estabelecer conexões.
+
+```bash
+# Verificar porta específica
+nc -zv 192.168.18.1 80
+
+# Scan de range de portas
+nc -zv 192.168.18.1 20-100
+```
+
+---
+
+## 📊 Comparação de Ferramentas
+
+| Ferramenta | Velocidade | Precisão | Recursos |
+|------------|------------|----------|----------|
+| **Nmap** | Média | Alta | Muitos scripts e detecções |
+| **Masscan** | Muito alta | Média | Foco em velocidade |
+| **Netcat** | Baixa | Alta | Simples e versátil |
+
