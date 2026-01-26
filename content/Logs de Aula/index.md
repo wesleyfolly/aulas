@@ -1,4 +1,5 @@
 ---
+title: "Logs de Aula"
 tipo: índice
 resumo: Índice centralizado dos logs de aula organizados por turma e disciplina
 tags:

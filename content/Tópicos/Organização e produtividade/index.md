@@ -1,4 +1,5 @@
 ---
+title: "Organização e Produtividade"
 aliases:
   - Organização e produtividade
 ---

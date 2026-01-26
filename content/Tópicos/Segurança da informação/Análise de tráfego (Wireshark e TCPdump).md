@@ -93,14 +93,14 @@ tcpdump tcp
 
 ### Parâmetros Importantes
 
-| Parâmetro | Descrição |
-|-----------|-----------|
-| `-i` | Interface de rede |
-| `-w` | Salvar em arquivo |
-| `-r` | Ler de arquivo |
-| `-c` | Número de pacotes a capturar |
-| `-n` | Não resolver nomes DNS |
-| `-v` | Modo verboso |
+| Parâmetro | Descrição                    |
+| --------- | ---------------------------- |
+| `-i`      | Interface de rede            |
+| `-w`      | Salvar em arquivo            |
+| `-r`      | Ler de arquivo               |
+| `-c`      | Número de pacotes a capturar |
+| `-n`      | Não resolver nomes DNS       |
+| `-v`      | Modo verboso                 |
 
 ---
 

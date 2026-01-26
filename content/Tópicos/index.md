@@ -1,4 +1,5 @@
 ---
+title: "Tópicos e Disciplinas"
 tipo: índice
 resumo: Índice centralizado de todas as disciplinas e tópicos disponíveis, organizados por área de conhecimento
 tags:

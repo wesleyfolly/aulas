@@ -1,4 +1,5 @@
 ---
+title: "Fundamentos da Computação"
 aliases:
   - Fundamentos da computação
 ---

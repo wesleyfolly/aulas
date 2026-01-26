@@ -1,4 +1,5 @@
 ---
+title: "Segurança da Informação"
 tipo: aula
 resumo: "Página principal da disciplina de Segurança da Informação, abordando conceitos, técnicas de pentest e carreira em cybersegurança."
 tags:

@@ -1,4 +1,5 @@
 ---
+title: "Informática Básica"
 aliases:
   - Informática básica
 ---

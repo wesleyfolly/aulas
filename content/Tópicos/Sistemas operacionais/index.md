@@ -1,4 +1,5 @@
 ---
+title: "Sistemas Operacionais"
 aliases:
   - Sistemas operacionais
 ---
