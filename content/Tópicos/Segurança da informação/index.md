@@ -25,7 +25,7 @@ aliases:
 > Acesse rapidamente as informações organizacionais da disciplina.
 
 - [[Possível Cronograma da disciplina|📅 Cronograma]]
-- [[Tarefas e trabalhos|📝 Tarefas e Trabalhos]]
+- [[Trabalhos e Projetos de Segurança da Informação|📝 Trabalhos e Projetos]]
 - [[Sistemas utilizados|💻 Sistemas Utilizados]]
 
 ---
