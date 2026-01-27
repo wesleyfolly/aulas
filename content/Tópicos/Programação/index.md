@@ -56,7 +56,7 @@ aliases:
 - [[Recursos e Ferramentas]]
 - [[Instalação e configurações]]
 - [[GitHub e controle de versão]]
-- [[Materiais]]
+- [[Tópicos/Programação/Materiais|Materiais]]
 
 ---
 
