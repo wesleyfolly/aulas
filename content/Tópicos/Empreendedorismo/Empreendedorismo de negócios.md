@@ -17,6 +17,8 @@ tags:
 
 ## Características do Empreendedor
 
+![[Recursos/Empreendedorismo/Empreendedorismo de negócios/caracteristicas-empreendedor.svg|As 10 características do empreendedor]]
+
 - **Autoconfiança**: acreditar na própria ideia e capacidade de decisão
 - **Proatividade**: agir sem esperar ordens, antecipar problemas
 - **Planejamento**: definir passos, prazos e objetivos claros

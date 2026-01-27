@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500">
+  <defs>
+    <linearGradient id="mvpGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mvpGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mvpGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="700" height="500" fill="#f8fafc"/>
+
+  <!-- Title -->
+  <text x="350" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1e293b" text-anchor="middle">🚀 MVP - Produto Mínimo Viável</text>
+  <text x="350" y="55" font-family="Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">Ciclo de validação da Lean Startup</text>
+
+  <!-- Central Cycle -->
+  <circle cx="350" cy="220" r="120" fill="none" stroke="#e2e8f0" stroke-width="8" stroke-dasharray="15,8"/>
+
+  <!-- Build -->
+  <g transform="translate(280, 80)">
+    <circle cx="70" cy="50" r="50" fill="url(#mvpGrad1)" filter="url(#shadow)"/>
+    <text x="70" y="40" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">🔨</text>
+    <text x="70" y="65" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">CONSTRUIR</text>
+  </g>
+
+  <!-- Measure -->
+  <g transform="translate(430, 230)">
+    <circle cx="50" cy="50" r="50" fill="url(#mvpGrad2)" filter="url(#shadow)"/>
+    <text x="50" y="40" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">📊</text>
+    <text x="50" y="65" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">MEDIR</text>
+  </g>
+
+  <!-- Learn -->
+  <g transform="translate(170, 230)">
+    <circle cx="50" cy="50" r="50" fill="url(#mvpGrad3)" filter="url(#shadow)"/>
+    <text x="50" y="40" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">💡</text>
+    <text x="50" y="65" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">APRENDER</text>
+  </g>
+
+  <!-- Arrows -->
+  <path d="M 400 130 Q 450 160, 470 220" stroke="#6366f1" stroke-width="3" fill="none"/>
+  <polygon points="470,220 475,208 465,212" fill="#6366f1"/>
+
+  <path d="M 440 300 Q 380 340, 280 300" stroke="#14b8a6" stroke-width="3" fill="none"/>
+  <polygon points="280,300 292,305 288,295" fill="#14b8a6"/>
+
+  <path d="M 220 230 Q 230 160, 300 130" stroke="#f59e0b" stroke-width="3" fill="none"/>
+  <polygon points="300,130 288,132 292,142" fill="#f59e0b"/>
+
+  <!-- MVP Label -->
+  <text x="350" y="225" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#475569" text-anchor="middle">MVP</text>
+
+  <!-- Benefits Section -->
+  <rect x="50" y="370" width="600" height="110" rx="15" fill="white" filter="url(#shadow)"/>
+  <text x="350" y="395" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b" text-anchor="middle">✅ Por que usar MVP?</text>
+
+  <g transform="translate(70, 410)">
+    <rect width="120" height="50" rx="8" fill="#f0fdf4"/>
+    <text x="60" y="22" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#166534" text-anchor="middle">💰 Reduz Custos</text>
+    <text x="60" y="38" font-family="Arial, sans-serif" font-size="9" fill="#4b5563" text-anchor="middle">Foco no essencial</text>
+  </g>
+
+  <g transform="translate(210, 410)">
+    <rect width="120" height="50" rx="8" fill="#eff6ff"/>
+    <text x="60" y="22" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1e40af" text-anchor="middle">⚡ Aprendizado</text>
+    <text x="60" y="38" font-family="Arial, sans-serif" font-size="9" fill="#4b5563" text-anchor="middle">Feedback rápido</text>
+  </g>
+
+  <g transform="translate(350, 410)">
+    <rect width="120" height="50" rx="8" fill="#fef3c7"/>
+    <text x="60" y="22" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400e" text-anchor="middle">🎯 Validação</text>
+    <text x="60" y="38" font-family="Arial, sans-serif" font-size="9" fill="#4b5563" text-anchor="middle">Confirma demanda</text>
+  </g>
+
+  <g transform="translate(490, 410)">
+    <rect width="120" height="50" rx="8" fill="#fce7f3"/>
+    <text x="60" y="22" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#9d174d" text-anchor="middle">📈 Investidores</text>
+    <text x="60" y="38" font-family="Arial, sans-serif" font-size="9" fill="#4b5563" text-anchor="middle">Mostra tração</text>
+  </g>
+</svg>

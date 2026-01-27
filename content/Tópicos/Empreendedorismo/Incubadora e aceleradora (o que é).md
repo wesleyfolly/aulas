@@ -15,6 +15,8 @@ tags:
 > [!info] Diferença Principal
 > **Incubadoras** apoiam negócios nos estágios iniciais (ideia ou protótipo). **Aceleradoras** trabalham com startups que já têm progresso (MVP, primeiros clientes) e precisam de crescimento rápido.
 
+![[Recursos/Empreendedorismo/Incubadora e aceleradora (o que é)/incubadora-vs-aceleradora.svg|Comparativo entre Incubadora e Aceleradora]]
+
 ## Incubadora
 
 ### Características

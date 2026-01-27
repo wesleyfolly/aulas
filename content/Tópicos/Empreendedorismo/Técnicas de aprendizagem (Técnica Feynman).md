@@ -17,6 +17,8 @@ tags:
 
 ## Os 4 Passos da Técnica Feynman
 
+![[Recursos/Empreendedorismo/Técnicas de aprendizagem (Técnica Feynman)/tecnica-feynman.svg|Os 4 passos da Técnica Feynman]]
+
 ### 1. Escolha um Conceito
 Defina claramente o que você quer aprender. Pode ser algo novo ou um conceito que você já viu, mas quer dominar.
 

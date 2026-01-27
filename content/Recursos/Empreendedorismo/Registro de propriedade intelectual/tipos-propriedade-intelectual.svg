@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="patGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="marGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="dirGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="450" fill="#f8fafc"/>
+
+  <!-- Title -->
+  <text x="400" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1e293b" text-anchor="middle">⚖️ Propriedade Intelectual - Tipos de Proteção</text>
+
+  <!-- Umbrella -->
+  <rect x="250" y="55" width="300" height="45" rx="10" fill="#1e293b" filter="url(#shadow)"/>
+  <text x="400" y="83" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">PROPRIEDADE INTELECTUAL</text>
+
+  <!-- Connector lines -->
+  <line x1="300" y1="100" x2="150" y2="150" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="400" y1="100" x2="400" y2="150" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="500" y1="100" x2="650" y2="150" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- Patentes -->
+  <g transform="translate(50, 150)">
+    <rect width="220" height="270" rx="15" fill="url(#patGrad)" filter="url(#shadow)"/>
+    <text x="110" y="40" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">📜</text>
+    <text x="110" y="70" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">PATENTES</text>
+
+    <rect x="15" y="85" width="190" height="165" rx="10" fill="rgba(255,255,255,0.15)"/>
+
+    <text x="110" y="110" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Tipos:</text>
+    <text x="25" y="130" font-family="Arial, sans-serif" font-size="9" fill="white">• PI (Invenção): 20 anos</text>
+    <text x="25" y="145" font-family="Arial, sans-serif" font-size="9" fill="white">• MU (Utilidade): 15 anos</text>
+
+    <text x="110" y="170" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Registro no INPI:</text>
+    <text x="25" y="190" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">1. Busca de anterioridade</text>
+    <text x="25" y="203" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">2. Documentação técnica</text>
+    <text x="25" y="216" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">3. Depósito via e-Patentes</text>
+    <text x="25" y="229" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">4. Pagamento de taxas</text>
+    <text x="25" y="242" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">5. Publicação na RPI</text>
+  </g>
+
+  <!-- Marcas -->
+  <g transform="translate(290, 150)">
+    <rect width="220" height="270" rx="15" fill="url(#marGrad)" filter="url(#shadow)"/>
+    <text x="110" y="40" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">®️</text>
+    <text x="110" y="70" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">MARCAS</text>
+
+    <rect x="15" y="85" width="190" height="165" rx="10" fill="rgba(255,255,255,0.15)"/>
+
+    <text x="110" y="110" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">O que é:</text>
+    <text x="25" y="130" font-family="Arial, sans-serif" font-size="9" fill="white">Sinal distintivo que</text>
+    <text x="25" y="145" font-family="Arial, sans-serif" font-size="9" fill="white">identifica produtos/serviços</text>
+
+    <text x="110" y="170" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Características:</text>
+    <text x="25" y="190" font-family="Arial, sans-serif" font-size="9" fill="rgba(255,255,255,0.9)">• Vigência: 10 anos</text>
+    <text x="25" y="205" font-family="Arial, sans-serif" font-size="9" fill="rgba(255,255,255,0.9)">• Renovável indefinidamente</text>
+    <text x="25" y="220" font-family="Arial, sans-serif" font-size="9" fill="rgba(255,255,255,0.9)">• Registro no INPI</text>
+    <text x="25" y="235" font-family="Arial, sans-serif" font-size="9" fill="rgba(255,255,255,0.9)">• Formulário eletrônico</text>
+  </g>
+
+  <!-- Direitos Autorais -->
+  <g transform="translate(530, 150)">
+    <rect width="220" height="270" rx="15" fill="url(#dirGrad)" filter="url(#shadow)"/>
+    <text x="110" y="40" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">©️</text>
+    <text x="110" y="70" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">DIREITOS AUTORAIS</text>
+
+    <rect x="15" y="85" width="190" height="165" rx="10" fill="rgba(255,255,255,0.15)"/>
+
+    <text x="110" y="110" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">O que protege:</text>
+    <text x="25" y="130" font-family="Arial, sans-serif" font-size="9" fill="white">Obras literárias, artísticas,</text>
+    <text x="25" y="145" font-family="Arial, sans-serif" font-size="9" fill="white">científicas ou intelectuais</text>
+
+    <text x="110" y="170" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Características:</text>
+    <text x="25" y="190" font-family="Arial, sans-serif" font-size="9" fill="rgba(255,255,255,0.9)">• Proteção automática</text>
+    <text x="25" y="205" font-family="Arial, sans-serif" font-size="9" fill="rgba(255,255,255,0.9)">• Registro facultativo</text>
+    <text x="25" y="220" font-family="Arial, sans-serif" font-size="9" fill="rgba(255,255,255,0.9)">• Lei nº 9.610/1998</text>
+    <text x="25" y="235" font-family="Arial, sans-serif" font-size="9" fill="rgba(255,255,255,0.9)">• Biblioteca Nacional</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="400" y="440" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">💡 INPI - Instituto Nacional da Propriedade Industrial: responsável por patentes e marcas no Brasil</text>
+</svg>

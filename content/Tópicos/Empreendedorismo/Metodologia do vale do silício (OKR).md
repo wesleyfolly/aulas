@@ -18,6 +18,8 @@ tags:
 
 ## Estrutura
 
+![[Recursos/Empreendedorismo/Metodologia do vale do silício (OKR)/estrutura-okr.svg|Estrutura do OKR - Objetivos e Resultados-Chave]]
+
 ### Objective (Objetivo)
 - Meta **qualitativa**, clara e inspiradora
 - Responde: "Onde queremos chegar?"

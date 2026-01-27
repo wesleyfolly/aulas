@@ -15,6 +15,8 @@ tags:
 > [!tip] Transformação Digital
 > As tendências do futuro estão moldando o empreendedorismo e os negócios através de tecnologias emergentes, mudanças comportamentais e novas oportunidades de mercado.
 
+![[Recursos/Empreendedorismo/Tendências do futuro/tendencias-futuro.svg|Tendências do futuro para empreendedores]]
+
 ## Tecnologias Emergentes
 
 ### Inteligência Artificial e Machine Learning

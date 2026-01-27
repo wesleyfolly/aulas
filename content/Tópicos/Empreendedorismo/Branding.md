@@ -16,6 +16,8 @@ tags:
 
 ## Conceitos Fundamentais
 
+![[Recursos/Empreendedorismo/Branding/pilares-branding.svg|Os pilares do Branding]]
+
 ### Identidade da Marca
 - **Valores, missão e propósito** que definem a essência da marca
 - **Elementos visuais**: logo, cores, tipografia, design

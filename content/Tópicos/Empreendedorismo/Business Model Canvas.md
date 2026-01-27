@@ -17,6 +17,8 @@ tags:
 
 ## Os nove blocos
 
+![[Recursos/Empreendedorismo/Business Model Canvas/canvas-blocos.svg|Visualização dos 9 blocos do Business Model Canvas]]
+
 O Business Model Canvas é dividido em nove blocos fundamentais que cobrem todos os aspectos de um modelo de negócio:
 
 1. **Segmentos de clientes** - Para quem você está criando valor?

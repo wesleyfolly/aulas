@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500">
+  <defs>
+    <linearGradient id="prodGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f43f5e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="priceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="placeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="promoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="700" height="500" fill="#f8fafc"/>
+
+  <!-- Title -->
+  <text x="350" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e293b" text-anchor="middle">📊 Os 4 Ps do Marketing Mix</text>
+
+  <!-- Center circle -->
+  <circle cx="350" cy="255" r="55" fill="#1e293b" filter="url(#shadow)"/>
+  <text x="350" y="250" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">MARKETING</text>
+  <text x="350" y="270" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">MIX</text>
+
+  <!-- Product -->
+  <g transform="translate(50, 70)">
+    <rect width="250" height="140" rx="20" fill="url(#prodGrad)" filter="url(#shadow)"/>
+    <text x="125" y="35" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">📦</text>
+    <text x="125" y="60" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">PRODUTO</text>
+    <text x="125" y="80" font-family="Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.9)" text-anchor="middle">(Product)</text>
+    <text x="20" y="105" font-family="Arial, sans-serif" font-size="10" fill="white">• Características e qualidade</text>
+    <text x="20" y="120" font-family="Arial, sans-serif" font-size="10" fill="white">• Design e embalagem</text>
+    <text x="20" y="135" font-family="Arial, sans-serif" font-size="10" fill="white">• Serviço agregado</text>
+  </g>
+
+  <!-- Price -->
+  <g transform="translate(400, 70)">
+    <rect width="250" height="140" rx="20" fill="url(#priceGrad)" filter="url(#shadow)"/>
+    <text x="125" y="35" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">💰</text>
+    <text x="125" y="60" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">PREÇO</text>
+    <text x="125" y="80" font-family="Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.9)" text-anchor="middle">(Price)</text>
+    <text x="20" y="105" font-family="Arial, sans-serif" font-size="10" fill="white">• Preço base e descontos</text>
+    <text x="20" y="120" font-family="Arial, sans-serif" font-size="10" fill="white">• Condições de pagamento</text>
+    <text x="20" y="135" font-family="Arial, sans-serif" font-size="10" fill="white">• Posicionamento (premium/acessível)</text>
+  </g>
+
+  <!-- Place -->
+  <g transform="translate(50, 300)">
+    <rect width="250" height="140" rx="20" fill="url(#placeGrad)" filter="url(#shadow)"/>
+    <text x="125" y="35" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">📍</text>
+    <text x="125" y="60" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">PRAÇA</text>
+    <text x="125" y="80" font-family="Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.9)" text-anchor="middle">(Place/Distribuição)</text>
+    <text x="20" y="105" font-family="Arial, sans-serif" font-size="10" fill="white">• Canais de venda</text>
+    <text x="20" y="120" font-family="Arial, sans-serif" font-size="10" fill="white">• Logística e cobertura</text>
+    <text x="20" y="135" font-family="Arial, sans-serif" font-size="10" fill="white">• Visibilidade e conveniência</text>
+  </g>
+
+  <!-- Promotion -->
+  <g transform="translate(400, 300)">
+    <rect width="250" height="140" rx="20" fill="url(#promoGrad)" filter="url(#shadow)"/>
+    <text x="125" y="35" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">📣</text>
+    <text x="125" y="60" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">PROMOÇÃO</text>
+    <text x="125" y="80" font-family="Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.9)" text-anchor="middle">(Promotion)</text>
+    <text x="20" y="105" font-family="Arial, sans-serif" font-size="10" fill="white">• Publicidade e marketing digital</text>
+    <text x="20" y="120" font-family="Arial, sans-serif" font-size="10" fill="white">• Relações públicas</text>
+    <text x="20" y="135" font-family="Arial, sans-serif" font-size="10" fill="white">• Vendas pessoais</text>
+  </g>
+
+  <!-- Connecting lines -->
+  <line x1="175" y1="210" x2="295" y2="230" stroke="#e2e8f0" stroke-width="2"/>
+  <line x1="525" y1="210" x2="405" y2="230" stroke="#e2e8f0" stroke-width="2"/>
+  <line x1="175" y1="300" x2="295" y2="280" stroke="#e2e8f0" stroke-width="2"/>
+  <line x1="525" y1="300" x2="405" y2="280" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- Footer -->
+  <text x="350" y="475" font-family="Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">💡 Os 4 Ps devem estar alinhados para uma estratégia de marketing eficaz</text>
+</svg>

@@ -17,6 +17,8 @@ tags:
 
 ## Características Principais
 
+![[Recursos/Empreendedorismo/Startups/caracteristicas-startup.svg|As 5 características principais de uma startup]]
+
 ### 1. Inovação
 Produto, serviço ou modelo de negócio que traz algo novo ou melhora substancialmente o existente.
 
@@ -33,6 +35,8 @@ Por trabalhar com inovação e incertezas tecnológicas e mercadológicas; muito
 Capacidade de testar hipóteses, errar, pivotar e iterar rápido. Equipes enxutas e ciclos curtos.
 
 ## Ecossistema de Inovação
+
+![[Recursos/Empreendedorismo/Startups/workspace-empreendedor.jpg|Ambiente de trabalho típico de uma startup - Foto: Microsoft 365/Unsplash]]
 
 ### Atores Principais
 - **Empreendedores/fundadores**: geram ideias, assumem risco

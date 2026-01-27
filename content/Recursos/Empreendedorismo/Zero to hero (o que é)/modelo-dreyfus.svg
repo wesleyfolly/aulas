@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 450">
+  <defs>
+    <linearGradient id="level1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#94a3b8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#64748b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="level2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="level3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#34d399;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="level4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="level5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="850" height="450" fill="#f8fafc"/>
+
+  <!-- Title -->
+  <text x="425" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1e293b" text-anchor="middle">🎯 Zero to Hero - Modelo Dreyfus de Habilidades</text>
+
+  <!-- Stair visualization -->
+  <!-- Level 1 -->
+  <g transform="translate(50, 320)">
+    <rect width="140" height="90" rx="10" fill="url(#level1)" filter="url(#shadow)"/>
+    <text x="70" y="30" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">1️⃣</text>
+    <text x="70" y="55" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">NOVATO</text>
+    <text x="70" y="72" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)" text-anchor="middle">Depende de regras</text>
+    <text x="70" y="84" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)" text-anchor="middle">e instruções</text>
+  </g>
+
+  <!-- Level 2 -->
+  <g transform="translate(200, 260)">
+    <rect width="140" height="90" rx="10" fill="url(#level2)" filter="url(#shadow)"/>
+    <text x="70" y="30" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">2️⃣</text>
+    <text x="70" y="50" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">INICIANTE</text>
+    <text x="70" y="65" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">AVANÇADO</text>
+    <text x="70" y="82" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)" text-anchor="middle">Reconhece padrões</text>
+  </g>
+
+  <!-- Level 3 -->
+  <g transform="translate(350, 200)">
+    <rect width="140" height="90" rx="10" fill="url(#level3)" filter="url(#shadow)"/>
+    <text x="70" y="30" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">3️⃣</text>
+    <text x="70" y="55" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">COMPETENTE</text>
+    <text x="70" y="72" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)" text-anchor="middle">Analisa e prioriza</text>
+    <text x="70" y="84" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)" text-anchor="middle">deliberadamente</text>
+  </g>
+
+  <!-- Level 4 -->
+  <g transform="translate(500, 140)">
+    <rect width="140" height="90" rx="10" fill="url(#level4)" filter="url(#shadow)"/>
+    <text x="70" y="30" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">4️⃣</text>
+    <text x="70" y="55" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">PROFICIENTE</text>
+    <text x="70" y="72" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)" text-anchor="middle">Intuição guia</text>
+    <text x="70" y="84" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)" text-anchor="middle">decisões</text>
+  </g>
+
+  <!-- Level 5 -->
+  <g transform="translate(650, 80)">
+    <rect width="150" height="95" rx="10" fill="url(#level5)" filter="url(#shadow)"/>
+    <text x="75" y="30" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">⭐</text>
+    <text x="75" y="55" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">ESPECIALISTA</text>
+    <text x="75" y="72" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)" text-anchor="middle">Cria novos métodos</text>
+    <text x="75" y="84" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)" text-anchor="middle">Modelo para outros</text>
+  </g>
+
+  <!-- Connecting arrows -->
+  <path d="M 190 365 L 200 325" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <polygon points="200,320 195,330 205,330" fill="#94a3b8"/>
+
+  <path d="M 340 305 L 350 265" stroke="#3b82f6" stroke-width="3"/>
+  <polygon points="350,260 345,270 355,270" fill="#3b82f6"/>
+
+  <path d="M 490 245 L 500 205" stroke="#10b981" stroke-width="3"/>
+  <polygon points="500,200 495,210 505,210" fill="#10b981"/>
+
+  <path d="M 640 185 L 650 145" stroke="#8b5cf6" stroke-width="3"/>
+  <polygon points="650,140 645,150 655,150" fill="#8b5cf6"/>
+
+  <!-- 70-20-10 Model Box -->
+  <rect x="50" y="70" width="250" height="110" rx="15" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+  <text x="175" y="95" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b" text-anchor="middle">📚 Modelo 70-20-10</text>
+
+  <rect x="70" y="105" width="140" height="15" rx="3" fill="#22c55e"/>
+  <text x="145" y="115" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">70% Prática</text>
+
+  <rect x="70" y="125" width="40" height="15" rx="3" fill="#3b82f6"/>
+  <text x="92" y="135" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">20%</text>
+  <text x="145" y="135" font-family="Arial, sans-serif" font-size="8" fill="#64748b">Social (mentoria)</text>
+
+  <rect x="70" y="145" width="20" height="15" rx="3" fill="#f59e0b"/>
+  <text x="80" y="155" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">10</text>
+  <text x="145" y="155" font-family="Arial, sans-serif" font-size="8" fill="#64748b">Formal (cursos)</text>
+
+  <!-- Footer -->
+  <text x="425" y="435" font-family="Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">💡 Técnicas: Prática deliberada + Feedback constante + Projetos reais + Ensinar outros</text>
+</svg>

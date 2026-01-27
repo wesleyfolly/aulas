@@ -17,6 +17,8 @@ tags:
 
 ## Os 4 Ps do Marketing Mix
 
+![[Recursos/Empreendedorismo/Marketing/4ps-marketing.svg|Os 4 Ps do Marketing Mix]]
+
 ### 1. Produto (Product)
 Tudo que você oferece: características, design, qualidade, embalagem, serviço agregado.
 

@@ -17,6 +17,8 @@ tags:
 
 ## As 5 Etapas do Design Thinking
 
+![[Recursos/Empreendedorismo/Design thinking/etapas-design-thinking.svg|As 5 etapas do Design Thinking]]
+
 ### 1. Empatia (Empathize)
 **Objetivo:** Compreender profundamente os usuários — desejos, dores, necessidades e contexto.
 

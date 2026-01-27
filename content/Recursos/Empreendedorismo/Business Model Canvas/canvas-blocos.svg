@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="550" fill="#f8fafc"/>
+
+  <!-- Title -->
+  <text x="450" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1e293b" text-anchor="middle">Business Model Canvas - Os 9 Blocos</text>
+
+  <!-- Main Canvas Area -->
+  <rect x="30" y="55" width="840" height="440" rx="10" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+
+  <!-- Row 1: Key Partners, Key Activities, Value Prop, Customer Relations, Customer Segments -->
+
+  <!-- Key Partners -->
+  <rect x="35" y="60" width="160" height="210" rx="8" fill="#fef3c7"/>
+  <text x="115" y="85" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#92400e" text-anchor="middle">8. PARCEIROS</text>
+  <text x="115" y="100" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#92400e" text-anchor="middle">PRINCIPAIS</text>
+  <text x="50" y="125" font-family="Arial, sans-serif" font-size="9" fill="#78716c">Quem são seus</text>
+  <text x="50" y="138" font-family="Arial, sans-serif" font-size="9" fill="#78716c">parceiros e</text>
+  <text x="50" y="151" font-family="Arial, sans-serif" font-size="9" fill="#78716c">fornecedores-chave?</text>
+
+  <!-- Key Activities -->
+  <rect x="200" y="60" width="160" height="105" rx="8" fill="#dbeafe"/>
+  <text x="280" y="85" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1e40af" text-anchor="middle">7. ATIVIDADES</text>
+  <text x="280" y="100" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1e40af" text-anchor="middle">PRINCIPAIS</text>
+  <text x="215" y="125" font-family="Arial, sans-serif" font-size="9" fill="#64748b">Que atividades são</text>
+  <text x="215" y="138" font-family="Arial, sans-serif" font-size="9" fill="#64748b">essenciais?</text>
+
+  <!-- Key Resources -->
+  <rect x="200" y="170" width="160" height="100" rx="8" fill="#e0e7ff"/>
+  <text x="280" y="195" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3730a3" text-anchor="middle">6. RECURSOS</text>
+  <text x="280" y="210" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3730a3" text-anchor="middle">PRINCIPAIS</text>
+  <text x="215" y="235" font-family="Arial, sans-serif" font-size="9" fill="#64748b">Que recursos são</text>
+  <text x="215" y="248" font-family="Arial, sans-serif" font-size="9" fill="#64748b">necessários?</text>
+
+  <!-- Value Proposition -->
+  <rect x="365" y="60" width="170" height="210" rx="8" fill="#dcfce7"/>
+  <text x="450" y="85" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#166534" text-anchor="middle">2. PROPOSTA</text>
+  <text x="450" y="100" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#166534" text-anchor="middle">DE VALOR</text>
+  <text x="380" y="130" font-family="Arial, sans-serif" font-size="9" fill="#4b5563">Que problema você</text>
+  <text x="380" y="143" font-family="Arial, sans-serif" font-size="9" fill="#4b5563">resolve?</text>
+  <text x="380" y="165" font-family="Arial, sans-serif" font-size="9" fill="#4b5563">Que valor você</text>
+  <text x="380" y="178" font-family="Arial, sans-serif" font-size="9" fill="#4b5563">entrega ao cliente?</text>
+
+  <!-- Customer Relations -->
+  <rect x="540" y="60" width="160" height="105" rx="8" fill="#fce7f3"/>
+  <text x="620" y="85" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#9d174d" text-anchor="middle">4. RELACIONAMENTO</text>
+  <text x="620" y="100" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#9d174d" text-anchor="middle">COM CLIENTES</text>
+  <text x="555" y="125" font-family="Arial, sans-serif" font-size="9" fill="#64748b">Que tipo de relação</text>
+  <text x="555" y="138" font-family="Arial, sans-serif" font-size="9" fill="#64748b">você estabelece?</text>
+
+  <!-- Channels -->
+  <rect x="540" y="170" width="160" height="100" rx="8" fill="#fbcfe8"/>
+  <text x="620" y="195" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#be185d" text-anchor="middle">3. CANAIS</text>
+  <text x="555" y="220" font-family="Arial, sans-serif" font-size="9" fill="#64748b">Como você alcança</text>
+  <text x="555" y="233" font-family="Arial, sans-serif" font-size="9" fill="#64748b">seus clientes?</text>
+
+  <!-- Customer Segments -->
+  <rect x="705" y="60" width="160" height="210" rx="8" fill="#fee2e2"/>
+  <text x="785" y="85" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#991b1b" text-anchor="middle">1. SEGMENTOS</text>
+  <text x="785" y="100" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#991b1b" text-anchor="middle">DE CLIENTES</text>
+  <text x="720" y="125" font-family="Arial, sans-serif" font-size="9" fill="#64748b">Para quem você</text>
+  <text x="720" y="138" font-family="Arial, sans-serif" font-size="9" fill="#64748b">está criando valor?</text>
+
+  <!-- Row 2: Cost Structure, Revenue Streams -->
+
+  <!-- Cost Structure -->
+  <rect x="35" y="275" width="413" height="100" rx="8" fill="#f3f4f6"/>
+  <text x="241" y="300" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#374151" text-anchor="middle">9. ESTRUTURA DE CUSTOS</text>
+  <text x="50" y="325" font-family="Arial, sans-serif" font-size="9" fill="#64748b">Quais são os principais custos do seu modelo de negócio?</text>
+  <text x="50" y="350" font-family="Arial, sans-serif" font-size="9" fill="#64748b">• Custos fixos vs variáveis  • Economias de escala  • Recursos mais caros</text>
+
+  <!-- Revenue Streams -->
+  <rect x="453" y="275" width="412" height="100" rx="8" fill="#ecfdf5"/>
+  <text x="659" y="300" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#047857" text-anchor="middle">5. FONTES DE RECEITA</text>
+  <text x="468" y="325" font-family="Arial, sans-serif" font-size="9" fill="#64748b">Como você ganha dinheiro? Quanto os clientes pagam?</text>
+  <text x="468" y="350" font-family="Arial, sans-serif" font-size="9" fill="#64748b">• Venda de produtos  • Assinaturas  • Licenciamento  • Publicidade</text>
+
+  <!-- Arrows showing flow -->
+  <text x="450" y="405" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">← EFICIÊNCIA (custos) | VALOR (receitas) →</text>
+
+  <!-- Legend -->
+  <rect x="35" y="420" width="830" height="70" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="450" y="445" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#475569" text-anchor="middle">💡 Dica: Preencha na ordem numérica para construir seu modelo de negócio</text>
+  <text x="450" y="470" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Comece pelos CLIENTES (1) → VALOR (2) → CANAIS (3) → RELACIONAMENTO (4) → RECEITAS (5) → ... → CUSTOS (9)</text>
+</svg>

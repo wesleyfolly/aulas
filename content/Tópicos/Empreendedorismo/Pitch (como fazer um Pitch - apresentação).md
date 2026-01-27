@@ -18,6 +18,8 @@ tags:
 
 ## Estrutura Básica do Pitch Deck (10-15 slides)
 
+![[Recursos/Empreendedorismo/Pitch (como fazer um Pitch - apresentação)/estrutura-pitch.svg|Estrutura completa do Pitch Deck]]
+
 1. **Capa/Introdução**: nome da empresa, logo e frase de efeito (elevator pitch)
 2. **O Problema**: qual dor ou necessidade existe no mercado? Torne palpável com história ou estatísticas
 3. **Sua Solução**: o que seu produto/serviço oferece? Destaque o diferencial competitivo

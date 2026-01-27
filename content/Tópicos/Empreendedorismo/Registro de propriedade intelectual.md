@@ -16,6 +16,8 @@ tags:
 > [!info] O que é Propriedade Intelectual
 > Propriedade Intelectual é o conjunto de direitos legais relativos à criação do intelecto humano, incluindo Propriedade Industrial (patentes, marcas) e Direitos Autorais.
 
+![[Recursos/Empreendedorismo/Registro de propriedade intelectual/tipos-propriedade-intelectual.svg|Tipos de Propriedade Intelectual - Patentes, Marcas e Direitos Autorais]]
+
 ## Patentes
 
 ### O que é

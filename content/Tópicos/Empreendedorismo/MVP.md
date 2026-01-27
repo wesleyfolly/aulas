@@ -15,6 +15,8 @@ tags:
 > [!info] Definição
 > **MVP** (Minimum Viable Product) é a versão mais simples de um produto que já entrega valor real ao usuário, mas com o mínimo de funcionalidades suficientes para testar hipóteses de negócio.
 
+![[Recursos/Empreendedorismo/MVP/ciclo-mvp.svg|Ciclo de validação MVP - Construir, Medir, Aprender]]
+
 ## Características
 
 - **Funcional e usável**: não é protótipo descartável nem produto inacabado

@@ -28,6 +28,8 @@ tags:
 
 ### Modelos de Negócios Digitais
 
+![[Recursos/Empreendedorismo/Empreendedorismo digital/modelos-negocios-digitais.svg|Modelos de negócios digitais e estratégias de marketing]]
+
 - **E-commerce:** Venda de produtos físicos online
 - **Infoprodutos:** Cursos, e-books, consultorias digitais
 - **Serviços Online:** SaaS, plataformas, assinaturas

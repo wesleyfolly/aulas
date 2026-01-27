@@ -68,6 +68,8 @@ Metas financeiras conforme tempo (ex: viagem, carro, aposentadoria).
 
 ## 3. Tipos de Investimentos
 
+![[Recursos/Empreendedorismo/Dinheiro e investimentos/tipos-investimentos.svg|Visão geral dos tipos de investimentos]]
+
 ### 🛡️ Renda Fixa
 
 > [!success] Características

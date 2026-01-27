@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
+  <defs>
+    <linearGradient id="ecomGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="infoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="saasGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mktpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="420" fill="#f8fafc"/>
+
+  <!-- Title -->
+  <text x="400" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1e293b" text-anchor="middle">💻 Modelos de Negócios Digitais</text>
+
+  <!-- E-commerce -->
+  <g transform="translate(50, 60)">
+    <rect width="160" height="170" rx="15" fill="url(#ecomGrad)" filter="url(#shadow)"/>
+    <text x="80" y="40" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle">🛒</text>
+    <text x="80" y="70" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">E-COMMERCE</text>
+
+    <rect x="15" y="85" width="130" height="70" rx="8" fill="rgba(255,255,255,0.15)"/>
+    <text x="80" y="105" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Venda de produtos</text>
+    <text x="80" y="118" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">físicos online</text>
+    <text x="80" y="140" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.8)" text-anchor="middle">Shopify, WooCommerce</text>
+    <text x="80" y="152" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.8)" text-anchor="middle">Mercado Livre</text>
+  </g>
+
+  <!-- Infoprodutos -->
+  <g transform="translate(230, 60)">
+    <rect width="160" height="170" rx="15" fill="url(#infoGrad)" filter="url(#shadow)"/>
+    <text x="80" y="40" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle">📚</text>
+    <text x="80" y="70" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">INFOPRODUTOS</text>
+
+    <rect x="15" y="85" width="130" height="70" rx="8" fill="rgba(255,255,255,0.15)"/>
+    <text x="80" y="105" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Cursos, e-books,</text>
+    <text x="80" y="118" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">consultorias digitais</text>
+    <text x="80" y="140" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.8)" text-anchor="middle">Udemy, Hotmart</text>
+    <text x="80" y="152" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.8)" text-anchor="middle">Teachable</text>
+  </g>
+
+  <!-- SaaS/Serviços -->
+  <g transform="translate(410, 60)">
+    <rect width="160" height="170" rx="15" fill="url(#saasGrad)" filter="url(#shadow)"/>
+    <text x="80" y="40" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle">☁️</text>
+    <text x="80" y="70" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">SERVIÇOS/SaaS</text>
+
+    <rect x="15" y="85" width="130" height="70" rx="8" fill="rgba(255,255,255,0.15)"/>
+    <text x="80" y="105" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Plataformas,</text>
+    <text x="80" y="118" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">assinaturas</text>
+    <text x="80" y="140" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.8)" text-anchor="middle">Notion, Canva</text>
+    <text x="80" y="152" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.8)" text-anchor="middle">Trello, Slack</text>
+  </g>
+
+  <!-- Marketplace -->
+  <g transform="translate(590, 60)">
+    <rect width="160" height="170" rx="15" fill="url(#mktpGrad)" filter="url(#shadow)"/>
+    <text x="80" y="40" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle">🏪</text>
+    <text x="80" y="70" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">MARKETPLACE</text>
+
+    <rect x="15" y="85" width="130" height="70" rx="8" fill="rgba(255,255,255,0.15)"/>
+    <text x="80" y="105" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Conectar compradores</text>
+    <text x="80" y="118" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">e vendedores</text>
+    <text x="80" y="140" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.8)" text-anchor="middle">Airbnb, Uber</text>
+    <text x="80" y="152" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.8)" text-anchor="middle">iFood, 99</text>
+  </g>
+
+  <!-- Marketing Digital Section -->
+  <rect x="50" y="250" width="700" height="150" rx="15" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+  <text x="400" y="280" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b" text-anchor="middle">📣 Estratégias de Marketing Digital</text>
+
+  <g transform="translate(80, 295)">
+    <rect width="110" height="45" rx="8" fill="#dbeafe"/>
+    <text x="55" y="20" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1e40af" text-anchor="middle">🔍 SEO</text>
+    <text x="55" y="35" font-family="Arial, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">Otimização busca</text>
+  </g>
+
+  <g transform="translate(205, 295)">
+    <rect width="110" height="45" rx="8" fill="#f3e8ff"/>
+    <text x="55" y="20" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#7e22ce" text-anchor="middle">📝 Conteúdo</text>
+    <text x="55" y="35" font-family="Arial, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">Blogs, vídeos</text>
+  </g>
+
+  <g transform="translate(330, 295)">
+    <rect width="110" height="45" rx="8" fill="#fce7f3"/>
+    <text x="55" y="20" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#9d174d" text-anchor="middle">📱 Redes Sociais</text>
+    <text x="55" y="35" font-family="Arial, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">Engajamento</text>
+  </g>
+
+  <g transform="translate(455, 295)">
+    <rect width="110" height="45" rx="8" fill="#fef3c7"/>
+    <text x="55" y="20" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400e" text-anchor="middle">✉️ E-mail</text>
+    <text x="55" y="35" font-family="Arial, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">Comunicação direta</text>
+  </g>
+
+  <g transform="translate(580, 295)">
+    <rect width="110" height="45" rx="8" fill="#dcfce7"/>
+    <text x="55" y="20" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#166534" text-anchor="middle">📢 Ads</text>
+    <text x="55" y="35" font-family="Arial, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">Publicidade paga</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">🚀 Mentalidade: Adaptabilidade + Aprendizado contínuo + Resiliência</text>
+</svg>

@@ -17,6 +17,8 @@ tags:
 
 ## Modelo de Aquisição de Habilidades (Dreyfus)
 
+![[Recursos/Empreendedorismo/Zero to hero (o que é)/modelo-dreyfus.svg|Modelo Dreyfus - Jornada do Novato ao Especialista]]
+
 ### 1. Novato (Iniciante)
 - Depende de regras e instruções
 - Executa tarefas simples

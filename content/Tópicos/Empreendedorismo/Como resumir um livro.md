@@ -12,6 +12,8 @@ tags:
 
 # Como resumir um livro
 
+![[Recursos/Empreendedorismo/Como resumir um livro/metodo-4-passos.svg|Metodologia de 4 passos para resumir livros]]
+
 ## Metodologia em 4 passos
 
 ### 1. Ter um sistema de anotações

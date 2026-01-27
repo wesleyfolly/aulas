@@ -34,6 +34,8 @@ O Empreendedorismo, como "comportamento", pode estar associado a:
 
 ## Formas de empreendedorismo
 
+![[Recursos/Empreendedorismo/Conceitos básicos/formas-empreendedorismo.svg|Diagrama das quatro formas de empreendedorismo]]
+
 - **Empreendedorismo de negócios** - [[Empreendedorismo de negócios]]
 - **Empreendedorismo social** - foco em impacto social
 - **Intra-empreendedorismo** - empreendedorismo dentro de organizações
@@ -47,6 +49,8 @@ Uma importante etapa inicial de um empreendimento é a **pesquisa de mercado**.
 > Uma pesquisa de mercado compreende o conjunto de todas as ações desenvolvidas pelo empreendedor no sentido de obter informações sobre o mercado (consumidores, concorrentes, fornecedores, análise de conjuntura, localização, etc.) no qual atua e/ou pretende atuar.
 
 ### Origem dos dados
+
+![[Recursos/Empreendedorismo/Conceitos básicos/pesquisa-mercado.svg|Comparativo entre dados primários e secundários]]
 
 A origem dos dados da pesquisa pode ser **primária** ou **secundária**:
 

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="startGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="450" fill="#faf5ff"/>
+
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e293b" text-anchor="middle">🚀 5 Características de uma Startup</text>
+
+  <!-- Center rocket -->
+  <circle cx="400" cy="230" r="60" fill="url(#startGrad)" filter="url(#shadow)"/>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle">🚀</text>
+  <text x="400" y="250" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">STARTUP</text>
+
+  <!-- Characteristic 1: Innovation -->
+  <g transform="translate(80, 80)">
+    <rect width="180" height="90" rx="15" fill="white" filter="url(#shadow)"/>
+    <rect width="180" height="8" rx="4" fill="#ec4899"/>
+    <text x="90" y="40" font-family="Arial, sans-serif" font-size="24" fill="#ec4899" text-anchor="middle">💡</text>
+    <text x="90" y="60" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b" text-anchor="middle">1. INOVAÇÃO</text>
+    <text x="90" y="78" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Solução nova ou</text>
+    <text x="90" y="90" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">melhor que o existente</text>
+  </g>
+
+  <!-- Characteristic 2: Scalability -->
+  <g transform="translate(540, 80)">
+    <rect width="180" height="90" rx="15" fill="white" filter="url(#shadow)"/>
+    <rect width="180" height="8" rx="4" fill="#3b82f6"/>
+    <text x="90" y="40" font-family="Arial, sans-serif" font-size="24" fill="#3b82f6" text-anchor="middle">📈</text>
+    <text x="90" y="60" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b" text-anchor="middle">2. ESCALABILIDADE</text>
+    <text x="90" y="78" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Crescer sem aumento</text>
+    <text x="90" y="90" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">proporcional de custos</text>
+  </g>
+
+  <!-- Characteristic 3: Repeatability -->
+  <g transform="translate(80, 270)">
+    <rect width="180" height="90" rx="15" fill="white" filter="url(#shadow)"/>
+    <rect width="180" height="8" rx="4" fill="#14b8a6"/>
+    <text x="90" y="40" font-family="Arial, sans-serif" font-size="24" fill="#14b8a6" text-anchor="middle">🔄</text>
+    <text x="90" y="60" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b" text-anchor="middle">3. REPETIBILIDADE</text>
+    <text x="90" y="78" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Entregar valor de forma</text>
+    <text x="90" y="90" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">uniforme para vários clientes</text>
+  </g>
+
+  <!-- Characteristic 4: High Risk -->
+  <g transform="translate(540, 270)">
+    <rect width="180" height="90" rx="15" fill="white" filter="url(#shadow)"/>
+    <rect width="180" height="8" rx="4" fill="#f59e0b"/>
+    <text x="90" y="40" font-family="Arial, sans-serif" font-size="24" fill="#f59e0b" text-anchor="middle">⚡</text>
+    <text x="90" y="60" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b" text-anchor="middle">4. ALTO RISCO</text>
+    <text x="90" y="78" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Incerteza tecnológica</text>
+    <text x="90" y="90" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">e mercadológica</text>
+  </g>
+
+  <!-- Characteristic 5: Agility (bottom center) -->
+  <g transform="translate(310, 370)">
+    <rect width="180" height="70" rx="15" fill="white" filter="url(#shadow)"/>
+    <rect width="180" height="8" rx="4" fill="#22c55e"/>
+    <text x="90" y="35" font-family="Arial, sans-serif" font-size="24" fill="#22c55e" text-anchor="middle">⚙️</text>
+    <text x="90" y="55" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b" text-anchor="middle">5. AGILIDADE</text>
+    <text x="90" y="70" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Testar, errar, pivotar e iterar rápido</text>
+  </g>
+
+  <!-- Connecting lines -->
+  <line x1="260" y1="125" x2="340" y2="190" stroke="#e2e8f0" stroke-width="2"/>
+  <line x1="540" y1="125" x2="460" y2="190" stroke="#e2e8f0" stroke-width="2"/>
+  <line x1="260" y1="315" x2="340" y2="270" stroke="#e2e8f0" stroke-width="2"/>
+  <line x1="540" y1="315" x2="460" y2="270" stroke="#e2e8f0" stroke-width="2"/>
+  <line x1="400" y1="290" x2="400" y2="370" stroke="#e2e8f0" stroke-width="2"/>
+</svg>

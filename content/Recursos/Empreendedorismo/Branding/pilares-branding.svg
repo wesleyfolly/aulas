@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 450">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="750" height="450" fill="#faf5ff"/>
+
+  <!-- Title -->
+  <text x="375" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1e293b" text-anchor="middle">🏆 Pilares do Branding</text>
+  <text x="375" y="55" font-family="Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">Construção e gestão de marca</text>
+
+  <!-- Base/Foundation -->
+  <rect x="75" y="380" width="600" height="50" rx="10" fill="#1e293b" filter="url(#shadow)"/>
+  <text x="375" y="410" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">🎯 BRAND EQUITY - Valor da Marca</text>
+
+  <!-- Pillar 1: Identity -->
+  <g transform="translate(85, 130)">
+    <rect width="130" height="250" rx="10" fill="url(#brandGrad)" filter="url(#shadow)"/>
+    <text x="65" y="40" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">🎨</text>
+    <text x="65" y="70" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">IDENTIDADE</text>
+
+    <rect x="10" y="90" width="110" height="140" rx="8" fill="rgba(255,255,255,0.15)"/>
+    <text x="65" y="115" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Valores e missão</text>
+    <text x="65" y="140" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Logo e cores</text>
+    <text x="65" y="165" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Tipografia</text>
+    <text x="65" y="190" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Personalidade</text>
+    <text x="65" y="215" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Voz da marca</text>
+  </g>
+
+  <!-- Pillar 2: Value Proposition -->
+  <g transform="translate(235, 130)">
+    <rect width="130" height="250" rx="10" fill="url(#brandGrad)" filter="url(#shadow)"/>
+    <text x="65" y="40" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">💎</text>
+    <text x="65" y="60" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">PROPOSTA</text>
+    <text x="65" y="75" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">DE VALOR</text>
+
+    <rect x="10" y="90" width="110" height="140" rx="8" fill="rgba(255,255,255,0.15)"/>
+    <text x="65" y="115" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Benefícios únicos</text>
+    <text x="65" y="140" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Funcionais</text>
+    <text x="65" y="165" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Emocionais</text>
+    <text x="65" y="190" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Simbólicos</text>
+    <text x="65" y="215" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">"Por que escolher?"</text>
+  </g>
+
+  <!-- Pillar 3: Positioning -->
+  <g transform="translate(385, 130)">
+    <rect width="130" height="250" rx="10" fill="url(#brandGrad)" filter="url(#shadow)"/>
+    <text x="65" y="40" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">🎯</text>
+    <text x="65" y="60" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">POSICIONA-</text>
+    <text x="65" y="75" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">MENTO</text>
+
+    <rect x="10" y="90" width="110" height="140" rx="8" fill="rgba(255,255,255,0.15)"/>
+    <text x="65" y="115" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Espaço único</text>
+    <text x="65" y="140" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">na mente do</text>
+    <text x="65" y="165" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">consumidor</text>
+    <text x="65" y="190" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">vs concorrentes</text>
+    <text x="65" y="215" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Percepção</text>
+  </g>
+
+  <!-- Pillar 4: Differentiation -->
+  <g transform="translate(535, 130)">
+    <rect width="130" height="250" rx="10" fill="url(#brandGrad)" filter="url(#shadow)"/>
+    <text x="65" y="40" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">⭐</text>
+    <text x="65" y="60" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">DIFERENCIA-</text>
+    <text x="65" y="75" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">ÇÃO</text>
+
+    <rect x="10" y="90" width="110" height="140" rx="8" fill="rgba(255,255,255,0.15)"/>
+    <text x="65" y="115" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Vantagens</text>
+    <text x="65" y="140" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">competitivas</text>
+    <text x="65" y="165" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Produto/Serviço</text>
+    <text x="65" y="190" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Experiência</text>
+    <text x="65" y="215" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Design/Valores</text>
+  </g>
+
+  <!-- Top arrows -->
+  <text x="375" y="105" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#7c3aed" text-anchor="middle">🔄 Consistência em todos os pontos de contato</text>
+</svg>

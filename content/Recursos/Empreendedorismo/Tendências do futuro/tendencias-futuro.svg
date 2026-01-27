@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 480">
+  <defs>
+    <linearGradient id="techGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="behavGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="oppGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="850" height="480" fill="#f8fafc"/>
+
+  <!-- Title -->
+  <text x="425" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1e293b" text-anchor="middle">🔮 Tendências do Futuro para Empreendedores</text>
+
+  <!-- Section 1: Tecnologias Emergentes -->
+  <g transform="translate(30, 55)">
+    <rect width="250" height="390" rx="15" fill="url(#techGrad)" filter="url(#shadow)"/>
+    <text x="125" y="35" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">💻</text>
+    <text x="125" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">TECNOLOGIAS</text>
+    <text x="125" y="78" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">EMERGENTES</text>
+
+    <rect x="15" y="90" width="220" height="285" rx="10" fill="rgba(255,255,255,0.1)"/>
+
+    <text x="30" y="115" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">🤖 IA e Machine Learning</text>
+    <text x="35" y="132" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Automação, personalização, análise</text>
+
+    <text x="30" y="160" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">⛓️ Blockchain e Web3</text>
+    <text x="35" y="177" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Descentralização, cripto, NFTs</text>
+
+    <text x="30" y="205" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">🥽 AR/VR</text>
+    <text x="35" y="222" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Experiências imersivas, metaverso</text>
+
+    <text x="30" y="250" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">📡 Internet das Coisas</text>
+    <text x="35" y="267" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Conectividade, cidades inteligentes</text>
+
+    <text x="30" y="295" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">☁️ Computação em Nuvem</text>
+    <text x="35" y="312" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Escalabilidade, edge computing</text>
+
+    <text x="30" y="340" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">🔐 Cibersegurança</text>
+    <text x="35" y="357" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Proteção de dados, privacidade</text>
+  </g>
+
+  <!-- Section 2: Mudanças Comportamentais -->
+  <g transform="translate(300, 55)">
+    <rect width="250" height="390" rx="15" fill="url(#behavGrad)" filter="url(#shadow)"/>
+    <text x="125" y="35" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">🔄</text>
+    <text x="125" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">MUDANÇAS</text>
+    <text x="125" y="78" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">COMPORTAMENTAIS</text>
+
+    <rect x="15" y="90" width="220" height="285" rx="10" fill="rgba(255,255,255,0.1)"/>
+
+    <text x="30" y="115" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">🤝 Economia Colaborativa</text>
+    <text x="35" y="132" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Compartilhamento, sustentabilidade</text>
+
+    <text x="30" y="160" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">🏠 Trabalho Remoto/Híbrido</text>
+    <text x="35" y="177" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Flexibilidade, novos modelos</text>
+
+    <text x="30" y="205" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">✨ Personalização</text>
+    <text x="35" y="222" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Produtos sob medida, experiências</text>
+
+    <text x="30" y="250" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">🌐 Globalização Digital</text>
+    <text x="35" y="267" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Mercados sem fronteiras</text>
+
+    <text x="30" y="295" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">📱 Mobile First</text>
+    <text x="35" y="312" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Tudo pelo smartphone</text>
+
+    <text x="30" y="340" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">🎯 Foco em Experiência</text>
+    <text x="35" y="357" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Valor além do produto</text>
+  </g>
+
+  <!-- Section 3: Oportunidades de Mercado -->
+  <g transform="translate(570, 55)">
+    <rect width="250" height="390" rx="15" fill="url(#oppGrad)" filter="url(#shadow)"/>
+    <text x="125" y="35" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">💡</text>
+    <text x="125" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">OPORTUNIDADES</text>
+    <text x="125" y="78" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">DE MERCADO</text>
+
+    <rect x="15" y="90" width="220" height="285" rx="10" fill="rgba(255,255,255,0.1)"/>
+
+    <text x="30" y="115" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">🌱 Sustentabilidade e ESG</text>
+    <text x="35" y="132" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Negócios verdes, energia renovável</text>
+
+    <text x="30" y="160" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">💚 Saúde e Bem-estar</text>
+    <text x="35" y="177" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">HealthTech, wellness, longevidade</text>
+
+    <text x="30" y="205" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">📚 EdTech</text>
+    <text x="35" y="222" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Educação digital, microlearning</text>
+
+    <text x="30" y="250" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">🏦 FinTech</text>
+    <text x="35" y="267" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Serviços financeiros digitais</text>
+
+    <text x="30" y="295" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">🍔 FoodTech</text>
+    <text x="35" y="312" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Alimentação sustentável, delivery</text>
+
+    <text x="30" y="340" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">🚗 Mobilidade</text>
+    <text x="35" y="357" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.9)">Veículos elétricos, sharing</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="425" y="465" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">⚠️ Empreendedores precisam estar atentos a essas tendências para identificar oportunidades e adaptar modelos de negócio</text>
+</svg>

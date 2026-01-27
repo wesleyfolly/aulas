@@ -22,6 +22,8 @@ tags:
 
 ### Tipos de IA
 
+![[Recursos/Empreendedorismo/Inteligência Artificial/tipos-ia.svg|Tipos de IA e principais subáreas]]
+
 - **IA Fraca (Narrow AI):** Especializada em tarefas específicas (ex: assistentes virtuais, reconhecimento facial)
 - **IA Forte (General AI):** Capacidade de realizar qualquer tarefa intelectual que um humano pode fazer
 - **IA Geral (AGI):** Nível teórico de IA com consciência e capacidade de raciocínio abstrato

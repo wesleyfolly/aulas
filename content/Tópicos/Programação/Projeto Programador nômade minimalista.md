@@ -20,7 +20,6 @@ tags:
 
 📺 [Entrevista Peter Levels](https://www.youtube.com/watch?v=oFtjKbXKqbg&t=5205s)
 
-![[Recursos/Programação/Projeto Programador nômade minimalista/transcricao_youtube_peter_levels.pdf|Transcrição Peter Levels]]
 
 🔗 [Pinokio](https://pinokio.computer/) - Ferramenta para rodar modelos de IA localmente
 

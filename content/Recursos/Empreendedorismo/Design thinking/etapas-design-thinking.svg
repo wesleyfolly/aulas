@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400">
+  <defs>
+    <linearGradient id="empGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f43f5e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="defGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ideGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="proGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d9488;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="tesGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="400" fill="#f8fafc"/>
+
+  <!-- Title -->
+  <text x="450" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1e293b" text-anchor="middle">🎯 Design Thinking - As 5 Etapas</text>
+  <text x="450" y="55" font-family="Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">Metodologia centrada no usuário para solução de problemas</text>
+
+  <!-- Connecting Line -->
+  <path d="M 90 190 Q 180 140, 260 190 Q 340 240, 450 190 Q 560 140, 640 190 Q 720 240, 810 190" stroke="#e2e8f0" stroke-width="4" fill="none" stroke-dasharray="8,4"/>
+
+  <!-- Stage 1: Empatia -->
+  <g transform="translate(30, 90)">
+    <circle cx="60" cy="100" r="55" fill="url(#empGrad)" filter="url(#shadow)"/>
+    <text x="60" y="90" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">👂</text>
+    <text x="60" y="115" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">1</text>
+    <text x="60" y="175" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e293b" text-anchor="middle">EMPATIA</text>
+    <text x="60" y="195" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Entender o</text>
+    <text x="60" y="208" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">usuário</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <path d="M 150 190 L 180 190" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <polygon points="185,190 175,185 175,195" fill="#cbd5e1"/>
+
+  <!-- Stage 2: Definição -->
+  <g transform="translate(200, 90)">
+    <circle cx="60" cy="100" r="55" fill="url(#defGrad)" filter="url(#shadow)"/>
+    <text x="60" y="90" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">🎯</text>
+    <text x="60" y="115" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">2</text>
+    <text x="60" y="175" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e293b" text-anchor="middle">DEFINIR</text>
+    <text x="60" y="195" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Foco no</text>
+    <text x="60" y="208" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">problema</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <polygon points="355,190 345,185 345,195" fill="#cbd5e1"/>
+
+  <!-- Stage 3: Ideação -->
+  <g transform="translate(370, 90)">
+    <circle cx="60" cy="100" r="55" fill="url(#ideGrad)" filter="url(#shadow)"/>
+    <text x="60" y="90" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">💡</text>
+    <text x="60" y="115" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">3</text>
+    <text x="60" y="175" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e293b" text-anchor="middle">IDEAR</text>
+    <text x="60" y="195" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Gerar</text>
+    <text x="60" y="208" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">soluções</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <polygon points="525,190 515,185 515,195" fill="#cbd5e1"/>
+
+  <!-- Stage 4: Prototipagem -->
+  <g transform="translate(540, 90)">
+    <circle cx="60" cy="100" r="55" fill="url(#proGrad)" filter="url(#shadow)"/>
+    <text x="60" y="90" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">🔧</text>
+    <text x="60" y="115" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">4</text>
+    <text x="60" y="175" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e293b" text-anchor="middle">PROTOTIPAR</text>
+    <text x="60" y="195" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Construir</text>
+    <text x="60" y="208" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">versão teste</text>
+  </g>
+
+  <!-- Arrow 4 -->
+  <polygon points="695,190 685,185 685,195" fill="#cbd5e1"/>
+
+  <!-- Stage 5: Teste -->
+  <g transform="translate(710, 90)">
+    <circle cx="60" cy="100" r="55" fill="url(#tesGrad)" filter="url(#shadow)"/>
+    <text x="60" y="90" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">✅</text>
+    <text x="60" y="115" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">5</text>
+    <text x="60" y="175" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e293b" text-anchor="middle">TESTAR</text>
+    <text x="60" y="195" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Validar com</text>
+    <text x="60" y="208" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">usuários</text>
+  </g>
+
+  <!-- Iteration Arrow -->
+  <path d="M 770 280 Q 770 330, 450 350 Q 130 330, 90 280" stroke="#94a3b8" stroke-width="2" fill="none" stroke-dasharray="6,3"/>
+  <polygon points="90,280 85,292 95,290" fill="#94a3b8"/>
+  <text x="450" y="370" font-family="Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">🔄 Processo Iterativo: volte às etapas anteriores quando necessário</text>
+</svg>
