@@ -32,9 +32,9 @@ aliases:
 
 - [[Empreendedorismo digital]]
 - [[Empreendedorismo de negócios]]
-- [[03 - IFF/Aulas/Tópicos/Empreendedorismo/Carreira e mercado de trabalho]]
+- [[Tópicos/Empreendedorismo/Carreira e mercado de trabalho|Carreira e mercado de trabalho]]
 - [[Dinheiro e investimentos]]
-- [[Inteligência Artificial]]
+- [[Tópicos/Empreendedorismo/Inteligência Artificial|Inteligência Artificial]]
 
 ---
 

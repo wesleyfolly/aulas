@@ -120,7 +120,7 @@ Documentar é tão importante quanto executar:
 > [!success] Expanda seu Conhecimento
 > Recursos complementares para aprofundar seus estudos.
 
-- [[Conteúdo e materiais]] — Livros, artigos e materiais de estudo
+- [[Tópicos/Segurança da informação/Conteúdo e materiais|Conteúdo e materiais]] — Livros, artigos e materiais de estudo
 - [[Tópicos/Segurança da informação/Cursos online|Cursos online]] — Plataformas e cursos recomendados
 - [[Certificações]] — CEH, OSCP, CompTIA Security+ e outras
 - [[Eventos]] — Conferências, CTFs e comunidade

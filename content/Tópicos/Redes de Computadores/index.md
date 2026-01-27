@@ -65,7 +65,7 @@ aliases:
 
 | Recurso | Descrição |
 |---------|-----------|
-| [[Conteúdo e materiais]] | Livros, apostilas e documentação |
+| [[Tópicos/Redes de Computadores/Conteúdo e materiais|Conteúdo e materiais]] | Livros, apostilas e documentação |
 | [[Tópicos/Redes de Computadores/Cursos online|Cursos online]] | Plataformas e cursos recomendados |
 | [[Certificações de redes]] | CCNA, CompTIA Network+ e outras |
 | [[Tópicos/Redes de Computadores/Entretenimento|Entretenimento]] | Filmes e séries sobre tecnologia |
