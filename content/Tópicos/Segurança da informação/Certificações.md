@@ -96,7 +96,7 @@ Especialização → OSWE, OSCE, GPEN, etc.
 
 > [!tip] Onde Estudar
 
-- [[Cursos online]] — Plataformas e cursos recomendados
+- [[Tópicos/Segurança da informação/Cursos online|Cursos online]] — Plataformas e cursos recomendados
 - [🔗 SegInfo - Guia de Certificações](https://seginfo.com.br/certificacoes-em-seguranca-da-informacao/)
 
 ---

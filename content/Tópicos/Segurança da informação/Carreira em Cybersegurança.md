@@ -65,6 +65,6 @@ tags:
 
 1. **Fundamentos de TI** — Redes, sistemas operacionais, programação básica
 2. **Certificações iniciais** — [[Certificações|CompTIA Security+, CEH]]
-3. **Prática em labs** — [[Cursos online|TryHackMe, HackTheBox, VulnHub]]
+3. **Prática em labs** — [[Tópicos/Segurança da informação/Cursos online|TryHackMe, HackTheBox, VulnHub]]
 4. **Networking** — Participe de [[Eventos|eventos e comunidades]]
 5. **Bug Bounty** — Comece a buscar vulnerabilidades em programas reais

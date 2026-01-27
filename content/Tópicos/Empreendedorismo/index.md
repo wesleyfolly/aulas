@@ -19,7 +19,7 @@ aliases:
 > [!tip] Recursos de Aprendizado
 > Explore os materiais e conceitos fundamentais de empreendedorismo.
 
-- [[Materiais]]
+- [[Tópicos/Empreendedorismo/Materiais|Materiais]]
 - [[Conceitos básicos]]
 - [[Desafio de leitura]]
 

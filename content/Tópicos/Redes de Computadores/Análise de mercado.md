@@ -50,5 +50,5 @@ tags:
 
 - [[Trabalhos e Projetos de Redes de Computadores]]
 - [[Certificações de redes]]
-- [[Cursos online]]
+- [[Tópicos/Redes de Computadores/Cursos online|Cursos online]]
 

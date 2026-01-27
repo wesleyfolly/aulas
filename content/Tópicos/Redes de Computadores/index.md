@@ -53,7 +53,7 @@ aliases:
 | [[Computação em nuvem]] | Cloud computing e seus modelos |
 | [[Análise de tráfego]] | Wireshark e captura de pacotes |
 | [[Python para redes de computadores]] | Automação e scripts |
-| [[DevOps]] | Integração entre desenvolvimento e operações |
+| [[Tópicos/Redes de Computadores/DevOps|DevOps]] | Integração entre desenvolvimento e operações |
 | [[Redes sem fio e sua segurança]] | Wi-Fi e vulnerabilidades |
 
 ---
@@ -66,9 +66,9 @@ aliases:
 | Recurso | Descrição |
 |---------|-----------|
 | [[Conteúdo e materiais]] | Livros, apostilas e documentação |
-| [[Cursos online]] | Plataformas e cursos recomendados |
+| [[Tópicos/Redes de Computadores/Cursos online|Cursos online]] | Plataformas e cursos recomendados |
 | [[Certificações de redes]] | CCNA, CompTIA Network+ e outras |
-| [[Entretenimento]] | Filmes e séries sobre tecnologia |
+| [[Tópicos/Redes de Computadores/Entretenimento|Entretenimento]] | Filmes e séries sobre tecnologia |
 | [[Eventos da área]] | Conferências e meetups |
 | [[Jogos]] | Games para aprender redes |
 

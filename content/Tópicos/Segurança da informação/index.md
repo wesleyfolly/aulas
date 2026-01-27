@@ -101,7 +101,7 @@ Documentar é tão importante quanto executar:
 - [[Engenharia social]] — O fator humano na segurança
 - [[Análise de tráfego (Wireshark e TCPdump)]] — Captura e análise de pacotes
 - [[Blockchain]] — Segurança em sistemas descentralizados
-- [[DevOps]] — Segurança no ciclo de desenvolvimento
+- [[Tópicos/Segurança da informação/DevOps|DevOps]] — Segurança no ciclo de desenvolvimento
 
 ### 🔮 Em Desenvolvimento
 
@@ -121,8 +121,8 @@ Documentar é tão importante quanto executar:
 > Recursos complementares para aprofundar seus estudos.
 
 - [[Conteúdo e materiais]] — Livros, artigos e materiais de estudo
-- [[Cursos online]] — Plataformas e cursos recomendados
+- [[Tópicos/Segurança da informação/Cursos online|Cursos online]] — Plataformas e cursos recomendados
 - [[Certificações]] — CEH, OSCP, CompTIA Security+ e outras
 - [[Eventos]] — Conferências, CTFs e comunidade
-- [[Entretenimento]] — Filmes, séries e documentários sobre hacking
+- [[Tópicos/Segurança da informação/Entretenimento|Entretenimento]] — Filmes, séries e documentários sobre hacking
 - [[Últimas notícias]] — Acompanhe as novidades da área
