@@ -39,5 +39,5 @@ aliases:
 
 ### Redes e Tecnologias Emergentes
 
-- [[Redes de Computadores]] - Comunicação e conexão entre computadores
+- [[Tópicos/Fundamentos da computação/Redes de Computadores|Redes de Computadores]] - Comunicação e conexão entre computadores
 - [[Inteligência Artificial]] - Conceitos e aplicações de IA
