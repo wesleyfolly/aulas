@@ -24,10 +24,27 @@ Este projeto utiliza o Quartz para transformar notas Markdown do Obsidian em um 
 Para atualizar o conteúdo das aulas, execute sempre nesta ordem:
 
 1. **SYNC**: `./scripts/sync-content.sh` - Sincroniza conteúdo do Obsidian
-2. **BUILD**: `npx quartz build` - Valida que não há erros
+2. **BUILD**: `docker compose run --rm quartz npm run quartz -- build` - Valida que não há erros
 3. **COMMIT**: `git add content/ && git commit -m "..." && git push` - Publica as mudanças
 
 Veja detalhes completos na seção [Atualizar Conteúdo das Aulas](#atualizar-conteúdo-das-aulas) abaixo.
+
+### Docker (Recomendado)
+
+O projeto usa Docker para garantir compatibilidade entre macOS e Linux (os `node_modules` contêm binários nativos específicos de cada plataforma).
+
+```bash
+# Build e servidor local (desenvolvimento)
+cd /home/wesley/Dropbox/life-code/areas/profissional/aulas-quartz-github
+docker compose up --build
+# Acesse http://localhost:8080
+
+# Apenas build (sem servidor)
+docker compose run --rm quartz npm run quartz -- build
+
+# Parar o servidor
+docker compose down
+```
 
 ### Primeira Configuração (já concluída)
 
@@ -48,13 +65,13 @@ Sempre que você atualizar as aulas no Obsidian, siga **obrigatoriamente** estes
 
 ```bash
 # 1. Navegar para o diretório do projeto
-cd /Users/wesleyfolly/Library/CloudStorage/Dropbox/life-code/areas/profissional/aulas-quartz-github
+cd /home/wesley/Dropbox/life-code/areas/profissional/aulas-quartz-github
 
 # 2. SYNC: Sincronizar conteúdo do Obsidian para content/
 ./scripts/sync-content.sh
 
-# 3. BUILD: Fazer build do site para verificar se não há erros
-npx quartz build
+# 3. BUILD: Fazer build do site para verificar se não há erros (via Docker)
+docker compose run --rm quartz npm run quartz -- build
 
 # 4. Verificar mudanças (opcional, mas recomendado)
 git status
@@ -74,14 +91,17 @@ git push
 
 ### Testar Build Localmente
 
-Para visualizar o site localmente antes de publicar:
+Para visualizar o site localmente antes de publicar (via Docker):
 
 ```bash
-# Build do site
-npx quartz build
+# Build e servir localmente (abre em http://localhost:8080)
+docker compose up
 
-# Servir localmente (abre em http://localhost:8080)
-npx quartz build --serve
+# Ou com rebuild da imagem (após mudar Dockerfile ou dependências)
+docker compose up --build
+
+# Parar o servidor
+docker compose down
 ```
 
 ## 📁 Estrutura do Projeto
@@ -91,15 +111,19 @@ aulas-quartz-github/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml          # Workflow GitHub Actions para deploy automático
-├── content/                   # Conteúdo sincronizado do Obsidian (pasta Aulas)
-│   ├── Tópicos/              # Visível na navegação
-│   ├── Recursos/             # Oculto da navegação, mas arquivos acessíveis
-│   └── index.md              # Página inicial
+├── content/                    # Conteúdo sincronizado do Obsidian (pasta Aulas)
+│   ├── Tópicos/               # Visível na navegação
+│   ├── Recursos/              # Oculto da navegação, mas arquivos acessíveis
+│   └── index.md               # Página inicial
+├── quartz/                     # Código fonte do Quartz (componentes, plugins, estilos)
 ├── scripts/
-│   └── sync-content.sh       # Script rsync para sincronizar conteúdo
-├── quartz.config.ts          # Configuração principal do Quartz
-├── quartz.layout.ts          # Configuração de layout e navegação
-└── package.json             # Dependências do projeto
+│   └── sync-content.sh        # Script rsync para sincronizar conteúdo
+├── docker-compose.yml         # Configuração Docker para desenvolvimento
+├── Dockerfile                 # Imagem Docker com Node.js e dependências
+├── .dockerignore              # Arquivos ignorados no build Docker
+├── quartz.config.ts           # Configuração principal do Quartz
+├── quartz.layout.ts           # Configuração de layout e navegação
+└── package.json               # Dependências do projeto
 ```
 
 ## ⚙️ Configurações Importantes
@@ -124,26 +148,48 @@ O script usa `rsync` para sincronização incremental:
 
 ```bash
 # Fluxo completo: Sync → Build → Commit
-cd /Users/wesleyfolly/Library/CloudStorage/Dropbox/life-code/areas/profissional/aulas-quartz-github
-./scripts/sync-content.sh          # 1. Sync
-npx quartz build                    # 2. Build
-git add content/                    # 3. Commit (adicionar mudanças)
-git add .                           # Adicionar outras mudanças se houver
+cd /home/wesley/Dropbox/life-code/areas/profissional/aulas-quartz-github
+./scripts/sync-content.sh                                   # 1. Sync
+docker compose run --rm quartz npm run quartz -- build      # 2. Build
+git add content/                                            # 3. Commit
+git add .                                                   # Outras mudanças se houver
 git commit -m "Atualizar conteúdo das aulas - [descrição]"
-git push                            # 4. Push
+git push                                                    # 4. Push
 ```
 
-### Desenvolvimento
+### Docker (Ambiente Recomendado)
+
+```bash
+# Build da imagem Docker
+docker compose build
+
+# Build e servir localmente
+docker compose up
+
+# Build e servir (forçando rebuild da imagem)
+docker compose up --build
+
+# Apenas build (sem servidor)
+docker compose run --rm quartz npm run quartz -- build
+
+# Parar containers
+docker compose down
+
+# Limpar tudo (containers, imagens, volumes)
+docker compose down --rmi all -v
+```
+
+### Desenvolvimento Nativo (se os node_modules forem compatíveis)
 
 ```bash
 # Instalar dependências
 npm install
 
 # Build do site
-npx quartz build
+npm run quartz -- build
 
 # Build e servir localmente
-npx quartz build --serve
+npm run quartz -- build --serve
 
 # Verificar tipos TypeScript
 npm run check
@@ -186,10 +232,22 @@ bash scripts/sync-content.sh
 ### Build falha localmente
 
 ```bash
-# Limpar cache e reinstalar
-rm -rf node_modules .quartz-cache
+# Se usando Docker, rebuild a imagem
+docker compose down
+docker compose build --no-cache
+docker compose up
+
+# Se usando ambiente nativo, limpar cache
+rm -rf node_modules quartz/.quartz-cache
 npm install
-npx quartz build
+npm run quartz -- build
+```
+
+### Erro de binários incompatíveis (macOS vs Linux)
+
+Isso acontece quando `node_modules` foi instalado em uma plataforma diferente. Use Docker:
+```bash
+docker compose up --build
 ```
 
 ### Deploy não funciona no GitHub Actions
@@ -229,6 +287,69 @@ nano scripts/sync-content.sh
 - **Site publicado:** https://wesleyfolly.github.io/aulas/
 - **Repositório:** https://github.com/wesleyfolly/aulas
 - **Actions:** https://github.com/wesleyfolly/aulas/actions
+
+---
+
+## Instruções para Claude (Assistente AI)
+
+Quando o usuário pedir alterações no layout do Quartz, siga estes passos:
+
+### 1. Arquivos de Layout
+
+Os principais arquivos para customização são:
+
+- `quartz.config.ts` - Configuração geral (título, locale, plugins)
+- `quartz.layout.ts` - Layout das páginas (sidebar, footer, componentes)
+- `quartz/components/` - Componentes individuais do Quartz
+- `quartz/styles/` - Estilos CSS/SCSS
+
+### 2. Testar Alterações
+
+Após fazer alterações, sempre teste via Docker:
+
+```bash
+cd /home/wesley/Dropbox/life-code/areas/profissional/aulas-quartz-github
+
+# Iniciar servidor de desenvolvimento
+docker compose up
+
+# O servidor fica disponível em http://localhost:8080
+# Mudanças em quartz/ são refletidas automaticamente (hot reload)
+# Para parar: Ctrl+C ou docker compose down
+```
+
+### 3. Verificar Erros
+
+Se o build falhar, os erros aparecerão no terminal. Corrija antes de fazer commit.
+
+### 4. Workflow Completo
+
+1. Fazer alterações no código
+2. `docker compose up` - testar localmente
+3. Verificar em http://localhost:8080
+4. `docker compose down` - parar servidor
+5. `git add . && git commit -m "..." && git push` - publicar
+
+### 5. Estrutura do Quartz
+
+```
+quartz/
+├── bootstrap-cli.mjs    # CLI principal
+├── build.ts             # Script de build
+├── components/          # Componentes React/Preact
+│   ├── ArticleTitle.tsx
+│   ├── Backlinks.tsx
+│   ├── Explorer.tsx
+│   ├── Footer.tsx
+│   ├── Graph.tsx
+│   ├── TableOfContents.tsx
+│   └── ...
+├── plugins/             # Plugins de transformação
+├── styles/              # Estilos globais
+│   ├── base.scss
+│   └── custom.scss
+└── util/                # Utilitários
+```
 
 ---
 

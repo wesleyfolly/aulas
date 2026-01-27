@@ -1,0 +1,11 @@
+services:
+  quartz:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./content:/usr/src/app/content:ro
+      - ./quartz:/usr/src/app/quartz
+      - ./quartz.config.ts:/usr/src/app/quartz.config.ts:ro
+      - ./quartz.layout.ts:/usr/src/app/quartz.layout.ts:ro
+    command: ["npm", "run", "quartz", "--", "build", "--serve"]
