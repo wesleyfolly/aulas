@@ -56,7 +56,91 @@ Com a área escolhida na etapa 1 faça as etapas abaixo:
 
 > [!tip] Exemplos de Áreas
 > - Desenvolvimento web, desenvolvimento de jogos, redes, segurança da informação, computação em nuvem, robótica, blockchain, etc.
-> 
+>
 > É preciso escolher um **sub-nicho**, que é uma área específica dentro do tema.
-> 
+>
 > Também servem áreas que não são de TI.
+
+---
+
+### 🚀 Trilha Tecnologias do Futuro
+
+#### Trabalho: Minha Primeira Startup de IA
+
+> [!quote] Por que isso importa?
+> *Em 2026, 39% das habilidades exigidas no mercado serão diferentes das atuais. Quem entender automação e IA terá vantagem competitiva.*
+
+#### Contexto: O Mercado em 2026
+
+| O que está acontecendo | Números |
+|------------------------|---------|
+| Novos empregos criados até 2030 | +170 milhões |
+| Empregos substituídos por automação | -92 milhões |
+| **Saldo: mais empregos, não menos** | +78 milhões |
+
+**A grande tendência:** IA Agente — sistemas que executam tarefas sozinhos, não apenas respondem perguntas.
+
+#### Etapa 1: Projeto em Grupo (7 pontos)
+
+**Objetivo:** Criar uma solução simples que resolva um problema real usando tecnologia.
+
+**Grupos:** 2-4 pessoas
+
+##### Opções de Projeto
+
+| Projeto | Descrição | Dificuldade |
+|---------|-----------|-------------|
+| **Bot de Atendimento** | Chatbot que responde dúvidas sobre um negócio fictício | Fácil |
+| **Gerador de Conteúdo** | Sistema que cria posts para redes sociais | Fácil |
+| **Assistente de Estudos** | Ferramenta que gera resumos e questões sobre uma matéria | Médio |
+| **Automatizador de Tarefas** | Fluxo que automatiza algo repetitivo (ex: organizar arquivos) | Médio |
+| **Projeto Livre** | Proposta própria (precisa aprovação do professor) | Variável |
+
+##### Ferramentas Sugeridas (todas gratuitas)
+
+| Ferramenta | Para que serve |
+|------------|----------------|
+| **ChatGPT/DeepSeek** | Gerar textos, tirar dúvidas, planejar |
+| **n8n** | Criar automações visuais (arrastar e soltar) |
+| **Canva** | Design de apresentações e posts |
+| **Notion/Trello** | Organizar tarefas do grupo |
+
+##### Entregas
+
+| O quê                      | Pontos |
+| -------------------------- | ------ |
+| Ideia + divisão de tarefas | 2 pts |
+| Protótipo funcionando      | 5 pts |
+| Apresentação final         | 3 pts |
+
+#### Etapa 2: Apresentação (3 pontos)
+
+**Duração:** 5-10 minutos por grupo
+
+| Parte | O que mostrar |
+|-------|---------------|
+| O Problema | Qual problema vocês resolveram? |
+| A Solução | Como funciona? (mostrar ao vivo) |
+| O Negócio | Como isso poderia virar um negócio? Quem pagaria? |
+| Aprendizados | O que o grupo aprendeu? |
+
+#### Conexão com Empreendedorismo
+
+Este projeto desenvolve habilidades empreendedoras:
+
+- **Identificar oportunidades** — Encontrar problemas que podem virar negócios
+- **Criar valor** — Fazer algo útil para outras pessoas
+- **Trabalhar em equipe** — Dividir tarefas e colaborar
+- **Apresentar ideias** — Vender seu projeto (pitch)
+- **Usar tecnologia** — Ferramentas que multiplicam sua capacidade
+
+> [!tip] Dica de Ouro
+> *O melhor projeto não é o mais complexo, é o que funciona e resolve um problema real.*
+
+#### Referências para Pesquisa
+
+- [Futuro do Trabalho - FMI](https://www.imf.org/en/blogs/articles/2026/01/14/new-skills-and-ai-are-reshaping-the-future-of-work)
+- [Como IA vai transformar o trabalho - Cisco](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m12/how-ai-will-transform-the-workplace-in-2026.html)
+- [Tendências de IA 2026 - Google](https://blog.google/products/google-cloud/ai-business-trends-report-2026/)
+- [n8n - Ferramenta de automação](https://n8n.io/)
+- [Ollama - IA local gratuita](https://ollama.com/)
