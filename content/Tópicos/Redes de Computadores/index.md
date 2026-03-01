@@ -72,3 +72,8 @@ aliases:
 | [[Eventos da área]] | Conferências e meetups |
 | [[Jogos]] | Games para aprender redes |
 
+---
+
+## 🗺️ Roadmap
+
+![[Recursos/Redes de Computadores/roadmap-disciplina.png|Roadmap da disciplina de Redes de Computadores]]

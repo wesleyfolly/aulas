@@ -410,7 +410,59 @@ tags:
 
 ---
 
-## 11. Notas Finais
+## 11. Diagramas Excalidraw
+
+### 11.1 Criação e Armazenamento
+
+Diagramas Excalidraw são criados via skill `/criar-diagrama` e armazenados em `Recursos/`, junto com o PNG exportado.
+
+**Estrutura de arquivos:**
+```
+Recursos/[Disciplina]/[Tópico]/
+  diagrama-exemplo.excalidraw     ← fonte editável (JSON puro)
+  diagrama-exemplo.png            ← PNG gerado pelo export tool
+```
+
+### 11.2 Convenções de Arquivo
+
+- **Filenames:** kebab-case, sem acentos, sem espaços (ex: `topologias-de-rede.excalidraw`)
+- **Diretórios:** manter nomes existentes (com acentos/espaços é ok)
+- **Formato .excalidraw:** JSON puro — abrível em excalidraw.com e no plugin Obsidian Excalidraw
+
+### 11.3 Referências no Markdown
+
+Usar wikilinks com caminho relativo à raiz do Content:
+```
+![[Recursos/Redes de Computadores/Conceitos básicos/topologias-de-rede.png|Topologias de rede]]
+```
+
+**Regras:**
+- Caminho começa com `Recursos/` (nunca `../../Recursos/`)
+- Alt text descritivo, SEM números no final
+- O `.excalidraw` não precisa de referência — é apenas fonte editável
+
+### 11.4 Export Tool
+
+Localização: `life-code/ferramentas/excalidraw-export/export.js`
+
+```bash
+# A partir de arquivo .excalidraw
+node export.js "input.excalidraw" "output.png"
+
+# A partir de JSON via stdin
+echo '{"elements":[...]}' | node export.js --stdin "output.png"
+```
+
+### 11.5 Re-export
+
+Para regenerar o PNG após editar um `.excalidraw`:
+1. Localizar o `.excalidraw` em `Recursos/`
+2. Rodar `node export.js` novamente
+3. O PNG será sobrescrito
+
+---
+
+## 12. Notas Finais
 
 - **Sempre priorizar clareza sobre brevidade** - é melhor usar caminhos completos do que criar links ambíguos
 - **Verificar contexto da disciplina** antes de criar qualquer link
