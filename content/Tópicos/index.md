@@ -21,6 +21,7 @@ tags:
 |------------|-----------|
 | [[Programação/index\|Programação]] | Conceitos, linguagens e projetos práticos |
 | [[Fundamentos da computação/index\|Fundamentos da Computação]] | Hardware, software, algoritmos e sistemas |
+| [[Engenharia de Software/index\|Engenharia de Software]] | Fundamentos clássicos + desenvolvimento moderno com IA e MVPs rápidos |
 
 ---
 

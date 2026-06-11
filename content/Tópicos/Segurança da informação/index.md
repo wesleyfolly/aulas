@@ -24,6 +24,7 @@ aliases:
 > [!tip] Links Rápidos
 > Acesse rapidamente as informações organizacionais da disciplina.
 
+- [[Projeto GovSec|🛠️ Projeto GovSec — projeto-âncora da disciplina]]
 - [[Possível Cronograma da disciplina|📅 Cronograma]]
 - [[Trabalhos e Projetos de Segurança da Informação|📝 Trabalhos e Projetos]]
 - [[Sistemas utilizados|💻 Sistemas Utilizados]]
