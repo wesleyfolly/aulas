@@ -27,31 +27,11 @@ Acompanhe o que aconteceu em cada aula, incluindo tópicos abordados, trabalhos 
 
 ---
 
-## Disciplinas
+## 📖 Tópicos e Disciplinas
 
-### Fundamentos
+Todo o conteúdo de ensino — disciplinas, tópicos e materiais — organizado por área de conhecimento:
 
-- [[Tópicos/Informática básica/index|Informática básica]] - Introdução à informática
-- [[Tópicos/Fundamentos da computação/index|Fundamentos da computação]] - Base teórica da computação
-
-### Desenvolvimento
-
-- [[Tópicos/Programação/index|Programação]] - Conceitos, linguagens e projetos
-- [[Tópicos/Programação/Estrutura de dados|Estrutura de dados]] - Estruturas e algoritmos
-- [[Tópicos/Programação/Paradigmas de programação|Paradigmas de Programação]] - Paradigmas e estilos de programação
-
-### Infraestrutura e Sistemas
-
-- [[Tópicos/Sistemas operacionais/index|Sistemas operacionais]] - Fundamentos de SO
-- [[Tópicos/Redes de Computadores/index|Redes de Computadores]] - Conceitos, protocolos e configuração
-- [[Tópicos/Segurança da informação/index|Segurança da informação]] - Cybersegurança e proteção de dados
-
-### Competências Profissionais
-
-- [[Tópicos/Empreendedorismo/index|Empreendedorismo]] - Negócios, inovação e carreira
-- [[Tópicos/Roadmap do futuro/index|Roadmap do futuro]] - Tecnologias emergentes e automação
-- [[Tópicos/Roadmap da Produção Acadêmica/index|Roadmap da Produção Acadêmica]] - Guia para produção acadêmica (escrever artigos e ir a eventos)
-- [[Tópicos/Organização e produtividade/index|Organização e produtividade]] - Gestão pessoal
+- [[Tópicos/index|Tópicos e Disciplinas]] - Índice completo organizado por área de conhecimento
 
 
 > [!example] Atenção

@@ -20,6 +20,7 @@ tags:
 | Disciplina | Descrição |
 |------------|-----------|
 | [[Programação/index\|Programação]] | Conceitos, linguagens e projetos práticos |
+| [[Programação/Paradigmas de programação\|Paradigmas de Programação]] | Imperativo vs declarativo: estruturado, procedural, OO, funcional e lógico |
 | [[Fundamentos da computação/index\|Fundamentos da Computação]] | Hardware, software, algoritmos e sistemas |
 | [[Engenharia de Software/index\|Engenharia de Software]] | Fundamentos clássicos + desenvolvimento moderno com IA e MVPs rápidos |
 

@@ -19,18 +19,13 @@ tags:
 
 ## 📋 Por Curso
 
-### Técnico Integrado em Informática
-- **1º TI 2025**
-	  - [[IPC Dependência 1TI 2025]]
-- **2º TI 2025**
-	  - [[Redes 2TI 2025]]
-- **3º TI 2025**
-	  - [[Empreendedorismo 3TI 2025]]
-	  - [[Segurança 3TI 2025]]
+### Engenharia da Computação — 2026.1
 
-### Engenharia da Computação
-- **5º Período - Paradigmas de Programação 2025-1**
-  - [[Paradigmas 5Eng 2025-1]]
-- **7º Período - Redes I 2025-1**
-  - [[Redes I 7Eng 2025-1]]
+- **1º Período**
+  - [[Fundamentos 1Eng 2026-1]] - Fundamentos da Computação
+- **5º Período**
+  - [[Eng de Software 5Eng 2026-1]] - Engenharia de Software
+  - [[Paradigmas 5Eng 2026-1]] - Paradigmas de Programação
+- **8º Período**
+  - [[Redes II 8Eng 2026-1]] - Redes de Computadores II
 
