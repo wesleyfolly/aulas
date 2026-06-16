@@ -12,6 +12,44 @@ tags:
 
 ![[Recursos/Segurança da informação/Introdução à Segurança da informação/hero-seguranca-informacao.png]]
 
+## 🌍 O mundo sob ataque — agora, ao vivo
+
+> [!danger] Enquanto você lê esta frase, o planeta está sob ataque
+> Não é força de expressão: **milhares de ataques cibernéticos** disparam pelo mundo **a cada segundo**. E dá pra assistir acontecendo, em tempo real.
+
+**🗺️ Mapa de ataques em tempo real** — veja com seus próprios olhos (cada disparo é um ataque acontecendo **agora**):
+
+<iframe src="https://www.digitalattackmap.com/" width="100%" height="460" loading="lazy" title="Mapa de ataques DDoS em tempo real (Digital Attack Map)" style="border:1px solid var(--lightgray);border-radius:8px;"></iframe>
+
+> [!tip] Abra um destes em tela cheia e observe por 30 segundos
+> Escolha um disparo e tente responder: **de onde** sai? **para onde** vai? que **tipo** de ataque é?
+>
+> | Mapa ao vivo | O que mostra |
+> |--------------|--------------|
+> | 🌍 **[Kaspersky Cyberthreat Map](https://cybermap.kaspersky.com/)** | O clássico: um **globo 3D** girando com infecções em tempo real |
+> | 💥 **[Digital Attack Map](https://www.digitalattackmap.com/)** | Ataques de **DDoS** pelo mundo (Google Jigsaw + Arbor) |
+> | 🔥 **[Fortinet Threat Map](https://threatmap.fortiguard.com/)** | Fluxo de ataques entre países, ao vivo |
+> | 🛡️ **[Check Point ThreatMap](https://threatmap.checkpoint.com/)** | Ataques e os países mais visados hoje |
+> | 🦠 **[Bitdefender Threat Map](https://threatmap.bitdefender.com/)** | Globo de infecções e spam em tempo real |
+> | 📡 **[Radware Live Threat Map](https://livethreatmap.radware.com/)** | Ataques por tipo e região |
+
+**🎬 Parece ficção científica — mas aconteceu de verdade:**
+
+```mermaid
+timeline
+    title Ataques reais que mudaram a história
+    2010 : Stuxnet destrói centrífugas nucleares no Irã
+    2015 : Hackers controlam um Jeep em movimento pela internet (freios e direção)
+    2016 : Mirai usa câmeras domésticas e derruba Twitter, Netflix e Spotify
+    2017 : WannaCry paralisa hospitais e fábricas no mundo todo em horas
+    2021 : Colonial Pipeline para e causa falta de combustível nos EUA
+```
+
+> [!warning] 🇧🇷 E não é só "lá fora" — é com você
+> Em janeiro de **2021**, um vazamento expôs dados de **mais de 223 milhões de brasileiros** (CPF, nome, salário, foto) — mais do que a população viva do país. O **seu** CPF provavelmente está num vazamento **agora mesmo** — você confere isso na **Atividade 1**, logo abaixo. É exatamente por isso que a **LGPD** existe e por que esta disciplina é sobre **você**, não só sobre "as empresas".
+
+---
+
 > [!quote] Sobre esta aula
 > *Esta é a base de toda a disciplina. Aqui construímos o vocabulário e os princípios que vamos usar o semestre inteiro: o que é segurança, o que protegemos, contra o quê, e como. Cada conceito vem com uma **atividade prática** — segurança se aprende fazendo.*
 
