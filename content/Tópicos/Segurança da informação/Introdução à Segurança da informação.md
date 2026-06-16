@@ -19,7 +19,7 @@ tags:
 
 **🗺️ Mapa de ataques em tempo real** — veja com seus próprios olhos (cada disparo é um ataque acontecendo **agora**):
 
-<iframe src="https://www.digitalattackmap.com/" width="100%" height="460" loading="lazy" title="Mapa de ataques DDoS em tempo real (Digital Attack Map)" style="border:1px solid var(--lightgray);border-radius:8px;"></iframe>
+![[Recursos/Segurança da informação/Introdução à Segurança da informação/mapa-ataques-tempo-real.png|Mapa de ameaças em tempo real da Kaspersky — o Brasil costuma aparecer entre os países mais atacados. Abra a versão AO VIVO nos links abaixo 👇]]
 
 > [!tip] Abra um destes em tela cheia e observe por 30 segundos
 > Escolha um disparo e tente responder: **de onde** sai? **para onde** vai? que **tipo** de ataque é?
@@ -32,6 +32,10 @@ tags:
 > | 🛡️ **[Check Point ThreatMap](https://threatmap.checkpoint.com/)** | Ataques e os países mais visados hoje |
 > | 🦠 **[Bitdefender Threat Map](https://threatmap.bitdefender.com/)** | Globo de infecções e spam em tempo real |
 > | 📡 **[Radware Live Threat Map](https://livethreatmap.radware.com/)** | Ataques por tipo e região |
+
+> [!tip] 🔎 Bônus: Shodan, o "Google" dos dispositivos expostos
+> O **[Shodan](https://www.shodan.io/)** é um buscador que indexa **dispositivos ligados à internet** — servidores, roteadores, câmeras, até sistemas industriais. Busque por `webcam`, `port:554` ou `country:BR` e veja **quantos milhares** aparecem expostos ao mundo inteiro, neste momento.
+> ⚠️ **Regra de ouro (ética e lei):** você pode **observar e contar**, **nunca acessar** o dispositivo de outra pessoa — invadir dispositivo alheio é **crime** no Brasil (art. 154-A do Código Penal, a "Lei Carolina Dieckmann"). Quer um alvo seguro pra treinar o olhar? Veja o que o Shodan sabe do **seu próprio IP**: acesse **[shodan.io](https://www.shodan.io/)** e clique em *"My IP"*.
 
 **🎬 Parece ficção científica — mas aconteceu de verdade:**
 
@@ -514,7 +518,7 @@ flowchart LR
 > Esta base é aplicada e aprofundada no projeto-âncora da disciplina: [[Projeto GovSec]]. Os trabalhos e laboratórios estão em [[Trabalhos e Projetos de Segurança da Informação]].
 
 > [!note] Créditos das imagens
-> Roda do **NIST CSF 2.0** e exemplo de phishing **"TrustedBank"**: NIST / Wikimedia Commons (domínio público). Modelo *onion* de **defesa em profundidade** e **imagem de abertura**: Wikimedia Commons. Uso educacional em instituição pública de ensino.
+> Roda do **NIST CSF 2.0** e exemplo de phishing **"TrustedBank"**: NIST / Wikimedia Commons (domínio público). Modelo *onion* de **defesa em profundidade** e **imagem de abertura**: Wikimedia Commons. Captura do **mapa de ameaças em tempo real**: Kaspersky Cyberthreat Map. Uso educacional em instituição pública de ensino.
 
 > [!quote] Fecho
 > *Segurança da informação não é um produto que se compra, é um **processo** que se mantém. Você acabou de montar o vocabulário e os princípios. A partir daqui, cada técnica que aprendermos vai se encaixar nesse mapa.*
