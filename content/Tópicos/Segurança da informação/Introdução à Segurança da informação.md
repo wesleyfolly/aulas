@@ -44,9 +44,9 @@ tags:
 > A **Lei Geral de Proteção de Dados (Lei 13.709/2018)** tornou a segurança da informação uma **obrigação legal**. Vazar dados pessoais pode gerar multa de até **2% do faturamento** (limitada a R$ 50 milhões por infração), além do dano à reputação. Segurança deixou de ser "problema de TI" e virou **problema de gestão e de lei**.
 
 > [!example] 🧪 Atividade 1 — Termômetro de exposição
-> 1. Acesse **[Have I Been Pwned](https://haveibeenpwned.com/)** e digite seu e-mail. Em quantos vazamentos ele apareceu?
-> 2. Liste **3 informações suas** que, se vazassem hoje, causariam algum prejuízo (financeiro, social ou legal).
-> 3. Discuta: por que o elo mais fraco da segurança quase sempre é o **ser humano**, e não a tecnologia?
+> 1. Acesse **[Have I Been Pwned](https://haveibeenpwned.com/)** e digite seu e-mail. Anote **em quantos vazamentos** ele apareceu e **quais dados** (senha, telefone, etc.) foram expostos em cada um.
+> 2. Em **[Pwned Passwords](https://haveibeenpwned.com/Passwords)**, teste uma senha que você **já usou** (nunca a atual!). Quantas vezes ela já apareceu em vazamentos?
+> 3. Clique em **"Notify me"** e cadastre o e-mail para ser avisado automaticamente de **futuros** vazamentos.
 
 > [!note] Fontes dos dados
 > [ENISA Threat Landscape 2025](https://www.enisa.europa.eu/topics/cyber-threats/threats-and-trends) · [CrowdStrike 2025 Ransomware Report](https://www.crowdstrike.com/en-us/press-releases/ransomware-report-ai-attacks-outpacing-defenses/) · [WEF Global Cybersecurity Outlook 2025](https://reports.weforum.org/docs/WEF_Global_Cybersecurity_Outlook_2025.pdf)
@@ -87,9 +87,11 @@ E em qualquer instante ela está em **um de três estados**, cada um com ameaça
 | **Em trânsito** | Rede, Wi-Fi, internet | Interceptação (sniffing), MITM | TLS/HTTPS, VPN |
 | **Em uso** | Memória RAM, tela | Malware, "ombro espião" (shoulder surfing) | Controle de acesso, tela bloqueada |
 
-> [!example] 🧪 Atividade 2 — Rastreando um dado
-> Pegue **um dado real** do seu dia (ex.: sua senha do Instagram, sua nota no acadêmico, uma foto no celular).
-> Descreva o **ciclo de vida** dele e, em **cada um dos 3 estados**, aponte: onde ele fica, qual a ameaça e como você poderia protegê-lo.
+> [!example] 🧪 Atividade 2 — Caçando o dado nos 3 estados (DevTools)
+> Abra um site qualquer (ex.: o portal do IFF) e aperte **F12** para abrir as Ferramentas de Desenvolvedor:
+> 1. **Em trânsito:** aba **Network** → recarregue (F5) → clique numa requisição e confirme em *Headers* que a URL é **`https://`** (cifrado).
+> 2. **Em repouso:** aba **Application** (ou *Armazenamento*) → **Cookies** e **Local Storage**. Que dados o site **guardou na sua máquina**?
+> 3. Dê um print de cada estado e responda: qual desses dados vazaria se roubassem seu notebook **desbloqueado**?
 
 ---
 
@@ -126,9 +128,10 @@ flowchart TD
 
 **Ameaças à confidencialidade:** interceptação de comunicações · acesso não autorizado · engenharia social · "ombro espião".
 
-> [!example] 🧪 Atividade 3 — Classifique a informação
-> Classifique cada item como **Público / Interno / Confidencial / Secreto** e justifique:
-> (a) o cardápio da cantina · (b) a lista de alunos da turma · (c) o gabarito da próxima prova · (d) a senha do Wi-Fi administrativo do campus.
+> [!example] 🧪 Atividade 3 — Cifre um segredo de verdade
+> 1. Acesse **[devglan AES](https://www.devglan.com/online-tools/aes-encryption-decryption)**, escreva uma mensagem secreta, defina uma **senha (chave)** e clique em **Encrypt**.
+> 2. Copie o texto cifrado e mande para um colega **sem** a senha — ele consegue ler? Agora passe a chave e peça para ele **decifrar**.
+> 3. **No terminal (bônus):** `echo "senha do meu wifi" | openssl enc -aes-256-cbc -a -pbkdf2`. Depois decifre com a flag `-d`. Erre a senha de propósito: o que acontece?
 
 ---
 
@@ -146,11 +149,10 @@ flowchart TD
 
 **Ameaças à integridade:** modificação não autorizada de dados · injeção de código malicioso · corrupção de arquivos · ataques *man-in-the-middle*.
 
-> [!example] 🧪 Atividade 4 — Veja o hash mudar
-> 1. Crie um arquivo de texto com a frase: `Seguranca da informacao`.
-> 2. Gere o **SHA-256** dele na ferramenta acima. Anote o código.
-> 3. Troque **uma única letra** (ex.: `seguranca`) e gere o hash de novo.
-> 4. Compare os dois hashes. Quantos caracteres mudaram? O que isso prova sobre o uso de hash para detectar adulteração?
+> [!example] 🧪 Atividade 4 — Veja o hash mudar e valide um download
+> 1. Crie um arquivo de texto com a frase `Seguranca da informacao` e gere o **SHA-256** dele — no site **[SHA-256 Checksum](https://emn178.github.io/online-tools/sha256_checksum.html)** ou no terminal: `sha256sum arquivo.txt` (Linux/Mac) · `Get-FileHash arquivo.txt` (PowerShell).
+> 2. Troque **uma única letra** e gere de novo. Quantos caracteres do hash mudaram?
+> 3. **Na vida real:** vá à página de download de uma distro Linux (ex.: **[Ubuntu](https://ubuntu.com/download/desktop)**) que publica o hash oficial e **compare** com o hash do arquivo. Bateu? Por que isso garante que ninguém adulterou o instalador?
 
 ---
 
@@ -167,8 +169,10 @@ flowchart TD
 
 **Ameaças à disponibilidade:** ataques de negação de serviço (DoS/DDoS) · falhas de hardware · desastres naturais · **ransomware** (sequestra e torna o dado indisponível).
 
-> [!example] 🧪 Atividade 5 — Plano de continuidade
-> O sistema acadêmico do campus ficou **fora do ar** no dia do fechamento de notas. Liste **3 medidas** que a instituição poderia ter adotado **antes** para que isso não parasse o trabalho dos professores. Qual delas é mais barata? Qual é mais eficaz?
+> [!example] 🧪 Atividade 5 — Testar disponibilidade e fazer um backup real
+> 1. **Veja se um serviço está no ar** de vários lugares do mundo: acesse **[check-host.net](https://check-host.net/)**, cole uma URL e compare os tempos de resposta por país.
+> 2. **Faça um backup e restaure:** no terminal, `tar -czf backup.tar.gz suapasta/` (ou copie a pasta para um pendrive/nuvem). Apague um arquivo da pasta original e **restaure-o** do backup. Funcionou?
+> 3. Compare `ping -c 4 8.8.8.8` com `ping -c 4 site-que-nao-existe-123.abc`. Como o terminal mostra "disponível" vs "indisponível"?
 
 ---
 
@@ -187,9 +191,11 @@ flowchart TD
 >
 > Segurança é, no fundo, a arte de **balancear** esses três pilares de acordo com o valor do que se protege.
 
-> [!example] 🧪 Atividade 6 — Trade-off na prática
-> Para cada caso, diga **qual pilar é o mais crítico** e por quê:
-> (a) prontuário médico de um paciente · (b) site de vendas na Black Friday · (c) registro de votação eletrônica.
+> [!example] 🧪 Atividade 6 — Meça o custo da segurança
+> Sinta na prática o trade-off entre **confidencialidade** e **usabilidade/disponibilidade**:
+> 1. Ative a **verificação em duas etapas (2FA)** numa conta real sua (e-mail, Instagram), usando o app **Google Authenticator** ou **Authy**.
+> 2. **Cronometre** o login antes e depois. Quantos segundos a mais a segurança custou?
+> 3. Conclua: esse atrito compensa? Para a conta do seu banco, a resposta muda?
 
 ---
 
@@ -218,11 +224,9 @@ flowchart LR
     A2 --> A3["Auditoria<br/>O que você fez?"]
 ```
 
-> [!example] 🧪 Atividade 7 — Caça aos princípios
-> Você recebe um boleto por e-mail. Como **cada um** destes princípios ajuda a confiar (ou desconfiar) dele?
-> - **Autenticidade**: o boleto é mesmo do banco?
-> - **Integridade**: o valor/código de barras foi adulterado?
-> - **Não-repúdio**: se você pagar, há prova de quem emitiu?
+> [!example] 🧪 Atividade 7 — Verifique autenticidade na prática
+> 1. **Certificado (autenticidade da conexão):** abra o site do seu banco, clique no **cadeado** ao lado da URL → *Certificado / Conexão segura*. **Quem emitiu** o certificado? Para qual domínio vale? Até quando?
+> 2. **Assinatura digital (autenticidade + não-repúdio):** vá ao **[Validador de Assinaturas do gov.br](https://validar.iti.gov.br/)** e suba um PDF assinado digitalmente. Veja o sistema **provar quem assinou** e que o arquivo **não foi alterado** depois.
 
 ---
 
@@ -273,9 +277,10 @@ quadrantChart
     Spam: [0.65, 0.18]
 ```
 
-> [!example] 🧪 Atividade 8 — Mini análise de risco
-> Escolha um ativo da sua casa ou do campus (ex.: o notebook do laboratório). Preencha:
-> 1. **Ativo** e seu valor · 2. duas **ameaças** · 3. duas **vulnerabilidades** · 4. classifique cada cenário na **matriz de risco** (alto/médio/baixo) · 5. proponha **um controle** para o maior risco.
+> [!example] 🧪 Atividade 8 — Cace uma vulnerabilidade real (CVE)
+> 1. Escolha um software que você usa (navegador, sistema, um app) e descubra a **versão** exata dele.
+> 2. Pesquise essa versão em **[CVE Details](https://www.cvedetails.com/)** ou na **[base NVD do NIST](https://nvd.nist.gov/vuln/search)**. Ela tem **vulnerabilidades conhecidas (CVE)**? Qual a mais grave (nota **CVSS**)?
+> 3. Monte a mini-análise: **Ativo** = o software · **Vulnerabilidade** = a CVE achada · **Controle** = a correção (em geral, *atualizar*). Onde esse risco cai na **matriz** acima?
 
 ---
 
@@ -326,10 +331,10 @@ mindmap
 | | Zero-day | Explora falha **ainda desconhecida** pelo fabricante |
 | **Interna** | Insider | Pessoa de dentro abusa do acesso que já tem |
 
-> [!example] 🧪 Atividade 9 — Anatomia de um phishing
-> **Comece pelo exemplo "TrustedBank" acima.** Encontre nele pelo menos **3 sinais de fraude** (dica: há erros de escrita como *"recieved"* e *"discrepency"*, um link genérico e um pretexto de urgência).
-> Depois pegue um e-mail/SMS de golpe **que você mesmo recebeu** e liste **4 sinais**: remetente suspeito · senso de urgência ("sua conta será bloqueada!") · link diferente do texto · erros de ortografia · pedido de dados sensíveis · anexo inesperado.
-> **Desafio:** qual pilar da CID o phishing tenta quebrar primeiro?
+> [!example] 🧪 Atividade 9 — Detecte o phishing
+> 1. **No exemplo "TrustedBank" acima**, ache **3 sinais** de fraude (dica: erros de escrita como *"recieved"* e *"discrepency"*, link genérico, urgência).
+> 2. **Jogue o [Quiz de Phishing do Google](https://phishingquiz.withgoogle.com/)** — acertou quantos dos 8 e-mails?
+> 3. Pegue um link suspeito (de um SMS/e-mail de golpe) e **escaneie-o em [VirusTotal](https://www.virustotal.com/gui/home/url)** — quantos antivírus o marcam como malicioso? *(Cole a URL no VirusTotal; **não clique** no link.)*
 
 ---
 
@@ -358,8 +363,9 @@ Os controles de segurança se classificam de **duas formas** ao mesmo tempo:
 | **Lógico/Técnico** | Firewall, antivírus, MFA | | **Detectivo** | IDS, log, alarme, antivírus |
 | **Administrativo** | Política, norma, treinamento | | **Corretivo** | Backup, plano de recuperação |
 
-> [!example] 🧪 Atividade 10 — Monte sua defesa em camadas
-> O laboratório de informática guarda as provas no servidor. Proponha **um controle por camada** (humana, física, rede, host, aplicação, dados) para proteger esse ativo. Marque cada um como preventivo, detectivo ou corretivo.
+> [!example] 🧪 Atividade 10 — Audite as camadas de defesa
+> 1. **Camada de rede/aplicação:** teste um site real em **[securityheaders.com](https://securityheaders.com/)** e no **[Mozilla Observatory](https://developer.mozilla.org/en-US/observatory)**. Que **nota** ele tirou? Quais cabeçalhos de proteção faltam?
+> 2. **Camada de host (sua máquina):** verifique se o **firewall** está ligado — Linux: `sudo ufw status` · Windows (PowerShell): `Get-NetFirewallProfile | Select Name,Enabled` · Mac: *Ajustes → Rede → Firewall*. Está ativo?
 
 ---
 
@@ -396,8 +402,10 @@ Os controles de segurança se classificam de **duas formas** ao mesmo tempo:
 > [!info] ISO 27001 e LGPD andam juntas
 > Quem implementa os controles da **ISO 27001** já atende boa parte das exigências da **LGPD**. Confidencialidade, integridade e disponibilidade são, ao mesmo tempo, princípios técnicos e **deveres legais**.
 
-> [!example] 🧪 Atividade 11 — Mapeie para o framework
-> Pegue **3 medidas de segurança** que você já usa (ex.: senha no celular, backup no Google, antivírus). Em qual **função do NIST CSF 2.0** cada uma se encaixa (Identificar, Proteger, Detectar, Responder, Recuperar)?
+> [!example] 🧪 Atividade 11 — Faça um checkup e mapeie no NIST
+> 1. Rode o **[Google Security Checkup](https://myaccount.google.com/security-checkup)** (ou o equivalente Apple/Microsoft da sua conta). Ele revisa dispositivos, logins e permissões.
+> 2. **Mapeie** o que ele mostrou para uma **função do NIST CSF 2.0**: ver dispositivos conectados → *Identify*; ativar 2FA → *Protect*; alerta de login estranho → *Detect*.
+> 3. **Corrija pelo menos uma** recomendação que ele apontar — isso é *Respond/Recover* na prática.
 
 ---
 
@@ -416,15 +424,18 @@ flowchart LR
     L -.realimenta.-> P
 ```
 
-> [!example] 🧪 Atividade 12 — Simulação de incidente
-> Cenário: um aluno clicou num link e o computador do laboratório foi infectado por ransomware. Descreva **o que fazer em cada uma das 6 fases**. Qual a primeira atitude técnica na fase de **contenção**? (Dica: pense na rede.)
+> [!example] 🧪 Atividade 12 — Execute a contenção
+> A primeira reação técnica a um host infectado é **isolá-lo da rede**. Pratique:
+> 1. Descubra como **cortar a rede da sua máquina em 1 segundo** e teste: Linux → `nmcli networking off` (religa com `on`) · Windows → modo avião ou `Disable-NetAdapter -Name "*"` · ou simplesmente tire o cabo / desligue o Wi-Fi.
+> 2. Com a rede cortada, rode `ping 8.8.8.8`. Falhou? Pronto: você **conteve** o incidente (o malware não fala mais com o atacante nem se espalha).
+> 3. Religue a rede e descreva qual seria a **próxima fase** (erradicação) nesse cenário.
 
 ---
 
 ## 🧪 Laboratório — coloque a mão na massa
 
 > [!success] Atividades práticas consolidadas
-> Faça pelo menos **três** destas. Todas usam ferramentas gratuitas e gratuitas e legais.
+> Faça pelo menos **três** destas. Todas usam ferramentas gratuitas e legais.
 
 | # | Prática | Ferramenta | Pilar/conceito |
 |---|---------|------------|----------------|
@@ -434,8 +445,8 @@ flowchart LR
 | L4 | Analisar um e-mail de phishing real | [PhishTank](https://phishtank.org/) | Engenharia social |
 | L5 | Ver dados de um site (cabeçalhos de segurança) | [Security Headers](https://securityheaders.com/) | Defesa/Aplicação |
 
-> [!tip] Ativando a defesa pessoal
-> Antes da próxima aula: ative **autenticação de dois fatores (MFA)** na sua conta de e-mail principal. Traga um print (sem mostrar a senha!) e conte qual segundo fator você escolheu.
+> [!tip] Desafio para antes da próxima aula
+> Instale um **gerenciador de senhas** gratuito (ex.: **[Bitwarden](https://bitwarden.com/)**) e migre **pelo menos uma** conta para uma senha forte e única gerada por ele. Quantos caracteres tem a nova senha? Traga um print do gerador (sem mostrar a senha real!).
 
 ---
 
