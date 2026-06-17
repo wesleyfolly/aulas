@@ -20,7 +20,7 @@ aliases:
 > Explore os materiais e conceitos fundamentais de empreendedorismo.
 
 - [[Tópicos/Empreendedorismo/Materiais|Materiais]]
-- [[Conceitos básicos]]
+- [[Tópicos/Empreendedorismo/Conceitos básicos|Conceitos básicos]]
 - [[Desafio de leitura]]
 
 ---

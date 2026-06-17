@@ -33,7 +33,7 @@ aliases:
 
 | Tópico | Descrição |
 |--------|-----------|
-| [[Conceitos básicos]] | Definições, tipos de rede, topologias e equipamentos |
+| [[Tópicos/Redes de Computadores/Conceitos básicos|Conceitos básicos]] | Definições, tipos de rede, topologias e equipamentos |
 | [[Modelos OSI e TCP IP\|Modelos OSI e TCP/IP]] | Camadas de rede e protocolos |
 | [[Ferramentas de rede]] | Comandos e utilitários para diagnóstico |
 | [[Endereçamento IPv4]] | Classes, sub-redes e CIDR |
