@@ -41,3 +41,8 @@ aliases:
 
 - [[Tópicos/Fundamentos da computação/Redes de Computadores|Redes de Computadores]] - Comunicação e conexão entre computadores
 - [[Tópicos/Fundamentos da computação/Inteligência Artificial|Inteligência Artificial]] - Conceitos e aplicações de IA
+
+---
+
+> [!tip] 🚀 Continue: e para onde a computação está indo?
+> Você viu as bases (história, hardware, software, redes, IA). O passo complementar é olhar para a fronteira: inteligência artificial no dia a dia, automação e as tecnologias que estão redefinindo a área agora. Explore em [[Tópicos/Roadmap do futuro/index|Roadmap do Futuro]].
