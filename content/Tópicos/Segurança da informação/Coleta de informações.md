@@ -412,8 +412,6 @@ O poder do recon-ng está na **encadeamento de módulos**: o resultado de um (ex
 > [!warning] Atenção: rastro garantido
 > No recon ativo você **interage diretamente** com o alvo. Logs de firewall, IDS e SIEM registrarão sua origem. Use APENAS em alvos autorizados. Antes de iniciar, estude [[Anonimato e privacidade]].
 
-![[Recursos/Segurança da informação/Coleta de informações/coleta-de-informacoes.png|Recapitulação de conceitos de rede]]
-
 ### 🗺️ Nmap: Port Scanning e Service Fingerprinting
 
 O **nmap** é o scanner de rede mais usado no mundo. Mapeia portas abertas, identifica serviços e versões, e executa scripts NSE para enumeração aprofundada.
