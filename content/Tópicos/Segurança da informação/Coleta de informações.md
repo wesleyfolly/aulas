@@ -412,6 +412,18 @@ O poder do recon-ng está na **encadeamento de módulos**: o resultado de um (ex
 > [!warning] Atenção: rastro garantido
 > No recon ativo você **interage diretamente** com o alvo. Logs de firewall, IDS e SIEM registrarão sua origem. Use APENAS em alvos autorizados. Antes de iniciar, estude [[Anonimato e privacidade]].
 
+O reconhecimento ativo é **sequencial**: cada etapa refina o alvo da próxima, e quanto mais fundo você vai, mais ruído deixa nos logs do alvo.
+
+```mermaid
+flowchart TB
+    A["🎯 Alvo autorizado<br/>(IP, faixa ou domínio)"] --> B["1. Descoberta de hosts<br/>quais máquinas estão vivas?<br/><i>nmap -sn · ARP · ping sweep</i>"]
+    B --> C["2. Varredura de portas<br/>quais portas estão abertas?<br/><i>nmap -p- -sS</i>"]
+    C --> D["3. Fingerprint de serviço e versão<br/>o que roda em cada porta?<br/><i>nmap -sV -O</i>"]
+    D --> E["4. Enumeração aprofundada<br/>banners, scripts NSE, por serviço<br/><i>nmap --script · enum4linux</i>"]
+    E --> F(["🗺️ Mapa da superfície de ataque<br/>hosts + portas + serviços + versões"])
+    F -.->|alimenta| G["🔍 Identificação de vulnerabilidades<br/>(próxima fase)"]
+```
+
 ### 🗺️ Nmap: Port Scanning e Service Fingerprinting
 
 O **nmap** é o scanner de rede mais usado no mundo. Mapeia portas abertas, identifica serviços e versões, e executa scripts NSE para enumeração aprofundada.
