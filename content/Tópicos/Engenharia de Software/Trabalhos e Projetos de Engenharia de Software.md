@@ -11,11 +11,11 @@ tags:
 # Trabalhos e Projetos de Engenharia de Software
 
 > [!info] Como funciona
-> Os trabalhos da disciplina simulam o fluxo real de um time de produto em 2026: **especificar → construir com IA → medir → defender as decisões**. Em todos eles, o uso de IA é **permitido e esperado** — o que se avalia é o seu **julgamento de engenharia**, não a digitação.
+> Os trabalhos da disciplina simulam o fluxo real de um time de produto em 2026: **especificar → construir com IA → medir → defender as decisões**. Em todos eles, o uso de IA é **permitido e esperado**: o que se avalia é o seu **julgamento de engenharia**, não a digitação.
 
 ---
 
-## Trabalho 1 — Engenharia clássica aplicada
+## Trabalho 1: Engenharia clássica aplicada
 
 **Objetivo:** dominar a base que os agentes consomem.
 
@@ -29,7 +29,7 @@ tags:
 
 ---
 
-## Trabalho 2 — Mini-spec + MVP com IA
+## Trabalho 2: Mini-spec + MVP com IA
 
 **Objetivo:** ir da ideia ao produto no ar.
 
@@ -38,19 +38,19 @@ tags:
 - Publicar (link funcionando!)
 - Registrar o processo: prompts/conversas-chave, o que a IA acertou, o que você teve que corrigir
 
-**Entrega:** link do MVP + spec + diário de processo (2–4 páginas). **Duplas.**
+**Entrega:** link do MVP + spec + diário de processo (2-4 páginas). **Duplas.**
 
 > Conteúdo de apoio: [[Criação Rápida de MVPs]], [[Ferramentas de IA para Desenvolvimento]]
 
 ---
 
-## Trabalho 3 — Auditoria de código gerado por IA
+## Trabalho 3: Auditoria de código gerado por IA
 
 **Objetivo:** desenvolver o olhar crítico (a habilidade mais valiosa).
 
 - Receber (ou gerar) um trecho de aplicação criado por IA **com defeitos plantados** (vulnerabilidades, dependência inexistente, lógica sutil errada)
 - Encontrar e documentar os problemas: o que é, por que é grave, como corrigir
-- Corrigir usando um agente — **dirigindo** a correção com prompts precisos
+- Corrigir usando um agente: **dirigindo** a correção com prompts precisos
 
 **Entrega:** relatório de auditoria + diff das correções. **Individual.**
 
@@ -58,7 +58,7 @@ tags:
 
 ---
 
-## Projeto Final — Produto validado com usuários reais
+## Projeto Final: Produto validado com usuários reais
 
 **Objetivo:** o ciclo completo: build → measure → learn.
 
@@ -67,7 +67,7 @@ tags:
 3. **10+ usuários reais** usando, com métricas coletadas
 4. Apresentação final de **10 minutos sobre os dados**: a hipótese sobreviveu? O que vocês aprenderam? Persistir, pivotar ou matar?
 
-**Entrega:** repositório + produto no ar + apresentação. **Equipes de 3–4.**
+**Entrega:** repositório + produto no ar + apresentação. **Equipes de 3-4.**
 
 ### Critérios de avaliação
 
@@ -81,7 +81,7 @@ tags:
 
 > [!warning] Regras de integridade
 > - Usar IA é esperado; **esconder o processo não é.** O diário de prompts faz parte da nota.
-> - Vocês precisam ser capazes de **explicar qualquer linha** do que entregarem — haverá perguntas individuais na apresentação.
+> - Vocês precisam ser capazes de **explicar qualquer linha** do que entregarem: haverá perguntas individuais na apresentação.
 > - Dados de usuários reais: mínimos e protegidos (LGPD). Nada de coletar o que não precisa.
 
 ---

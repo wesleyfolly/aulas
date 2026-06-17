@@ -1,6 +1,6 @@
 ---
 tipo: aula
-resumo: "Glossário A–Z dos termos modernos de engenharia de software com IA: agentic coding, context engineering, MCP, RAG, spec-driven development, vibe coding, SWE-bench e muitos outros, com mapa de conceitos e referências oficiais."
+resumo: "Glossário A-Z dos termos modernos de engenharia de software com IA: agentic coding, context engineering, MCP, RAG, spec-driven development, vibe coding, SWE-bench e muitos outros, com mapa de conceitos e referências oficiais."
 tags:
   - aula
   - engenharia-de-software
@@ -19,7 +19,7 @@ tags:
 ## 🗺️ Mapa dos conceitos
 
 > [!abstract] Como os termos se conectam
-> O glossário é A–Z, mas as ideias se agrupam em famílias. Use este mapa para enxergar o todo antes de mergulhar nos termos.
+> O glossário é A-Z, mas as ideias se agrupam em famílias. Use este mapa para enxergar o todo antes de mergulhar nos termos.
 
 ```mermaid
 mindmap
@@ -59,7 +59,7 @@ mindmap
 
 ---
 
-## 📖 Glossário A–Z
+## 📖 Glossário A-Z
 
 ### A
 
@@ -88,7 +88,7 @@ mindmap
 - **Context window (janela de contexto):** quantidade máxima de tokens que o modelo "enxerga" de uma vez (em 2026: de ~128k a 1M+ tokens, codebases inteiras).
 - **Prompt caching (cache de contexto):** reaproveitar partes fixas do contexto (system prompt, docs) entre chamadas para reduzir custo e latência.
 
-### D–E
+### D-E
 
 - **Destilação (distillation):** treinar um modelo menor a partir de um maior, para ter qualidade parecida com custo e latência muito menores.
 - **Diff:** a diferença entre versões de código. Revisar o diff (não o arquivo inteiro) é como se revisa trabalho de agente.
@@ -96,7 +96,7 @@ mindmap
 - **Embedding:** representação numérica (vetor) de texto/código que captura significado, base de buscas semânticas e RAG.
 - **Eval:** teste automatizado **do comportamento da IA** (não do software): mede se o modelo/agente resolve um conjunto de tarefas. "Escrever evals" virou trabalho de engenheiro.
 
-### F–H
+### F-H
 
 - **Few-shot / Zero-shot:** prompting com alguns exemplos / sem exemplos.
 - **Fine-tuning:** re-treinar um modelo base com dados específicos para especializá-lo. Caro; em geral RAG ou contexto resolvem antes.
@@ -104,7 +104,7 @@ mindmap
 - **Function calling / Tool use:** capacidade do modelo de **chamar ferramentas** (funções, APIs) em vez de só gerar texto, o mecanismo que torna agentes possíveis.
 - **Guardrails:** restrições técnicas que limitam o que o agente pode fazer (permissões, sandboxes, listas de comandos bloqueados).
 
-### I–L
+### I-L
 
 - **Inferência (inference):** o ato de executar o modelo para gerar uma resposta (em oposição ao treinamento).
 - **Jailbreak:** truque de prompt que tenta burlar as regras de segurança do modelo para fazê-lo produzir o que não deveria. Parente do prompt injection.
@@ -113,7 +113,7 @@ mindmap
 - **LoRA (Low-Rank Adaptation):** técnica de fine-tuning **barata**, que ajusta só uma fração dos pesos do modelo em vez de re-treinar tudo.
 - **Low-code / No-code:** plataformas de desenvolvimento com pouco/nenhum código. Os app builders de IA (Lovable, Bolt) são a geração 2026 dessa ideia.
 
-### M–O
+### M-O
 
 - **MCP (Model Context Protocol):** protocolo aberto que padroniza a conexão entre modelos e ferramentas/dados externos, o "USB-C da IA". Ver [[Engenharia de Contexto e Spec-Driven Development]].
 - **Memória (de agente):** mecanismo de persistir aprendizados entre sessões (arquivos de memória, bancos vetoriais), o agente "lembra" do projeto.
@@ -124,7 +124,7 @@ mindmap
 - **Open-weight / Open-source model:** modelo cujos pesos são públicos (Llama, DeepSeek, Qwen), você pode rodar localmente (ver [[Ollama - gerenciamento de modelos de IA]]) e adaptar.
 - **Orquestração:** coordenar múltiplos agentes/etapas num fluxo de trabalho, o novo trabalho do desenvolvedor sênior.
 
-### P–R
+### P-R
 
 - **Pair programming com IA:** trabalhar lado a lado com a IA como par (o "navegador" que nunca cansa). Evolução do pair programming do XP.
 - **Prompt:** a instrução dada ao modelo.
@@ -153,7 +153,7 @@ mindmap
 - **SWE-bench:** o benchmark mais citado para agentes de código: resolver issues reais de repositórios do GitHub.
 - **System prompt:** as instruções fixas que definem identidade e regras do modelo/agente, a primeira camada de contexto.
 
-### T–Z
+### T-Z
 
 - **TDD (Test-Driven Development):** testes antes do código. Na era da IA, virou modo de **dirigir** agentes: você escreve os testes (o contrato), o agente implementa até passar.
 - **Temperatura (temperature):** parâmetro que controla o quão "criativa" ou aleatória é a resposta. Baixa = previsível e factual; alta = variada e inventiva.

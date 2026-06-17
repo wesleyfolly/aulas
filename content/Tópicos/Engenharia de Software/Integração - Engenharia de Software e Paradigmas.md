@@ -47,7 +47,7 @@ Veja o mapa dos paradigmas que você estuda em Paradigmas. Guarde essa árvore: 
 
 ![[arvore-paradigmas-programacao.png|Árvore dos paradigmas de programação: o grande corte entre imperativo e declarativo e seus ramos]]
 
-> [!example] 🧪 Atividade 1 — As duas disciplinas no seu dia
+> [!example] 🧪 Atividade 1: As duas disciplinas no seu dia
 > 1. Abra qualquer app que você usou hoje (banco, iFood, Instagram).
 > 2. Escreva **uma** funcionalidade dele (ex: "transferir dinheiro", "buscar restaurante perto de mim").
 > 3. Acesse o repositório **[Flask no GitHub](https://github.com/pallets/flask)** (um framework web real) e abra a pasta `src/flask/`. Abra **2 arquivos `.py` diferentes** e ache, em cada um, um trecho que seja claramente **orientado a objetos** (uma `class`) e outro que seja **funcional** (um `map`, `filter` ou *list comprehension*). Anote arquivo + número da linha de cada um.
@@ -59,7 +59,7 @@ Veja o mapa dos paradigmas que você estuda em Paradigmas. Guarde essa árvore: 
 
 Não é só que "andam juntas". Existem três pontes concretas.
 
-### Ponte 1 — Todo sistema real é multiparadigma
+### Ponte 1: Todo sistema real é multiparadigma
 
 Em 2026, as linguagens mais usadas (Python, Java, JavaScript, C#, Kotlin, Swift, TypeScript) são todas **multiparadigma**. Ou seja: no mesmo sistema, você escolhe um paradigma diferente pra cada camada, de propósito.
 
@@ -76,7 +76,7 @@ flowchart TB
 > [!info] Onde Engenharia de Software entra
 > Escolher o paradigma **errado** para uma camada gera código difícil de manter, testar e evoluir, exatamente os problemas que a Engenharia de Software tenta evitar. Logo: **boa escolha de paradigma é uma decisão de engenharia.**
 
-> [!example] 🧪 Atividade 2 — O mesmo problema em 3 moldes
+> [!example] 🧪 Atividade 2: O mesmo problema em 3 moldes
 > 1. Abra o **[Python Tutor](https://pythontutor.com/visualize.html)** (visualizador de execução, roda no navegador).
 > 2. Cole e rode as três versões do mesmo problema (somar uma lista):
 > ```python
@@ -93,26 +93,26 @@ flowchart TB
 > print(soma, soma2, soma3)
 > ```
 > 3. Use o botão **"Visualize Execution"** e avance passo a passo.
-> 4. Resultado observável: responda em uma linha — **qual das três criou uma variável intermediária (`soma`) e escancarou o "como"? Qual escondeu o "como" e só disse o "o quê"?** Essa diferença é o coração de Paradigmas.
+> 4. Resultado observável: responda em uma linha: **qual das três criou uma variável intermediária (`soma`) e escancarou o "como"? Qual escondeu o "como" e só disse o "o quê"?** Essa diferença é o coração de Paradigmas.
 
-### Ponte 2 — Requisito é "o quê"; código é "o como"
+### Ponte 2: Requisito é "o quê"; código é "o como"
 
 Engenharia de Software começa perguntando **o que** o sistema precisa fazer (requisitos). Isso é pensamento **declarativo**. Depois, alguém escreve **como** fazer, em código geralmente **imperativo**. A distância entre essas duas coisas é onde mora o trabalho do desenvolvedor.
 
 ```mermaid
 flowchart LR
-    R["📋 Requisito<br/>'o usuário quer ver<br/>seus aprovados'<br/><b>(o QUÊ — declarativo)</b>"]
-    C["💻 Código<br/>laços, condições,<br/>variáveis<br/><b>(o COMO — imperativo)</b>"]
+    R["📋 Requisito<br/>'o usuário quer ver<br/>seus aprovados'<br/><b>(o QUÊ: declarativo)</b>"]
+    C["💻 Código<br/>laços, condições,<br/>variáveis<br/><b>(o COMO: imperativo)</b>"]
     R -->|traduzir| C
 ```
 
-> [!example] 🧪 Atividade 3 — Do requisito ao código, num projeto real
+> [!example] 🧪 Atividade 3: Do requisito ao código, num projeto real
 > 1. Vá ao repositório do **[VS Code no GitHub](https://github.com/microsoft/vscode/issues)** e abra a aba **Issues**.
 > 2. Ache **uma issue fechada** que descreva uma funcionalidade (o "o quê"). Copie o título.
 > 3. Dentro dela, ache o link do **Pull Request** que a resolveu e abra a aba **"Files changed"** (o "como": o código de verdade).
 > 4. Resultado observável: anote **issue (o quê) → PR (o como)** e diga se o código mudado é mais imperativo ou declarativo. Você acabou de ver o pipeline da Engenharia de Software (requisito vira código) com os paradigmas dentro dele.
 
-### Ponte 3 — O elo de 2026: programar com IA é declarativo
+### Ponte 3: O elo de 2026: programar com IA é declarativo
 
 Esta é a conexão mais atual entre as duas disciplinas. No desenvolvimento moderno (**spec-driven** e **engenharia agêntica**), você **descreve o que quer** (uma *spec*, um *prompt*) e um **agente de IA gera o como** (o código). Repare: isso é, na veia, a distinção **imperativo × declarativo** de Paradigmas, subida um nível. **Escrever uma boa spec é programar a IA de forma declarativa.**
 
@@ -129,7 +129,7 @@ flowchart LR
 > [!tip] Por que isso conecta as duas disciplinas de verdade
 > O profissional de Engenharia de Software de 2026 passa menos tempo digitando código e mais tempo **escrevendo specs e revisando** o que a IA gerou. Pra revisar bem, ele precisa **reconhecer paradigmas** no código gerado e julgar se foi a melhor escolha. Sem Paradigmas, você aceita qualquer coisa que a IA cospe. Com Paradigmas, você é o engenheiro no controle.
 
-> [!example] 🧪 Atividade 4 — Vire o "programador declarativo" de uma IA
+> [!example] 🧪 Atividade 4: Vire o "programador declarativo" de uma IA
 > 1. Abra um assistente de IA (**[Claude](https://claude.ai/)**, ChatGPT, Gemini ou Cursor).
 > 2. Escreva uma **spec declarativa**, sem dizer como fazer: *"Crie uma função Python que receba uma lista de notas e retorne a média apenas dos aprovados (nota maior ou igual a 6), ignorando valores nulos."*
 > 3. Leia o código gerado e responda: **qual paradigma a IA escolheu?** (laço imperativo? `filter`/comprehension funcional?)
