@@ -37,15 +37,15 @@ flowchart LR
 
 | Disciplina | A pergunta que ela responde | Foco |
 |---|---|---|
-| **[[Programação/Paradigmas de programação\|Paradigmas de Programação]]** | *Com qual molde eu resolvo este problema?* | Imperativo vs declarativo: estruturado, procedural, OO, funcional, lógico |
-| **[[Engenharia de Software/index\|Engenharia de Software]]** | *Como eu transformo uma ideia em um produto confiável?* | Requisitos, design, testes, qualidade, processo, e desenvolvimento com IA |
+| **[[Paradigmas de programação\|Paradigmas de Programação]]** | *Com qual molde eu resolvo este problema?* | Imperativo vs declarativo: estruturado, procedural, OO, funcional, lógico |
+| **[[Engenharia de Software\|Engenharia de Software]]** | *Como eu transformo uma ideia em um produto confiável?* | Requisitos, design, testes, qualidade, processo, e desenvolvimento com IA |
 
 > [!tip] A metáfora da cozinha
 > Paradigmas são as **técnicas de corte e cocção** (refogar, grelhar, fermentar): cada uma resolve melhor um tipo de ingrediente. Engenharia de Software é **administrar o restaurante inteiro**: planejar o cardápio, organizar a cozinha, garantir que o prato chega bom e no horário. Um bom chef precisa das duas coisas.
 
 Veja o mapa dos paradigmas que você estuda em Paradigmas. Guarde essa árvore: cada ramo vai reaparecer dentro de um sistema real na próxima seção.
 
-![[Recursos/Programação/Paradigmas de programação/arvore-paradigmas-programacao.png|Árvore dos paradigmas de programação: o grande corte entre imperativo e declarativo e seus ramos]]
+![[arvore-paradigmas-programacao.png|Árvore dos paradigmas de programação: o grande corte entre imperativo e declarativo e seus ramos]]
 
 > [!example] 🧪 Atividade 1 — As duas disciplinas no seu dia
 > 1. Abra qualquer app que você usou hoje (banco, iFood, Instagram).
@@ -188,6 +188,6 @@ timeline
 
 ## 🔎 Continue por aqui
 
-- [[Engenharia de Software/index|Disciplina: Engenharia de Software]]
-- [[Programação/Paradigmas de programação|Tópico: Paradigmas de Programação]]
-- [[Programação/index|Disciplina: Programação]]
+- [[Engenharia de Software|Disciplina: Engenharia de Software]]
+- [[Paradigmas de programação|Tópico: Paradigmas de Programação]]
+- [[Programação|Disciplina: Programação]]
