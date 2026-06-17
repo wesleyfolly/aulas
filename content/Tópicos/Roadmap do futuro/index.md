@@ -79,6 +79,7 @@ aliases:
 
 - [[GitHub - gerenciamento de código]]
 - [[Notion - Gerenciamento de Projetos]]
+- [[Obsidian - notas e conhecimento conectado]]
 
 ## 🎯 Recursos Gerais
 
