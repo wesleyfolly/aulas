@@ -7,6 +7,9 @@ aliases:
 
 # Engenharia de Software
 
+> [!abstract] 🔗 Disciplina integrada com Paradigmas de Programação
+> Esta disciplina caminha junto com **Paradigmas de Programação**: uma te ensina *como* construir software, a outra *com qual molde* resolver cada parte. Comece pela ponte entre as duas: [[Engenharia de Software/Integração - Engenharia de Software e Paradigmas|Integração: Engenharia de Software e Paradigmas]].
+
 > [!tip] Disciplina
 > Como software é construído profissionalmente: dos fundamentos clássicos da Engenharia de Software até as técnicas mais modernas de desenvolvimento com Inteligência Artificial e criação rápida de MVPs. O foco da disciplina é a **engenharia de software moderna**: usar IA como ferramenta central de trabalho, com a base clássica como fundação.
 

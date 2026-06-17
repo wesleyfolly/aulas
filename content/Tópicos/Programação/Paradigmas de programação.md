@@ -11,6 +11,9 @@ tags:
 
 # Paradigmas de Programação
 
+> [!abstract] 🔗 Disciplina integrada com Engenharia de Software
+> Esta disciplina caminha junto com **Engenharia de Software**: aqui você aprende *com qual molde* resolver cada problema; lá, *como* transformar isso em produto. Comece pela ponte entre as duas: [[Engenharia de Software/Integração - Engenharia de Software e Paradigmas|Integração: Engenharia de Software e Paradigmas]].
+
 > [!quote] Modelos de Resolução
 > *Paradigma de programação é um meio de se **classificar** as linguagens de programação baseado em suas funcionalidades.*
 
