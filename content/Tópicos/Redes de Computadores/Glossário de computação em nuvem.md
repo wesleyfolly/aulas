@@ -38,9 +38,9 @@ tags:
 
 | Termo | Definição |
 |-------|-----------|
-| **IaaS** | Infrastructure as a Service — Infraestrutura como serviço |
-| **PaaS** | Platform as a Service — Plataforma como serviço |
-| **SaaS** | Software as a Service — Software como serviço |
+| **IaaS** | Infrastructure as a Service: Infraestrutura como serviço |
+| **PaaS** | Platform as a Service: Plataforma como serviço |
+| **SaaS** | Software as a Service: Software como serviço |
 | **Serverless** | Computação sem servidor gerenciado |
 | **Kubernetes** | Orquestrador de containers |
 | **Docker** | Plataforma de containerização |
