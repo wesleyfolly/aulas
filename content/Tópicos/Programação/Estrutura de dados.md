@@ -33,45 +33,99 @@ tags:
 
 ## 🗂️ Principais Estruturas de Dados
 
+> [!tip] Por que estudar estruturas de dados?
+> A escolha certa de estrutura de dados pode fazer a diferença entre um programa que processa milhões de registros em segundos e um que trava com apenas mil registros. Grandes empresas de tecnologia (Google, Amazon, Meta) cobram esse conhecimento nas entrevistas técnicas porque ele impacta diretamente a qualidade do software produzido.
+
 ---
 
-### 1. Vetor
+### 1. Vetor 📦
 
 > [!info] Conceito
 > Um vetor é uma coleção de elementos armazenados de forma contínua, onde todos os elementos são do mesmo tipo e cada posição tem um "endereço" que permite acesso direto.
 
 **Exemplo do Mundo Real:** Imagine uma prateleira com uma fileira de livros. Cada espaço representa uma posição, e para pegar um livro específico, basta saber o número da posição.
 
+**Quando usar vetores:**
+- Quando o tamanho da coleção é conhecido e fixo
+- Quando o acesso por índice é a operação mais frequente
+- Quando os dados são todos do mesmo tipo
+- Exemplos práticos: tabela de notas de uma turma, pixels de uma imagem, amostras de áudio
+
+**Quando NÃO usar vetores:**
+- Quando o tamanho da coleção muda com frequência
+- Quando inserções e remoções no meio são frequentes (exigem deslocar todos os elementos à frente)
+
 ---
 
-### 2. Lista (ou Lista Encadeada)
+### 2. Lista (ou Lista Encadeada) 🔗
 
 > [!info] Conceito
 > Uma lista encadeada é uma sequência de elementos conectados, onde cada elemento "aponta" para o próximo. Os elementos não precisam estar próximos na memória.
 
 **Exemplo do Mundo Real:** Pense em um trem com vários vagões. Cada vagão está ligado ao próximo por um engate. Para acessar um vagão no meio, você precisa começar pelo primeiro.
 
+**Tipos de lista encadeada:**
+- **Simples:** cada nó aponta apenas para o próximo
+- **Dupla:** cada nó aponta para o próximo e para o anterior (facilita a navegação em ambas as direções)
+- **Circular:** o último nó aponta de volta para o primeiro (útil em sistemas de rodízio)
+
+**Quando usar listas encadeadas:**
+- Quando inserções e remoções no início ou no meio são frequentes
+- Quando o tamanho da coleção é imprevisível
+- Exemplos práticos: histórico de navegação, lista de músicas em reprodução, gerenciamento de memória no sistema operacional
+
 ---
 
-### 3. Pilha
+### 3. Pilha 📚
 
 > [!info] Conceito
-> Uma pilha funciona no modelo **LIFO** (Last In, First Out) - o último elemento que entra é o primeiro a sair.
+> Uma pilha funciona no modelo **LIFO** (Last In, First Out), ou seja, o último elemento que entra é o primeiro a sair.
 
 **Exemplo do Mundo Real:** Uma pilha de livros. Quando você coloca um livro em cima, ele é o primeiro a sair.
 
+**Operações fundamentais da pilha:**
+
+| Operação | Descrição | Exemplo |
+|----------|-----------|---------|
+| `push` | Empilha um elemento no topo | Colocar um livro na pilha |
+| `pop` | Remove e retorna o elemento do topo | Pegar o livro do topo |
+| `peek` / `top` | Consulta o topo sem remover | Ver qual livro está por cima |
+| `is_empty` | Verifica se a pilha está vazia | Pilha tem livros? |
+
+**Quando usar pilhas:**
+- Quando você precisa "desfazer" ações (Ctrl+Z nos editores de texto)
+- Quando há chamadas de funções aninhadas (a pilha de execução do próprio computador é uma pilha)
+- Para avaliar expressões matemáticas com parênteses
+- Para implementar navegação "voltar" em browsers
+- Para o algoritmo de busca em profundidade (DFS) em grafos
+
 ---
 
-### 4. Fila
+### 4. Fila 🎟️
 
 > [!info] Conceito
-> Uma fila segue o modelo **FIFO** (First In, First Out) - o primeiro elemento que entra é o primeiro a sair.
+> Uma fila segue o modelo **FIFO** (First In, First Out), ou seja, o primeiro elemento que entra é o primeiro a sair.
 
 **Exemplo do Mundo Real:** Fila para entrar no cinema. A primeira pessoa é a primeira a entrar.
 
+**Operações fundamentais da fila:**
+
+| Operação | Descrição | Exemplo |
+|----------|-----------|---------|
+| `enqueue` | Adiciona ao final da fila | Nova pessoa entra no final |
+| `dequeue` | Remove do início da fila | Primeira pessoa é atendida |
+| `front` | Consulta o início sem remover | Ver quem é o próximo |
+| `is_empty` | Verifica se a fila está vazia | Tem alguém esperando? |
+
+**Quando usar filas:**
+- Quando a ordem de chegada deve ser respeitada
+- Para processamento de tarefas em ordem (impressão, uploads, downloads)
+- Para o algoritmo de busca em largura (BFS) em grafos
+- Sistemas de mensageria (RabbitMQ, Kafka) usam filas como conceito central
+
 ---
 
-### 5. Árvore
+### 5. Árvore 🌳
 
 > [!info] Conceito
 > Uma árvore é uma estrutura hierárquica onde cada elemento (nó) pode ter vários "filhos". Começa com um nó raiz e se ramifica.
@@ -81,24 +135,130 @@ tags:
 - Sistema de Arquivos
 - Hierarquia Organizacional
 
+**Terminologia essencial das árvores:**
+
+| Termo | Definição |
+|-------|-----------|
+| **Raiz** | Nó inicial, sem pai |
+| **Nó folha** | Nó sem filhos |
+| **Nó interno** | Nó com pelo menos um filho |
+| **Altura** | Distância da raiz até a folha mais profunda |
+| **Subárvore** | Qualquer nó e todos os seus descendentes |
+
+**Tipos de árvore:**
+- **Árvore Binária:** cada nó tem no máximo 2 filhos
+- **Árvore Binária de Busca (BST):** filhos à esquerda são menores, à direita são maiores (facilita busca eficiente)
+- **Árvore AVL:** BST auto-balanceada (garante performance mesmo com muitas inserções)
+- **Árvore B:** usada em bancos de dados e sistemas de arquivos
+
+**Quando usar árvores:**
+- Quando os dados têm hierarquia natural (pastas, categorias, estrutura organizacional)
+- Quando buscas eficientes são necessárias em grandes volumes de dados
+- Bancos de dados usam árvores B internamente para indexar registros
+
+---
+
+## ⚡ Complexidade Big-O: Comparativo Geral
+
+> [!warning] Por que Big-O importa?
+> Big-O descreve como o tempo de execução ou o uso de memória cresce conforme o tamanho da entrada aumenta. Saber Big-O é a diferença entre um código que funciona com 100 itens e trava com 1 milhão.
+
+**Hierarquia das complexidades (do melhor para o pior):**
+
+| Notação | Nome | Exemplo |
+|---------|------|---------|
+| O(1) | Constante | Acessar um elemento por índice |
+| O(log n) | Logarítmica | Busca binária |
+| O(n) | Linear | Percorrer uma lista |
+| O(n log n) | Log-linear | Merge Sort, Quick Sort médio |
+| O(n²) | Quadrática | Bubble Sort, Selection Sort |
+| O(2ⁿ) | Exponencial | Subconjuntos de um conjunto |
+
+**Complexidade das operações por estrutura:**
+
+| Estrutura | Acesso | Busca | Inserção | Remoção |
+|-----------|--------|-------|----------|---------|
+| Vetor (Array) | O(1) | O(n) | O(n) | O(n) |
+| Lista Encadeada | O(n) | O(n) | O(1)* | O(1)* |
+| Pilha | O(n) | O(n) | O(1) | O(1) |
+| Fila | O(n) | O(n) | O(1) | O(1) |
+| Árvore BST (média) | O(log n) | O(log n) | O(log n) | O(log n) |
+| Árvore BST (pior) | O(n) | O(n) | O(n) | O(n) |
+| Hash Table (média) | O(1) | O(1) | O(1) | O(1) |
+
+> *Inserção e remoção O(1) em listas encadeadas valem quando você já tem o ponteiro para o nó. Se precisar encontrar o nó primeiro, a busca custa O(n).
+
+---
+
+## 🗺️ Quando Usar Cada Estrutura: Guia de Decisão
+
+```mermaid
+flowchart TD
+    A[Problema: Que estrutura usar?] --> B{Precisa de acesso\npor índice rápido?}
+    B -- Sim --> C{Tamanho fixo?}
+    C -- Sim --> D[Vetor / Array]
+    C -- Não --> E[Lista Python / ArrayList]
+    B -- Não --> F{Precisa de\nordem de entrada?}
+    F -- LIFO\nDesfazer/Recursão --> G[Pilha]
+    F -- FIFO\nFila de tarefas --> H[Fila]
+    F -- Não --> I{Dados têm\nhierarquia?}
+    I -- Sim --> J[Árvore]
+    I -- Não --> K{Precisa de busca\nrápida por chave?}
+    K -- Sim --> L[Dicionário / Hash Table]
+    K -- Não --> M{Dados únicos,\nsem ordem?}
+    M -- Sim --> N[Set / Conjunto]
+    M -- Não --> O[Lista Encadeada]
+```
+
+---
+
+## 🔗 Relação entre as Estruturas
+
+```mermaid
+graph LR
+    A[Dados] --> B[Lineares]
+    A --> C[Não-Lineares]
+    B --> D[Vetor]
+    B --> E[Lista Encadeada]
+    B --> F[Pilha]
+    B --> G[Fila]
+    C --> H[Árvore]
+    C --> I[Grafo]
+    F -- implementada com --> D
+    F -- ou com --> E
+    G -- implementada com --> E
+    H -- caso especial --> J[Árvore Binária]
+    J -- com ordenação --> K[BST]
+    I -- representado por --> L[Matriz de Adjacência]
+    I -- ou por --> M[Lista de Adjacência]
+```
+
 ---
 
 ## 🐍 Estruturas de Dados em Python
 
 🔗 [Principais Estruturas de Dados no Python](https://www.treinaweb.com.br/blog/principais-estruturas-de-dados-no-python)
 
+> [!info] Python e Estruturas de Dados
+> Python oferece estruturas de dados nativas de alto nível que já implementam internamente as estruturas clássicas. Entender a correspondência entre as duas camadas é essencial para escrever código eficiente.
+
 ---
 
-### 1. Listas
+### 1. Listas 📋
 
 > [!tip] Características
-> Coleções ordenadas e **mutáveis** que permitem armazenar diferentes tipos de dados.
+> Coleções ordenadas e **mutáveis** que permitem armazenar diferentes tipos de dados. Internamente, Python implementa listas como arrays dinâmicos (realocam memória conforme crescem).
 
-| Método | Descrição |
-|--------|-----------|
-| `append()` | Adiciona item ao final |
-| `remove()` | Remove primeiro item igual |
-| `sort()` | Ordena a lista |
+| Método | Descrição | Complexidade |
+|--------|-----------|-------------|
+| `append()` | Adiciona item ao final | O(1) amortizado |
+| `insert(i, x)` | Insere em posição específica | O(n) |
+| `remove()` | Remove primeiro item igual | O(n) |
+| `pop()` | Remove e retorna o último | O(1) |
+| `pop(i)` | Remove e retorna posição i | O(n) |
+| `sort()` | Ordena a lista | O(n log n) |
+| `index()` | Busca por valor | O(n) |
+| `in` | Verifica presença | O(n) |
 
 ```python
 frutas = ["maçã", "banana", "laranja"]
@@ -110,49 +270,79 @@ print(frutas)  # Output: ['laranja', 'maçã', 'uva']
 
 ---
 
-### 2. Tupla
+### 2. Tupla 🔒
 
 > [!tip] Características
-> Coleções ordenadas e **imutáveis**. Definidas com parênteses `()`.
+> Coleções ordenadas e **imutáveis**. Definidas com parênteses `()`. São mais eficientes que listas quando os dados não mudam.
+
+**Casos de uso típicos:**
+- Coordenadas geográficas: `(latitude, longitude)`
+- Retorno de múltiplos valores de uma função
+- Chaves compostas em dicionários
+- Registros que não devem ser alterados
 
 ```python
 cores = ("vermelho", "verde", "azul")
 print(cores[1])  # Output: verde
 # cores[1] = "amarelo"  # Erro: Tuplas são imutáveis
+
+# Desempacotamento de tupla
+r, g, b = cores
+print(r)  # Output: vermelho
+
+# Tupla como chave de dicionário
+coordenadas = {(23.5, 46.6): "São Paulo", (22.9, 43.1): "Rio de Janeiro"}
 ```
 
 ---
 
-### 3. Sets
+### 3. Sets (Conjuntos) 🔵
 
 > [!tip] Características
-> Coleções **desordenadas** e **sem duplicatas**. Úteis para operações de conjuntos.
+> Coleções **desordenadas** e **sem duplicatas**. Úteis para operações de conjuntos e verificação de pertencimento em O(1).
 
 | Método | Descrição |
 |--------|-----------|
 | `add()` | Adiciona item |
-| `remove()` | Remove item |
+| `remove()` | Remove item (erro se não existir) |
+| `discard()` | Remove item (sem erro se não existir) |
 | `union()` | União de sets |
+| `intersection()` | Interseção de sets |
+| `difference()` | Diferença entre sets |
 
 ```python
 linguagens = {"Python", "Java", "C++"}
 linguagens.add("Ruby")
 linguagens.add("Python")  # Não será adicionado novamente
 print(linguagens)  # Output: {'Python', 'Ruby', 'Java', 'C++'}
+
+# Verificar pertencimento: O(1), muito mais rápido que lista
+if "Python" in linguagens:
+    print("Python está no conjunto")
+
+# Operações de conjunto
+aprovados = {"Ana", "Bruno", "Carla"}
+presentes = {"Bruno", "Carla", "Diego"}
+aprovados_presentes = aprovados & presentes  # Interseção
+print(aprovados_presentes)  # {'Bruno', 'Carla'}
 ```
 
 ---
 
-### 4. Dicionário
+### 4. Dicionário 🗝️
 
 > [!tip] Características
-> Coleções de pares **chave-valor**. Úteis para dados identificados por chave.
+> Coleções de pares **chave-valor**. Úteis para dados identificados por chave. Internamente implementados como tabelas hash, com acesso O(1) em média.
 
-| Método | Descrição |
-|--------|-----------|
-| `get()` | Retorna valor da chave |
-| `pop()` | Remove item |
-| `keys()` | Retorna todas as chaves |
+| Método | Descrição | Complexidade |
+|--------|-----------|-------------|
+| `get()` | Retorna valor da chave | O(1) |
+| `pop()` | Remove e retorna item | O(1) |
+| `keys()` | Retorna todas as chaves | O(1) |
+| `values()` | Retorna todos os valores | O(1) |
+| `items()` | Retorna pares chave-valor | O(1) |
+| `in` | Verifica chave presente | O(1) |
+| `update()` | Atualiza com outro dicionário | O(n) |
 
 ```python
 aluno = {"nome": "Ana", "idade": 20, "curso": "Engenharia"}
@@ -160,19 +350,28 @@ print(aluno["nome"])  # Output: Ana
 aluno["idade"] = 21
 aluno.pop("curso")
 print(aluno)  # Output: {'nome': 'Ana', 'idade': 21}
+
+# Uso prático: contador de frequência
+texto = "banana"
+contagem = {}
+for letra in texto:
+    contagem[letra] = contagem.get(letra, 0) + 1
+print(contagem)  # {'b': 1, 'a': 3, 'n': 2}
 ```
 
 ---
 
 ## 🔗 Relação: Python vs Estruturas Clássicas
 
-| Estrutura Clássica | Equivalente em Python |
-|--------------------|----------------------|
-| Vetor | `list` (array dinâmico) |
-| Lista Encadeada | Classes personalizadas |
-| Pilha | `list` com `append()`/`pop()` ou `deque` |
-| Fila | `collections.deque` |
-| Árvore | Classes personalizadas ou `binarytree` |
+| Estrutura Clássica | Equivalente em Python | Observação |
+|--------------------|----------------------|------------|
+| Vetor | `list` (array dinâmico) | Tamanho cresce automaticamente |
+| Lista Encadeada | Classes personalizadas | `collections.deque` internamente é lista dupla |
+| Pilha | `list` com `append()`/`pop()` ou `deque` | `list` é suficiente na maioria dos casos |
+| Fila | `collections.deque` | Evite `list` para fila (popleft é O(n) em list) |
+| Árvore | Classes personalizadas ou `binarytree` | Não há built-in nativo |
+| Hash Table | `dict` | Implementação nativa eficiente |
+| Conjunto | `set` | Baseado em hash, sem duplicatas |
 
 ---
 
@@ -184,6 +383,21 @@ pilha.append(1)  # Empilha 1
 pilha.append(2)  # Empilha 2
 pilha.pop()      # Remove 2 (topo)
 print(pilha)     # Output: [1]
+
+# Uso real: verificar parênteses balanceados
+def parenteses_balanceados(expressao):
+    pilha = []
+    for char in expressao:
+        if char == '(':
+            pilha.append(char)
+        elif char == ')':
+            if not pilha:
+                return False
+            pilha.pop()
+    return len(pilha) == 0
+
+print(parenteses_balanceados("(a + b) * (c - d)"))  # True
+print(parenteses_balanceados("(a + b * (c - d)"))   # False
 ```
 
 ---
@@ -198,6 +412,10 @@ fila.append(1)   # Adiciona na fila
 fila.append(2)
 fila.popleft()   # Remove o primeiro (1)
 print(fila)      # Output: deque([2])
+
+# Por que deque e não list para fila?
+# list.pop(0) é O(n): desloca todos os elementos
+# deque.popleft() é O(1): operação otimizada para os dois extremos
 ```
 
 ---
@@ -219,9 +437,19 @@ class LinkedList:
         new_node.next = self.head
         self.head = new_node
 
+    def display(self):
+        current = self.head
+        elementos = []
+        while current:
+            elementos.append(str(current.data))
+            current = current.next
+        print(" -> ".join(elementos))
+
 lista_encadeada = LinkedList()
 lista_encadeada.add(1)
 lista_encadeada.add(2)
+lista_encadeada.add(3)
+lista_encadeada.display()  # Output: 3 -> 2 -> 1
 ```
 
 ---
@@ -238,7 +466,144 @@ class Node:
 root = Node(10)
 root.left = Node(5)
 root.right = Node(15)
+
+# Percurso in-order (esquerda, raiz, direita): resultado em ordem crescente para BST
+def inorder(node):
+    if node:
+        inorder(node.left)
+        print(node.data, end=" ")
+        inorder(node.right)
+
+inorder(root)  # Output: 5 10 15
 ```
+
+---
+
+## 🎯 Diagrama: Ciclo de Vida de uma Pilha e de uma Fila
+
+```mermaid
+sequenceDiagram
+    participant U as Usuário
+    participant P as Pilha (LIFO)
+    participant F as Fila (FIFO)
+
+    U->>P: push(A)
+    U->>P: push(B)
+    U->>P: push(C)
+    Note over P: Topo: C, B, A
+    P-->>U: pop() retorna C
+    P-->>U: pop() retorna B
+    Note over P: Topo: A (último a sair)
+
+    U->>F: enqueue(X)
+    U->>F: enqueue(Y)
+    U->>F: enqueue(Z)
+    Note over F: Frente: X, Y, Z
+    F-->>U: dequeue() retorna X
+    F-->>U: dequeue() retorna Y
+    Note over F: Frente: Z (último a sair)
+```
+
+---
+
+## 🏋️ Atividades Mão na Massa
+
+> [!example] 🧪 Atividade 1: Visualize pilha, fila e árvore no VisuAlgo
+>
+> **Ferramenta:** [visualgo.net](https://visualgo.net/en)
+>
+> **O que fazer:**
+> 1. Acesse [visualgo.net/en/list](https://visualgo.net/en/list) e selecione o modo "Stack"
+> 2. Use os botões "Push" para inserir os valores: 10, 20, 30, 40, 50
+> 3. Observe como cada valor ocupa o topo e clique em "Pop" 2 vezes
+> 4. Anote: qual valor saiu primeiro? Por que?
+> 5. Agora selecione o modo "Queue" no mesmo site
+> 6. Insira os mesmos valores (Enqueue: 10, 20, 30, 40, 50)
+> 7. Execute Dequeue 2 vezes e anote: qual valor saiu? Por que é diferente da pilha?
+> 8. Acesse [visualgo.net/en/bst](https://visualgo.net/en/bst) e insira os valores: 50, 30, 70, 20, 40
+> 9. Observe a estrutura formada e use a busca para encontrar o valor 40, anotando quantos nós foram visitados
+>
+> **Resultado observável:** Ao final, você terá visto com seus próprios olhos a diferença de comportamento LIFO vs FIFO, e entendido visualmente por que busca em BST é mais rápida que busca linear.
+
+---
+
+> [!example] 🧪 Atividade 2: Liste, dicionário e operações no Google Colab
+>
+> **Ferramenta:** [colab.research.google.com](https://colab.research.google.com) (gratuito, sem instalar nada)
+>
+> **O que fazer:**
+> 1. Abra um novo notebook no Google Colab
+> 2. Na primeira célula, copie e rode o código abaixo:
+>
+> ```python
+> # Parte A: Lista como pilha manual
+> historico_navegacao = []
+> for pagina in ["Google", "YouTube", "GitHub", "StackOverflow"]:
+>     historico_navegacao.append(pagina)
+>     print(f"Visitou: {pagina} | Histórico: {historico_navegacao}")
+>
+> print("\n-- Clicando em Voltar --")
+> while historico_navegacao:
+>     print(f"Voltando para: {historico_navegacao.pop()}")
+> ```
+>
+> 3. Na segunda célula, rode:
+>
+> ```python
+> # Parte B: Dicionário para inventário de loja
+> estoque = {"arroz": 50, "feijão": 30, "macarrão": 20}
+>
+> # Adicionar produto
+> estoque["azeite"] = 10
+>
+> # Venda: reduzir estoque
+> produto_vendido = "feijão"
+> estoque[produto_vendido] -= 5
+>
+> # Verificar produto em falta (abaixo de 15 unidades)
+> print("Produtos com estoque baixo:")
+> for produto, qtd in estoque.items():
+>     if qtd < 25:
+>         print(f"  {produto}: {qtd} unidades")
+>
+> print(f"\nEstoque atual: {estoque}")
+> ```
+>
+> 4. Modifique o código para adicionar mais 3 produtos ao estoque e simular 2 vendas diferentes
+>
+> **Resultado observável:** Você verá como lista e dicionário são usados em um problema real de negócio, e entenderá na prática a diferença entre acesso por índice (lista) e acesso por chave (dicionário).
+
+---
+
+> [!example] 🧪 Atividade 3: Escolha a estrutura certa e justifique com Big-O
+>
+> **Ferramenta:** papel e caneta + [colab.research.google.com](https://colab.research.google.com) para testar
+>
+> **Cenários para analisar:**
+>
+> Para cada cenário abaixo, escreva no papel: (a) qual estrutura você usaria, (b) por que, (c) qual a complexidade da operação principal
+>
+> | Cenário | Operação principal |
+> |---------|-------------------|
+> | Sistema de atendimento de chamados de suporte (ordem de chegada) | Retirar o próximo chamado |
+> | Verificar se uma palavra é palíndromo (ex: "arara") | Comparar letras das extremidades |
+> | Banco de dados de alunos onde você busca por matrícula | Buscar aluno por matrícula |
+> | Histórico de ações de um editor de texto (Ctrl+Z) | Desfazer última ação |
+> | Lista de convidados de uma festa (sem repetição) | Verificar se alguém já foi convidado |
+>
+> Depois, implemente no Colab pelo menos 2 dos cenários e meça o tempo com:
+>
+> ```python
+> import time
+>
+> # Exemplo de medição de tempo
+> inicio = time.time()
+> # ... seu código aqui ...
+> fim = time.time()
+> print(f"Tempo: {fim - inicio:.6f} segundos")
+> ```
+>
+> **Resultado observável:** Você comparará na prática o tempo de busca em uma lista vs em um dicionário para 10.000 elementos, confirmando experimentalmente a diferença entre O(n) e O(1).
 
 ---
 
@@ -246,7 +611,7 @@ root.right = Node(15)
 
 ---
 
-### 1. Estruturas de Dados Homogêneas
+### 1. Estruturas de Dados Homogêneas 🧱
 
 > [!info] Conceito
 > Armazenam elementos do **mesmo tipo de dado**. Ideais quando todos os dados seguem o mesmo formato.
@@ -269,7 +634,7 @@ int main() {
 
 ---
 
-### 2. Estruturas de Dados Heterogêneas
+### 2. Estruturas de Dados Heterogêneas 🗃️
 
 > [!info] Conceito
 > Armazenam **diferentes tipos de dados**. Úteis para representar entidades com múltiplas características.
@@ -296,7 +661,7 @@ int main() {
 
 ---
 
-### 3. Ponteiros
+### 3. Ponteiros 👉
 
 > [!info] Conceito
 > Variáveis que armazenam o **endereço de memória** de outra variável.
@@ -305,6 +670,9 @@ int main() {
 - Acesso eficiente a arrays
 - Alocação dinâmica de memória
 - Estruturas ligadas (listas, árvores)
+
+> [!tip] Analogia para fixar
+> Pense no ponteiro como o endereço de uma casa. A casa é a variável com o valor; o endereço é o ponteiro. Você pode dizer "vá até o endereço X e pegue o que está lá" em vez de carregar a casa inteira.
 
 ```c
 #include <stdio.h>
@@ -319,14 +687,37 @@ int main() {
 }
 ```
 
+**Operadores de ponteiro:**
+
+| Operador | Nome | Função |
+|----------|------|--------|
+| `&` | Endereço-de | Obtém o endereço de uma variável |
+| `*` | Derreferência | Acessa o valor no endereço apontado |
+
 ---
 
-### 4. Recursividade
+### 4. Recursividade 🔄
 
 > [!info] Conceito
 > Ocorre quando uma função **chama a si mesma** para resolver subproblemas menores.
 
 **Aplicações:** Fatorial, Fibonacci, Árvores, Busca em profundidade
+
+> [!warning] Cuidado com recursão infinita
+> Toda função recursiva precisa de um **caso base** (condição de parada). Sem ele, a função chama a si mesma indefinidamente até estourar a memória (stack overflow).
+
+```mermaid
+flowchart TD
+    A["fatorial(5)"] --> B["5 * fatorial(4)"]
+    B --> C["4 * fatorial(3)"]
+    C --> D["3 * fatorial(2)"]
+    D --> E["2 * fatorial(1)"]
+    E --> F["Caso base: retorna 1"]
+    F --> G["2 * 1 = 2"]
+    G --> H["3 * 2 = 6"]
+    H --> I["4 * 6 = 24"]
+    I --> J["5 * 24 = 120"]
+```
 
 ```c
 #include <stdio.h>
@@ -343,23 +734,38 @@ int main() {
 }
 ```
 
+**Recursividade vs Iteração:**
+
+| Aspecto | Recursão | Iteração |
+|---------|----------|----------|
+| Legibilidade | Alta (para problemas naturalmente recursivos) | Variável |
+| Uso de memória | Maior (pilha de chamadas) | Menor |
+| Risco de overflow | Sim (profundidade excessiva) | Não |
+| Quando preferir | Árvores, grafos, divide and conquer | Laços simples |
+
 ---
 
-### 5. Algoritmos de Pesquisa e Ordenação
+### 5. Algoritmos de Pesquisa e Ordenação 🔍
 
 > [!info] Tipos de Pesquisa
 
-| Algoritmo | Descrição |
-|-----------|-----------|
-| **Pesquisa Linear** | Percorre todos os elementos |
-| **Pesquisa Binária** | Requer vetor ordenado |
+| Algoritmo | Descrição | Complexidade |
+|-----------|-----------|-------------|
+| **Pesquisa Linear** | Percorre todos os elementos | O(n) |
+| **Pesquisa Binária** | Requer vetor ordenado, divide pela metade | O(log n) |
 
 > [!info] Tipos de Ordenação
 
-| Algoritmo | Descrição |
-|-----------|-----------|
-| **Ordenação por Seleção** | Encontra o menor e coloca no início |
-| **Bubble Sort** | Troca elementos vizinhos fora de ordem |
+| Algoritmo | Descrição | Melhor caso | Caso médio | Pior caso |
+|-----------|-----------|-------------|------------|-----------|
+| **Bubble Sort** | Troca elementos vizinhos fora de ordem | O(n) | O(n²) | O(n²) |
+| **Selection Sort** | Encontra o menor e coloca no início | O(n²) | O(n²) | O(n²) |
+| **Insertion Sort** | Insere cada elemento na posição correta | O(n) | O(n²) | O(n²) |
+| **Merge Sort** | Divide, ordena recursivamente, mescla | O(n log n) | O(n log n) | O(n log n) |
+| **Quick Sort** | Divide pelo pivô | O(n log n) | O(n log n) | O(n²) |
+
+> [!tip] Dica Prática
+> Em Python, o método `sort()` usa o algoritmo **Timsort** (híbrido de Merge Sort e Insertion Sort), que é O(n log n) no pior caso. Em C, você raramente precisará implementar um algoritmo de ordenação do zero, pois a biblioteca padrão oferece `qsort()`.
 
 #### Pesquisa Linear
 
@@ -404,18 +810,36 @@ void bubbleSort(int v[], int n) {
 
 ---
 
-### 6. Grafos
+### 6. Grafos 🕸️
 
 > [!info] Conceito
 > Um **grafo** é um conjunto de **vértices (nós)** conectados por **arestas (ligações)**.
 
-| Tipo | Descrição |
-|------|-----------|
-| **Dirigido** | Com direção |
-| **Não-dirigido** | Sem direção |
-| **Ponderado** | Com peso nas arestas |
+| Tipo | Descrição | Exemplo de Uso |
+|------|-----------|---------------|
+| **Dirigido** | Com direção (setas) | Seguidores no Twitter/X |
+| **Não-dirigido** | Sem direção | Amizades no Facebook |
+| **Ponderado** | Com peso nas arestas | Distâncias entre cidades |
+| **Cíclico** | Tem ao menos um ciclo | Rotas com retorno |
+| **Acíclico** | Sem ciclos | Dependências de tarefas |
 
-**Aplicações:** Mapas de cidades, Redes sociais, Roteamento na internet
+**Aplicações:** Mapas de cidades, Redes sociais, Roteamento na internet, Recomendações de produtos
+
+**Formas de representação:**
+
+| Representação | Espaço | Verificar aresta | Listar vizinhos |
+|---------------|--------|-----------------|-----------------|
+| Matriz de Adjacência | O(V²) | O(1) | O(V) |
+| Lista de Adjacência | O(V + E) | O(grau) | O(grau) |
+
+> *V = número de vértices, E = número de arestas*
+
+**Algoritmos de busca em grafos:**
+
+| Algoritmo | Estratégia | Estrutura usada | Uso típico |
+|-----------|-----------|-----------------|-----------|
+| BFS (Busca em Largura) | Visita vizinhos antes de ir fundo | Fila | Menor caminho (sem pesos) |
+| DFS (Busca em Profundidade) | Vai o mais fundo possível antes de voltar | Pilha | Detectar ciclos, componentes |
 
 #### Matriz de Adjacência
 
@@ -456,6 +880,9 @@ int main() {
 > - Crie pequenos projetos aplicando múltiplos conceitos
 > - Resolva exercícios de lógica com ponteiros e recursão
 > - Use IA para criar questões e testar seu conhecimento
+> - Visualize algoritmos no VisuAlgo antes de implementar: ver o comportamento visual acelera muito o entendimento
+> - Para cada nova estrutura que aprender, pergunte: "Em qual problema real eu usaria isso?"
+> - Pratique explicar para alguém (ou para o espelho): se você consegue ensinar, você entendeu
 
 ---
 
@@ -495,11 +922,11 @@ e) É uma estrutura exclusiva de linguagens orientadas a objetos.
 
 **4. (Fila)** Uma fila segue qual política de acesso?
 
-a) LIFO – Last In, First Out.
-b) FIFO – First In, First Out.
-c) FILO – First In, Last Out.
-d) ALEATÓRIA – Ordem de prioridade definida pelo programador.
-e) BINÁRIA – Ordem determinada por comparação de valores.
+a) LIFO - Last In, First Out.
+b) FIFO - First In, First Out.
+c) FILO - First In, Last Out.
+d) ALEATÓRIA - Ordem de prioridade definida pelo programador.
+e) BINÁRIA - Ordem determinada por comparação de valores.
 
 ---
 
@@ -513,7 +940,7 @@ e) Galho.
 
 ---
 
-**6. (Python – Lista)** No Python, qual método é usado para adicionar um elemento ao final de uma lista?
+**6. (Python - Lista)** No Python, qual método é usado para adicionar um elemento ao final de uma lista?
 
 a) add()
 b) insert()
@@ -523,7 +950,7 @@ e) extend()
 
 ---
 
-**7. (Python – Tupla)** Sobre tuplas no Python, assinale a alternativa correta:
+**7. (Python - Tupla)** Sobre tuplas no Python, assinale a alternativa correta:
 
 a) São mutáveis e permitem adição de novos elementos.
 b) São imutáveis e definidas com parênteses.
@@ -533,7 +960,7 @@ e) Podem ser alteradas usando o método update().
 
 ---
 
-**8. (Conceitos – Ponteiros)** Em C, um ponteiro armazena:
+**8. (Conceitos - Ponteiros)** Em C, um ponteiro armazena:
 
 a) Um tipo de dado inteiro que representa um índice.
 b) O endereço de memória de outra variável.
@@ -588,7 +1015,7 @@ e) Não permite remoção de elementos.
 
 ---
 
-**13. (Python – Sets)** Considere o código:
+**13. (Python - Sets)** Considere o código:
 
 ```python
 dados = {1, 2, 3}
@@ -616,7 +1043,7 @@ e) Só pode ser usada com números inteiros.
 
 ---
 
-**15. (Grafos – Matriz de Adjacência)** Na representação de um grafo não direcionado por matriz de adjacência:
+**15. (Grafos - Matriz de Adjacência)** Na representação de um grafo não direcionado por matriz de adjacência:
 
 a) A matriz é sempre simétrica em relação à diagonal principal.
 b) O número de linhas é sempre diferente do número de colunas.
@@ -671,21 +1098,21 @@ O sistema deve:
 
 ### 📋 Passo a Passo
 
-#### Etapa 1 — Coleta e Preparação
+#### Etapa 1: Coleta e Preparação
 
 - Escolha documentos para a base do FAQ
-- **Lista**: todos os arquivos a processar
-- **Set**: remover duplicados
-- **Fila**: ordem de processamento
+- **Lista:** todos os arquivos a processar
+- **Set:** remover duplicados
+- **Fila:** ordem de processamento
 
-#### Etapa 2 — Chunking e Indexação
+#### Etapa 2: Chunking e Indexação
 
 - Divida documentos em blocos de texto (chunks)
 - Armazene em **vetor** para acesso rápido
 - Gere **embeddings** e salve em vector store
-- Use **dicionário**: `{id_chunk: {"texto": "...", "fonte": "arquivo.pdf"}}`
+- Use **dicionário:** `{id_chunk: {"texto": "...", "fonte": "arquivo.pdf"}}`
 
-#### Etapa 3 — Criando o Agente
+#### Etapa 3: Criando o Agente
 
 - Configure agente no Agno com:
   - Ferramenta de busca no vector store
@@ -694,7 +1121,7 @@ O sistema deve:
 - Perguntas em **fila** processadas na ordem
 - Use **pilha** para busca em profundidade (DFS)
 
-#### Etapa 4 — Fluxo de Raciocínio
+#### Etapa 4: Fluxo de Raciocínio
 
 | Estrutura | Uso |
 |-----------|-----|
@@ -703,7 +1130,7 @@ O sistema deve:
 | **Grafo** | Mapear relações entre tópicos |
 | **Lista** | Histórico de respostas |
 
-#### Etapa 5 — API e Demonstração
+#### Etapa 5: API e Demonstração
 
 - Crie API com FastAPI (endpoint `/ask`)
 - Opcionalmente, página web básica
@@ -720,7 +1147,7 @@ O sistema deve:
 | **Pilha** | Busca em profundidade (DFS) |
 | **Fila** | Gerenciar perguntas e documentos |
 | **Árvore** | Roteamento de perguntas |
-| **Dicionário** | Índice {id → dados} |
+| **Dicionário** | Índice {id para dados} |
 | **Set** | Remover duplicatas |
 | **Grafo** | Conexões entre tópicos |
 
@@ -749,7 +1176,7 @@ O sistema deve:
 
 | Data | Atividade |
 |------|-----------|
-| 08/08/2025 | Início - Ler conceitos e começar trabalho |
+| 08/08/2025 | Início: Ler conceitos e começar trabalho |
 | 09/10/2025 | **Entrega do trabalho** |
 | 21/11/2025 | **Prova** (conteúdo: esta página + trabalho) |
 
@@ -757,3 +1184,14 @@ O sistema deve:
 > - Trabalho: 6 pontos
 > - Prova: 4 pontos
 > - Individual
+
+---
+
+> [!note] 📚 Fontes (2026)
+> - [VisuAlgo: visualização animada de estruturas de dados e algoritmos](https://visualgo.net/en) - ferramenta gratuita usada por 2M+ estudantes globalmente
+> - [Python Data Structures: Types, Use Cases, and Complexity - Anaconda](https://www.anaconda.com/blog/python-data-structures-types-use-cases-complexity)
+> - [Documentação oficial Python 3: Estruturas de Dados](https://docs.python.org/pt-br/3/tutorial/datastructures.html)
+> - [Estruturas de Dados em Python: Guia Completo - Python Brasil](https://python.dev.br/blog/estruturas-de-dados-python/)
+> - [Principais Estruturas de Dados no Python - TreinaWeb](https://www.treinaweb.com.br/blog/principais-estruturas-de-dados-no-python)
+> - [Notação Big-O: complexidade de algoritmos - Dionisio Developer](https://dionisio.dev/blog/bigo/index.html)
+> - [Top Algorithm Visualization Tools 2026 - Codewave](https://codewave.com/insights/algorithm-visualization-tools-techniques/)
