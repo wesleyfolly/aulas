@@ -373,6 +373,45 @@ Erlang, Haskell, Lisp, Clojure, JavaScript (multiparadigma), Python (multiparadi
 
 ---
 
+## 🔧 Funções de Ordem Superior em Python
+
+A programação funcional em Python se apoia em três ferramentas centrais: `map`, `filter` e `reduce`. Elas transformam listas sem usar laços explícitos.
+
+```python
+from functools import reduce
+
+numeros = [1, 2, 3, 4, 5]
+
+# map: aplica uma função a cada elemento
+dobros = list(map(lambda x: x * 2, numeros))
+# [2, 4, 6, 8, 10]
+
+# filter: mantém apenas os que passam no teste
+pares = list(filter(lambda x: x % 2 == 0, numeros))
+# [2, 4]
+
+# reduce: combina todos os elementos em um único valor
+soma = reduce(lambda acc, x: acc + x, numeros)
+# 15
+
+print(dobros, pares, soma)
+```
+
+> [!tip] Funções Puras
+> Uma função pura sempre retorna o mesmo resultado para os mesmos argumentos e **não produz efeitos colaterais** (não altera variáveis externas, não imprime, não grava em disco). Isso facilita testes e depuração.
+
+---
+
+## 📊 Comparação: Laço vs Funcional (somar uma lista)
+
+| Abordagem | Código | Linhas | Efeito colateral? |
+|-----------|--------|--------|-------------------|
+| Imperativa (laço `for`) | `soma = 0; for n in nums: soma += n` | 2 | Sim (modifica `soma`) |
+| Declarativa (`sum`) | `soma = sum(nums)` | 1 | Não |
+| Funcional (`reduce`) | `reduce(lambda a, b: a+b, nums)` | 1 | Não |
+
+---
+
 # 2.2 Programação Lógica
 
 > [!success] Conceito
@@ -430,7 +469,237 @@ sibling(X, Y) :-
 
 ---
 
+## 🗺️ Taxonomia Completa dos Paradigmas
+
+```mermaid
+mindmap
+  root((Paradigmas))
+    Imperativo
+      Estruturado
+        Sequência
+        Decisão
+        Iteração
+      Procedural
+        Funções e Rotinas
+        Modularidade
+      Orientado a Objetos
+        Encapsulamento
+        Herança
+        Polimorfismo
+        Abstração
+    Declarativo
+      Funcional
+        Funções Puras
+        Imutabilidade
+        map/filter/reduce
+      Lógico
+        Fatos e Regras
+        Backtracking
+        Unificação
+      SQL / Consultas
+        SELECT / WHERE
+        Banco de Dados
+```
+
+---
+
+## 🧭 Como Escolher um Paradigma?
+
+```mermaid
+flowchart TD
+    A([Tenho um problema a resolver]) --> B{Os dados têm\nrelações complexas?}
+    B -- Sim --> C{Preciso de\nconsultas/filtros?}
+    B -- Não --> D{O problema tem\nmuitos objetos\ndo mundo real?}
+    C -- Sim --> E[SQL / Declarativo]
+    C -- Não --> F[Funcional\nmap, filter, reduce]
+    D -- Sim --> G[Orientado a Objetos\nClasses e Herança]
+    D -- Não --> H{Preciso de\ncontrole fino\nde hardware?}
+    H -- Sim --> I[Imperativo/Procedural\nC, Assembly]
+    H -- Não --> J[Estruturado / Procedural\nPython, Pascal]
+    F --> K([Avalie performance\ne equipe: linguagem\nmultiparadigma cobre tudo])
+    G --> K
+    I --> K
+    J --> K
+```
+
+---
+
+## 🌍 Cenário Atual: Paradigmas em Alta (2025-2026)
+
+> [!info] Panorama da Indústria (Stack Overflow Developer Survey 2025)
+> - **JavaScript** lidera uso geral (66% dos desenvolvedores)
+> - **Python** cresceu 7 pontos percentuais de 2024 para 2025, impulsionado por IA e ciência de dados
+> - **Rust** é a linguagem mais admirada (72%), com forte suporte a paradigmas funcionais
+> - Linguagens multiparadigma dominam: Python, Kotlin, TypeScript, Scala
+
+### Por que a Programação Funcional está crescendo?
+
+| Domínio | Razão do Crescimento Funcional |
+|---------|-------------------------------|
+| Inteligência Artificial e ML | Transformações de dados sem efeitos colaterais |
+| Sistemas Distribuídos | Imutabilidade facilita concorrência |
+| Cloud/Serverless | Funções puras mapeiam direto para lambdas |
+| Engenharia de Dados | Pipelines como `map/filter/reduce` em escala |
+
+> [!tip] Multiparadigma é a norma, não a exceção
+> Segundo o IEEE Spectrum (2025), pouquíssimas empresas escolhem um único paradigma. O padrão moderno é **combinar** OOP com funcional: classes organizam o domínio; funções puras processam dados sem efeitos colaterais. Python, Kotlin, TypeScript e Scala fazem isso nativamente.
+
+---
+
+## 🧪 Atividades Mão na Massa
+
+> [!example] 🧪 Atividade 1: O Mesmo Problema em 3 Paradigmas no Python Tutor
+>
+> **Objetivo:** ver com seus próprios olhos como cada paradigma executa a soma de uma lista.
+>
+> **Ferramenta:** [pythontutor.com](https://pythontutor.com) (sem instalação, roda no navegador)
+>
+> **Passo 1:** Acesse pythontutor.com, clique em **"Start visualizing your code now"** e selecione **Python 3**.
+>
+> **Passo 2:** Cole o código abaixo e clique em **"Visualize Execution"**:
+>
+> ```python
+> numeros = [1, 2, 3, 4, 5]
+>
+> # --- Imperativo (laço for) ---
+> soma_imp = 0
+> for n in numeros:
+>     soma_imp += n
+>
+> # --- Declarativo (built-in) ---
+> soma_dec = sum(numeros)
+>
+> # --- Funcional (reduce) ---
+> from functools import reduce
+> soma_fun = reduce(lambda acc, x: acc + x, numeros)
+>
+> print(soma_imp, soma_dec, soma_fun)
+> ```
+>
+> **Passo 3:** Use os botões **"Next"** para avançar linha por linha.
+>
+> **O que observar:**
+> - No laço `for`: a variável `soma_imp` muda de valor a cada passo (estado mutável).
+> - No `sum`: o Python Tutor mostra uma única seta, sem estado intermediário visível.
+> - No `reduce`: observe a cadeia de chamadas de `lambda` acumulando o resultado.
+>
+> **Resultado esperado:** as três variáveis imprimem `15 15 15`, mas os caminhos de execução são completamente diferentes.
+>
+> **Registre:** qual abordagem usou mais "passos" no visualizador? O que isso diz sobre legibilidade vs. controle?
+
+---
+
+> [!example] 🧪 Atividade 2: Programação Lógica no SWISH Online
+>
+> **Objetivo:** escrever e consultar relações familiares em Prolog sem instalar nada.
+>
+> **Ferramenta:** [swish.swi-prolog.org](https://swish.swi-prolog.org) (REPL Prolog no navegador)
+>
+> **Passo 1:** Acesse o SWISH. Na área de código (esquerda), apague o conteúdo e cole:
+>
+> ```prolog
+> % Fatos: pai(Pai, Filho)
+> pai(carlos, ana).
+> pai(carlos, bruno).
+> pai(ana, diana).
+> pai(ana, eduardo).
+>
+> % Regra: avo(Avo, Neto)
+> avo(X, Z) :- pai(X, Y), pai(Y, Z).
+>
+> % Regra: irmao(A, B)
+> irmao(A, B) :- pai(P, A), pai(P, B), A \= B.
+> ```
+>
+> **Passo 2:** No campo de consulta (direita, prefixo `?-`), execute uma consulta por vez e anote os resultados:
+>
+> ```prolog
+> ?- avo(carlos, X).
+> ?- irmao(diana, X).
+> ?- pai(carlos, X).
+> ```
+>
+> **O que observar:**
+> - O Prolog faz **backtracking**: ele testa todas as combinações possíveis de fatos automaticamente.
+> - Você não escreveu nenhum laço: declarou **o que é verdade** e pediu ao motor lógico para inferir o resto.
+> - Clique em **"Next"** quando o SWISH oferecer mais de uma resposta.
+>
+> **Resultado esperado:** `avo(carlos, X)` retorna `X = diana` e `X = eduardo`. `irmao(diana, X)` retorna `X = eduardo`.
+>
+> **Desafio:** adicione o fato `pai(bruno, felipe).` e consulte `avo(carlos, X)` novamente. O que muda?
+
+---
+
+> [!example] 🧪 Atividade 3: Funcional vs Laço em Python
+>
+> **Objetivo:** reescrever um trecho imperativo na forma funcional e comparar as duas versões lado a lado.
+>
+> **Ferramenta:** [pythontutor.com](https://pythontutor.com) ou qualquer terminal Python local.
+>
+> **Problema:** dada a lista `[3, 7, 2, 9, 4, 6, 1, 8, 5]`, calcule a soma dos quadrados dos números pares.
+>
+> **Versão imperativa (com laço):**
+> ```python
+> numeros = [3, 7, 2, 9, 4, 6, 1, 8, 5]
+> resultado = 0
+> for n in numeros:
+>     if n % 2 == 0:
+>         resultado += n ** 2
+> print(resultado)  # esperado: 4 + 36 + 64 = 104
+> ```
+>
+> **Versão funcional (sem laço):**
+> ```python
+> from functools import reduce
+> numeros = [3, 7, 2, 9, 4, 6, 1, 8, 5]
+> resultado = reduce(
+>     lambda acc, x: acc + x,
+>     map(lambda x: x ** 2, filter(lambda x: x % 2 == 0, numeros))
+> )
+> print(resultado)  # mesmo resultado: 104
+> ```
+>
+> **Ou com list comprehension (estilo declarativo-funcional do Python):**
+> ```python
+> numeros = [3, 7, 2, 9, 4, 6, 1, 8, 5]
+> resultado = sum(x ** 2 for x in numeros if x % 2 == 0)
+> print(resultado)  # 104
+> ```
+>
+> **O que observar no Python Tutor:**
+> - A versão imperativa modifica `resultado` a cada iteração (estado mutável).
+> - A versão funcional cria pipelines de transformação sem variável intermediária.
+> - A list comprehension é a "ponte": sintaxe declarativa dentro de uma linguagem imperativa.
+>
+> **Registre:** qual versão foi mais fácil de ler? Qual foi mais fácil de escrever? Isso depende do contexto ou da experiência?
+
+---
+
+## 📝 Resumo Comparativo Final
+
+| Paradigma | Foco | Mutabilidade | Efeito Colateral | Linguagens Típicas |
+|-----------|------|-------------|------------------|-------------------|
+| Imperativo | Como fazer | Alta | Possível | C, Pascal, Python |
+| Estruturado | Fluxo controlado | Alta | Possível | C, Python, Java |
+| Procedural | Sub-rotinas | Alta | Possível | C, Pascal, Fortran |
+| Orientado a Objetos | Objetos e mensagens | Encapsulada | Controlado | Java, Python, C++ |
+| Funcional | Transformações | Baixa (imutável) | Evitado | Haskell, Erlang, Python |
+| Lógico | Relações e regras | Não aplica | Não aplica | Prolog, Mercury |
+
+---
+
 ## 📚 Materiais Complementares
 
 📺 [Paradigmas de Linguagem de Programação](https://www.youtube.com/playlist?list=PL8lS5-l2_3cfYaFDK_zBCZQo70h4orszf)
 
+---
+
+> [!note] 📚 Fontes (2026)
+> Material atualizado com base em fontes de 2025-2026:
+> - [Functional Programming 2025: Immutability, Reactivity, and Reliable Code](https://blog.madrigan.com/en/blog/202604110953/)
+> - [Stack Overflow Developer Survey 2025 Technology](https://survey.stackoverflow.co/2025/technology)
+> - [Exploring Functional Programming Paradigms in 2026](https://medium.com/@annxsa/exploring-functional-programming-paradigms-in-2026-benefits-and-practical-applications-0ca926c03af0)
+> - [Programming Paradigms: A 2025 Strategic Guide](https://ardura.consulting/our-blog/programming-paradigms-how-hidden-philosophies-of-code-determine-the-architecture-and-future-of-your-software/)
+> - [The Evolution of Programming Paradigms: Functional vs. OOP in 2025](https://medium.com/@asierr/the-evolution-of-programming-paradigms-functional-vs-object-oriented-in-2025-e78c6483caa8)
+> - [Paradigmas de Programação: Guia dev](https://guia.dev/pt/pillars/languages-and-tools/programming-paradigms.html)
+> - [Rocketseat: Paradigmas de programação](https://www.rocketseat.com.br/blog/artigos/post/paradigmas-de-programacao-qual-o-melhor)
