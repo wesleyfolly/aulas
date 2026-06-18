@@ -23,7 +23,7 @@ tags:
 | Evento | Localização | Descrição |
 |--------|-------------|-----------|
 | [Roadsec](http://roadsec.com.br/) | Várias capitais | Maior evento itinerante de hacking da América Latina |
-| [H2HC](https://www.h2hc.com.br/) | São Paulo | Hackers to Hackers Conference — foco técnico |
+| [H2HC](https://www.h2hc.com.br/) | São Paulo | Hackers to Hackers Conference: foco técnico |
 | [BHack](https://www.bhack.com.br/) | Belo Horizonte | Conferência de segurança mineira |
 | [Mind the Sec](https://mindthesec.com.br/) | RJ e SP | Foco em segurança corporativa |
 
@@ -32,12 +32,12 @@ tags:
 > [!info] Oportunidades Acessíveis
 > Eventos menores são ótimos para começar a fazer networking.
 
-- **SampaSec** — Encontro informal mensal sobre segurança da informação em São Paulo
-- **C001 B-sides** — Gratuito, São Paulo
-- **You Shot The Sheriff** — São Paulo
-- **Silver Bullet** — Conferência brasileira
-- **Workshop SegInfo** — Workshops práticos
-- **BayThreat** — [baythreat.org](http://baythreat.org)
+- **SampaSec**: Encontro informal mensal sobre segurança da informação em São Paulo
+- **C001 B-sides**: Gratuito, São Paulo
+- **You Shot The Sheriff**: São Paulo
+- **Silver Bullet**: Conferência brasileira
+- **Workshop SegInfo**: Workshops práticos
+- **BayThreat**: [baythreat.org](http://baythreat.org)
 
 ---
 
@@ -60,9 +60,9 @@ tags:
 
 > [!success] Aproveitando ao Máximo
 
-1. **Prepare-se antes** — Estude os temas das palestras antecipadamente
-2. **Participe de CTFs** — Muitos eventos têm competições paralelas
-3. **Faça networking** — Converse com outros participantes
-4. **Villages e Workshops** — Participe das atividades práticas
-5. **After parties** — Onde acontece muito networking informal
+1. **Prepare-se antes**: Estude os temas das palestras antecipadamente
+2. **Participe de CTFs**: Muitos eventos têm competições paralelas
+3. **Faça networking**: Converse com outros participantes
+4. **Villages e Workshops**: Participe das atividades práticas
+5. **After parties**: Onde acontece muito networking informal
 

@@ -27,14 +27,14 @@ Plataforma brasileira focada em cybersegurança com cursos do básico ao avança
 
 ---
 
-### UNIVESP — Segurança da Informação
+### UNIVESP: Segurança da Informação
 Disciplina completa do curso de Engenharia de Computação, disponível gratuitamente no YouTube.
 
 [📺 Playlist: Segurança da Informação - 16º Bimestre](https://www.youtube.com/playlist?list=PLxI8Can9yAHenoHipBXp9XuJY4BBxBUPQ)
 
 ---
 
-### Solyd — Pentest do Zero ao Profissional
+### Solyd: Pentest do Zero ao Profissional
 Curso completo de pentest com certificação SYCP, um dos mais reconhecidos do Brasil.
 
 [🔗 Solyd Offensive Security](https://solyd.com.br/treinamentos/pentest-profissional-v2022/)
@@ -55,7 +55,7 @@ A empresa por trás do Kali Linux e da certificação OSCP. Padrão ouro em pent
 
 ---
 
-### CYBRARY — Carreira de Pen Tester
+### CYBRARY: Carreira de Pen Tester
 Trilha completa para formação de pentesters.
 
 [📄 Career Path Syllabus (PDF)](https://assets.ctfassets.net/kvf8rpi09wgk/5eXwREcE4Toq9BAiM6lnDU/a547b6133df37abf34093a6fba05cede/Career_Path_Syllabus_-_Penetration_Tester.pdf)

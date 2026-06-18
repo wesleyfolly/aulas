@@ -68,18 +68,18 @@ tags:
 > Livros disponíveis para consulta.
 
 ### Hacking e Pentest
-- **Future Crimes** — Marc Goodman
-- **Testes de Invasão: Uma introdução prática ao hacking** — Georgia Weidman
-- **Introdução ao pentest** — Daniel Moreno
-- **Hacking For Dummies** — Kevin Beaver
+- **Future Crimes**: Marc Goodman
+- **Testes de Invasão: Uma introdução prática ao hacking**: Georgia Weidman
+- **Introdução ao pentest**: Daniel Moreno
+- **Hacking For Dummies**: Kevin Beaver
 
 ### Análise e Forense
-- **Introdução à Análise Forense em Redes de Computadores** — Ricardo Kléber M. Galvão
-- **Análise de Tráfego em Redes TCP/IP** — João Eriberto Mota Filho
+- **Introdução à Análise Forense em Redes de Computadores**: Ricardo Kléber M. Galvão
+- **Análise de Tráfego em Redes TCP/IP**: João Eriberto Mota Filho
 
 ### Gestão e Conceitos
-- **Trilhas em segurança da informação** — Carlos Cabral e William Caprino
-- **Segurança de computadores e teste de invasão** — Alfred Basta
+- **Trilhas em segurança da informação**: Carlos Cabral e William Caprino
+- **Segurança de computadores e teste de invasão**: Alfred Basta
 
 ---
 
@@ -126,7 +126,7 @@ tags:
 > [!tip] Aprenda Enquanto Caminha
 > Podcasts sobre segurança da informação.
 
-- [Segurança Legal](https://www.segurancalegal.com/) — Podcast brasileiro sobre segurança
+- [Segurança Legal](https://www.segurancalegal.com/): Podcast brasileiro sobre segurança
 
 ---
 

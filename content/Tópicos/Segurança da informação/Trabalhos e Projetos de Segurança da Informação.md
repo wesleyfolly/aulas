@@ -125,9 +125,9 @@ Elaborar uma **tabela** com todas as redes Wi-Fi captadas.
 
 ### Objetivo
 Montar um laboratório Docker completo para segurança com:
-- **Juice Shop** — Aplicação vulnerável
-- **Kali Linux** — Ambiente atacante
-- **Metasploit** — Framework de exploração
+- **Juice Shop**: Aplicação vulnerável
+- **Kali Linux**: Ambiente atacante
+- **Metasploit**: Framework de exploração
 
 ### Parte Teórica
 

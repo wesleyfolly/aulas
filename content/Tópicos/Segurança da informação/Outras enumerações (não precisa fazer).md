@@ -24,10 +24,10 @@ tags:
 
 | Protocolo | Porta | Descrição |
 |-----------|-------|-----------|
-| **SMB** | 445/139 | Server Message Block — Compartilhamento de arquivos Windows |
-| **NFS** | 2049 | Network File System — Compartilhamento de arquivos Unix |
-| **SMTP** | 25/587 | Simple Mail Transfer Protocol — Servidores de email |
-| **SNMP** | 161/162 | Simple Network Management Protocol — Gerenciamento de redes |
+| **SMB** | 445/139 | Server Message Block: Compartilhamento de arquivos Windows |
+| **NFS** | 2049 | Network File System: Compartilhamento de arquivos Unix |
+| **SMTP** | 25/587 | Simple Mail Transfer Protocol: Servidores de email |
+| **SNMP** | 161/162 | Simple Network Management Protocol: Gerenciamento de redes |
 
 ---
 

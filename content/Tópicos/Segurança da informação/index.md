@@ -24,7 +24,7 @@ aliases:
 > [!tip] Links Rápidos
 > Acesse rapidamente as informações organizacionais da disciplina.
 
-- [[Projeto GovSec|🛠️ Projeto GovSec — projeto-âncora da disciplina]]
+- [[Projeto GovSec|🛠️ Projeto GovSec: projeto-âncora da disciplina]]
 - [[Possível Cronograma da disciplina|📅 Cronograma]]
 - [[Trabalhos e Projetos de Segurança da Informação|📝 Trabalhos e Projetos]]
 - [[Sistemas utilizados|💻 Sistemas Utilizados]]
@@ -40,11 +40,11 @@ aliases:
 
 Antes de partir para a prática, é essencial entender os conceitos que fundamentam a área:
 
-- [[Introdução à Segurança da informação]] — Contexto, história e princípios fundamentais
-- [[Carreira em Cybersegurança]] — Áreas de atuação, certificações e mercado de trabalho
-- [[Criptografia]] — A matemática por trás da proteção de dados
-- [[Tipos de ataques]] — Conheça as principais ameaças e vetores de ataque
-- [[Estudos de caso]] — Análise de incidentes reais e lições aprendidas
+- [[Introdução à Segurança da informação]]: Contexto, história e princípios fundamentais
+- [[Carreira em Cybersegurança]]: Áreas de atuação, certificações e mercado de trabalho
+- [[Criptografia]]: A matemática por trás da proteção de dados
+- [[Tipos de ataques]]: Conheça as principais ameaças e vetores de ataque
+- [[Estudos de caso]]: Análise de incidentes reais e lições aprendidas
 
 ---
 
@@ -57,39 +57,39 @@ Antes de partir para a prática, é essencial entender os conceitos que fundamen
 
 Antes de iniciar qualquer teste, é fundamental preparar o ambiente e entender o escopo:
 
-- [[Preparando o terreno|Preparando o terreno...]] — Configuração do ambiente de testes
+- [[Preparando o terreno|Preparando o terreno...]]: Configuração do ambiente de testes
 
 ### 🔍 Reconhecimento e Enumeração
 
 A fase de coleta de informações é crucial para o sucesso do teste:
 
-- [[Coleta de informações]] — OSINT, footprinting e enumeração
-- [[Descobrindo alvos vulneráveis]] — Scanning e identificação de sistemas
-- [[Mapeamento de vulnerabilidades]] — Análise e priorização de vulnerabilidades
+- [[Coleta de informações]]: OSINT, footprinting e enumeração
+- [[Descobrindo alvos vulneráveis]]: Scanning e identificação de sistemas
+- [[Mapeamento de vulnerabilidades]]: Análise e priorização de vulnerabilidades
 
 ### ⚔️ Exploração
 
 Com as vulnerabilidades identificadas, é hora de explorá-las:
 
-- [[Ataques em rede local]] — ARP spoofing, MITM e ataques em LAN
-- [[Exploração do alvo]] — Técnicas de exploração e payloads
-- [[Escalonamento de privilégios]] — De usuário comum a administrador
+- [[Ataques em rede local]]: ARP spoofing, MITM e ataques em LAN
+- [[Exploração do alvo]]: Técnicas de exploração e payloads
+- [[Escalonamento de privilégios]]: De usuário comum a administrador
 
 ### 🔒 Pós-Exploração
 
 Após obter acesso, o que fazer para manter e expandir o controle:
 
-- [[Manutenção do acesso]] — Backdoors e persistência
-- [[Apagando rastros]] — Técnicas anti-forense
+- [[Manutenção do acesso]]: Backdoors e persistência
+- [[Apagando rastros]]: Técnicas anti-forense
 
 ### 📋 Finalização
 
 Documentar é tão importante quanto executar:
 
-- [[Juntando tudo (745)]] — Consolidando o conhecimento
-- [[Documentação Report|Documentação / Report]] — Como criar relatórios profissionais
-- [[Master checklist]] — Checklist completo para pentests
-- [[Ferramentas diversas]] — Arsenal de ferramentas úteis
+- [[Juntando tudo (745)]]: Consolidando o conhecimento
+- [[Documentação Report|Documentação / Report]]: Como criar relatórios profissionais
+- [[Master checklist]]: Checklist completo para pentests
+- [[Ferramentas diversas]]: Arsenal de ferramentas úteis
 
 ---
 
@@ -98,11 +98,11 @@ Documentar é tão importante quanto executar:
 > [!info] Áreas Complementares
 > Explore tópicos que complementam e expandem seus conhecimentos em segurança.
 
-- [[Anonimato e privacidade]] — Tor, VPNs e técnicas de anonimização
-- [[Engenharia social]] — O fator humano na segurança
-- [[Análise de tráfego (Wireshark e TCPdump)]] — Captura e análise de pacotes
-- [[Blockchain]] — Segurança em sistemas descentralizados
-- [[Tópicos/Segurança da informação/DevOps|DevOps]] — Segurança no ciclo de desenvolvimento
+- [[Anonimato e privacidade]]: Tor, VPNs e técnicas de anonimização
+- [[Engenharia social]]: O fator humano na segurança
+- [[Análise de tráfego (Wireshark e TCPdump)]]: Captura e análise de pacotes
+- [[Blockchain]]: Segurança em sistemas descentralizados
+- [[Tópicos/Segurança da informação/DevOps|DevOps]]: Segurança no ciclo de desenvolvimento
 
 ### 🔮 Em Desenvolvimento
 
@@ -121,9 +121,9 @@ Documentar é tão importante quanto executar:
 > [!success] Expanda seu Conhecimento
 > Recursos complementares para aprofundar seus estudos.
 
-- [[Tópicos/Segurança da informação/Conteúdo e materiais|Conteúdo e materiais]] — Livros, artigos e materiais de estudo
-- [[Tópicos/Segurança da informação/Cursos online|Cursos online]] — Plataformas e cursos recomendados
-- [[Certificações]] — CEH, OSCP, CompTIA Security+ e outras
-- [[Eventos]] — Conferências, CTFs e comunidade
-- [[Tópicos/Segurança da informação/Entretenimento|Entretenimento]] — Filmes, séries e documentários sobre hacking
-- [[Últimas notícias]] — Acompanhe as novidades da área
+- [[Tópicos/Segurança da informação/Conteúdo e materiais|Conteúdo e materiais]]: Livros, artigos e materiais de estudo
+- [[Tópicos/Segurança da informação/Cursos online|Cursos online]]: Plataformas e cursos recomendados
+- [[Certificações]]: CEH, OSCP, CompTIA Security+ e outras
+- [[Eventos]]: Conferências, CTFs e comunidade
+- [[Tópicos/Segurança da informação/Entretenimento|Entretenimento]]: Filmes, séries e documentários sobre hacking
+- [[Últimas notícias]]: Acompanhe as novidades da área
