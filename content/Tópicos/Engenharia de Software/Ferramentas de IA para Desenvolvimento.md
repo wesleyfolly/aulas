@@ -62,7 +62,7 @@ graph LR
 ### GitHub Copilot : o padrão corporativo
 
 - **O que é:** extensão multi-IDE (VS Code, JetBrains, etc.) + agente no GitHub
-- **Força:** integração total com o ecossistema GitHub; adoção empresarial; preço de entrada (US$ 10/mês)
+- **Força:** integração total com o ecossistema GitHub; adoção empresarial; preço de entrada (US\$ 10/mês)
 - **Perfil:** times que vivem no GitHub e querem IA "ligada por padrão" pra todo mundo
 - **Benchmark:** 56% no SWE-bench Verified (fev/2026, com GPT-4o como motor)
 - **Limitação conhecida:** modo agente tem dificuldade com mudanças que cruzam mais de 10 arquivos
@@ -72,7 +72,7 @@ graph LR
 - **O que é:** IDE completa (fork do VS Code) com IA em todos os fluxos
 - **Força:** experiência de edição : o **Composer** propõe mudanças em múltiplos arquivos numa passada; tab-completion excelente; contexto do projeto inteiro
 - **Benchmark:** 51,7% no SWE-bench Verified; 72% de taxa de aceitação no autocomplete (Supermaven)
-- **Perfil:** quem passa o dia editando código e quer a IA na ponta dos dedos (US$ 20/mês)
+- **Perfil:** quem passa o dia editando código e quer a IA na ponta dos dedos (US\$ 20/mês)
 - **Novidade 2026:** Bugbot (disponível desde fev/2026) revisa PRs automaticamente e propõe correções com ~80% de resolução em issues simples
 
 ### Claude Code : o teto de capacidade
@@ -81,7 +81,7 @@ graph LR
 - **Força:** raciocínio profundo em tarefas complexas; contexto de até **1 milhão de tokens** (codebases inteiras sem perder o fio); autonomia longa; subagentes, skills e MCP
 - **Benchmark:** 88,6% no SWE-bench Verified com Claude Opus 4.8, segundo melhor resultado público em jun/2026
 - **Adoção:** 41% dos desenvolvedores profissionais usam Claude Code (fev/2026); em empresas com menos de 200 funcionários, esse número sobe para 75%
-- **Perfil:** tarefas grandes e multi-arquivo, refatorações profundas, automação agêntica (US$ 20 a US$ 200/mês)
+- **Perfil:** tarefas grandes e multi-arquivo, refatorações profundas, automação agêntica (US\$ 20 a US\$ 200/mês)
 
 > [!tip] O stack combinado mais comum em 2026
 > **Cursor (ou VS Code+Copilot) para o dia a dia** + **Claude Code para tarefas pesadas/agênticas**. Ferramentas deixaram de ser excludentes: são camadas.
@@ -93,7 +93,7 @@ graph LR
 | Critério | GitHub Copilot | Cursor | Claude Code |
 |----------|---------------|--------|-------------|
 | **Tipo** | Extensão IDE | IDE completa | Agente de terminal |
-| **Preço mínimo** | US$ 10/mês | US$ 20/mês | US$ 20/mês |
+| **Preço mínimo** | US\$ 10/mês | US\$ 20/mês | US\$ 20/mês |
 | **SWE-bench (jun/2026)** | 56% | 51,7% | 88,6% |
 | **Autonomia** | Média | Alta | Muito alta |
 | **Contexto do projeto** | Parcial | Projeto inteiro | Projeto inteiro (1M tokens) |
@@ -114,7 +114,7 @@ Para MVPs e protótipos (detalhes em [[Criação Rápida de MVPs]]):
 | **v0 (Vercel)** | UIs Next.js bonitas; integração com o deploy da Vercel | Front-ends e landing pages |
 | **Replit Agent** | IDE online + agente + banco + hosting no mesmo lugar | Híbrido: prompt + codar junto |
 
-Mercado em 2026: **US$ 4,7 bi**, com **63% de usuários não-desenvolvedores**. Lovable atingiu US$ 300M+ de ARR e captou US$ 330M em dez/2025. Replit cresceu de US$ 10M para US$ 100M ARR em 9 meses após lançar o Agent mode, com 35 milhões de usuários cadastrados.
+Mercado em 2026: **US\$ 4,7 bi**, com **63% de usuários não-desenvolvedores**. Lovable atingiu US\$ 300M+ de ARR e captou US\$ 330M em dez/2025. Replit cresceu de US\$ 10M para US\$ 100M ARR em 9 meses após lançar o Agent mode, com 35 milhões de usuários cadastrados.
 
 > [!warning] Vibe coding tem limites
 > App builders são excelentes para prototipagem rápida, mas o código gerado muitas vezes carece de testes automatizados, segurança adequada e escalabilidade. Em produção, o engenheiro precisa auditar o que a IA entregou antes de publicar.
@@ -176,7 +176,7 @@ Os seis critérios para avaliar qualquer ferramenta:
 2. **Onde você trabalha:** terminal, IDE, navegador, GitHub?
 3. **Tamanho do contexto:** projetos grandes pedem janelas grandes
 4. **Privacidade:** código pode sair da máquina? Há opção enterprise/local?
-5. **Custo vs. valor:** US$ 10 a US$ 200/mês versus horas economizadas
+5. **Custo vs. valor:** US\$ 10 a US\$ 200/mês versus horas economizadas
 6. **Ecossistema:** suporta MCP? AGENTS.md? Skills? CI?
 
 > [!example] Regra prática para a disciplina
@@ -246,7 +246,7 @@ Dados de mercado que contextualizam a relevância do tema:
 - **41%** de todo o código escrito globalmente é gerado ou co-gerado por IA
 - **Claude Code** lidera entre profissionais com 41% de adoção, seguido por Copilot (38%)
 - Em empresas pequenas (menos de 200 funcionários), Claude Code chega a 75% de adoção
-- O mercado de "vibe coding" (app builders) atingiu US$ 4,7 bi em 2026
+- O mercado de "vibe coding" (app builders) atingiu US\$ 4,7 bi em 2026
 - A Stripe processa mais de 1.300 PRs por semana gerados 100% por agentes, sem código humano
 
 > [!info] Impacto na carreira

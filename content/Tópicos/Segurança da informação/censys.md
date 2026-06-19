@@ -626,7 +626,7 @@ done < subdomains.txt
 | Critério | Censys | Shodan |
 |----------|--------|--------|
 | **Preço (free tier)** | 250 resultados/query | 100 resultados/query |
-| **Preço (pago)** | Planos a partir de US$ 99/mês | Planos a partir de US$ 69/mês |
+| **Preço (pago)** | Planos a partir de US\$ 99/mês | Planos a partir de US\$ 69/mês |
 | **Certificados SSL/TLS** | Excelente (CT logs nativos) | Bom |
 | **IoT/Câmeras** | Bom | Excelente |
 | **SCADA/ICS** | Bom | Excelente |

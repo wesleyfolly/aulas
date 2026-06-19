@@ -69,7 +69,7 @@ Pena: detenção, de 3 (três) meses a 1 (um) ano, e multa.
 
 Embora o harvesting de e-mails em si seja passivo, o uso dos dados coletados para envio de phishing, spam ou para invadir sistemas configura crimes adicionais, incluindo estelionato (art. 171 CP), falsa identidade (art. 307 CP) e violação de dados pessoais (LGPD, Lei 13.709/2018, art. 42 a 45).
 
-**LGPD (Lei 13.709/2018):** endereços de e-mail são dados pessoais. Coletá-los de forma automatizada para fins comerciais ou ilícitos viola a LGPD, sujeitando o infrator a multas de até 2% do faturamento, limitadas a R$ 50 milhões por infração.
+**LGPD (Lei 13.709/2018):** endereços de e-mail são dados pessoais. Coletá-los de forma automatizada para fins comerciais ou ilícitos viola a LGPD, sujeitando o infrator a multas de até 2% do faturamento, limitadas a R\$ 50 milhões por infração.
 
 > [!warning] Regra de ouro
 > **Pratique sempre no seu próprio domínio ou em domínios para os quais você tem autorização expressa e por escrito.** Em laboratório, use domínios de teste como `testphp.vulnweb.com`, `hackerone.com` (programa público), ou crie o seu próprio.

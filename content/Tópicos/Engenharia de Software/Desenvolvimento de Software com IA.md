@@ -30,7 +30,7 @@ tags:
 
 ### Números de 2026 (para dimensionar)
 
-- O mercado de "vibe coding"/app builders chega a **US$ 4,7 bilhões**, com **63% de usuários não-desenvolvedores**
+- O mercado de "vibe coding"/app builders chega a **US\$ 4,7 bilhões**, com **63% de usuários não-desenvolvedores**
 - Stripe mantém agentes ("Minions") produzindo **mais de 1.000 PRs aceitos por semana**
 - O protocolo MCP ultrapassa **97 milhões de downloads mensais** de SDK, com 10.000+ servidores públicos
 - Grandes empresas relatam que a **maioria do código novo** já é escrita com assistência de IA

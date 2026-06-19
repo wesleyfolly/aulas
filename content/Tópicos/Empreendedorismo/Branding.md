@@ -210,7 +210,7 @@ O mercado de branding está em rápida evolução. Conhecer as tendências ajuda
 
 | Ferramenta | Para que serve | Custo | Link |
 |-----------|---------------|-------|------|
-| **Canva** | Criar logo, posts, apresentações, materiais gráficos | Gratuito / Pro R$ 35/mês | canva.com |
+| **Canva** | Criar logo, posts, apresentações, materiais gráficos | Gratuito / Pro R\$ 35/mês | canva.com |
 | **Looka** | Gerar logo com IA + kit completo de marca (cartão, redes, mockups) | Pago por projeto | looka.com |
 | **Coolors** | Criar e explorar paletas de cores com códigos HEX/RGB | Gratuito | coolors.co |
 | **Adobe Color** | Gerador de paletas com teoria das cores | Gratuito | color.adobe.com |

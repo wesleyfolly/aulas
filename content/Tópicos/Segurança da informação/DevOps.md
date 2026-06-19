@@ -198,7 +198,7 @@ docker run -d --name zap -p 8090:8090 owasp/zap2docker-stable \
 
 **O que é:** Procura credenciais, tokens de API, senhas e chaves privadas acidentalmente commitados no código ou histórico do Git.
 
-**Cenário real:** Em 2024, pesquisadores encontraram mais de 12,8 milhões de segredos expostos em repositórios GitHub públicos. Um token de AWS exposto pode gerar fatura de US$ 50.000 em poucas horas.
+**Cenário real:** Em 2024, pesquisadores encontraram mais de 12,8 milhões de segredos expostos em repositórios GitHub públicos. Um token de AWS exposto pode gerar fatura de US\$ 50.000 em poucas horas.
 
 **Ferramenta principal: Gitleaks**
 

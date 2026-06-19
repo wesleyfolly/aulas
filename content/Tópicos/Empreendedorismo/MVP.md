@@ -170,7 +170,7 @@ Em 2026, construir um MVP funcional não exige saber programar. Ferramentas de I
 >
 > **Passos:**
 > 1. Escolha uma funcionalidade que custaria tempo para construir (ex: "Gerador de roteiros de vídeo com IA")
-> 2. Crie um Google Forms com as perguntas: "Você pagaria R$ X por mês por isso?", "Com que frequência usaria?", "Qual é seu maior problema hoje nessa área?"
+> 2. Crie um Google Forms com as perguntas: "Você pagaria R\$ X por mês por isso?", "Com que frequência usaria?", "Qual é seu maior problema hoje nessa área?"
 > 3. No Carrd, crie uma página descrevendo o recurso como se já existisse, com um botão "Quero acessar agora" que redireciona para o Forms
 > 4. Publique e envie o link para pelo menos 5 pessoas do público-alvo
 > 5. Analise: quantos clicaram? Quantos responderam? Qual percentual disse que pagaria?

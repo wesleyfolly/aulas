@@ -260,7 +260,7 @@ flowchart LR
 
 > [!tip] Provedores Líderes
 
-Em Q1 de 2026, o mercado global de infraestrutura em nuvem cresceu **35% em relação ao mesmo período de 2025**, movimentando **US$ 129 bilhões** em um único trimestre. Os "Três Grandes" (AWS, Azure e GCP) concentram mais de 60% desse mercado.
+Em Q1 de 2026, o mercado global de infraestrutura em nuvem cresceu **35% em relação ao mesmo período de 2025**, movimentando **US\$ 129 bilhões** em um único trimestre. Os "Três Grandes" (AWS, Azure e GCP) concentram mais de 60% desse mercado.
 
 ### 📊 Market Share: Big Three (2026)
 
@@ -274,9 +274,9 @@ pie title Market Share Cloud Infrastructure 2026
 
 | Provedor | Market Share (2026) | Receita Anual (FY2025) | Crescimento YoY | Link |
 |----------|--------------------|-----------------------|----------------|------|
-| **Amazon Web Services (AWS)** | ~31% | ~US$ 115 bi | ~18% | [aws.amazon.com](https://aws.amazon.com/pt/) |
-| **Microsoft Azure** | ~24% | ~US$ 100 bi | ~25% | [azure.microsoft.com](https://azure.microsoft.com/pt-br/) |
-| **Google Cloud (GCP)** | ~12% | ~US$ 48 bi | ~28% | [cloud.google.com](https://cloud.google.com/) |
+| **Amazon Web Services (AWS)** | ~31% | ~US\$ 115 bi | ~18% | [aws.amazon.com](https://aws.amazon.com/pt/) |
+| **Microsoft Azure** | ~24% | ~US\$ 100 bi | ~25% | [azure.microsoft.com](https://azure.microsoft.com/pt-br/) |
+| **Google Cloud (GCP)** | ~12% | ~US\$ 48 bi | ~28% | [cloud.google.com](https://cloud.google.com/) |
 | **IBM Cloud** | ~3% | N/D | N/D | [ibm.com/cloud](https://www.ibm.com/br-pt/cloud) |
 | **Oracle Cloud** | ~2% | N/D | N/D | [oracle.com/cloud](https://www.oracle.com/br/cloud/) |
 
@@ -296,7 +296,7 @@ pie title Market Share Cloud Infrastructure 2026
 > | Provedor | Oferta Gratuita | Link |
 > |----------|----------------|------|
 > | **AWS Free Tier** | 750h/mês de EC2 t2.micro por 12 meses | [aws.amazon.com/free](https://aws.amazon.com/free/) |
-> | **Google Cloud** | US$ 300 em créditos por 90 dias + e2-micro sempre gratuito | [cloud.google.com/free](https://cloud.google.com/free) |
+> | **Google Cloud** | US\$ 300 em créditos por 90 dias + e2-micro sempre gratuito | [cloud.google.com/free](https://cloud.google.com/free) |
 > | **Oracle Cloud** | 4 OCPUs + 24 GB RAM ARM (sempre gratuito, sem cartão de crédito) | [oracle.com/cloud/free](https://www.oracle.com/cloud/free/) |
 >
 > **Passo a passo:**

@@ -113,7 +113,7 @@ tags:
 
 2. **Formatação**
    - Linha 1 em **negrito**
-   - Coluna de valores: alinhada à direita, formato moeda (R$)
+   - Coluna de valores: alinhada à direita, formato moeda (R\$)
    - Ajustar largura das colunas automaticamente
 
 3. **Fórmulas Básicas**

@@ -343,7 +343,7 @@ graph TD
 > 3. **Sessão B (contexto rico):** envie:
 >    - A função com bug completa
 >    - O erro exato (stack trace ou comportamento errado)
->    - A regra de negócio ("cupom só vale para pedidos acima de R$ 100")
+>    - A regra de negócio ("cupom só vale para pedidos acima de R\$ 100")
 >    - O critério de aceitação ("após a correção, `test_cupom_invalido()` deve passar")
 >    - Repita o pedido: *"Corrija o bug no desconto do cupom."*
 > 4. Compare as respostas A e B lado a lado.

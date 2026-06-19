@@ -457,7 +457,7 @@ Exploração de vulnerabilidades desconhecidas pelos desenvolvedores, para as qu
 **Como o atacante encontra e usa:**
 - Fuzzing automatizado com AFL++, libFuzzer para descobrir crashes
 - Análise de binários com Ghidra, IDA Pro para encontrar falhas em código fechado
-- Venda no mercado de 0days: preços de $50.000 a $2,5 milhões dependendo do alvo (iOS remote jailbreak chegou a US$ 2,5M na Zerodium em 2024)
+- Venda no mercado de 0days: preços de \$50.000 a \$2,5 milhões dependendo do alvo (iOS remote jailbreak chegou a US\$ 2,5M na Zerodium em 2024)
 - Grupos APT nacionais mantêm stockpile de 0days para uso estratégico
 
 ---
@@ -512,7 +512,7 @@ O ransomware moderno é operado por grupos profissionais com modelo RaaS (Ransom
 - Apagar backups locais, shadow copies
 - Deixar nota de resgate em cada pasta
 
-**Dados de 2026:** ataques explorando aplicações públicas cresceram 44% em relação a 2025. Número de grupos ativos de ransomware cresceu 49%. Resgates médios ultrapassaram US$ 1,5M para alvos corporativos.
+**Dados de 2026:** ataques explorando aplicações públicas cresceram 44% em relação a 2025. Número de grupos ativos de ransomware cresceu 49%. Resgates médios ultrapassaram US\$ 1,5M para alvos corporativos.
 
 ```mermaid
 sequenceDiagram

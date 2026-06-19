@@ -126,11 +126,11 @@ Dois caminhos:
 
 | Ferramenta | Melhor para | Plano gratuito | Preço inicial pago | Gera código exportável | Deploy integrado | Banco de dados | Ponto forte |
 |------------|-------------|----------------|--------------------|------------------------|-----------------|----------------|-------------|
-| **Lovable** | SaaS MVP completo, fundadores não-técnicos | Sim (créditos limitados) | ~$25/mês | Sim (GitHub) | Sim (automático) | Supabase integrado | Onboarding mais suave, integração Supabase nativa |
-| **Bolt.new** | Protótipos rápidos para descartar | Sim | ~$25/mês | Sim | Sim (Netlify/Cloudflare) | Externo | Maior controle de framework (React, Vue, Svelte, Astro, Expo) |
-| **v0 (Vercel)** | Componentes de UI dentro de projeto existente | Sim | ~$20/mês | Sim (Next.js/shadcn) | Via Vercel | Não incluso | Qualidade de frontend React/Tailwind sem rival |
-| **Replit Agent** | Full-stack com banco, hospedagem e deploy unificados | Sim (limitado) | ~$25/mês | Sim | Sim (Replit hosting) | Postgres integrado | Mais autônomo (Agent 3, set/2025): 50+ linguagens, testes em browser real |
-| **Carrd** | Landing page de validação (1 página) | Sim (3 sites) | $9/ano (Pro Lite) | Não | Sim | Não | Mais barato de todos; pronto em menos de 30 min; 800 mil usuários |
+| **Lovable** | SaaS MVP completo, fundadores não-técnicos | Sim (créditos limitados) | ~\$25/mês | Sim (GitHub) | Sim (automático) | Supabase integrado | Onboarding mais suave, integração Supabase nativa |
+| **Bolt.new** | Protótipos rápidos para descartar | Sim | ~\$25/mês | Sim | Sim (Netlify/Cloudflare) | Externo | Maior controle de framework (React, Vue, Svelte, Astro, Expo) |
+| **v0 (Vercel)** | Componentes de UI dentro de projeto existente | Sim | ~\$20/mês | Sim (Next.js/shadcn) | Via Vercel | Não incluso | Qualidade de frontend React/Tailwind sem rival |
+| **Replit Agent** | Full-stack com banco, hospedagem e deploy unificados | Sim (limitado) | ~\$25/mês | Sim | Sim (Replit hosting) | Postgres integrado | Mais autônomo (Agent 3, set/2025): 50+ linguagens, testes em browser real |
+| **Carrd** | Landing page de validação (1 página) | Sim (3 sites) | \$9/ano (Pro Lite) | Não | Sim | Não | Mais barato de todos; pronto em menos de 30 min; 800 mil usuários |
 
 ### Quando usar cada um
 

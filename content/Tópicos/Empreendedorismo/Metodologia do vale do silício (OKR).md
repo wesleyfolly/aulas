@@ -24,7 +24,7 @@ A história dos OKRs começa com **Peter Drucker** em 1954, quando ele formulou 
 
 Nos anos 1970, **Andy Grove**, CEO da Intel, pegou o MBO de Drucker, cortou a burocracia e acrescentou a peça que faltava: os *Key Results*, indicadores quantitativos que revelam se o objetivo foi de fato alcançado. Grove chamou o sistema de *iMBOs* (Intel MBOs). O princípio de **meta aspiracional** nasceu aqui: se você atinge 100% sempre, o alvo estava baixo demais.
 
-Em 1999, o investidor **John Doerr** (que aprendeu o método na Intel) apresentou os OKRs ao Google, então uma startup de 40 pessoas. Larry Page e Sergey Brin adotaram na hora. O sistema escalou com a empresa e, décadas depois, o Google ainda o usa em todos os níveis, do estagiário ao CEO. O mercado de software de OKR atingiu **US$ 1,6 bilhão em 2025** (crescimento de 17% em relação a 2024), confirmando a adoção global do método.
+Em 1999, o investidor **John Doerr** (que aprendeu o método na Intel) apresentou os OKRs ao Google, então uma startup de 40 pessoas. Larry Page e Sergey Brin adotaram na hora. O sistema escalou com a empresa e, décadas depois, o Google ainda o usa em todos os níveis, do estagiário ao CEO. O mercado de software de OKR atingiu **US\$ 1,6 bilhão em 2025** (crescimento de 17% em relação a 2024), confirmando a adoção global do método.
 
 ```mermaid
 timeline
@@ -135,7 +135,7 @@ A tabela abaixo mostra exemplos reais de Objetivos e Key Results. Observe que os
 | Contexto | Objetivo | Key Result 1 | Key Result 2 | Key Result 3 |
 |----------|----------|--------------|--------------|--------------|
 | Startup de produto | Tornar nosso app indispensável para os usuários | Aumentar DAU (usuários ativos diários) de 500 para 2.000 | Reduzir churn mensal de 8% para 3% | Atingir NPS de 50 ou mais |
-| Equipe de vendas | Conquistar o mercado regional | Fechar 15 novos contratos no trimestre | Aumentar ticket médio de R$ 2.000 para R$ 3.500 | Reduzir ciclo de vendas de 45 para 25 dias |
+| Equipe de vendas | Conquistar o mercado regional | Fechar 15 novos contratos no trimestre | Aumentar ticket médio de R\$ 2.000 para R\$ 3.500 | Reduzir ciclo de vendas de 45 para 25 dias |
 | Educação (turma) | Aprender a criar produtos digitais do zero | 80% da turma entrega protótipo funcional até a semana 12 | Todos os grupos apresentam pesquisa com mínimo 5 usuários entrevistados | Média de avaliação dos projetos acima de 7,0 |
 | Google (exemplo público) | Alcançar liderança no mercado de busca | Aumentar participação de mercado de 80% para 85% | Reduzir tempo médio de resposta de 0,5s para 0,3s | Lançar 3 novos recursos de busca avançada |
 | Intel (histórico) | Conquistar o segmento de microprocessadores corporativos | Fechar contratos com as 10 maiores montadoras | Reduzir defeitos de fabricação em 30% | Aumentar margem bruta de 42% para 50% |

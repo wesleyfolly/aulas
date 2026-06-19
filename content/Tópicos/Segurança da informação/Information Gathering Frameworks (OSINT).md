@@ -169,7 +169,7 @@ Maltego é uma plataforma de investigação que representa dados como **grafos d
 
 | Aspecto | Community Edition (CE) | XL / Enterprise |
 |---------|------------------------|-----------------|
-| **Custo** | Gratuito | A partir de US$ 6.600/ano |
+| **Custo** | Gratuito | A partir de US\$ 6.600/ano |
 | **Entidades por grafo** | Até 10.000 | Ilimitado |
 | **Resultados por transform** | Máximo 24 | Ilimitado |
 | **Créditos mensais** | 200 créditos | Volume maior |

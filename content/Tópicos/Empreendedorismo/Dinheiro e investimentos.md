@@ -41,7 +41,7 @@ tags:
 > - Meta do Banco Central: **3%** (tolerância: 1,5 p.p. para cima ou baixo)
 > - Expectativa Focus para fechamento de 2026: **4,89%**
 >
-> Isso significa que R$ 1.000 de janeiro de 2026 já compravam cerca de R$ 968 em termos reais até maio. A inflação corrói o dinheiro parado.
+> Isso significa que R\$ 1.000 de janeiro de 2026 já compravam cerca de R\$ 968 em termos reais até maio. A inflação corrói o dinheiro parado.
 
 ### 📋 Planejamento Financeiro Pessoal
 
@@ -94,7 +94,7 @@ Metas financeiras conforme tempo (ex: viagem, carro, aposentadoria).
 >
 > **O que fazer:**
 > 1. Acesse a calculadora e escolha a opção "Aplicação em renda fixa".
-> 2. Simule: você investe R$ 500 por mês por 20 anos à taxa de 0,9% ao mês (aproximação da Selic atual de 14,5% a.a.).
+> 2. Simule: você investe R\$ 500 por mês por 20 anos à taxa de 0,9% ao mês (aproximação da Selic atual de 14,5% a.a.).
 > 3. Anote o valor final acumulado.
 > 4. Divida esse valor por 0,008 (0,8% ao mês) para saber a renda passiva mensal que ele geraria.
 >
@@ -268,9 +268,9 @@ pie title Distribuição de Risco por Classe de Ativo
 > **Ferramenta:** [Calculadora do Tesouro Direto](https://www.tesourodireto.com.br/simulador/) (site oficial do governo)
 >
 > **O que fazer:**
-> 1. Acesse o simulador do Tesouro Direto e simule R$ 5.000 aplicados em Tesouro Selic por 1 ano.
+> 1. Acesse o simulador do Tesouro Direto e simule R\$ 5.000 aplicados em Tesouro Selic por 1 ano.
 > 2. Anote o valor final (já com desconto de IR e taxa de custódia).
-> 3. Agora calcule manualmente a poupança: R$ 5.000 × 1,1045 (rendimento estimado 10,45% a.a.) = R$ 5.522,50.
+> 3. Agora calcule manualmente a poupança: R\$ 5.000 × 1,1045 (rendimento estimado 10,45% a.a.) = R\$ 5.522,50.
 > 4. Compare os dois resultados.
 >
 > **Resultado observável:** você verá que mesmo após IR, o Tesouro Selic rende mais que a poupança em 2026 (Selic a 14,5% vs poupança a ~10,15%). Diferença real em reais, calculada por você.
@@ -327,7 +327,7 @@ pie title Distribuição de Risco por Classe de Ativo
 > [!success] Princípios Fundamentais
 > Investir com constância e foco no longo prazo.
 
-**O poder dos juros compostos:** R$ 500 por mês investidos a 1% ao mês por 30 anos resultam em mais de R$ 1,7 milhão. Quem começa com 20 anos chega aos 50 com muito mais do que quem começa aos 35 anos com os mesmos aportes.
+**O poder dos juros compostos:** R\$ 500 por mês investidos a 1% ao mês por 30 anos resultam em mais de R\$ 1,7 milhão. Quem começa com 20 anos chega aos 50 com muito mais do que quem começa aos 35 anos com os mesmos aportes.
 
 ---
 
@@ -363,7 +363,7 @@ pie title Distribuição de Risco por Classe de Ativo
 > **Ferramenta:** [Investidor10](https://investidor10.com.br/carteira/) (gratuito, sem instalar nada)
 >
 > **O que fazer:**
-> 1. Acesse a ferramenta de carteira e monte uma carteira fictícia de R$ 10.000 com pelo menos 3 classes de ativos: ex. R$ 5.000 em Tesouro Selic, R$ 3.000 em uma ação (VALE3 ou ITUB4), R$ 2.000 em um FII (MXRF11).
+> 1. Acesse a ferramenta de carteira e monte uma carteira fictícia de R\$ 10.000 com pelo menos 3 classes de ativos: ex. R\$ 5.000 em Tesouro Selic, R\$ 3.000 em uma ação (VALE3 ou ITUB4), R\$ 2.000 em um FII (MXRF11).
 > 2. Observe o DY médio ponderado da carteira e a composição por setor.
 > 3. Mude a alocação (ex.: tire renda fixa, coloque mais ações) e veja como o risco e o retorno esperado se alteram.
 >

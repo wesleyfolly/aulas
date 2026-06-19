@@ -85,7 +85,7 @@ tags:
 ### 🇧🇷 Exemplo real: ACE Ventures (Brasil, São Paulo)
 - Fundada em 2012, uma das mais ativas do país
 - Mais de 150 investimentos realizados, com 32 exits registrados
-- Investe entre R$ 500 mil e R$ 2 milhões por startup
+- Investe entre R\$ 500 mil e R\$ 2 milhões por startup
 - Participação societária (equity): entre 8% e 15%, conforme estágio e negociação
 - Em 2026, abriu trilha específica para startups de **Inteligência Artificial**
 - Em parceria com a aceleradora americana **Gener8tor**, passou a atrair startups dos EUA para o mercado brasileiro
@@ -96,8 +96,8 @@ tags:
 - Especializada em **fintech, big data/analytics e IT/telecom**
 - Parceiros corporativos: B3, Grupo J. Safra, RTM, Sinqia, Transunion
 - Duração: 3 meses de aceleração em Florianópolis
-- Investimento: R$ 200.000 por startup em troca de 7% de equity (pode variar por maturidade)
-- Pacote total de benefícios pode alcançar R$ 500.000 (cloud, CRM, ferramentas de marketing)
+- Investimento: R\$ 200.000 por startup em troca de 7% de equity (pode variar por maturidade)
+- Pacote total de benefícios pode alcançar R\$ 500.000 (cloud, CRM, ferramentas de marketing)
 - Mais informações: [darwinstartups.com](https://www.darwinstartups.com)
 
 ---
@@ -132,7 +132,7 @@ tags:
 > - Mais de **2.600 startups** atualmente incubadas
 > - Mais de **2.500 empresas já graduadas**
 > - Geração de mais de **45 mil empregos diretos**
-> - Faturamento anual superior a **R$ 4 bilhões**
+> - Faturamento anual superior a **R\$ 4 bilhões**
 > - Cerca de **65 aceleradoras** atuando no país
 > - Total de empresas inovadoras envolvidas: **ordem de 10 mil**
 
@@ -229,8 +229,8 @@ flowchart TD
 > - [Y Combinator Spring 2026 Cohort](https://www.ycombinator.com/companies?batch=Spring+2026): lista das 196 startups do batch Spring 2026
 > - [InovAtiva Brasil: Programa](https://www.inovativa.online/inovativa-brasil/): aceleradora gratuita do governo federal (ciclo 2025: 90 startups)
 > - [InovAtiva: Regulamento 2025 (PDF)](https://www.inovativa.online/wp-content/uploads/2025/03/Regulamento-2025.pdf): critérios e regras oficiais
-> - [ACE Ventures](https://aceventures.com.br): aceleradora privada BR, R$500k-2M por startup, 8-15% equity
-> - [Darwin Startups](https://www.darwinstartups.com): fintech/analytics, R$200k seed, 7% equity, Florianópolis
+> - [ACE Ventures](https://aceventures.com.br): aceleradora privada BR, R\$500k-2M por startup, 8-15% equity
+> - [Darwin Startups](https://www.darwinstartups.com): fintech/analytics, R\$200k seed, 7% equity, Florianópolis
 > - [CIETEC: Incubadora SP](https://cietec.org.br/incubadora-sp/): maior incubadora tecnológica do Brasil (USP/IPEN)
 > - [Anprotec: Sobre](https://anprotec.org.br/site/sobre/): dados do ecossistema brasileiro de incubadoras
 > - [Guia de Aceleradoras 2026: Baita](https://baita.ac/tudo-sobre/aceleradora-startups): panorama das principais aceleradoras do Brasil

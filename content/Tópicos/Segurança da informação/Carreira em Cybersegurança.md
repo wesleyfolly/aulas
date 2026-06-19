@@ -78,16 +78,16 @@ tags:
 
 ### 💼 Tabela de Cargos, Salários e Perfil (Brasil, 2025-2026)
 
-| Cargo | Nível | Faixa Salarial (R$/mês) | Foco Principal |
+| Cargo | Nível | Faixa Salarial (R\$/mês) | Foco Principal |
 |-------|-------|-------------------------|----------------|
-| Analista SOC Jr | Júnior | R$ 2.500 a R$ 4.500 | Monitoramento e triagem de alertas |
-| Analista SOC Pl/Sr | Pleno/Sênior | R$ 6.000 a R$ 12.000 | Investigação e resposta a incidentes |
-| Pentester Jr | Júnior | R$ 4.000 a R$ 7.000 | Testes de intrusão guiados |
-| Pentester Pl/Sr | Pleno/Sênior | R$ 13.400 a R$ 18.400 | Testes avançados e relatórios executivos |
-| Analista GRC Jr | Júnior | R$ 3.300 a R$ 6.000 | Apoio à conformidade e auditorias |
-| Analista GRC Sr | Sênior | R$ 8.600 a R$ 15.000 | Gestão de risco corporativo e compliance |
-| Security Engineer | Sênior | R$ 12.000 a R$ 24.600 | Arquitetura e implementação de controles |
-| CISO / CSO | Executivo | R$ 30.000 a R$ 52.500 | Liderança estratégica de segurança |
+| Analista SOC Jr | Júnior | R\$ 2.500 a R\$ 4.500 | Monitoramento e triagem de alertas |
+| Analista SOC Pl/Sr | Pleno/Sênior | R\$ 6.000 a R\$ 12.000 | Investigação e resposta a incidentes |
+| Pentester Jr | Júnior | R\$ 4.000 a R\$ 7.000 | Testes de intrusão guiados |
+| Pentester Pl/Sr | Pleno/Sênior | R\$ 13.400 a R\$ 18.400 | Testes avançados e relatórios executivos |
+| Analista GRC Jr | Júnior | R\$ 3.300 a R\$ 6.000 | Apoio à conformidade e auditorias |
+| Analista GRC Sr | Sênior | R\$ 8.600 a R\$ 15.000 | Gestão de risco corporativo e compliance |
+| Security Engineer | Sênior | R\$ 12.000 a R\$ 24.600 | Arquitetura e implementação de controles |
+| CISO / CSO | Executivo | R\$ 30.000 a R\$ 52.500 | Liderança estratégica de segurança |
 
 > Fonte: Glassdoor Brasil, Robert Half Guia Salarial 2025, IT Forum 2026, BoletimSec.
 
@@ -137,12 +137,12 @@ flowchart TD
 
 | Certificação | Nível | Trilha | Custo aproximado | Destaque |
 |---|---|---|---|---|
-| CompTIA Security+ | Iniciante | Geral | US$ 425 | Porta de entrada reconhecida globalmente |
-| CEH v13 | Intermediário | Red Team | US$ 950 a US$ 1.899 | Inclui módulo de IA em 2025 |
-| OSCP | Avançado | Red Team | US$ 1.499 | Mais respeitada para pentesting prático |
-| CompTIA CySA+ | Intermediário | Blue Team | US$ 392 | Análise de ameaças e SOC |
-| CISM | Avançado | GRC | US$ 575 (membro) | Ideal para gestores e auditores |
-| CISSP | Sênior | Geral | US$ 749 | "Padrão ouro"; exige 5 anos de experiência |
+| CompTIA Security+ | Iniciante | Geral | US\$ 425 | Porta de entrada reconhecida globalmente |
+| CEH v13 | Intermediário | Red Team | US\$ 950 a US\$ 1.899 | Inclui módulo de IA em 2025 |
+| OSCP | Avançado | Red Team | US\$ 1.499 | Mais respeitada para pentesting prático |
+| CompTIA CySA+ | Intermediário | Blue Team | US\$ 392 | Análise de ameaças e SOC |
+| CISM | Avançado | GRC | US\$ 575 (membro) | Ideal para gestores e auditores |
+| CISSP | Sênior | Geral | US\$ 749 | "Padrão ouro"; exige 5 anos de experiência |
 
 > A sequência recomendada para quem está começando do zero: **Security+** > trilha específica (CEH ou CySA+) > CISSP ou OSCP ao atingir nível sênior.
 
@@ -230,10 +230,10 @@ flowchart TD
 > [!note] 📚 Fontes (2025-2026)
 >
 > - [Salários de Cibersegurança no Brasil para 2025 - BoletimSec](https://boletimsec.com/salarios-de-ciberseguranca-no-brasil/)
-> - [Salário de profissionais de cibersegurança chega a R$ 24,6 mil no Brasil - IT Forum](https://itforum.com.br/noticias/salarios-ciberseguranca-brasil-2026/)
+> - [Salário de profissionais de cibersegurança chega a R\$ 24,6 mil no Brasil - IT Forum](https://itforum.com.br/noticias/salarios-ciberseguranca-brasil-2026/)
 > - [O mercado de Cibersegurança em 2025: oportunidades, desafios e salários - Acadi-TI](https://acaditi.com.br/o-mercado-de-ciberseguranca-em-2025-oportunidades-desafios-e-salarios/)
 > - [Brasil terá déficit de 140 mil profissionais de cibersegurança - PUC-Campinas/CIESP](https://www.puc-campinas.edu.br/presidente-do-ciesp-diz-que-o-brasil-tera-deficit-de-profissionais-de-ciberseguranca-ate-2025/)
-> - [Com salário de mais de R$ 30 mil, área tem déficit de profissionais - IBSEC](https://ibsec.com.br/com-salario-de-mais-de-r-30-mil-area-de-seguranca-da-informacao-tem-deficit-de-profissionais/)
+> - [Com salário de mais de R\$ 30 mil, área tem déficit de profissionais - IBSEC](https://ibsec.com.br/com-salario-de-mais-de-r-30-mil-area-de-seguranca-da-informacao-tem-deficit-de-profissionais/)
 > - [Cybersecurity Skills Gap Statistics 2025: Record 4.8M Roles Unfilled - DeepStrike](https://deepstrike.io/blog/cybersecurity-skills-gap)
 > - [2025 ISC2 Cybersecurity Workforce Study](https://www.isc2.org/Insights/2025/12/2025-ISC2-Cybersecurity-Workforce-Study)
 > - [Principais certificações de cibersegurança em 2025 - Check Point](https://www.checkpoint.com/pt/cyber-hub/cyber-security/what-is-cybersecurity/top-cybersecurity-certifications-in-2025/)

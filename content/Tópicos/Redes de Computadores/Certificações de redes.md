@@ -31,7 +31,7 @@ tags:
 | **Reconhecimento** | Global |
 | **Duração do exame** | 120 minutos |
 | **Validade** | 3 anos |
-| **Preço (2026)** | US$ 300 (via Pearson VUE) |
+| **Preço (2026)** | US\$ 300 (via Pearson VUE) |
 | **Desconto NetAcad** | Até 50% para alunos da Cisco Networking Academy |
 
 #### Domínios do exame CCNA 200-301 (2026)
@@ -77,7 +77,7 @@ tags:
 | **Questões** | Até 90 (múltipla escolha e performance-based) |
 | **Nota de aprovação** | 720 de 900 |
 | **Validade** | 3 anos |
-| **Preço (2026)** | US$ 369 (tabela cheia); cerca de US$ 219 com voucher acadêmico |
+| **Preço (2026)** | US\$ 369 (tabela cheia); cerca de US\$ 219 com voucher acadêmico |
 | **Previsão de aposentadoria** | 2027 |
 
 #### Principais mudanças no N10-009 em relação ao N10-008
@@ -105,7 +105,7 @@ tags:
 | **Questões** | 65 múltipla escolha |
 | **Resultado** | Imediato após o exame |
 | **Validade** | 3 anos |
-| **Preço (2026)** | US$ 200 (via Pearson VUE) |
+| **Preço (2026)** | US\$ 200 (via Pearson VUE) |
 
 > [!warning] ⚠️ Versão atualizada em 2026
 > O exame JN0-105 foi descontinuado em abril de 2026. A versão atual é o **JN0-106**, com conteúdo atualizado sobre JunOS e tecnologias de nuvem da Juniper.
@@ -141,16 +141,16 @@ tags:
 ## 📊 Comparativo Atualizado (2026) 🆕
 
 > [!success] Qual Escolher?
-> Use a tabela abaixo para comparar as três principais opções para quem está começando. Preços em dólares americanos (US$), cotados em 2026 nos sites oficiais.
+> Use a tabela abaixo para comparar as três principais opções para quem está começando. Preços em dólares americanos (US\$), cotados em 2026 nos sites oficiais.
 
-| Certificação | Nível | Fabricante | Preço do exame (US$) | Validade | Questões | Foco principal |
+| Certificação | Nível | Fabricante | Preço do exame (US\$) | Validade | Questões | Foco principal |
 |--------------|-------|------------|----------------------|----------|----------|----------------|
-| **CCNA 200-301** | Associado | Cisco | US$ 300 | 3 anos | 120 min | Roteamento, switching, automação |
-| **Network+ N10-009** | Entrada | CompTIA (vendor-neutral) | US$ 369 | 3 anos | Até 90 | Fundamentos gerais de redes |
-| **JNCIA-Junos JN0-106** | Associado | Juniper | US$ 200 | 3 anos | 65 | JunOS, redes ISP |
-| **CCNP Enterprise** | Profissional | Cisco | US$ 400+ | 3 anos | Variável | Redes corporativas avançadas |
-| **CISSP** | Avançado | ISC2 | US$ 749 | 3 anos | 100-150 | Segurança ampla |
-| **Azure Administrator** | Associado | Microsoft | US$ 165 | 1 ano | 40-60 | Redes em nuvem Azure |
+| **CCNA 200-301** | Associado | Cisco | US\$ 300 | 3 anos | 120 min | Roteamento, switching, automação |
+| **Network+ N10-009** | Entrada | CompTIA (vendor-neutral) | US\$ 369 | 3 anos | Até 90 | Fundamentos gerais de redes |
+| **JNCIA-Junos JN0-106** | Associado | Juniper | US\$ 200 | 3 anos | 65 | JunOS, redes ISP |
+| **CCNP Enterprise** | Profissional | Cisco | US\$ 400+ | 3 anos | Variável | Redes corporativas avançadas |
+| **CISSP** | Avançado | ISC2 | US\$ 749 | 3 anos | 100-150 | Segurança ampla |
+| **Azure Administrator** | Associado | Microsoft | US\$ 165 | 1 ano | 40-60 | Redes em nuvem Azure |
 
 > [!tip] 💡 Dica de custo
 > Para estudantes universitários ou de cursos técnicos, a **CompTIA oferece vouchers acadêmicos** com desconto de cerca de 40%. A **Cisco Networking Academy** (NetAcad) oferece desconto de até 50% no CCNA para quem conclui os cursos gratuitos da plataforma.
@@ -211,7 +211,7 @@ flowchart TD
 > | Campo | CCNA | Network+ | JNCIA-Junos |
 > |-------|------|----------|-------------|
 > | Código do exame | | | |
-> | Preço atual (US$) | | | |
+> | Preço atual (US\$) | | | |
 > | Validade | | | |
 > | Quantidade de domínios | | | |
 > | Domínio com maior peso (%) | | | |
@@ -250,12 +250,12 @@ flowchart TD
 > 2. Acesse o site oficial da certificação escolhida e baixe o **Exam Blueprint** (lista oficial de tópicos).
 > 3. Usando o modelo abaixo, preencha seu plano no papel, num Google Docs ou no Notion:
 >
-> | Etapa | Descrição | Prazo estimado | Custo (R$/US$) |
+> | Etapa | Descrição | Prazo estimado | Custo (R\$/US\$) |
 > |-------|-----------|----------------|----------------|
-> | 1. Estudo teórico | Cursos gratuitos (NetAcad, YouTube, Professor Messer) | Mês 1-3 | R$ 0 |
-> | 2. Laboratório prático | Packet Tracer (grátis) ou GNS3 (grátis) | Mês 2-4 | R$ 0 |
-> | 3. Simulados | Exames práticos online | Mês 3-5 | R$ 50-150 |
-> | 4. Agendamento do exame | Pearson VUE | Mês 5-6 | US$ 300-369 |
+> | 1. Estudo teórico | Cursos gratuitos (NetAcad, YouTube, Professor Messer) | Mês 1-3 | R\$ 0 |
+> | 2. Laboratório prático | Packet Tracer (grátis) ou GNS3 (grátis) | Mês 2-4 | R\$ 0 |
+> | 3. Simulados | Exames práticos online | Mês 3-5 | R\$ 50-150 |
+> | 4. Agendamento do exame | Pearson VUE | Mês 5-6 | US\$ 300-369 |
 > | **Total estimado** | | **6 meses** | |
 >
 > 4. Compartilhe o plano com um colega e peçam feedback mútuo sobre se os prazos são realistas.
@@ -282,7 +282,7 @@ flowchart TD
 > [!note] 📚 Fontes (2026)
 > Dados de preço e conteúdo verificados em junho de 2026 nos sites oficiais e nas fontes abaixo:
 >
-> - [CCNA Exam Cost 2026: $300 USD + 5 Ways to Save on Fees](https://smenode-academy.com/blog/ccna-exam-cost-2026/)
+> - [CCNA Exam Cost 2026: \$300 USD + 5 Ways to Save on Fees](https://smenode-academy.com/blog/ccna-exam-cost-2026/)
 > - [Cisco CCNA Exam Cost 2026: Full Breakdown](https://www.divitrain.com/blogs/it-certifications/cisco-ccna-exam-cost-2026-full-breakdown)
 > - [200-301 CCNA Exam Topics (Cisco Learning Network)](https://learningnetwork.cisco.com/s/ccna-exam-topics)
 > - [CCNA 200-301 Exam Topics and Lab Blueprint 2026](https://open-exam-prep.com/blog/ccna-200-301-exam-topics-lab-blueprint-2026)

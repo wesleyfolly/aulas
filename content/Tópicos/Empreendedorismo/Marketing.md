@@ -156,10 +156,10 @@ graph TD
 > [!example] 🧪 Atividade: Montar um funil simples para um produto real
 > **Ferramenta:** Papel e caneta (ou Canva, miro.com, ou qualquer editor de apresentação)
 >
-> **Contexto:** Você quer vender um curso online de culinária caseira por R$ 97.
+> **Contexto:** Você quer vender um curso online de culinária caseira por R\$ 97.
 >
 > 1. **Topo:** defina 2 conteúdos gratuitos para atrair quem nunca ouviu falar de você (ex.: "5 receitas fáceis para a semana" no TikTok).
-> 2. **Meio:** defina 1 ação para capturar o contato da pessoa interessada (ex.: e-book gratuito "Cardápio Semanal com R$ 150" em troca do e-mail).
+> 2. **Meio:** defina 1 ação para capturar o contato da pessoa interessada (ex.: e-book gratuito "Cardápio Semanal com R\$ 150" em troca do e-mail).
 > 3. **Fundo:** defina a oferta de conversão (ex.: e-mail com depoimento de aluno + link de compra com desconto por 48h).
 > 4. **Pós-venda:** defina 1 ação para fidelizar (ex.: grupo de WhatsApp exclusivo com receitas novas toda semana).
 >
@@ -169,7 +169,7 @@ graph TD
 
 ## 🤖 Inteligência Artificial no Marketing (2025-2026)
 
-O mercado de IA aplicada ao marketing atingiu **US$ 47,3 bilhões em 2025**, com projeção de US$ 64,6 bilhões em 2026. A IA deixou de ser diferencial e passou a ser infraestrutura básica de marketing.
+O mercado de IA aplicada ao marketing atingiu **US\$ 47,3 bilhões em 2025**, com projeção de US\$ 64,6 bilhões em 2026. A IA deixou de ser diferencial e passou a ser infraestrutura básica de marketing.
 
 ### O que a IA já faz no Marketing hoje
 

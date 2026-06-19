@@ -88,7 +88,7 @@ tags:
 
 **Contexto:** A Change Healthcare processa cerca de **50% de todas as transações médicas nos Estados Unidos**. Em fevereiro de 2024, o grupo russo **ALPHV/BlackCat** lançou um dos maiores ataques de ransomware da história da saúde.
 
-**Impacto Imediato:** 100 milhões de pacientes afetados, US$ 2,87 bilhões em custos de resposta, resgate de US$ 22 milhões pago, farmácias e hospitais incapazes de processar pedidos por semanas. 74% dos hospitais americanos relataram impacto direto no cuidado ao paciente.
+**Impacto Imediato:** 100 milhões de pacientes afetados, US\$ 2,87 bilhões em custos de resposta, resgate de US\$ 22 milhões pago, farmácias e hospitais incapazes de processar pedidos por semanas. 74% dos hospitais americanos relataram impacto direto no cuidado ao paciente.
 
 ```mermaid
 flowchart LR
@@ -140,7 +140,7 @@ flowchart LR
 
 > [!warning] O Que Torna Esse Caso Único
 > O atacante nunca precisou invadir nada. Ele **comprou** o acesso. Isso demonstra que supply chain attacks podem ser executados via aquisição comercial de ativos digitais de terceiros.
-> Em maio de 2025, o OFAC (Departamento do Tesouro dos EUA) sancionou a Funnull e seu administrador por perdas acima de US$ 200 milhões ligadas a golpes de investimento.
+> Em maio de 2025, o OFAC (Departamento do Tesouro dos EUA) sancionou a Funnull e seu administrador por perdas acima de US\$ 200 milhões ligadas a golpes de investimento.
 
 **Defesas que teriam evitado:**
 
@@ -156,7 +156,7 @@ flowchart LR
 
 **Contexto:** Em setembro de 2023, o grupo **Scattered Spider** (também conhecido como UNC3944), em parceria com o ransomware **ALPHV/BlackCat**, atacou o MGM Resorts International, uma das maiores redes de hotéis e cassinos do mundo. O ataque inteiro começou com uma **ligação telefônica de 10 minutos**.
 
-**Impacto:** Cerca de **US$ 100 milhões** em receita perdida, máquinas caça-níqueis offline, fechaduras digitais de quartos de hotel falhando, sistemas de reserva derrubados.
+**Impacto:** Cerca de **US\$ 100 milhões** em receita perdida, máquinas caça-níqueis offline, fechaduras digitais de quartos de hotel falhando, sistemas de reserva derrubados.
 
 **Kill Chain:**
 
@@ -178,9 +178,9 @@ O Scattered Spider usou o **LinkedIn** para identificar um funcionário real com
 
 | | MGM Resorts | Caesars Entertainment |
 |--|--|--|
-| **Pagou resgate?** | Não | Sim (~US$ 15 milhões) |
+| **Pagou resgate?** | Não | Sim (~US\$ 15 milhões) |
 | **Duração da disrupção** | Semanas | Menor (operações mantidas) |
-| **Prejuízo total estimado** | ~US$ 100 milhões | ~US$ 15 milhões (resgate) |
+| **Prejuízo total estimado** | ~US\$ 100 milhões | ~US\$ 15 milhões (resgate) |
 | **Dados vazados** | Sim (clientes expostos) | Sim (mas menos publicidade) |
 | **Lição** | Não pagar não garante impunidade | Pagar não elimina o risco de vazamento |
 
@@ -243,9 +243,9 @@ O código malicioso não estava no repositório Git diretamente: estava nos **ta
 
 | Caso | Ano | Vetor Principal | Falha Raiz | Impacto | Lição Central |
 |------|-----|----------------|------------|---------|---------------|
-| **Change Healthcare** | 2024 | Credencial válida + sem MFA | MFA ausente em acesso remoto | 100M pacientes, US$ 2,87 bi | MFA não é opcional em sistemas críticos |
+| **Change Healthcare** | 2024 | Credencial válida + sem MFA | MFA ausente em acesso remoto | 100M pacientes, US\$ 2,87 bi | MFA não é opcional em sistemas críticos |
 | **Polyfill.io** | 2024 | Compra de ativo de terceiro | Confiança implícita em CDN externo | 490.000+ sites comprometidos | Subresource Integrity (SRI) deveria ser padrão |
-| **MGM Resorts** | 2023 | Vishing no help desk (10 min) | Protocolo de verificação de identidade fraco | US$ 100M em prejuízo | O humano é o elo mais fraco |
+| **MGM Resorts** | 2023 | Vishing no help desk (10 min) | Protocolo de verificação de identidade fraco | US\$ 100M em prejuízo | O humano é o elo mais fraco |
 | **XZ Utils** | 2024 | Engenharia social em open source (2 anos) | Mantenedor único, confiança excessiva | Potencial RCE global evitado por acidente | Infraestrutura crítica precisa de governança robusta |
 
 ---

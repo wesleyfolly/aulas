@@ -134,8 +134,8 @@ graph LR
 
 | Ferramenta | Modelo de Preço | Suporte a IA | Curva de Aprendizado | Ideal para |
 |------------|-----------------|--------------|----------------------|------------|
-| **Zapier** | Por tarefa (task), plano starter ~US$30/mês | Add-on pago | Baixa: 2h para o 1º fluxo | Equipes sem perfil técnico |
-| **Make** | Por operação, ~US$9/mês até 10k ops | AI Agents desde out/2025 | Média: 1-2 semanas | Equilíbrio entre preço e recursos |
+| **Zapier** | Por tarefa (task), plano starter ~US\$30/mês | Add-on pago | Baixa: 2h para o 1º fluxo | Equipes sem perfil técnico |
+| **Make** | Por operação, ~US\$9/mês até 10k ops | AI Agents desde out/2025 | Média: 1-2 semanas | Equilíbrio entre preço e recursos |
 | **n8n** | Self-hosted grátis, cloud a partir de ~€20/mês | Nativo: OpenAI, Anthropic, Ollama, Hugging Face | Média-alta, mas documentação excelente | Desenvolvedores e quem quer controle total |
 | **Python puro** | Gratuito (só infra) | Total: qualquer API ou modelo local | Alta: precisa saber programar | Automações customizadas e complexas |
 

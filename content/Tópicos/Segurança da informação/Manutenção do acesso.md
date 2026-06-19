@@ -546,7 +546,7 @@ graph LR
 O **Cobalt Strike** é a ferramenta comercial mais usada por APTs e red teams profissionais. Entender seus conceitos é essencial para defender contra ele.
 
 > [!info] Acesso em Lab
-> Cobalt Strike é pago (~US$5.900/ano). Em labs educacionais: usar **Sliver** (gratuito, código aberto) para praticar os mesmos conceitos. Cobalt Strike é estudado conceitualmente aqui.
+> Cobalt Strike é pago (~US\$5.900/ano). Em labs educacionais: usar **Sliver** (gratuito, código aberto) para praticar os mesmos conceitos. Cobalt Strike é estudado conceitualmente aqui.
 
 ### Arquitetura Cobalt Strike
 

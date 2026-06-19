@@ -14,7 +14,7 @@ tags:
 # Empreendedorismo digital
 
 > [!info] 📊 O mercado digital em 2026
-> O e-commerce brasileiro faturou mais de **R$ 200 bilhões em 2025** e projeta **R$ 258 bilhões em 2026** (ABComm). O Brasil é o **2º maior mercado de criadores de conteúdo do mundo**, com mais de 3,8 milhões de influenciadores ativos. **77,2% dos brasileiros** têm planos reais de empreender online em 2026 (Locaweb).
+> O e-commerce brasileiro faturou mais de **R\$ 200 bilhões em 2025** e projeta **R\$ 258 bilhões em 2026** (ABComm). O Brasil é o **2º maior mercado de criadores de conteúdo do mundo**, com mais de 3,8 milhões de influenciadores ativos. **77,2% dos brasileiros** têm planos reais de empreender online em 2026 (Locaweb).
 
 ---
 
@@ -78,7 +78,7 @@ timeline
 | Afiliado | Indicar produtos de terceiros | Zero | Média | Baixíssimo |
 
 > [!info] Creator Economy em números (2025)
-> O mercado brasileiro de creators atingiu **US$ 5,47 bilhões** em 2025, com projeção de **US$ 33,5 bilhões até 2034**. Cerca de **9% dos influenciadores** vivem exclusivamente da renda digital. Entre os que faturam acima de R$ 10.000/mês, a média é de **5 anos de experiência** e múltiplas fontes de receita.
+> O mercado brasileiro de creators atingiu **US\$ 5,47 bilhões** em 2025, com projeção de **US\$ 33,5 bilhões até 2034**. Cerca de **9% dos influenciadores** vivem exclusivamente da renda digital. Entre os que faturam acima de R\$ 10.000/mês, a média é de **5 anos de experiência** e múltiplas fontes de receita.
 
 ```mermaid
 mindmap
@@ -225,10 +225,10 @@ flowchart LR
 > | Plataforma | Plano grátis | Taxa por venda | Melhor para |
 > |------------|-------------|----------------|-------------|
 > | **Nuvemshop** | Sim (sem limite de produtos) | Não no grátis | Iniciantes no Brasil |
-> | **Shopify** | Não (3 dias trial + R$1/3 meses) | 0,5% a 2% | Escala internacional |
+> | **Shopify** | Não (3 dias trial + R\$1/3 meses) | 0,5% a 2% | Escala internacional |
 > | **Mercado Livre** | Sim | 12% a 16% | Produtos físicos com tráfego pronto |
-> | **Hotmart** | Sim | 9,9% + R$1/venda | Infoprodutos, cursos |
-> | **Kiwify** | Sim | 5% + R$1/venda | Infoprodutos brasileiros |
+> | **Hotmart** | Sim | 9,9% + R\$1/venda | Infoprodutos, cursos |
+> | **Kiwify** | Sim | 5% + R\$1/venda | Infoprodutos brasileiros |
 
 > [!example] 🧪 Atividade 3: Abrir uma loja virtual real em 30 minutos
 > **Ferramenta:** [nuvemshop.com.br](https://www.nuvemshop.com.br)
@@ -240,7 +240,7 @@ flowchart LR
 > 4. Configure a aparência: escolha um tema, defina cor e logo (pode ser texto)
 > 5. Acesse a URL pública da sua loja (ex: `sualoja.lojavirtual.com.br`) e faça uma **captura de tela** da vitrine
 >
-> **Resultado observável:** Uma URL real e pública de uma loja virtual funcionando, com vitrine navegável, sem gastar R$ 0,00. A captura de tela comprova que a loja está no ar.
+> **Resultado observável:** Uma URL real e pública de uma loja virtual funcionando, com vitrine navegável, sem gastar R\$ 0,00. A captura de tela comprova que a loja está no ar.
 
 ### Gestão de Clientes
 
@@ -291,7 +291,7 @@ flowchart TD
 > [!warning] Cuidados essenciais para quem está começando
 > - **Não investir antes de validar:** Muita gente cria o produto e só depois testa se alguém quer comprar. Valide primeiro (Google Trends, Canvas, conversa com potenciais clientes).
 > - **Evitar o "shiny object syndrome":** Trocar de ideia toda semana é o maior inimigo do empreendedor iniciante.
-> - **Separar pessoa física de jurídica:** Abra um MEI (gratuito em [gov.br/mei](https://www.gov.br/empresas-e-negocios/pt-br/empreendedor)) assim que começar a vender. Faturamento anual até R$ 81.000.
+> - **Separar pessoa física de jurídica:** Abra um MEI (gratuito em [gov.br/mei](https://www.gov.br/empresas-e-negocios/pt-br/empreendedor)) assim que começar a vender. Faturamento anual até R\$ 81.000.
 > - **Cuidado com tráfego pago antes da hora:** Anúncio em produto não validado queima dinheiro. Orgânico primeiro.
 
 | Desafio | Solução prática | Ferramenta |
@@ -311,9 +311,9 @@ flowchart TD
 - **Estratégias Vencedoras:** Padrões de sucesso
 
 > [!success] Casos reais brasileiros (2025-2026)
-> **Hotmart:** Plataforma brasileira de infoprodutos que hoje processa bilhões em transações anuais. Criadores na plataforma que faturam mais de R$ 10.000/mês têm em média **5 anos de experiência** e múltiplas fontes de receita.
+> **Hotmart:** Plataforma brasileira de infoprodutos que hoje processa bilhões em transações anuais. Criadores na plataforma que faturam mais de R\$ 10.000/mês têm em média **5 anos de experiência** e múltiplas fontes de receita.
 >
-> **Mercado Livre (vendedores):** Mais de **500 mil novos vendedores** entraram em 2024. Vendedores consistentes com nicho definido alcançam renda extra de R$ 2.000-8.000/mês no primeiro ano.
+> **Mercado Livre (vendedores):** Mais de **500 mil novos vendedores** entraram em 2024. Vendedores consistentes com nicho definido alcançam renda extra de R\$ 2.000-8.000/mês no primeiro ano.
 >
 > **Creator Economy:** O Brasil é o 2º maior mercado mundial de creators. Quem monetiza com múltiplas fontes (afiliados + UGC + infoproduto + patrocínio) tem receita mais estável do que quem depende só de uma plataforma.
 
@@ -369,7 +369,7 @@ flowchart TD
 > - [8 tipos de negócios digitais para investir em 2026 (Serasa Experian)](https://www.serasaexperian.com.br/conteudos/negocios-digitais/)
 > - [Dados do e-commerce: tendências para 2026 (Nuvemshop)](https://www.nuvemshop.com.br/blog/dados-ecommerce/)
 > - [Brasil: 2º maior mercado de creators do mundo (Report 360)](https://report360.com.br/brasil-se-firma-como-potencia-da-creator-economy-e-ja-e-o-segundo-maior-mercado-de-criadores-de-conteudo-no-mundo/)
-> - [Creator Economy projeta US$ 33,5 bi no Brasil até 2034 (Mundo do Marketing)](https://mundodomarketing.com.br/creator-economy-entra-em-fase-de-institucionalizacao-e-projeta-us-33-5-bilhoes-no-brasil-ate-2034/)
+> - [Creator Economy projeta US\$ 33,5 bi no Brasil até 2034 (Mundo do Marketing)](https://mundodomarketing.com.br/creator-economy-entra-em-fase-de-institucionalizacao-e-projeta-us-33-5-bilhoes-no-brasil-ate-2034/)
 > - [Como usar Google Trends para validar nichos (Shopify Brasil)](https://www.shopify.com/br/blog/como-encontrar-produtos-com-o-google-trends)
 > - [Como criar loja virtual na Nuvemshop: passo a passo 2026](https://www.nuvemshop.com.br/blog/como-criar-sua-loja-virtual-nuvemshop/)
 > - [7 Tendências de Infoprodutos para 2025 (Panda Video)](https://www.pandavideo.com/br/blog/tendencias-do-mercado-digital)

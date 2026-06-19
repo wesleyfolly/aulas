@@ -57,7 +57,7 @@ Existem sites e aplicativos especializados em disponibilizar resumos de livros, 
 
 **Desvantagens:**
 - Somente em inglês e alemão
-- Assinatura anual Premium: aproximadamente US$ 99/ano (em torno de R$ 500/ano em 2025)
+- Assinatura anual Premium: aproximadamente US\$ 99/ano (em torno de R\$ 500/ano em 2025)
 - Porém é possível instalar e usar gratuitamente com algumas limitações
 
 ### Aplicativos em português e gratuitos
@@ -80,16 +80,16 @@ O mercado de resumos mudou bastante com a chegada de ferramentas de inteligênci
 
 | Ferramenta | Idioma | Tipo | Plano gratuito | Preço pago (aprox.) | Destaque |
 |---|---|---|---|---|---|
-| [Blinkist](https://blinkist.com) | EN/DE | Curado | Sim (limitado) | ~R$ 500/ano | Maior acervo; Blinkist AI no Pro |
-| [12min](https://12min.com/br) | PT/ES/EN | Curado | Sim | ~R$ 149/ano | Melhor opção em português |
-| [Shortform](https://shortform.com) | EN | Curado | Sim (limitado) | ~US$ 197/ano | Resumos mais profundos; exercícios |
-| [Headway](https://makeheadway.com) | PT/EN + outros | Curado | Sim (1/dia) | ~R$ 323/ano | Gamificado; streaks e quizzes |
-| [getAbstract](https://getabstract.com) | EN/PT/DE/ES | Curado | Sim (5/mês) | ~US$ 299/ano | Foco em negócios e liderança |
-| [BeFreed](https://befreed.ai) | EN | IA + curado | Sim (limitado) | ~US$ 99/ano | Gera podcast personalizado do livro |
-| [ChatGPT](https://chat.openai.com) | Qualquer | IA generativa | Sim | ~US$ 20/mês (Plus) | Versatilidade; sobe PDF direto |
-| [Claude](https://claude.ai) | Qualquer | IA generativa | Sim | ~US$ 20/mês (Pro) | Fidelidade ao texto; 200k tokens |
-| [ChatPDF](https://chatpdf.com) | Qualquer | IA generativa | Sim (3/dia, 50p) | ~US$ 5/mês | Perguntas sobre o PDF enviado |
-| [Mapify](https://mapify.so/pt) | Qualquer | IA generativa | Sim | ~US$ 9/mês | Gera mapa mental do resumo |
+| [Blinkist](https://blinkist.com) | EN/DE | Curado | Sim (limitado) | ~R\$ 500/ano | Maior acervo; Blinkist AI no Pro |
+| [12min](https://12min.com/br) | PT/ES/EN | Curado | Sim | ~R\$ 149/ano | Melhor opção em português |
+| [Shortform](https://shortform.com) | EN | Curado | Sim (limitado) | ~US\$ 197/ano | Resumos mais profundos; exercícios |
+| [Headway](https://makeheadway.com) | PT/EN + outros | Curado | Sim (1/dia) | ~R\$ 323/ano | Gamificado; streaks e quizzes |
+| [getAbstract](https://getabstract.com) | EN/PT/DE/ES | Curado | Sim (5/mês) | ~US\$ 299/ano | Foco em negócios e liderança |
+| [BeFreed](https://befreed.ai) | EN | IA + curado | Sim (limitado) | ~US\$ 99/ano | Gera podcast personalizado do livro |
+| [ChatGPT](https://chat.openai.com) | Qualquer | IA generativa | Sim | ~US\$ 20/mês (Plus) | Versatilidade; sobe PDF direto |
+| [Claude](https://claude.ai) | Qualquer | IA generativa | Sim | ~US\$ 20/mês (Pro) | Fidelidade ao texto; 200k tokens |
+| [ChatPDF](https://chatpdf.com) | Qualquer | IA generativa | Sim (3/dia, 50p) | ~US\$ 5/mês | Perguntas sobre o PDF enviado |
+| [Mapify](https://mapify.so/pt) | Qualquer | IA generativa | Sim | ~US\$ 9/mês | Gera mapa mental do resumo |
 
 > [!WARNING] Atenção ao usar IA para resumos
 > Ferramentas de IA generativa (ChatGPT, Claude, etc.) podem cometer **alucinações**, ou seja, inventar informações com tom de certeza. Sempre cruze os dados gerados com o livro original ou outras fontes confiáveis.

@@ -88,12 +88,12 @@ flowchart LR
 |---|---|---|---|
 | **Ideação** | Problema identificado, sem produto | Bootstrapping / 3Fs (friends, family, fools) | Sem valuation formal |
 | **MVP** | Produto mínimo viável testado com usuários reais | Bootstrapping / Aceleradoras | Sem valuation formal |
-| **Pre-Seed / Anjo** | Validação inicial, primeiros clientes | US$ 0,5 a 1 M | US$ 2 a 5 M |
-| **Seed** | Tração comprovada, modelo de negócio em test | US$ 2,5 a 3,5 M (mediana 2025) | US$ 12 a 15 M |
-| **Série A** | Crescimento com foco em escala | US$ 10 a 15 M (mediana 2025) | US$ 40 a 55 M |
-| **Série B** | Expansão de mercado, time consolidado | US$ 30 a 40 M (mediana 2025) | US$ 120 a 160 M |
-| **Série C+** | Internacionalização, aquisições | US$ 50 M+ | US$ 300 M+ |
-| **Unicórnio / IPO** | Valuation acima de US$ 1 bilhão | Mercado de capitais | US$ 1 B+ |
+| **Pre-Seed / Anjo** | Validação inicial, primeiros clientes | US\$ 0,5 a 1 M | US\$ 2 a 5 M |
+| **Seed** | Tração comprovada, modelo de negócio em test | US\$ 2,5 a 3,5 M (mediana 2025) | US\$ 12 a 15 M |
+| **Série A** | Crescimento com foco em escala | US\$ 10 a 15 M (mediana 2025) | US\$ 40 a 55 M |
+| **Série B** | Expansão de mercado, time consolidado | US\$ 30 a 40 M (mediana 2025) | US\$ 120 a 160 M |
+| **Série C+** | Internacionalização, aquisições | US\$ 50 M+ | US\$ 300 M+ |
+| **Unicórnio / IPO** | Valuation acima de US\$ 1 bilhão | Mercado de capitais | US\$ 1 B+ |
 
 > [!warning] Atenção: Conversão de Rounds
 > Em 2025, a taxa de conversão de startups que passam de Seed para Série A caiu de ~50% para ~38%. O capital existe, mas os fundos estão muito mais seletivos do que em 2021.
@@ -108,9 +108,9 @@ O Brasil é o maior ecossistema de startups da América Latina, com dados expres
 
 | Indicador | Dado |
 |---|---|
-| Total investido em startups BR (2025) | R$ 13 bilhões (US$ 4,5 bilhões) |
+| Total investido em startups BR (2025) | R\$ 13 bilhões (US\$ 4,5 bilhões) |
 | Número de rodadas (2025) | 459 rodadas |
-| Parcela em equity (vs crédito) | US$ 1,74 bilhão dos US$ 4,5 bi |
+| Parcela em equity (vs crédito) | US\$ 1,74 bilhão dos US\$ 4,5 bi |
 | Startups sem investimento em 2024 | 84,3% (Abstartups) |
 | Variação vs 2024 | Queda de ~13 a 16% no volume |
 
@@ -144,10 +144,10 @@ pie title Startups Ativas por Vertical (Brasil 2025)
 
 ## 🦄 Unicórnios Brasileiros
 
-Startups que atingem valuation de **US$ 1 bilhão** ou mais ganham o título de "unicórnio". O Brasil é líder na América Latina nessa categoria.
+Startups que atingem valuation de **US\$ 1 bilhão** ou mais ganham o título de "unicórnio". O Brasil é líder na América Latina nessa categoria.
 
 > [!success] Brasil em 2026
-> O Brasil tem aproximadamente **22 a 25 unicórnios ativos**, sendo a maior concentração da América Latina. O Nubank é o maior, com capitalização de mercado de quase **US$ 67 bilhões** (2025).
+> O Brasil tem aproximadamente **22 a 25 unicórnios ativos**, sendo a maior concentração da América Latina. O Nubank é o maior, com capitalização de mercado de quase **US\$ 67 bilhões** (2025).
 
 ### Caso Nubank: Do Seed ao Unicórnio
 
@@ -155,16 +155,16 @@ O Nubank é o caso mais emblemático de startup brasileira. Fundado em 2013, che
 
 | Ano | Evento | Valuation |
 |---|---|---|
-| 2013 | Fundação + Seed | US$ 5 M |
-| 2014 | Série A | US$ 23 M |
-| 2015 | Série B | US$ 45 M |
-| 2016 | Série C | US$ 118 M |
-| 2016 | Série D | US$ 900 M |
-| **2018** | **Série E: Unicórnio** | **US$ 1 bilhão** |
-| 2019 | Série F | US$ 10 bilhões |
-| 2021 | Série G (com Berkshire Hathaway) | US$ 30 bilhões |
-| 2021 | IPO na NYSE (ticker: NU) | US$ 41,5 bilhões |
-| 2025 | Mercado aberto | US$ ~67 bilhões |
+| 2013 | Fundação + Seed | US\$ 5 M |
+| 2014 | Série A | US\$ 23 M |
+| 2015 | Série B | US\$ 45 M |
+| 2016 | Série C | US\$ 118 M |
+| 2016 | Série D | US\$ 900 M |
+| **2018** | **Série E: Unicórnio** | **US\$ 1 bilhão** |
+| 2019 | Série F | US\$ 10 bilhões |
+| 2021 | Série G (com Berkshire Hathaway) | US\$ 30 bilhões |
+| 2021 | IPO na NYSE (ticker: NU) | US\$ 41,5 bilhões |
+| 2025 | Mercado aberto | US\$ ~67 bilhões |
 
 > [!example] 🧪 Atividade 1: Rastreando uma Startup Real no Crunchbase
 >
@@ -248,7 +248,7 @@ As aceleradoras geralmente avaliam:
 
 ## 💡 Potenciais Unicórnios Brasileiros para 2026
 
-O relatório "Corrida dos Unicórnios 2026" do Distrito identificou 9 das 12 startups latino-americanas com maior probabilidade de atingir US$ 1 bilhão como brasileiras.
+O relatório "Corrida dos Unicórnios 2026" do Distrito identificou 9 das 12 startups latino-americanas com maior probabilidade de atingir US\$ 1 bilhão como brasileiras.
 
 | Startup | Segmento | Por que é candidata |
 |---|---|---|
@@ -288,7 +288,7 @@ Investidores usam esse modelo para avaliar se o mercado justifica o investimento
 | **Burn Rate** | Quanto dinheiro a startup gasta por mês |
 
 > [!warning] Regra de Ouro
-> **LTV deve ser pelo menos 3x o CAC.** Se custa R$ 100 adquirir um cliente e ele paga apenas R$ 150 durante toda a vida útil, o negócio provavelmente não é sustentável.
+> **LTV deve ser pelo menos 3x o CAC.** Se custa R\$ 100 adquirir um cliente e ele paga apenas R\$ 150 durante toda a vida útil, o negócio provavelmente não é sustentável.
 
 ---
 
@@ -297,7 +297,7 @@ Investidores usam esse modelo para avaliar se o mercado justifica o investimento
 > - [Unicórnios Brasileiros: lista completa (Distrito, 2026)](https://www.distrito.me/blog/lista-dos-unicornios-brasileiros)
 > - [Brasil lidera potenciais unicórnios na América Latina (Infomoney, 2026)](https://www.infomoney.com.br/business/startups-brasil-lidera-lista-de-potenciais-unicornios-da-america-latina-em-2026/)
 > - [Ecossistema brasileiro de startups: balanço 2025 e tendências 2026 (LinkToLeaders)](https://linktoleaders.com/ecossistema-brasileiro-de-start-ups-balanco-de-2025-e-tendencias-para-2026-daniela-meirelles/)
-> - [Startups movimentam R$ 13 bi em 2025 no Brasil (Diário do Comércio)](https://diariodocomercio.com.br/negocios/startups-brasil-investimentos-2025/)
+> - [Startups movimentam R\$ 13 bi em 2025 no Brasil (Diário do Comércio)](https://diariodocomercio.com.br/negocios/startups-brasil-investimentos-2025/)
 > - [Startup Funding Rounds in 2025: valuations por estágio (ValueAdd VC)](https://valueaddvc.com/blog/startup-funding-rounds-in-2025-whats-normal-at-pre-seed-seed-a-and-b)
 > - [Aceleradora de Startups: Guia 2026 (Baita)](https://baita.ac/tudo-sobre/aceleradora-startups)
 > - [Nubank: histórico de funding e IPO (Tracxn, 2026)](https://tracxn.com/d/companies/nubank/__kV_SS911WdHxtZSWaKYtJCGXcwUSpLdH2zs_zsu6qKg)

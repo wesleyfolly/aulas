@@ -35,11 +35,11 @@ O Merriam-Webster listou o termo em março de 2025 como expressão em ascensão,
 
 | Ferramenta | Avaliação de Mercado | Receita Anual |
 |---|---|---|
-| Cursor (Anysphere) | US$ 9,9 bilhões | Privado |
-| Lovable | US$ 6,6 bilhões | US$ 200 milhões/ano |
-| Bolt.new | Privado | US$ 40 milhões/ano |
+| Cursor (Anysphere) | US\$ 9,9 bilhões | Privado |
+| Lovable | US\$ 6,6 bilhões | US\$ 200 milhões/ano |
+| Bolt.new | Privado | US\$ 40 milhões/ano |
 
-Lovable atingiu US$ 100 milhões de receita anual em apenas 8 meses, com 100.000 projetos novos por dia. São números que mostram o tamanho desta transformação.
+Lovable atingiu US\$ 100 milhões de receita anual em apenas 8 meses, com 100.000 projetos novos por dia. São números que mostram o tamanho desta transformação.
 
 ---
 
@@ -58,8 +58,8 @@ Lovable atingiu US$ 100 milhões de receita anual em apenas 8 meses, com 100.000
 
 | Ferramenta | Melhor para | Gratuito? | Link |
 |---|---|---|---|
-| **Lovable** | Apps completos com banco de dados e login | Plano pago a partir de US$ 20/mês | [lovable.dev](https://lovable.dev) |
-| **Bolt.new** | Prototipagem rápida no navegador, plano gratuito generoso | Sim (plano pago a partir de US$ 10/mês) | [bolt.new](https://bolt.new) |
+| **Lovable** | Apps completos com banco de dados e login | Plano pago a partir de US\$ 20/mês | [lovable.dev](https://lovable.dev) |
+| **Bolt.new** | Prototipagem rápida no navegador, plano gratuito generoso | Sim (plano pago a partir de US\$ 10/mês) | [bolt.new](https://bolt.new) |
 | **v0 (Vercel)** | Componentes de interface para quem já tem um projeto | Créditos gratuitos | [v0.dev](https://v0.dev) |
 | **Replit** | Programação colaborativa em tempo real | Sim (básico) | [replit.com](https://replit.com) |
 

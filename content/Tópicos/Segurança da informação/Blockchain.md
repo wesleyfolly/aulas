@@ -236,18 +236,18 @@ A palavra "blockchain" foi escrita pela primeira vez no white paper do Bitcoin e
 
 ### 🌐 O Panorama de Ameaças em 2025-2026
 
-O ecossistema Web3 registrou perdas superiores a **US$ 3,4 bilhões em 2025** e mais de **US$ 750 milhões somente nos primeiros meses de 2026**, segundo dados da Chainalysis e relatórios de segurança publicados em 2026. Os maiores incidentes recentes incluem:
+O ecossistema Web3 registrou perdas superiores a **US\$ 3,4 bilhões em 2025** e mais de **US\$ 750 milhões somente nos primeiros meses de 2026**, segundo dados da Chainalysis e relatórios de segurança publicados em 2026. Os maiores incidentes recentes incluem:
 
 | Evento | Ano | Valor Perdido | Vetor Principal |
 |--------|-----|---------------|-----------------|
-| Bybit Exchange | 2025 | US$ 1,5 bi | Comprometimento de chave privada (Lazarus Group/RPDC) |
-| Kelp DAO | 2026 | US$ 292 mi | Exploração de governança descentralizada |
-| Drift Protocol | 2026 | US$ 285 mi | Engenharia social sobre estrutura de governança |
+| Bybit Exchange | 2025 | US\$ 1,5 bi | Comprometimento de chave privada (Lazarus Group/RPDC) |
+| Kelp DAO | 2026 | US\$ 292 mi | Exploração de governança descentralizada |
+| Drift Protocol | 2026 | US\$ 285 mi | Engenharia social sobre estrutura de governança |
 | Monero (51% Attack) | Ago/2025 | Reorganização de 60 blocos | Ataque de 51% com reorg de 6 blocos de profundidade |
 | Vários DeFi (flash loans) | 2024-2026 | Centenas de mi | Manipulação de oracle via flash loan |
 
 > [!danger] Tendência 2026
-> O OWASP Smart Contract Top 10: 2026, baseado em 122 incidentes deduplados de 2025, totalizou **US$ 905,4 milhões** em perdas por vulnerabilidades de contrato inteligente. Problemas de controle de acesso lideram o ranking, seguidos de erros de lógica de negócio e reentrância em novas formas.
+> O OWASP Smart Contract Top 10: 2026, baseado em 122 incidentes deduplados de 2025, totalizou **US\$ 905,4 milhões** em perdas por vulnerabilidades de contrato inteligente. Problemas de controle de acesso lideram o ranking, seguidos de erros de lógica de negócio e reentrância em novas formas.
 
 ---
 
@@ -287,7 +287,7 @@ flowchart TD
 
 #### 1. Reentrância (Reentrancy Attack)
 
-A reentrância é uma das vulnerabilidades mais antigas e mais devastadoras do ecossistema Ethereum. O ataque à DAO em 2016 drenou **US$ 60 milhões** e causou o hard fork que originou o Ethereum Classic. Em 2025-2026, variantes como **reentrância cross-function** e **reentrância somente-leitura (read-only reentrancy)** seguem aparecendo em auditorias.
+A reentrância é uma das vulnerabilidades mais antigas e mais devastadoras do ecossistema Ethereum. O ataque à DAO em 2016 drenou **US\$ 60 milhões** e causou o hard fork que originou o Ethereum Classic. Em 2025-2026, variantes como **reentrância cross-function** e **reentrância somente-leitura (read-only reentrancy)** seguem aparecendo em auditorias.
 
 **Como funciona:**
 
@@ -471,10 +471,10 @@ Em redes Proof of Work, quem controla mais de 50% do poder de processamento (**h
 
 | Rede | Mecanismo | Custo estimado do ataque |
 |------|-----------|--------------------------|
-| Bitcoin | PoW (SHA-256) | Mais de US$ 6 bilhões |
+| Bitcoin | PoW (SHA-256) | Mais de US\$ 6 bilhões |
 | Ethereum | PoS | Exige 33% do ETH em staking |
-| Ethereum Classic | PoW | Menos de US$ 10 milhões |
-| Redes pequenas (nascentes) | PoW | US$ 50 mil a US$ 1 milhão |
+| Ethereum Classic | PoW | Menos de US\$ 10 milhões |
+| Redes pequenas (nascentes) | PoW | US\$ 50 mil a US\$ 1 milhão |
 
 **85% dos ataques de 51% bem-sucedidos ocorreram em blockchains nascentes**, com menos de 2 anos de existência.
 
@@ -491,7 +491,7 @@ O atacante isola um nó específico da rede, controlando todas as suas conexões
 ### 🎣 Phishing de Carteira e Wallet Drainers
 
 > [!danger] Ameaça em Alta em 2026
-> Phishing e engenharia social representaram **US$ 600 milhões** em perdas no primeiro semestre de 2025. Em abril de 2026, o mês com maior roubo de criptomoedas já registrado (mais de US$ 629 milhões), operadores de drainers registraram sites falsos de "revogação de permissões" em horas após os maiores hacks, capturando usuários em pânico.
+> Phishing e engenharia social representaram **US\$ 600 milhões** em perdas no primeiro semestre de 2025. Em abril de 2026, o mês com maior roubo de criptomoedas já registrado (mais de US\$ 629 milhões), operadores de drainers registraram sites falsos de "revogação de permissões" em horas após os maiores hacks, capturando usuários em pânico.
 
 **Técnicas de Wallet Drainer:**
 
@@ -929,7 +929,7 @@ flowchart TD
 > **Hacks e Incidentes Reais:**
 > - [DeFi Hacks 2026: Bridge Exploits Dominate - Phemex](https://phemex.com/blogs/defi-hacks-2026-bridge-exploits-explained)
 > - [Biggest DeFi Hacks and Exploits of 2026 - CCN](https://www.ccn.com/education/crypto/defi-hacks-exploits-causes-crypto-stolen-2026/)
-> - [Crypto Theft $3.4 Billion in 2025 - Chainalysis](https://www.chainalysis.com/blog/crypto-hacking-stolen-funds-2026/)
+> - [Crypto Theft \$3.4 Billion in 2025 - Chainalysis](https://www.chainalysis.com/blog/crypto-hacking-stolen-funds-2026/)
 > - [Top 5 Crypto Hacks 2025 - Global Ledger](https://blog.globalledger.io/research-investigations/top-5-crypto-hacks)
 >
 > **Ataque de 51%:**

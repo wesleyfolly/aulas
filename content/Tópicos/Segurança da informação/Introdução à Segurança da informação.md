@@ -79,11 +79,11 @@ timeline
 | **Phishing turbinado por IA generativa** | +1.265% | E-mails de golpe ficaram convincentes e em escala industrial |
 | **Taxa de sucesso do phishing com IA** | ~60% | Quase 4× mais eficaz que o phishing tradicional |
 | **Ransomware no pós-invasão** | 83,5% dos códigos maliciosos | Sequestro de dados domina o crime digital |
-| **Custo médio de um ataque de ransomware** | > US$ 1,18 milhão | Impacto financeiro direto e brutal |
+| **Custo médio de um ataque de ransomware** | > US\$ 1,18 milhão | Impacto financeiro direto e brutal |
 | **Setor público como alvo** | 38,2% dos incidentes | Institutos, prefeituras e escolas estão na linha de frente |
 
 > [!info] E no Brasil? A LGPD entrou na conta
-> A **Lei Geral de Proteção de Dados (Lei 13.709/2018)** tornou a segurança da informação uma **obrigação legal**. Vazar dados pessoais pode gerar multa de até **2% do faturamento** (limitada a R$ 50 milhões por infração), além do dano à reputação. Segurança deixou de ser "problema de TI" e virou **problema de gestão e de lei**.
+> A **Lei Geral de Proteção de Dados (Lei 13.709/2018)** tornou a segurança da informação uma **obrigação legal**. Vazar dados pessoais pode gerar multa de até **2% do faturamento** (limitada a R\$ 50 milhões por infração), além do dano à reputação. Segurança deixou de ser "problema de TI" e virou **problema de gestão e de lei**.
 
 > [!example] 🧪 Atividade 1: Termômetro de exposição
 > 1. Acesse **[Have I Been Pwned](https://haveibeenpwned.com/)** e digite seu e-mail. Anote **em quantos vazamentos** ele apareceu e **quais dados** (senha, telefone, etc.) foram expostos em cada um.

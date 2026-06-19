@@ -41,7 +41,7 @@ tags:
 - **Prova:** 24 horas de exame prático
 - **Reconhecimento:** Uma das mais respeitadas do mercado
 - **Pré-requisito:** Conhecimento sólido em Linux, redes e programação
-- **Preço (2026):** US$ 1.749 (inclui 90 dias de lab + 1 tentativa de exame) ou US$ 2.749 (Learn One, 1 ano de acesso)
+- **Preço (2026):** US\$ 1.749 (inclui 90 dias de lab + 1 tentativa de exame) ou US\$ 2.749 (Learn One, 1 ano de acesso)
 - **Validade:** 3 anos (renovável com CPE)
 - [🔗 Site oficial OffSec](https://www.offsec.com/pricing/)
 
@@ -51,8 +51,8 @@ tags:
 - **Prova:** Múltipla escolha (125 questões, 4 horas)
 - **Reconhecimento:** Amplamente aceita, especialmente em empresas
 - **Pré-requisito:** 2 anos de experiência em segurança ou treinamento oficial EC-Council
-- **Preço (2026):** US$ 950 a US$ 1.199 (exame) + US$ 850-3.499 (treinamento obrigatório)
-- **Validade:** 3 anos (renovação: US$ 80/ano de membership)
+- **Preço (2026):** US\$ 950 a US\$ 1.199 (exame) + US\$ 850-3.499 (treinamento obrigatório)
+- **Validade:** 3 anos (renovação: US\$ 80/ano de membership)
 - [🔗 EC-Council CEH](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/)
 
 #### eJPT: Junior Penetration Tester (INE Security)
@@ -61,7 +61,7 @@ tags:
 - **Prova:** 100% prática (laboratório virtual, 48 horas)
 - **Reconhecimento:** Porta de entrada ideal antes do OSCP
 - **Pré-requisito:** Nenhum formal; recomendado conhecer Linux básico e TCP/IP
-- **Preço (2026):** US$ 200 aproximadamente (incluindo curso)
+- **Preço (2026):** US\$ 200 aproximadamente (incluindo curso)
 - **Validade:** 3 anos
 - [🔗 INE Security eJPT](https://security.ine.com/certifications/ejpt-certification/)
 
@@ -69,7 +69,7 @@ tags:
 - **Nível:** Intermediário
 - **Foco:** Testes de penetração
 - **Prova:** Múltipla escolha + baseada em desempenho
-- **Preço (2026):** US$ 381 (exame)
+- **Preço (2026):** US\$ 381 (exame)
 - **Validade:** 3 anos
 - [🔗 Site oficial](https://www.comptia.org/pt/certificacoes/pentest)
 
@@ -85,8 +85,8 @@ tags:
 - **Ideal para:** Primeira certificação da área
 - **Reconhecimento:** Porta de entrada mais comum
 - **Pré-requisito:** Nenhum formal; recomendado Network+ e 2 anos de experiência em TI
-- **Preço (2026):** US$ 425 (exame oficial CompTIA, após aumento de 5-7% em jun/2025)
-- **Validade:** 3 anos (renovação: US$ 150)
+- **Preço (2026):** US\$ 425 (exame oficial CompTIA, após aumento de 5-7% em jun/2025)
+- **Validade:** 3 anos (renovação: US\$ 150)
 - [🔗 CompTIA Security+](https://www.comptia.org/certifications/security)
 
 #### CISSP: Certified Information Systems Security Professional
@@ -94,7 +94,7 @@ tags:
 - **Foco:** Gestão de segurança (8 domínios do CBK)
 - **Requisito:** 5 anos de experiência em pelo menos 2 dos 8 domínios (1 ano dispensado com diploma universitário)
 - **Reconhecimento:** "Gold standard" para gestores e arquitetos de segurança
-- **Preço (2026):** US$ 749 (exame) + US$ 125/ano de manutenção (ISC2 membership)
+- **Preço (2026):** US\$ 749 (exame) + US\$ 125/ano de manutenção (ISC2 membership)
 - **Validade:** 3 anos (renovação via CPE)
 - [🔗 ISC2 CISSP](https://www.isc2.org/certifications/cissp)
 
@@ -103,7 +103,7 @@ tags:
 - **Foco:** Gestão e governança de segurança
 - **Ideal para:** Cargos de liderança (CISO, gerentes de TI)
 - **Pré-requisito:** 5 anos de experiência em gestão de segurança
-- **Preço (2026):** US$ 575 (membros ISACA) ou US$ 760 (não-membros)
+- **Preço (2026):** US\$ 575 (membros ISACA) ou US\$ 760 (não-membros)
 - **Validade:** 3 anos (renovação: CPE + taxa anual ISACA)
 - [🔗 ISACA CISM](https://www.isaca.org/credentialing/cism)
 
@@ -113,15 +113,15 @@ tags:
 
 | Certificação | Nível | Foco Principal | Preço (exame) | Validade | Pré-requisito |
 |---|---|---|---|---|---|
-| **eJPT** | Iniciante | Pentest prático | ~US$ 200 | 3 anos | Nenhum |
-| **Security+** | Iniciante/Inter. | Fundamentos segurança | US$ 425 | 3 anos | Recomendado Network+ |
-| **PenTest+** | Intermediário | Testes de penetração | US$ 381 | 3 anos | Recomendado Security+ |
-| **CEH** | Intermediário | Hacking ético | US$ 950-1.199 | 3 anos | 2 anos experiência |
-| **CISM** | Avançado | Gestão/Governança | US$ 575-760 | 3 anos | 5 anos experiência |
-| **CISSP** | Avançado | Gestão segurança | US$ 749 | 3 anos | 5 anos experiência |
-| **OSCP** | Avançado | Pentest ofensivo | US$ 1.749 | 3 anos | Experiência em Linux/redes |
+| **eJPT** | Iniciante | Pentest prático | ~US\$ 200 | 3 anos | Nenhum |
+| **Security+** | Iniciante/Inter. | Fundamentos segurança | US\$ 425 | 3 anos | Recomendado Network+ |
+| **PenTest+** | Intermediário | Testes de penetração | US\$ 381 | 3 anos | Recomendado Security+ |
+| **CEH** | Intermediário | Hacking ético | US\$ 950-1.199 | 3 anos | 2 anos experiência |
+| **CISM** | Avançado | Gestão/Governança | US\$ 575-760 | 3 anos | 5 anos experiência |
+| **CISSP** | Avançado | Gestão segurança | US\$ 749 | 3 anos | 5 anos experiência |
+| **OSCP** | Avançado | Pentest ofensivo | US\$ 1.749 | 3 anos | Experiência em Linux/redes |
 
-> [!warning] ⚠️ Preços em dólar: no Brasil, adicione IOF (6,38%) e variação cambial. Em jun/2026, US$ 1 equivale a aproximadamente R$ 5,70, o que significa que a Security+ custa cerca de R$ 2.400 e o OSCP pode ultrapassar R$ 10.000.
+> [!warning] ⚠️ Preços em dólar: no Brasil, adicione IOF (6,38%) e variação cambial. Em jun/2026, US\$ 1 equivale a aproximadamente R\$ 5,70, o que significa que a Security+ custa cerca de R\$ 2.400 e o OSCP pode ultrapassar R\$ 10.000.
 
 ---
 
@@ -195,8 +195,8 @@ flowchart TD
 >
 > | Campo | Security+ | OSCP | CISSP |
 > |---|---|---|---|
-> | Preço exato (US$) | | | |
-> | Preço em R$ (câmbio do dia) | | | |
+> | Preço exato (US\$) | | | |
+> | Preço em R\$ (câmbio do dia) | | | |
 > | Pré-requisitos formais | | | |
 > | Tempo de validade | | | |
 > | Número de domínios/objetivos | | | |

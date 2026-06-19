@@ -23,7 +23,7 @@ tags:
 > Inteligência Artificial (IA) é a capacidade de sistemas computacionais realizarem tarefas que normalmente requerem inteligência humana, como reconhecimento de padrões, tomada de decisões e processamento de linguagem natural.
 
 > [!quote] Por que isso importa para empreendedores?
-> O mercado global de IA deve ultrapassar **US$ 300 bilhões em 2025**. A Y Combinator estima que mais de **300 unicórnios** (empresas avaliadas em mais de US$ 1 bilhão) surgirão no setor de IA vertical nesta década. Em média, ferramentas de IA economizam **13 horas por semana** para pequenos empresários.
+> O mercado global de IA deve ultrapassar **US\$ 300 bilhões em 2025**. A Y Combinator estima que mais de **300 unicórnios** (empresas avaliadas em mais de US\$ 1 bilhão) surgirão no setor de IA vertical nesta década. Em média, ferramentas de IA economizam **13 horas por semana** para pequenos empresários.
 
 ### Tipos de IA
 

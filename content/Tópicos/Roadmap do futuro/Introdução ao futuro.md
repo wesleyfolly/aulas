@@ -208,7 +208,7 @@ Profissionais que criam sistemas escaláveis (um curso gravado, um código que r
 > [!warning] Realidade Inegável
 > *Não tenha nenhuma dúvida quanto a isso.*
 
-A Gartner projeta que agentes de IA poderão gerar até **US$ 450 bilhões** em receita de software empresarial até 2035. A IA deixou de ser pesquisa acadêmica: está em 73% das empresas, com 40% dos aplicativos empresariais integrados a agentes de IA já em 2026.
+A Gartner projeta que agentes de IA poderão gerar até **US\$ 450 bilhões** em receita de software empresarial até 2035. A IA deixou de ser pesquisa acadêmica: está em 73% das empresas, com 40% dos aplicativos empresariais integrados a agentes de IA já em 2026.
 
 Quem ignorar essa realidade não está sendo prudente: está ficando para trás.
 
@@ -304,7 +304,7 @@ xychart-beta
 >
 > - [WEF Future of Jobs Report 2025](https://www.weforum.org/publications/the-future-of-jobs-report-2025/): 78 milhões de novos empregos líquidos, 39% de habilidades transformadas até 2030.
 > - [PwC AI Jobs Barometer 2026](https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html): Prêmio salarial de 56% para profissionais com skills de IA; 74% de economia de tempo com IA.
-> - [Gartner Strategic Technology Trends 2026](https://www.gartner.com/en/newsroom/press-releases/2025-10-20-gartner-identifies-the-top-strategic-technology-trends-for-2026): 40% dos apps empresariais com agentes de IA até 2026; US$ 450 bi em receita de software de IA até 2035.
+> - [Gartner Strategic Technology Trends 2026](https://www.gartner.com/en/newsroom/press-releases/2025-10-20-gartner-identifies-the-top-strategic-technology-trends-for-2026): 40% dos apps empresariais com agentes de IA até 2026; US\$ 450 bi em receita de software de IA até 2035.
 > - [BCG AI Will Reshape More Jobs Than It Replaces](https://www.bcg.com/publications/2026/ai-will-reshape-more-jobs-than-it-replaces): 50 a 55% dos empregos nos EUA serão remodelados pela IA nos próximos 2 a 3 anos.
 > - [PwC Portugal: Tendências de Trabalho 2026](https://www.pwc.pt/pt/sala-imprensa/artigos-opiniao/2026/tendencias-trabalho-2026.html): Consolidação do trabalho híbrido e agentes autônomos de IA.
 > - [Degreed: 70% das Top Skills de 2026 são Humanas](https://degreed.com/experience/blog/top-skills-for-2026-are-human-skills/): Habilidades humanas lideram o ranking de competências mais buscadas.

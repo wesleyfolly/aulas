@@ -274,9 +274,9 @@ Montar um PC sem verificar compatibilidade é o erro mais comum de quem está co
 >
 > | Perfil | CPU | RAM | Armazenamento | GPU | Meta de preço |
 > |--------|-----|-----|---------------|-----|---------------|
-> | **Escritório** | Qualquer | 8 GB | SSD 240 GB | Integrada | até R$ 1.500 |
-> | **Estudante** | Qualquer | 16 GB | SSD 480 GB | Entrada | até R$ 3.000 |
-> | **Gamer** | Qualquer | 16 GB | SSD NVMe 1 TB | RTX ou RX dedicada | até R$ 5.000 |
+> | **Escritório** | Qualquer | 8 GB | SSD 240 GB | Integrada | até R\$ 1.500 |
+> | **Estudante** | Qualquer | 16 GB | SSD 480 GB | Entrada | até R\$ 3.000 |
+> | **Gamer** | Qualquer | 16 GB | SSD NVMe 1 TB | RTX ou RX dedicada | até R\$ 5.000 |
 >
 > **Resultado observável:** você vai ver na prática quais componentes pesam mais no orçamento (normalmente GPU e CPU respondem por 60 a 70% do total) e entender por que "upgradar" só um componente às vezes exige trocar vários outros por compatibilidade.
 >

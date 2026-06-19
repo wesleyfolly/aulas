@@ -25,7 +25,7 @@ tags:
 
 Na prática do red team, engenharia social não é apenas "mandar um e-mail falso". É uma **cadeia de inteligência e influência** que começa muito antes do primeiro contato com a vítima. O atacante estuda, planeja, ensaia e só então age.
 
-Segundo o Relatório DBIR 2025 da Verizon, **74% de todas as violações de dados envolvem um elemento humano**, seja via engenharia social, uso indevido de credenciais ou erro humano. Phishing e engenharia social respondem por 37% das violações (IBM Cost of a Data Breach 2025, custo médio de US$ 4,88 milhões por incidente).
+Segundo o Relatório DBIR 2025 da Verizon, **74% de todas as violações de dados envolvem um elemento humano**, seja via engenharia social, uso indevido de credenciais ou erro humano. Phishing e engenharia social respondem por 37% das violações (IBM Cost of a Data Breach 2025, custo médio de US\$ 4,88 milhões por incidente).
 
 ---
 
@@ -351,7 +351,7 @@ Ver também: [[Information Gathering Frameworks (OSINT)]], [[social media tools]
 | Spear phishing com IA | Massivo | IA supera red teamers humanos em 23,8% de eficácia |
 | Vishing com deepfake | +1.600% no Q1 2025 | 3 segundos de áudio bastam para clonar voz |
 | Phishing geral com IA | Dominante | 82,6% dos e-mails maliciosos usam IA generativa |
-| Custo médio de breach | Alta | US$ 4,88 milhões (IBM 2025) |
+| Custo médio de breach | Alta | US\$ 4,88 milhões (IBM 2025) |
 | Fator humano em breaches | Estável e alto | 74% de todos os incidentes (Verizon DBIR 2025) |
 
 ---

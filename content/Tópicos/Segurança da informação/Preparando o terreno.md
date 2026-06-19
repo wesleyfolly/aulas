@@ -813,10 +813,10 @@ Plataformas que conectam hackers a empresas:
 
 | Severidade | Faixa de Recompensa (USD) | Exemplo de Vulnerabilidade |
 |------------|--------------------------|---------------------------|
-| **Crítica** | $10.000 a $100.000+ | RCE, bypass de autenticação em infraestrutura crítica |
-| **Alta** | $3.000 a $15.000 | SQLi com acesso a dados de usuários, SSRF interno |
-| **Média** | $500 a $3.000 | XSS persistente, IDOR moderado |
-| **Baixa** | $100 a $500 | Clickjacking, missing security headers |
+| **Crítica** | \$10.000 a \$100.000+ | RCE, bypass de autenticação em infraestrutura crítica |
+| **Alta** | \$3.000 a \$15.000 | SQLi com acesso a dados de usuários, SSRF interno |
+| **Média** | \$500 a \$3.000 | XSS persistente, IDOR moderado |
+| **Baixa** | \$100 a \$500 | Clickjacking, missing security headers |
 
 > [!warning] Bug bounty NÃO substitui autorização
 > Mesmo em programas de bug bounty, há **escopo definido**. Testar fora do escopo, mesmo que seja sistema da mesma empresa, pode resultar em processo criminal. Leia o programa inteiro antes de começar.

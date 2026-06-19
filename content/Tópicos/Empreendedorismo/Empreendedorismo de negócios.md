@@ -101,7 +101,7 @@ Uma das perguntas mais importantes para qualquer negócio é: **de onde vem o di
 
 ### Caso Real: Nubank
 
-O Nubank é o maior banco digital do mundo fora da Ásia, com valuation acima de US$ 30 bilhões. Sua receita vem de múltiplas fontes:
+O Nubank é o maior banco digital do mundo fora da Ásia, com valuation acima de US\$ 30 bilhões. Sua receita vem de múltiplas fontes:
 
 - Juros do cartão de crédito (rotativo e parcelamento)
 - Spread de empréstimos pessoais
@@ -183,9 +183,9 @@ xychart-beta
 
 | Tipo | Quantidade | Perfil |
 |------|-----------|--------|
-| MEI (Microempreendedor Individual) | 3,8 milhões | Fatura até R$ 81.000/ano, sem sócio |
-| ME (Microempresa) | 927 mil | Fatura até R$ 360.000/ano |
-| EPP (Empresa de Pequeno Porte) | 207 mil | Fatura até R$ 4,8 milhões/ano |
+| MEI (Microempreendedor Individual) | 3,8 milhões | Fatura até R\$ 81.000/ano, sem sócio |
+| ME (Microempresa) | 927 mil | Fatura até R\$ 360.000/ano |
+| EPP (Empresa de Pequeno Porte) | 207 mil | Fatura até R\$ 4,8 milhões/ano |
 
 ### Setores que mais crescem
 
@@ -203,7 +203,7 @@ xychart-beta
 
 Uma **startup** é uma empresa jovem que busca crescer rapidamente com um modelo de negócio escalável e repetível, geralmente apoiado em tecnologia.
 
-Um **unicórnio** é uma startup avaliada em mais de US$ 1 bilhão.
+Um **unicórnio** é uma startup avaliada em mais de US\$ 1 bilhão.
 
 ```mermaid
 flowchart LR
@@ -274,9 +274,9 @@ flowchart TD
 
 | Forma | Limite de faturamento | Impostos | Ponto forte |
 |-------|----------------------|---------|------------|
-| MEI | R$ 81.000/ano | DAS fixo (em torno de R$ 76/mês) | Baixíssima burocracia |
-| ME | R$ 360.000/ano | Simples Nacional (alíquota por setor) | Permite sócios |
-| EPP | R$ 4,8 mi/ano | Simples Nacional | Mais espaço para crescer |
+| MEI | R\$ 81.000/ano | DAS fixo (em torno de R\$ 76/mês) | Baixíssima burocracia |
+| ME | R\$ 360.000/ano | Simples Nacional (alíquota por setor) | Permite sócios |
+| EPP | R\$ 4,8 mi/ano | Simples Nacional | Mais espaço para crescer |
 | LTDA | Sem limite | Lucro Presumido ou Real | Flexibilidade societária |
 | S/A | Sem limite | Lucro Real | Pode abrir capital (IPO) |
 

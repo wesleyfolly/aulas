@@ -154,13 +154,13 @@ mindmap
 
 ### 💳 Fintech e Embedded Finance
 - **Embedded finance:** serviços financeiros integrados em produtos não-financeiros (ex.: crédito dentro de um app de marketplace)
-- Estimativa: R$ 24 bilhões em receita adicional no Brasil em 2026 (TI Inside, 2026)
+- Estimativa: R\$ 24 bilhões em receita adicional no Brasil em 2026 (TI Inside, 2026)
 - Open Finance e PIX ainda têm muito espaço para inovação
 - Embedded finance deve representar 30% de toda receita financeira na América Latina até 2030
 
 ### 🚀 Economia Espacial
 - Manufatura em órbita e novos materiais
-- Índia vai de US$ 8-9 bi para US$ 45 bi no setor espacial até meados de 2030
+- Índia vai de US\$ 8-9 bi para US\$ 45 bi no setor espacial até meados de 2030
 - Satélites de baixa órbita democratizam internet em regiões remotas
 - Oportunidades indiretas: logística, dados de sensoriamento remoto, agronegócio de precisão
 
@@ -171,10 +171,10 @@ mindmap
 | Tendência | Dado | Fonte |
 |---|---|---|
 | IA como ferramenta de lançamento | 60% dos empreendedores usarão IA para abrir negócio | QuickBooks 2026 |
-| Mercado global de IA | US$ 4,8 trilhões até 2033 | UNCTAD |
-| Embedded finance no Brasil | R$ 24 bi de receita adicional em 2026 | TI Inside |
+| Mercado global de IA | US\$ 4,8 trilhões até 2033 | UNCTAD |
+| Embedded finance no Brasil | R\$ 24 bi de receita adicional em 2026 | TI Inside |
 | Sustentabilidade | +30% valor de marca para negócios sustentáveis | CNN Brasil |
-| Energia nuclear SMR | Crescimento de $5 bi para $25 bi até 2030 | Kaizen/Deloitte |
+| Energia nuclear SMR | Crescimento de \$5 bi para \$25 bi até 2030 | Kaizen/Deloitte |
 | Intenção empreendedora EUA | 33% dos adultos querem abrir negócio (alta de 94%) | QuickBooks 2026 |
 
 ---
@@ -203,7 +203,7 @@ mindmap
 >    - **Problema que resolve:** (ex.: empresas gastam muito com atendimento humano)
 >    - **Ideia de negócio:** (ex.: agência que configura agentes de IA para pequenos comércios)
 >    - **Quem pagaria por isso?** (ex.: lojistas, clínicas, restaurantes)
->    - **Quanto cobraria?** (ex.: R$ 500/mês por cliente)
+>    - **Quanto cobraria?** (ex.: R\$ 500/mês por cliente)
 > 3. Compartilhe 1 ideia com a turma. Vote na mais original.
 >
 > **Resultado esperado:** ao menos 1 ideia de negócio por participante, com cliente-alvo e modelo de receita esboçados.

@@ -65,17 +65,17 @@ O termo foi cunhado por **Andrej Karpathy** (cofundador da OpenAI, ex-diretor de
 | Código global gerado por IA | 46% | 2026 |
 | Crescimento de adoção enterprise | +340% | 2025/2026 |
 | Crescimento de adoção por não-técnicos | +520% ano a ano | 2025/2026 |
-| Tamanho do mercado vibe coding | US$ 4,7 bilhões | 2026 |
-| Projeção do mercado low-code/no-code | US$ 48,9 bilhões | 2026 |
+| Tamanho do mercado vibe coding | US\$ 4,7 bilhões | 2026 |
+| Projeção do mercado low-code/no-code | US\$ 48,9 bilhões | 2026 |
 
 ### As principais ferramentas
 
 | Ferramenta | Perfil | Destaque 2026 |
 |------------|--------|---------------|
-| **Lovable** | Full-stack no browser, iniciantes | Avaliação de US$ 6,6 bi; US$ 200 milhões de ARR |
+| **Lovable** | Full-stack no browser, iniciantes | Avaliação de US\$ 6,6 bi; US\$ 200 milhões de ARR |
 | **Bolt.new** | Protótipos rápidos no browser | Do prompt ao app em 20 minutos |
 | **v0 (Vercel)** | Componentes React/UI | 2 milhões de usuários em Q1/2026 |
-| **Cursor** | IDE com IA, para devs | Avaliação de US$ 9,2 bi; lider em IDE-based |
+| **Cursor** | IDE com IA, para devs | Avaliação de US\$ 9,2 bi; lider em IDE-based |
 | **Replit** | Ambiente completo no browser | Execução + deploy integrados |
 | **Claude Code** | Agente de terminal profissional | 87,6% no SWE-bench Verified |
 
@@ -363,7 +363,7 @@ quadrantChart
 > [!note] 📚 Fontes (2026)
 >
 > - [Vibecoding Statistics: 2026 Data and Trends (Kristian Larsen)](https://www.kristian-larsen.com/info/vibecoding-statistics/): adoção, mercado e perfil de usuários
-> - [Vibe Coding in 2026: $9.2B Cursor, 92% HumanEval (DEV Community)](https://dev.to/pooyagolchian/vibe-coding-in-2026-92b-cursor-92-humaneval-and-the-end-of-boilerplate-161h): valuations e benchmarks de mercado
+> - [Vibe Coding in 2026: \$9.2B Cursor, 92% HumanEval (DEV Community)](https://dev.to/pooyagolchian/vibe-coding-in-2026-92b-cursor-92-humaneval-and-the-end-of-boilerplate-161h): valuations e benchmarks de mercado
 > - [Best AI Coding Agents in 2026: Harness, Cost, and Accuracy (Firecrawl)](https://www.firecrawl.dev/blog/best-ai-coding-agents): comparativo de agentes e SWE-Bench
 > - [SWE-Bench Coding Agent Leaderboard 2026 (Awesome Agents)](https://awesomeagents.ai/leaderboards/swe-bench-coding-agent-leaderboard/): rankings de agentes por benchmark
 > - [Vibe Coding Security: Why 62% Of AI-Generated Code Ships With Vulnerabilities (OX Security)](https://www.ox.security/blog/vibe-coding-security/): riscos de segurança e estatísticas de vulnerabilidade

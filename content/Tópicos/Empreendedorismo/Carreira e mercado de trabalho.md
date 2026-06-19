@@ -39,15 +39,15 @@ graph LR
 
 | Área | Cargo Júnior | Cargo Sênior | Demanda |
 |------|-------------|-------------|---------|
-| 🔐 Cibersegurança | R$ 7.000 | R$ 32.000 | Altíssima |
-| ☁️ Cloud Computing | R$ 10.000 | R$ 22.000 | Muito alta |
-| 🤖 IA / Engenharia de Prompts | R$ 8.000 | R$ 25.000 | Crescendo 306% |
-| 💻 Desenvolvimento de Software | R$ 4.500 | R$ 18.000 | Alta (maior volume) |
-| 📊 Ciência de Dados | R$ 5.000 | R$ 19.000 | Alta |
-| 🌐 Redes e Infraestrutura | R$ 3.500 | R$ 12.000 | Estável |
+| 🔐 Cibersegurança | R\$ 7.000 | R\$ 32.000 | Altíssima |
+| ☁️ Cloud Computing | R\$ 10.000 | R\$ 22.000 | Muito alta |
+| 🤖 IA / Engenharia de Prompts | R\$ 8.000 | R\$ 25.000 | Crescendo 306% |
+| 💻 Desenvolvimento de Software | R\$ 4.500 | R\$ 18.000 | Alta (maior volume) |
+| 📊 Ciência de Dados | R\$ 5.000 | R\$ 19.000 | Alta |
+| 🌐 Redes e Infraestrutura | R\$ 3.500 | R\$ 12.000 | Estável |
 
 > [!warning] Salário médio geral em TI
-> O salário médio em TI no Brasil em 2026 é de aproximadamente **R$ 7.666/mês** (Salario.com.br). Profissionais que combinam cloud + segurança + automação chegam a posições de destaque ainda mais cedo.
+> O salário médio em TI no Brasil em 2026 é de aproximadamente **R\$ 7.666/mês** (Salario.com.br). Profissionais que combinam cloud + segurança + automação chegam a posições de destaque ainda mais cedo.
 
 ```mermaid
 bar
@@ -173,7 +173,7 @@ flowchart TD
 | [Freelancer.com](https://www.freelancer.com) | Diversas áreas técnicas | USD 10-80/hora |
 
 > [!tip] Começar no Brasil, crescer no mundo
-> A rota recomendada para estudantes: comece no **99freelas** ou **Workana** para construir portfólio e referências em português. Com 5 a 10 projetos concluídos, tente plataformas internacionais. O dólar faz diferença: R$ 60/hora no Upwork (USD 12) é acessível lá fora e alto aqui.
+> A rota recomendada para estudantes: comece no **99freelas** ou **Workana** para construir portfólio e referências em português. Com 5 a 10 projetos concluídos, tente plataformas internacionais. O dólar faz diferença: R\$ 60/hora no Upwork (USD 12) é acessível lá fora e alto aqui.
 
 ---
 

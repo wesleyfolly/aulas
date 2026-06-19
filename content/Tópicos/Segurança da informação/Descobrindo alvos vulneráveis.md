@@ -180,11 +180,11 @@ A fronteira é simples:
 
 **TryHackMe (tryhackme.com)**
 
-A plataforma ideal para começar. Os labs rodam no browser sem necessidade de instalar nada. Há trilhas de aprendizagem sequenciais: "Pre-Security", "Complete Beginner", "Offensive Pentesting". O plano gratuito dá acesso a muitas salas. Assinatura premium (cerca de US$ 14/mês em 2026) libera todas as trilhas e salas.
+A plataforma ideal para começar. Os labs rodam no browser sem necessidade de instalar nada. Há trilhas de aprendizagem sequenciais: "Pre-Security", "Complete Beginner", "Offensive Pentesting". O plano gratuito dá acesso a muitas salas. Assinatura premium (cerca de US\$ 14/mês em 2026) libera todas as trilhas e salas.
 
 **Hack The Box (hackthebox.com)**
 
-Foco em realismo: as máquinas se comportam como sistemas reais e não há tutorial. O plano pago (VIP+, único disponível desde outubro de 2025, US$ 25/mês ou US$ 223/ano) libera máquinas aposentadas com writeups oficiais, que são o caminho recomendado para iniciantes. O HTB Academy (academy.hackthebox.com) tem módulos gratuitos sobre fundamentos e uma trilha específica para bug bounty hunter.
+Foco em realismo: as máquinas se comportam como sistemas reais e não há tutorial. O plano pago (VIP+, único disponível desde outubro de 2025, US\$ 25/mês ou US\$ 223/ano) libera máquinas aposentadas com writeups oficiais, que são o caminho recomendado para iniciantes. O HTB Academy (academy.hackthebox.com) tem módulos gratuitos sobre fundamentos e uma trilha específica para bug bounty hunter.
 
 **PortSwigger Web Security Academy (portswigger.net/web-security)**
 
@@ -196,7 +196,7 @@ Máquinas virtuais (.ova/.vmdk) para download e execução local no VirtualBox o
 
 **PentesterLab (pentesterlab.com)**
 
-Exercícios práticos com foco em web e exploração de CVEs reais. O plano gratuito cobre exercícios introdutórios. O plano PRO (US$ 19/mês) libera todos os exercícios, incluindo trilhas certificadas.
+Exercícios práticos com foco em web e exploração de CVEs reais. O plano gratuito cobre exercícios introdutórios. O plano PRO (US\$ 19/mês) libera todos os exercícios, incluindo trilhas certificadas.
 
 ---
 

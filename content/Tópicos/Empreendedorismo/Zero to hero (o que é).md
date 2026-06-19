@@ -106,7 +106,7 @@ Não é magia. É um processo com etapas identificáveis, obstáculos previsíve
 
 O conceito não é abstrato. Há casos concretos e verificáveis de fundadores brasileiros (e com atuação no Brasil) que partiram do zero absoluto:
 
-### Nubank: de frustrante experiência bancária a US$ 41 bilhões 🟣
+### Nubank: de frustrante experiência bancária a US\$ 41 bilhões 🟣
 
 | Marco | Ano | O que aconteceu |
 |-------|-----|-----------------|
@@ -115,7 +115,7 @@ O conceito não é abstrato. Há casos concretos e verificáveis de fundadores b
 | Primeiro produto | Set/2014 | Lança o "roxinho": cartão de crédito sem anuidade, 100% digital |
 | Crescimento | 2014-2019 | Cresce via indicação, sem agência física |
 | Expansão | 2020 | Entra em Argentina, México e Colômbia |
-| IPO na NYSE | Dez/2021 | Avaliação de US$ 41,48 bi, superando Itaú no dia do lançamento |
+| IPO na NYSE | Dez/2021 | Avaliação de US\$ 41,48 bi, superando Itaú no dia do lançamento |
 | Presente | 2026 | Mais de 131 milhões de clientes na América Latina |
 
 **A lacuna que David viu:** o sistema bancário brasileiro cobrava tarifas abusivas e tinha burocracia extrema. Ninguém tinha criado uma alternativa digital de escala. Ele não era banqueiro; era engenheiro com experiência em venture capital.
@@ -133,9 +133,9 @@ O conceito não é abstrato. Há casos concretos e verificáveis de fundadores b
 
 ---
 
-### Bruna Vasconi (Peça Rara Brechó): de empréstimo de R$ 7 mil a negócio reconhecido 👗
+### Bruna Vasconi (Peça Rara Brechó): de empréstimo de R\$ 7 mil a negócio reconhecido 👗
 
-- **Zero:** emprestou R$ 7 mil da avó para abrir um brechó com peças em consignação ainda adolescente
+- **Zero:** emprestou R\$ 7 mil da avó para abrir um brechó com peças em consignação ainda adolescente
 - **Herói:** hoje CEO de empresa de moda circular com relevância nacional
 - **Chave:** identificou uma tendência (sustentabilidade + moda) antes de virar mainstream
 
@@ -236,7 +236,7 @@ A lógica é a mesma do modelo Dreyfus: identificar em qual estágio você está
 > 1. Acesse [trello.com](https://trello.com) ou [notion.so](https://notion.so) e crie um quadro gratuito
 > 2. Crie 5 colunas: **Zero**, **Aprendendo**, **Competente**, **Proficiente**, **Herói**
 > 3. Escolha **uma habilidade empreendedora** que você quer desenvolver (ex.: vender, programar, criar conteúdo)
-> 4. Crie ao menos **5 cards** com marcos verificáveis (ex.: "fazer minha primeira venda de R$ 1", "publicar meu primeiro post sobre meu negócio", "conseguir 3 feedbacks de clientes reais")
+> 4. Crie ao menos **5 cards** com marcos verificáveis (ex.: "fazer minha primeira venda de R\$ 1", "publicar meu primeiro post sobre meu negócio", "conseguir 3 feedbacks de clientes reais")
 > 5. Mova os cards conforme avança
 >
 > **Resultado observável:** ao final você terá um roadmap pessoal com pelo menos 5 marcos mensuráveis para a habilidade escolhida, e saberá exatamente em que estágio Dreyfus se encontra hoje.

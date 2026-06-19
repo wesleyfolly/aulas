@@ -111,7 +111,7 @@ tags:
 | **Memória** | Sem memória persistente (programação manual por fios) | 256 GB ou mais |
 | **Componentes** | 18.000 válvulas, 70.000 resistores | Bilhões de transistores num chip do tamanho de uma unha |
 | **Confiabilidade** | Máximo de 116 horas sem falha (válvula queimando) | Anos de uso contínuo |
-| **Custo** | ~US$ 7 milhões (1946) | ~R$ 2.000-8.000 |
+| **Custo** | ~US\$ 7 milhões (1946) | ~R\$ 2.000-8.000 |
 
 > [!tip] Perspectiva
 > Um smartphone moderno tem poder de processamento equivalente a **mais de 1.000 ENIACs**. E cabe no bolso, custa infinitamente menos e dura anos sem precisar trocar uma válvula.

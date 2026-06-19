@@ -47,9 +47,9 @@ Título concedido pelo Estado que dá ao inventor o direito exclusivo de explora
 
 | Serviço | Valor integral | Com desconto (MEI/MPE/ICT, 50%) |
 |---------|---------------|-------------------------------|
-| Depósito de Patente de Invenção (eletrônico) | R$ 260 | R$ 130 |
-| Solicitação de exame de patente | R$ 1.010 | R$ 505 |
-| Depósito de Modelo de Utilidade (eletrônico) | R$ 150 | R$ 75 |
+| Depósito de Patente de Invenção (eletrônico) | R\$ 260 | R\$ 130 |
+| Solicitação de exame de patente | R\$ 1.010 | R\$ 505 |
+| Depósito de Modelo de Utilidade (eletrônico) | R\$ 150 | R\$ 75 |
 
 > [!warning] Prazo crítico
 > Você tem **36 meses** a partir do depósito para solicitar o exame. Se não solicitar dentro desse prazo, o pedido é **arquivado definitivamente**. A partir de 20/12/2025, a Carta Patente é expedida automaticamente, sem custo adicional.
@@ -72,9 +72,9 @@ A partir de **20 de setembro de 2025**, o INPI adotou pagamento unificado na ent
 
 | Perfil do depositante | Taxa de depósito (1 classe, especificação pré-aprovada) |
 |----------------------|--------------------------------------------------------|
-| MEI | R$ 440 |
-| Pequena empresa / pessoa física | R$ 440 a R$ 860 (conforme especificação) |
-| Empresa de médio/grande porte | até R$ 1.720 por classe |
+| MEI | R\$ 440 |
+| Pequena empresa / pessoa física | R\$ 440 a R\$ 860 (conforme especificação) |
+| Empresa de médio/grande porte | até R\$ 1.720 por classe |
 | Baixa renda / PcD | **Isenção total (100%)** |
 
 > [!info] Desconto caiu de 60% para 50%
@@ -130,10 +130,10 @@ Após **18 anos** sem reajuste, a Fundação Biblioteca Nacional atualizou os va
 
 | Serviço | Valor anterior | Valor atual (2025) |
 |---------|---------------|-------------------|
-| Registro por pessoa física | R$ 20 | R$ 40 |
-| Registro por pessoa jurídica | R$ 40 | R$ 80 |
-| Certidão de busca de anterioridade | R$ 10 | R$ 40 |
-| Certidão de inteiro teor | R$ 10 | R$ 40 |
+| Registro por pessoa física | R\$ 20 | R\$ 40 |
+| Registro por pessoa jurídica | R\$ 40 | R\$ 80 |
+| Certidão de busca de anterioridade | R\$ 10 | R\$ 40 |
+| Certidão de inteiro teor | R\$ 10 | R\$ 40 |
 
 > [!info] Pagamento
 > Desde **novembro de 2025**, o EDA/BN não aceita mais GRU para pedidos feitos pela plataforma Gov.br. O pagamento é feito por Pix ou cartão de crédito.
@@ -147,7 +147,7 @@ Após **18 anos** sem reajuste, a Fundação Biblioteca Nacional atualizou os va
 | O que protege | Nome, logo, símbolo | Invenção/processo novo | Aparência/forma visual | Obra criativa expressa |
 | Vigência | 10 anos (renovável indefinidamente) | 20 anos (improrrogável) | 10 a 25 anos | Vida do autor + 70 anos |
 | Registro obrigatório? | Sim (INPI) | Sim (INPI) | Sim (INPI) | Não (opcional: BN) |
-| Custo inicial (MEI) | R$ 440 | R$ 130 | Consultar INPI | R$ 40 |
+| Custo inicial (MEI) | R\$ 440 | R\$ 130 | Consultar INPI | R\$ 40 |
 | Órgão responsável | INPI | INPI | INPI | Biblioteca Nacional |
 | Exemplo | "Havaianas" (marca) | Fórmula do Coca-Cola | Design da garrafa Coca-Cola | Jingle do comercial |
 
@@ -240,7 +240,7 @@ Os dois sistemas mais importantes para verificar antes de lançar um negócio:
 > 1. Use o mesmo nome fictício da Atividade 1
 > 2. Acesse [registro.br](https://registro.br) e use a barra de busca na página inicial
 > 3. Pesquise o nome nas extensões: `.com.br`, `.com`, `.app` e `.br`
-> 4. Se o domínio estiver **disponível**: veja o preço de registro anual (em geral, R$ 40/ano para .com.br via registrador credenciado)
+> 4. Se o domínio estiver **disponível**: veja o preço de registro anual (em geral, R\$ 40/ano para .com.br via registrador credenciado)
 > 5. Se estiver **ocupado**: use a consulta "Whois" do próprio Registro.br para descobrir quando expira e a quem pertence
 >
 > **Resultado observável:** você verá que ter a marca aprovada no INPI e ter o domínio disponível são verificações independentes, o que reforça a necessidade de checar os dois sistemas logo no início do planejamento do negócio.

@@ -49,7 +49,7 @@ tags:
 > [!info] Dados Gerais do Setor (Brasil, 2025-2026)
 > - **44%** das empresas brasileiras planejam ampliar suas equipes de Tecnologia em 2026.
 > - Mais de **629 mil vagas** abertas em TI no Brasil entre 2025 e 2026 (crescimento de ~9,5%).
-> - Salário médio em TI no Brasil: aproximadamente **R$ 7.666/mês** nos primeiros meses de 2026.
+> - Salário médio em TI no Brasil: aproximadamente **R\$ 7.666/mês** nos primeiros meses de 2026.
 > - **48%** dos gestores de TI oferecem salários maiores a candidatos com certificações reconhecidas.
 
 As três áreas de TI com **maior demanda** em 2026, segundo o Guia Salarial Robert Half, são:
@@ -69,12 +69,12 @@ Redes e Infraestrutura aparece como área prioritária: as empresas dependem de 
 
 | Cargo | Salário Mínimo | Salário Médio | Salário Máximo |
 |-------|---------------|---------------|----------------|
-| Técnico de Redes (entrada) | R$ 2.500 | R$ 3.500 | R$ 5.000 |
-| Administrador de Redes | R$ 3.046 | R$ 4.733 | R$ 8.564 |
-| Analista de Infraestrutura de TI | R$ 3.158 | R$ 4.300 | R$ 7.365 |
-| Analista de Infraestrutura e Redes (sr.) | R$ 6.000 | R$ 8.500 | R$ 14.000 |
-| Coordenador de Infraestrutura de TI | R$ 7.750 | R$ 11.733 | R$ 15.542 |
-| Gerente de Infraestrutura de TI | R$ 11.260 | R$ 18.333 | R$ 24.375 |
+| Técnico de Redes (entrada) | R\$ 2.500 | R\$ 3.500 | R\$ 5.000 |
+| Administrador de Redes | R\$ 3.046 | R\$ 4.733 | R\$ 8.564 |
+| Analista de Infraestrutura de TI | R\$ 3.158 | R\$ 4.300 | R\$ 7.365 |
+| Analista de Infraestrutura e Redes (sr.) | R\$ 6.000 | R\$ 8.500 | R\$ 14.000 |
+| Coordenador de Infraestrutura de TI | R\$ 7.750 | R\$ 11.733 | R\$ 15.542 |
+| Gerente de Infraestrutura de TI | R\$ 11.260 | R\$ 18.333 | R\$ 24.375 |
 
 > [!example] 🧪 Atividade 1: Pesquisa de Vagas Reais no LinkedIn
 > **Plataforma:** [LinkedIn Jobs](https://www.linkedin.com/jobs/)
@@ -180,11 +180,11 @@ Exemplos de concursos recentes ou previstos para 2026 com cargos na área de red
 
 | Órgão | Cargo | Vagas | Salário Inicial | Status (2026) |
 |-------|-------|-------|-----------------|---------------|
-| TJRJ | Analista de Infraestrutura | Múltiplas | Até R$ 9.363 | Provas realizadas fev/2026 |
-| BACEN | Analista de TI (geral) | 560 previstas | Até R$ 20.000 | Aguardando edital |
+| TJRJ | Analista de Infraestrutura | Múltiplas | Até R\$ 9.363 | Provas realizadas fev/2026 |
+| BACEN | Analista de TI (geral) | 560 previstas | Até R\$ 20.000 | Aguardando edital |
 | IBGE | Analista de Infraestrutura e Suporte | A confirmar | A confirmar | Previsão 2026 |
 | IBGE | Analista de Redes e Telecomunicações | A confirmar | A confirmar | Previsão 2026 |
-| TCE-PE | Auditor de Controle Externo (TI) | 55 + CR | R$ 15.553 | Edital publicado |
+| TCE-PE | Auditor de Controle Externo (TI) | 55 + CR | R\$ 15.553 | Edital publicado |
 
 > [!warning] Como usar editais na sua preparação
 > Pegue um edital de um concurso público de TI (links abaixo na seção de fontes) e leia a seção "Conteúdo Programático". Você verá temas como: Modelo OSI, TCP/IP, roteamento, switching, VPN, firewall, protocolos de segurança. Esses são os tópicos que o mercado formal considera essenciais.
@@ -268,5 +268,5 @@ pie title Setores que Contratam Redes/Infraestrutura (Brasil, 2026)
 > - [Certificações de Redes: CCNA, CompTIA ou JNCIA? (GabrielDevs)](https://www.gabrieldevs.com.br/2026/05/certificacoes-de-redes-ccna-comptia.html)
 > - [10 habilidades em alta em TI 2026 segundo o LinkedIn (Canaltech)](https://canaltech.com.br/mercado/10-habilidades-que-estao-em-alta-na-area-de-ti-em-2026-segundo-o-linkedin/)
 > - [Concursos TI 2026: editais publicados e previstos (Estratégia Concursos)](https://www.estrategiaconcursos.com.br/blog/concursos-ti/)
-> - [Concursos TI 2026: salários de até R$ 22 mil (ConcursosEmAe)](https://concursosemae.com.br/concursos-ti-editais-abertos-previstos-brasil/)
+> - [Concursos TI 2026: salários de até R\$ 22 mil (ConcursosEmAe)](https://concursosemae.com.br/concursos-ti-editais-abertos-previstos-brasil/)
 > - [Tabela de cargos e salários TI 2026 (Nerdin)](https://www.nerdin.com.br/plano_de_cargos_e_salarios_ti.php)

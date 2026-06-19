@@ -98,7 +98,7 @@ Baseados nos critérios reais avaliados no Shark Tank Brasil e em aceleradoras:
 
 > [!danger] ❌ O que derruba um pitch
 > - Não saber as métricas financeiras básicas: margem, CAC (Custo de Aquisição de Cliente), LTV (Lifetime Value)
-> - Valuation sem embasamento (pedir R$ 1 milhão por 5% sem justificar por que a empresa vale R$ 20 milhões)
+> - Valuation sem embasamento (pedir R\$ 1 milhão por 5% sem justificar por que a empresa vale R\$ 20 milhões)
 > - Mercado mal definido: "todo mundo é meu cliente" não convence ninguém
 > - Ideia sem validação: os investidores querem prova de que alguém já pagou pelo produto
 > - Equipe incompleta: fundador solo sem sócios técnicos gera dúvida sobre execução
@@ -196,9 +196,9 @@ Algumas das startups mais valiosas do mundo começaram com pitch decks simples:
 
 | Empresa | Ano | O que pediam | Resultado |
 |---|---|---|---|
-| **Airbnb** | 2009 | US$ 600 mil | Captou com Y Combinator; empresa vale >US$ 70 bi hoje |
-| **YouTube** | 2005 | Série A | Adquirida pelo Google por US$ 1,65 bi em 2006 |
-| **Buffer** | 2011 | US$ 500 mil | Pitch deck público, tornou-se referência de transparência |
+| **Airbnb** | 2009 | US\$ 600 mil | Captou com Y Combinator; empresa vale >US\$ 70 bi hoje |
+| **YouTube** | 2005 | Série A | Adquirida pelo Google por US\$ 1,65 bi em 2006 |
+| **Buffer** | 2011 | US\$ 500 mil | Pitch deck público, tornou-se referência de transparência |
 | **Nubank** | 2013 | Seed round | Hoje maior banco digital do mundo fora dos EUA |
 
 > [!note] Lição dos Exemplos
