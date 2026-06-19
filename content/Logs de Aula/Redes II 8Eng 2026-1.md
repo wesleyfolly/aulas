@@ -10,6 +10,7 @@ tags:
 # 📝 Anotações da Aula
 
 - 11/06/2026 - Alinhamento com a turma sobre o planejamento da disciplina. Definido que vamos focar em cybersegurança.
+- 18/06/2026 - Fazer leitura do material de segurança da informação. 
 
 
 # 📋 Trabalhos e Avaliações
