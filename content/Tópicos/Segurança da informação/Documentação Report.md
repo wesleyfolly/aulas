@@ -546,20 +546,20 @@ Após identificar e classificar todas as vulnerabilidades, o relatório profissi
 ```mermaid
 quadrantChart
     title Priorização de Remediação
-    x-axis Baixo Esforço --> Alto Esforço
-    y-axis Baixo Impacto --> Alto Impacto
-    quadrant-1 Fazer Agora
-    quadrant-2 Planejar
-    quadrant-3 Avaliar
-    quadrant-4 Considerar
-    Patch SMB MS17-010: [0.2, 0.95]
-    Desativar SMBv1: [0.15, 0.85]
-    Trocar senha padrão admin: [0.1, 0.75]
-    Configurar WAF: [0.65, 0.80]
-    Segmentação de rede: [0.75, 0.90]
-    Sanitizar inputs XSS: [0.35, 0.55]
-    Atualizar TLS 1.0: [0.40, 0.50]
-    Revisar logs SIEM: [0.55, 0.45]
+    x-axis "Baixo Esforço" --> "Alto Esforço"
+    y-axis "Baixo Impacto" --> "Alto Impacto"
+    quadrant-1 "Fazer Agora"
+    quadrant-2 "Planejar"
+    quadrant-3 "Avaliar"
+    quadrant-4 "Considerar"
+    "Patch SMB MS17-010": [0.2, 0.95]
+    "Desativar SMBv1": [0.15, 0.85]
+    "Trocar senha padrão admin": [0.1, 0.75]
+    "Configurar WAF": [0.65, 0.80]
+    "Segmentação de rede": [0.75, 0.90]
+    "Sanitizar inputs XSS": [0.35, 0.55]
+    "Atualizar TLS 1.0": [0.40, 0.50]
+    "Revisar logs SIEM": [0.55, 0.45]
 ```
 
 ### Tabela de Roadmap por Prazo

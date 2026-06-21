@@ -391,19 +391,19 @@ cat fingerprint_completo.json | jq -r '.url' | \
 ```mermaid
 quadrantChart
     title Ferramentas de Fingerprinting (Velocidade x Profundidade)
-    x-axis Lento --> Rápido
-    y-axis Superficial --> Profundo
-    quadrant-1 Ideal para pipelines
-    quadrant-2 Profundo mas lento
-    quadrant-3 Limitado
-    quadrant-4 Rápido mas raso
-    BuiltWith: [0.15, 0.90]
-    WhatWeb-L4: [0.20, 0.85]
-    WhatWeb-L1: [0.60, 0.65]
-    httpx: [0.90, 0.70]
-    Wappalyzer-ext: [0.50, 0.80]
-    wappalyzer-next: [0.35, 0.80]
-    Netcraft: [0.20, 0.75]
+    x-axis "Lento" --> "Rápido"
+    y-axis "Superficial" --> "Profundo"
+    quadrant-1 "Ideal para pipelines"
+    quadrant-2 "Profundo mas lento"
+    quadrant-3 "Limitado"
+    quadrant-4 "Rápido mas raso"
+    "BuiltWith": [0.15, 0.90]
+    "WhatWeb-L4": [0.20, 0.85]
+    "WhatWeb-L1": [0.60, 0.65]
+    "httpx": [0.90, 0.70]
+    "Wappalyzer-ext": [0.50, 0.80]
+    "wappalyzer-next": [0.35, 0.80]
+    "Netcraft": [0.20, 0.75]
 ```
 
 | Ferramenta | Passivo/Ativo | Velocidade | Detecção JS dinâmico | Histórico | Automação | Gratuito |
