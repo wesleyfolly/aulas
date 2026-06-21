@@ -129,8 +129,6 @@ Express significa **caixa de tempo**: você não vai testar tudo, vai testar o q
 > | Internet | só na 1ª vez (baixar as imagens) | — |
 >
 > Rodando, os três containers somam **menos de 0,5 GB de RAM** — o que pesa é o **disco** das imagens. Em Windows/macOS o Docker roda numa máquina virtual própria, por isso os 8 GB.
->
-> **Na sala (turma inteira ao mesmo tempo):** se todo mundo der `up --build` junto, são vários GB simultâneos na rede e ela trava. Para evitar: rode o `up --build` **uma vez em casa** antes, **ou** peça ao professor a versão **pré-baixada** (um arquivo único distribuído por pendrive/rede local + `docker load`) — aí não baixa nada da internet.
 
 **3. Crie a pasta de evidências.** Sem evidência não há relatório. Dentro da máquina atacante:
 
