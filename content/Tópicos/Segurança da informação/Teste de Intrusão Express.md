@@ -35,12 +35,12 @@ O objetivo da disciplina não é "saber hackear". É **saber atacar para depois 
 
 ```mermaid
 flowchart LR
-    A[🔓 Um achado\nvulnerabilidade explorada] --> B[🔴 Lente do Atacante]
-    A --> C[🔵 Lente do Defensor]
-    B --> D["Relatório do Ataque:\nPoC, evidência, CVSS,\nimpacto no negócio"]
-    C --> E["Relatório do Blue Team:\ncomo corrigir, como detectar,\nprazo (SLA), como validar"]
-    classDef red fill:#c05621,stroke:#dd6b20,color:#fff
-    classDef blue fill:#2b6cb0,stroke:#3182ce,color:#fff
+    A["🔓 Um achado<br/>(vulnerabilidade explorada)"] --> B["🔴 Lente do Atacante"]
+    A --> C["🔵 Lente do Defensor"]
+    B --> D["Relatório do Ataque:<br/>PoC, evidência, CVSS,<br/>impacto no negócio"]
+    C --> E["Relatório do Blue Team:<br/>como corrigir, como detectar,<br/>prazo (SLA), como validar"]
+    classDef red stroke:#e53e3e,stroke-width:3px
+    classDef blue stroke:#3182ce,stroke-width:3px
     B:::red
     D:::red
     C:::blue
@@ -53,16 +53,14 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    P0([🧰 Passo 0\nAutorização + Evidências]) --> P1([🔍 Passo 1\nRecon e Varredura])
-    P1 --> P2([💥 Passo 2\nExploração\nconseguir acesso])
-    P2 --> P3([🏠 Passo 3\nPós-exploração\nprovar o impacto])
-    P3 --> P4([📄 Passo 4\nRelatório do Ataque])
-    P4 --> P5([🛡️ Passo 5\nRelatório do Blue Team])
-    P5 --> P6([🔁 Passo 6\nReteste / Validação])
-    classDef prep fill:#4a5568,stroke:#718096,color:#fff
-    classDef atk fill:#c05621,stroke:#dd6b20,color:#fff
-    classDef def fill:#2b6cb0,stroke:#3182ce,color:#fff
-    P0:::prep
+    P0(["🧰 Passo 0<br/>Autorização + Evidências"]) --> P1(["🔍 Passo 1<br/>Recon e Varredura"])
+    P1 --> P2(["💥 Passo 2<br/>Exploração: conseguir acesso"])
+    P2 --> P3(["🏠 Passo 3<br/>Pós-exploração: provar o impacto"])
+    P3 --> P4(["📄 Passo 4<br/>Relatório do Ataque"])
+    P4 --> P5(["🛡️ Passo 5<br/>Relatório do Blue Team"])
+    P5 --> P6(["🔁 Passo 6<br/>Reteste / Validação"])
+    classDef atk stroke:#e53e3e,stroke-width:3px
+    classDef def stroke:#3182ce,stroke-width:3px
     P1:::atk
     P2:::atk
     P3:::atk
@@ -309,12 +307,12 @@ Um achado não é "resolvido" porque alguém disse que corrigiu. **Trate cada ac
 
 ```mermaid
 flowchart LR
-    A[Achado\naberto] --> B[Blue Team\ncorrige]
-    B --> C[Você\nretesta]
-    C --> D{Fechou?}
-    D -->|Sim| E[✅ Fechado\nanexar prova ao achado]
+    A["Achado<br/>aberto"] --> B["Blue Team<br/>corrige"]
+    B --> C["Você<br/>retesta"]
+    C --> D{"Fechou?"}
+    D -->|Sim| E["✅ Fechado<br/>(anexa a prova ao achado)"]
     D -->|Não| A
-    classDef ok fill:#276749,stroke:#38a169,color:#fff
+    classDef ok stroke:#38a169,stroke-width:3px
     E:::ok
 ```
 
