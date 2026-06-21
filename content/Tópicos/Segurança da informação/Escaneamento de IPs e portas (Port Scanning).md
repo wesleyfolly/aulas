@@ -56,17 +56,17 @@ O diagrama abaixo mostra o fluxo típico de um escaneamento completo, da descobe
 
 ```mermaid
 flowchart TD
-    A([Início: Alvo definido e autorizado]) --> B[Host Discovery\nnmap -sn REDE/24]
+    A([Início: Alvo definido e autorizado]) --> B[Host Discovery<br/>nmap -sn REDE/24]
     B --> C{Host ativo?}
     C -- Não --> D([Ignorar IP])
-    C -- Sim --> E[Scan de Portas\nnmap -sS -p- TARGET]
+    C -- Sim --> E[Scan de Portas<br/>nmap -sS -p- TARGET]
     E --> F[Portas abertas identificadas]
-    F --> G[Detecção de Serviços e Versões\nnmap -sV TARGET]
-    G --> H[Fingerprint de OS\nnmap -O TARGET]
-    H --> I[Scripts NSE\nnmap --script=default TARGET]
-    I --> J{Vulnerabilidade\ndetectada?}
+    F --> G[Detecção de Serviços e Versões<br/>nmap -sV TARGET]
+    G --> H[Fingerprint de OS<br/>nmap -O TARGET]
+    H --> I[Scripts NSE<br/>nmap --script=default TARGET]
+    I --> J{Vulnerabilidade<br/>detectada?}
     J -- Não --> K([Documentar resultados])
-    J -- Sim --> L[Classificar CVEs\nnmap --script vulners -sV]
+    J -- Sim --> L[Classificar CVEs<br/>nmap --script vulners -sV]
     L --> M([Relatório: [[Documentação Report]]])
 ```
 

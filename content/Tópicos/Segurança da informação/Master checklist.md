@@ -27,13 +27,13 @@ tags:
 
 ```mermaid
 flowchart TD
-    A([🔏 Fase 0\nPré-Engajamento]) --> B([🔍 Fase 1\nReconhecimento])
-    B --> C([🔎 Fase 2\nEscaneamento e\nEnumeração])
-    C --> D([💥 Fase 3\nExploração])
-    D --> E([🏠 Fase 4\nPós-Exploração e\nPrivesc])
-    E --> F([🔒 Fase 5\nPersistência])
-    F --> G([📤 Fase 6\nExfiltração Simulada])
-    G --> H([📄 Fase 7\nDocumentação e\nRelatório])
+    A([🔏 Fase 0<br/>Pré-Engajamento]) --> B([🔍 Fase 1<br/>Reconhecimento])
+    B --> C([🔎 Fase 2<br/>Escaneamento e<br/>Enumeração])
+    C --> D([💥 Fase 3<br/>Exploração])
+    D --> E([🏠 Fase 4<br/>Pós-Exploração e<br/>Privesc])
+    E --> F([🔒 Fase 5<br/>Persistência])
+    F --> G([📤 Fase 6<br/>Exfiltração Simulada])
+    G --> H([📄 Fase 7<br/>Documentação e<br/>Relatório])
 
     A:::pre
     B:::recon

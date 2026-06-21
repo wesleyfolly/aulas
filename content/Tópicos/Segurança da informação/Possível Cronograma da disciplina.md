@@ -76,8 +76,8 @@ O diagrama abaixo mostra a progressão lógica dos tópicos ao longo da discipli
 flowchart TD
     A([🏁 Início: Apresentação]) --> B[📖 Fundamentos e Conceitos]
     B --> C[📚 Apostila e Materiais]
-    C --> D[🌐 Segurança de Redes Locais\nWireshark, MITM, Wi-Fi]
-    D --> E[🕵️ Anonimato e Privacidade\nTor, VPN, OPSEC]
+    C --> D[🌐 Segurança de Redes Locais<br/>Wireshark, MITM, Wi-Fi]
+    D --> E[🕵️ Anonimato e Privacidade<br/>Tor, VPN, OPSEC]
     E --> F[⚔️ Ethical Hacking e Pentest]
     F --> G{🔬 Trabalho Prático}
     G --> G1[🎯 Coleta Passiva]

@@ -30,16 +30,16 @@ tags:
 
 ```mermaid
 flowchart TD
-    A[🔍 Reconhecimento\nnmap, enum] --> B[🗂️ Enumeração\nserviços, versões, usuários]
-    B --> C{Vulnerabilidade\nidentificada?}
-    C -- Sim --> D[🔎 Buscar Exploit\nsearchsploit, MSF search, Exploit-DB]
-    C -- Não --> E[📋 Engenharia Social\nphishing, pretexting]
-    D --> F[⚙️ Configurar Exploit\nRHOSTS, LHOST, payload]
-    F --> G[🚀 Executar\nexploit / run]
+    A[🔍 Reconhecimento<br/>nmap, enum] --> B[🗂️ Enumeração<br/>serviços, versões, usuários]
+    B --> C{Vulnerabilidade<br/>identificada?}
+    C -- Sim --> D[🔎 Buscar Exploit<br/>searchsploit, MSF search, Exploit-DB]
+    C -- Não --> E[📋 Engenharia Social<br/>phishing, pretexting]
+    D --> F[⚙️ Configurar Exploit<br/>RHOSTS, LHOST, payload]
+    F --> G[🚀 Executar<br/>exploit / run]
     G --> H{Shell obtido?}
-    H -- Sim --> I[🖥️ Pós-exploração\nsysinfo, getuid, hashdump]
-    H -- Não --> J[🔄 Ajustar payload\nou tentar outra vuln]
-    I --> K[📝 Documentar\nscreenshot, flags, evidências]
+    H -- Sim --> I[🖥️ Pós-exploração<br/>sysinfo, getuid, hashdump]
+    H -- Não --> J[🔄 Ajustar payload<br/>ou tentar outra vuln]
+    I --> K[📝 Documentar<br/>screenshot, flags, evidências]
 ```
 
 ---
@@ -634,16 +634,16 @@ http://burp/ → CA Certificate → Importar no browser como CA confiável
 
 ```mermaid
 flowchart LR
-    A[🌐 Browser] -->|HTTP Request| B[🔧 Burp Suite\nProxy]
+    A[🌐 Browser] -->|HTTP Request| B[🔧 Burp Suite<br/>Proxy]
     B -->|Intercepta| C{Modificar?}
-    C -- Sim --> D[✏️ Editar Request\nparâmetros, headers, cookies]
+    C -- Sim --> D[✏️ Editar Request<br/>parâmetros, headers, cookies]
     C -- Não --> E[➡️ Forward para servidor]
     D --> E
     E -->|Response| F[🖥️ Servidor]
     F -->|Response| B
     B --> A
-    B -->|Send to Repeater| G[🔄 Repeater\nReplay manual]
-    B -->|Send to Intruder| H[🎯 Intruder\nBrute force / fuzzing]
+    B -->|Send to Repeater| G[🔄 Repeater<br/>Replay manual]
+    B -->|Send to Intruder| H[🎯 Intruder<br/>Brute force / fuzzing]
 ```
 
 ### Técnicas Essenciais no Burp
@@ -784,8 +784,8 @@ Por que usar reverse shell? Firewalls normalmente bloqueiam conexões **de fora 
 
 ```mermaid
 sequenceDiagram
-    participant A as Kali (atacante)\n192.168.56.100
-    participant B as Alvo (vítima)\n192.168.56.101
+    participant A as Kali (atacante)<br/>192.168.56.100
+    participant B as Alvo (vítima)<br/>192.168.56.101
 
     A->>A: nc -lvnp 4444 (listener)
     Note over A: Aguardando conexão...
@@ -908,14 +908,14 @@ Os CTFs (Capture The Flag) são a melhor forma de praticar exploração em ambie
 
 ```mermaid
 flowchart TD
-    A[🔍 Recon Inicial\nnmap -sC -sV] --> B[📋 Enumerar Serviços\ngobuster, enum4linux, nikto]
-    B --> C[🎯 Identificar Vetores\nbanner grabbing, versões]
-    C --> D[🔎 Pesquisar Exploits\nsearchsploit, ExploitDB, MSF]
-    D --> E[⚙️ Explorar\nMSF / manual / SQLi / bruteforce]
-    E --> F[🐚 Shell Obtida\nuser flag cat /home/*/user.txt]
-    F --> G[🔼 Escalada de Privilégio\nsudo -l, SUID, cron, kernel]
-    G --> H[👑 Root\nroot flag: cat /root/root.txt]
-    H --> I[📝 Relatório\ncaptura de tela, comandos, CVEs]
+    A[🔍 Recon Inicial<br/>nmap -sC -sV] --> B[📋 Enumerar Serviços<br/>gobuster, enum4linux, nikto]
+    B --> C[🎯 Identificar Vetores<br/>banner grabbing, versões]
+    C --> D[🔎 Pesquisar Exploits<br/>searchsploit, ExploitDB, MSF]
+    D --> E[⚙️ Explorar<br/>MSF / manual / SQLi / bruteforce]
+    E --> F[🐚 Shell Obtida<br/>user flag cat /home/*/user.txt]
+    F --> G[🔼 Escalada de Privilégio<br/>sudo -l, SUID, cron, kernel]
+    G --> H[👑 Root<br/>root flag: cat /root/root.txt]
+    H --> I[📝 Relatório<br/>captura de tela, comandos, CVEs]
 ```
 
 ### Checklist de Enumeração Inicial

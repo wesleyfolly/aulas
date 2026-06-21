@@ -156,16 +156,16 @@ Basta clicar na setinha ao lado do resultado de busca.
 
 ```mermaid
 flowchart TD
-    A[Alvo definido\npor escrito] --> B[Identificar domínio\ne subdomínios]
+    A[Alvo definido<br/>por escrito] --> B[Identificar domínio<br/>e subdomínios]
     B --> C{Tipo de busca}
-    C --> D[site: + filetype:\nDocumentos expostos]
-    C --> E[inurl: + intitle:\nPainéis e admin]
-    C --> F[intext: + ext:\nCredenciais e configs]
-    D --> G[Catalogar\nexposições encontradas]
+    C --> D[site: + filetype:<br/>Documentos expostos]
+    C --> E[inurl: + intitle:<br/>Painéis e admin]
+    C --> F[intext: + ext:<br/>Credenciais e configs]
+    D --> G[Catalogar<br/>exposições encontradas]
     E --> G
     F --> G
-    G --> H[Relatório\nde superfície]
-    H --> I[Defesa:\nremoção e hardening]
+    G --> H[Relatório<br/>de superfície]
+    H --> I[Defesa:<br/>remoção e hardening]
 
     style A fill:#2d2d2d,color:#fff
     style I fill:#1a472a,color:#fff
@@ -461,15 +461,15 @@ site:seudominio.com.br intext:"error" OR intext:"exception" OR intext:"stack tra
 
 ```mermaid
 flowchart LR
-    A[Pre-engagement\nAutorização] --> B[Reconhecimento\nPassivo]
-    B --> C[Reconhecimento\nAtivo]
-    C --> D[Modelagem\nde Ameaças]
-    D --> E[Exploração\nAutorizada]
+    A[Pre-engagement<br/>Autorização] --> B[Reconhecimento<br/>Passivo]
+    B --> C[Reconhecimento<br/>Ativo]
+    C --> D[Modelagem<br/>de Ameaças]
+    D --> E[Exploração<br/>Autorizada]
     E --> F[Pós-exploração]
     F --> G[Relatório]
 
     style B fill:#7a3900,color:#fff,stroke:#ff8c00
-    B -.->|Google Hacking\nWHOIS, Shodan\ntheHarvester| B
+    B -.->|Google Hacking<br/>WHOIS, Shodan<br/>theHarvester| B
 ```
 
 ### Checklist de Reconhecimento com Google Hacking

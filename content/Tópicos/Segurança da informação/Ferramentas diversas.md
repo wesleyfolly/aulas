@@ -35,21 +35,21 @@ A combinação mais usada na prática em 2026 é: **PTES para o engajamento, OWA
 
 ```mermaid
 flowchart LR
-    A["1. Pré-engajamento\n(Escopo, RoE, NDA)"]
-    B["2. Reconhecimento\n(Passivo e Ativo)"]
-    C["3. Varredura e Enumeração\n(Portas, Serviços, Versões)"]
-    D["4. Análise de Vulnerabilidades\n(Identificar falhas)"]
-    E["5. Exploração\n(Ganhar acesso)"]
-    F["6. Pós-exploração\n(Pivot, Escalada, Persistência)"]
-    G["7. Relatório\n(Evidências, Remediações)"]
+    A["1. Pré-engajamento<br/>(Escopo, RoE, NDA)"]
+    B["2. Reconhecimento<br/>(Passivo e Ativo)"]
+    C["3. Varredura e Enumeração<br/>(Portas, Serviços, Versões)"]
+    D["4. Análise de Vulnerabilidades<br/>(Identificar falhas)"]
+    E["5. Exploração<br/>(Ganhar acesso)"]
+    F["6. Pós-exploração<br/>(Pivot, Escalada, Persistência)"]
+    G["7. Relatório<br/>(Evidências, Remediações)"]
 
     A --> B --> C --> D --> E --> F --> G
 
-    B --> B1["nmap -sn\ntheHarvester\nrecon-ng\nShodan\nMaltego"]
-    C --> C1["nmap -sV\ngobuster\nffuf\nnikto\nwhatweb"]
-    D --> D1["nessus\nopenvas\nnikto\nsearchsploit"]
-    E --> E1["Metasploit\nsqlmap\nBurp Suite\nhydra"]
-    F --> F1["Mimikatz\nBloodHound\nLinPEAS\nWinPEAS\nsocat\nnetcat"]
+    B --> B1["nmap -sn<br/>theHarvester<br/>recon-ng<br/>Shodan<br/>Maltego"]
+    C --> C1["nmap -sV<br/>gobuster<br/>ffuf<br/>nikto<br/>whatweb"]
+    D --> D1["nessus<br/>openvas<br/>nikto<br/>searchsploit"]
+    E --> E1["Metasploit<br/>sqlmap<br/>Burp Suite<br/>hydra"]
+    F --> F1["Mimikatz<br/>BloodHound<br/>LinPEAS<br/>WinPEAS<br/>socat<br/>netcat"]
 ```
 
 ---

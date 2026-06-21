@@ -31,8 +31,8 @@ A natureza não estruturada do WHOIS clássico é sua principal limitação, uma
 graph LR
     A[Pentester] -->|TCP 43, texto puro| B[Servidor WHOIS]
     A -->|HTTPS/JSON| C[Servidor RDAP]
-    B --> D[(Base WHOIS\nregistrar)]
-    C --> E[(Base RDAP\nregistrar)]
+    B --> D[(Base WHOIS<br/>registrar)]
+    C --> E[(Base RDAP<br/>registrar)]
     D --> F[Resposta em texto livre]
     E --> G[Resposta em JSON estruturado]
 ```
@@ -333,12 +333,12 @@ flowchart TD
 
 ```mermaid
 graph TD
-    W[whois alvo.com.br] --> NS[Servidores DNS\nnserver: ns1.alvo.com]
-    W --> IP[IPs dos NS\n191.x.x.x]
-    W --> EM[E-mail admin\nti@alvo.com.br]
-    NS --> ZT["[[Enumeração DNS]]\ndig axfr / fierce / dnsrecon"]
-    IP --> RI["[[Reconhecimento de Redes]]\nwhois IP / nmap / shodan"]
-    EM --> HI["[[Engenharia Social]]\nHIBP / linkedIn / vazamentos"]
+    W[whois alvo.com.br] --> NS[Servidores DNS<br/>nserver: ns1.alvo.com]
+    W --> IP[IPs dos NS<br/>191.x.x.x]
+    W --> EM[E-mail admin<br/>ti@alvo.com.br]
+    NS --> ZT["[[Enumeração DNS]]<br/>dig axfr / fierce / dnsrecon"]
+    IP --> RI["[[Reconhecimento de Redes]]<br/>whois IP / nmap / shodan"]
+    EM --> HI["[[Engenharia Social]]<br/>HIBP / linkedIn / vazamentos"]
     ZT --> SUB[Subdomínios mapeados]
     RI --> INF[Infraestrutura mapeada]
     HI --> CRED[Credenciais vazadas]

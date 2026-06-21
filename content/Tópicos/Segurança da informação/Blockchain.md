@@ -709,17 +709,17 @@ contract ReentrancyTest is Test {
 flowchart TD
     A[Receber código-fonte + especificação] --> B[Leitura inicial: entender o protocolo]
     B --> C[Mapeamento de superfície de ataque]
-    C --> D[Análise estática automatizada\nSlither + 4naly3er]
-    D --> E[Execução simbólica\nMythril + Manticore]
+    C --> D[Análise estática automatizada<br/>Slither + 4naly3er]
+    D --> E[Execução simbólica<br/>Mythril + Manticore]
     E --> F[Revisão manual linha a linha]
-    F --> G[Escrita de PoCs de exploit\nem Foundry]
+    F --> G[Escrita de PoCs de exploit<br/>em Foundry]
     G --> H{Vulnerabilidade confirmada?}
-    H -->|Sim| I[Classificar severidade\nCrítica/Alta/Média/Baixa/Info]
+    H -->|Sim| I[Classificar severidade<br/>Crítica/Alta/Média/Baixa/Info]
     H -->|Não| J[Documentar como falso positivo]
     I --> K[Redigir relatório com mitigações]
     J --> K
     K --> L[Revisão com equipe do protocolo]
-    L --> M[Verificação das correções\nre-auditoria parcial]
+    L --> M[Verificação das correções<br/>re-auditoria parcial]
 ```
 
 #### Padrões Seguros de Desenvolvimento Solidity

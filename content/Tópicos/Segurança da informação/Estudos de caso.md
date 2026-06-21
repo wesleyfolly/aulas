@@ -92,11 +92,11 @@ tags:
 
 ```mermaid
 flowchart LR
-    A["🔍 Recon\n(LinkedIn: busca\nfuncionários com acesso)"] --> B["🚪 Acesso Inicial\n(Credenciais válidas\nsem MFA + VPN Citrix)"]
-    B --> C["🔁 Movimento Lateral\n(9 dias explorando\na rede interna)"]
-    C --> D["📦 Exfiltração\n(6 TB de dados\nroubados)"]
-    D --> E["💥 Impacto\n(Deploy de ransomware,\noperações paralisadas)"]
-    E --> F["💰 Extorsão\nUS$ 22 mi pagos\n(e pedido de mais)"]
+    A["🔍 Recon<br/>(LinkedIn: busca<br/>funcionários com acesso)"] --> B["🚪 Acesso Inicial<br/>(Credenciais válidas<br/>sem MFA + VPN Citrix)"]
+    B --> C["🔁 Movimento Lateral<br/>(9 dias explorando<br/>a rede interna)"]
+    C --> D["📦 Exfiltração<br/>(6 TB de dados<br/>roubados)"]
+    D --> E["💥 Impacto<br/>(Deploy de ransomware,<br/>operações paralisadas)"]
+    E --> F["💰 Extorsão<br/>US$ 22 mi pagos<br/>(e pedido de mais)"]
 ```
 
 **Kill Chain Detalhada:**
@@ -162,12 +162,12 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    A["🔍 OSINT\nLinkedIn: identificar funcionário\ncom acesso privilegiado"] --> B["📞 Engenharia Social\n10 min no help desk:\n'Preciso recuperar minha conta'"]
-    B --> C["🆔 Acesso Okta + Azure AD\nPrivilégios de administrador\nConcedidos sem verificação adequada"]
-    C --> D["🔑 Bypass de MFA\nCaptura de OTPs via\nOkta Adversary-in-the-Middle"]
-    D --> E["🌐 IDP Falso\nCriação de Identity Provider\nsecundário para persistência"]
-    E --> F["↔️ Movimento Lateral\nVarredura da rede interna,\npivot para ESXi hypervisors"]
-    F --> G["💥 Deploy de Ransomware\n100+ servidores VMware ESXi\ncriptografados em horas"]
+    A["🔍 OSINT<br/>LinkedIn: identificar funcionário<br/>com acesso privilegiado"] --> B["📞 Engenharia Social<br/>10 min no help desk:<br/>'Preciso recuperar minha conta'"]
+    B --> C["🆔 Acesso Okta + Azure AD<br/>Privilégios de administrador<br/>Concedidos sem verificação adequada"]
+    C --> D["🔑 Bypass de MFA<br/>Captura de OTPs via<br/>Okta Adversary-in-the-Middle"]
+    D --> E["🌐 IDP Falso<br/>Criação de Identity Provider<br/>secundário para persistência"]
+    E --> F["↔️ Movimento Lateral<br/>Varredura da rede interna,<br/>pivot para ESXi hypervisors"]
+    F --> G["💥 Deploy de Ransomware<br/>100+ servidores VMware ESXi<br/>criptografados em horas"]
 ```
 
 **Análise da Fase de Engenharia Social:**

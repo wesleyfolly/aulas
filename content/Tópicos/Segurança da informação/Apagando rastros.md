@@ -50,36 +50,36 @@ Compreender como rastros são apagados é o pré-requisito para construir sistem
 ```mermaid
 flowchart TD
     subgraph Kernel["Kernel / Sistema Operacional"]
-        K1[Chamadas de sistema\nauditd / syscall]
-        K2[Módulos de kernel\n/proc, /sys]
+        K1[Chamadas de sistema<br/>auditd / syscall]
+        K2[Módulos de kernel<br/>/proc, /sys]
     end
 
     subgraph Logs_Linux["Logs Linux (/var/log)"]
-        L1[auth.log\nautenticações, sudo, SSH]
-        L2[syslog\neventos gerais]
-        L3[wtmp / lastlog\nlogins interativos]
-        L4[bash_history\ncomandos do usuário]
-        L5[journal\nsystemd-journald]
+        L1[auth.log<br/>autenticações, sudo, SSH]
+        L2[syslog<br/>eventos gerais]
+        L3[wtmp / lastlog<br/>logins interativos]
+        L4[bash_history<br/>comandos do usuário]
+        L5[journal<br/>systemd-journald]
     end
 
     subgraph Logs_Windows["Logs Windows (Event Viewer)"]
-        W1[Security.evtx\nEID 4624/4625/4648/1102]
-        W2[System.evtx\nEID 104]
-        W3[PowerShell Operational\nEID 4103/4104]
-        W4[Sysmon\nEID 1/3/5/11]
+        W1[Security.evtx<br/>EID 4624/4625/4648/1102]
+        W2[System.evtx<br/>EID 104]
+        W3[PowerShell Operational<br/>EID 4103/4104]
+        W4[Sysmon<br/>EID 1/3/5/11]
     end
 
     subgraph Artefatos_FS["Artefatos do Sistema de Arquivos"]
-        F1[Timestamps MACE\nmtime/atime/ctime/crtime]
-        F2[MFT - $STANDARD_INFO\n$FILE_NAME NTFS]
-        F3[Prefetch / LNK\nWindows]
-        F4[inode ctime\nnão alterável por touch]
+        F1[Timestamps MACE<br/>mtime/atime/ctime/crtime]
+        F2[MFT - $STANDARD_INFO<br/>$FILE_NAME NTFS]
+        F3[Prefetch / LNK<br/>Windows]
+        F4[inode ctime<br/>não alterável por touch]
     end
 
     subgraph SIEM["Blue Team / SIEM Remoto"]
-        S1[Servidor rsyslog/syslog-ng\nFora do alcance do atacante]
-        S2[Elastic / Splunk / Wazuh\nCorrelação de eventos]
-        S3[WORM Storage\nLogs imutáveis]
+        S1[Servidor rsyslog/syslog-ng<br/>Fora do alcance do atacante]
+        S2[Elastic / Splunk / Wazuh<br/>Correlação de eventos]
+        S3[WORM Storage<br/>Logs imutáveis]
     end
 
     K1 --> Logs_Linux
@@ -625,25 +625,25 @@ cat /var/log/remote/vm-cliente/sshd.log
 ```mermaid
 flowchart LR
     subgraph Hosts["Endpoints (comprometíveis)"]
-        H1[Servidor Web\nrsyslog client\nauditd]
-        H2[Workstation\nSysmon\nWEF agent]
-        H3[Servidor DB\nrsyslog client\nauditd]
+        H1[Servidor Web<br/>rsyslog client<br/>auditd]
+        H2[Workstation<br/>Sysmon<br/>WEF agent]
+        H3[Servidor DB<br/>rsyslog client<br/>auditd]
     end
 
-    subgraph Coleta["Camada de Coleta\n(segmento isolado)"]
-        C1[rsyslog server\nTCP 514 / TLS]
-        C2[WEF Collector\nWindows]
-        C3[Beats/Fluentd\n]
+    subgraph Coleta["Camada de Coleta<br/>(segmento isolado)"]
+        C1[rsyslog server<br/>TCP 514 / TLS]
+        C2[WEF Collector<br/>Windows]
+        C3[Beats/Fluentd<br/>]
     end
 
     subgraph SIEM["SIEM e Correlação"]
-        S1[Elastic Stack\nKibana + Alerts]
+        S1[Elastic Stack<br/>Kibana + Alerts]
         S2[Splunk / Wazuh]
     end
 
     subgraph Storage["Armazenamento Imutável"]
-        W1[WORM Storage\nWrite Once Read Many]
-        W2[S3 + Object Lock\nAWS/MinIO]
+        W1[WORM Storage<br/>Write Once Read Many]
+        W2[S3 + Object Lock<br/>AWS/MinIO]
     end
 
     H1 -->|TLS 514| C1

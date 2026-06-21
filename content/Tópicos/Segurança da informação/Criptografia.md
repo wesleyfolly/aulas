@@ -536,10 +536,10 @@ sequenceDiagram
 
 ```mermaid
 graph TD
-    Root["🏛️ CA Raiz (Root CA)\nGlobalSign / DigiCert\n(Offline, HSM protegida)"]
-    Inter["🔗 CA Intermediária\nRNP ICPEdu OV SSL CA 2019"]
-    Leaf["📄 Certificado Final\n*.iff.edu.br\n(Wildcard, válido subdomínios)"]
-    Browser["🌐 Navegador do Aluno\n(Anchor de confiança: Root CA pré-instalada)"]
+    Root["🏛️ CA Raiz (Root CA)<br/>GlobalSign / DigiCert<br/>(Offline, HSM protegida)"]
+    Inter["🔗 CA Intermediária<br/>RNP ICPEdu OV SSL CA 2019"]
+    Leaf["📄 Certificado Final<br/>*.iff.edu.br<br/>(Wildcard, válido subdomínios)"]
+    Browser["🌐 Navegador do Aluno<br/>(Anchor de confiança: Root CA pré-instalada)"]
 
     Root --> Inter
     Inter --> Leaf

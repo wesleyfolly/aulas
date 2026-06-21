@@ -54,14 +54,14 @@ O red team não improvisa. Toda campanha de engenharia social segue uma cadeia e
 
 ```mermaid
 flowchart TD
-    A[🔍 OSINT\nColeta passiva de inteligência] --> B[🎭 Pretexting\nConstrução do personagem e cenário]
-    B --> C[📧 Entrega\nPhishing / Vishing / Smishing]
+    A[🔍 OSINT<br/>Coleta passiva de inteligência] --> B[🎭 Pretexting<br/>Construção do personagem e cenário]
+    B --> C[📧 Entrega<br/>Phishing / Vishing / Smishing]
     C --> D{🎯 Vítima age?}
-    D -- Sim --> E[💰 Ganho\nCredenciais, acesso, malware instalado]
-    D -- Não --> F[🔄 Ajuste\nRefinamento do pretexto]
+    D -- Sim --> E[💰 Ganho<br/>Credenciais, acesso, malware instalado]
+    D -- Não --> F[🔄 Ajuste<br/>Refinamento do pretexto]
     F --> B
-    E --> G[🕵️ Persistência\nMovimento lateral, escalada]
-    G --> H[📋 Relatório\nDocumentação para o cliente]
+    E --> G[🕵️ Persistência<br/>Movimento lateral, escalada]
+    G --> H[📋 Relatório<br/>Documentação para o cliente]
 ```
 
 ### Fase 1: OSINT (Reconhecimento Passivo)
@@ -214,7 +214,7 @@ flowchart LR
         I[recon-ng]
     end
     subgraph Produto Final
-        J[Mapa de Entidades\nNomes, e-mails, cargos]
+        J[Mapa de Entidades<br/>Nomes, e-mails, cargos]
         K[Pretexto Personalizado]
         L[Vetor de Ataque]
     end

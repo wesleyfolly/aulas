@@ -75,15 +75,15 @@ Fingerprinting de site público com requisição HTTP simples é considerado **p
 
 ```mermaid
 flowchart LR
-    A["🔍 Reconhecimento\nPassivo (OSINT)"] --> B["🖥️ Fingerprinting\nde Tecnologias"]
-    B --> C["🔎 Enumeração\nde Serviços"]
-    C --> D["🗺️ Mapeamento de\nVulnerabilidades"]
+    A["🔍 Reconhecimento<br/>Passivo (OSINT)"] --> B["🖥️ Fingerprinting<br/>de Tecnologias"]
+    B --> C["🔎 Enumeração<br/>de Serviços"]
+    C --> D["🗺️ Mapeamento de<br/>Vulnerabilidades"]
     D --> E["💥 Exploração"]
 
-    A1["BuiltWith\nShodan\nNetcraft"] --> A
-    B1["WhatWeb\nWappalyzer\nhttpx"] --> B
-    C1["Nmap\nnmapAutomator\ndirsearch"] --> C
-    D1["Nessus\nNuclei\nOpenVAS"] --> D
+    A1["BuiltWith<br/>Shodan<br/>Netcraft"] --> A
+    B1["WhatWeb<br/>Wappalyzer<br/>httpx"] --> B
+    C1["Nmap<br/>nmapAutomator<br/>dirsearch"] --> C
+    D1["Nessus<br/>Nuclei<br/>OpenVAS"] --> D
 
     style B fill:#ff6b35,color:#fff
     style B1 fill:#ff6b35,color:#fff
@@ -439,15 +439,15 @@ quadrantChart
 
 ```mermaid
 flowchart TD
-    A["WhatWeb detecta\nWordPress 6.4.2"] --> B["Pesquisar CVEs\nnvd.nist.gov"]
-    B --> C{CVE crítica\nencontrada?}
-    C -->|Sim| D["Buscar exploit\nsearchsploit / exploit-db"]
-    C -->|Não| E["Checar plugins\nwp-scan --enumerate p"]
-    D --> F["Verificar se versão\ndo alvo é vulnerável"]
+    A["WhatWeb detecta<br/>WordPress 6.4.2"] --> B["Pesquisar CVEs<br/>nvd.nist.gov"]
+    B --> C{CVE crítica<br/>encontrada?}
+    C -->|Sim| D["Buscar exploit<br/>searchsploit / exploit-db"]
+    C -->|Não| E["Checar plugins<br/>wp-scan --enumerate p"]
+    D --> F["Verificar se versão<br/>do alvo é vulnerável"]
     F --> G{Vulnerável?}
-    G -->|Sim| H["Documentar no relatório\nde pentest"]
+    G -->|Sim| H["Documentar no relatório<br/>de pentest"]
     G -->|Não| E
-    E --> I["Identificar plugins\nvulneráveis"]
+    E --> I["Identificar plugins<br/>vulneráveis"]
     I --> B
 
     style A fill:#ff6b35,color:#fff

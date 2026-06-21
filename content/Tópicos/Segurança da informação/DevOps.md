@@ -316,36 +316,36 @@ O diagrama abaixo representa um pipeline seguro de ponta a ponta, integrando tod
 
 ```mermaid
 flowchart LR
-    A[👨‍💻 Developer\ncommit] --> B[Pre-commit\nhooks]
-    B --> |Gitleaks\ndetecção de segredos| C{Aprovado?}
+    A[👨‍💻 Developer<br/>commit] --> B[Pre-commit<br/>hooks]
+    B --> |Gitleaks<br/>detecção de segredos| C{Aprovado?}
     C --> |Não| A
-    C --> |Sim| D[Pull Request\nCI trigger]
+    C --> |Sim| D[Pull Request<br/>CI trigger]
 
-    D --> E[SAST\nSemgrep / CodeQL]
-    D --> F[SCA\nTrivy / Dependabot]
-    D --> G[Secrets Scan\nGitleaks CI]
+    D --> E[SAST<br/>Semgrep / CodeQL]
+    D --> F[SCA<br/>Trivy / Dependabot]
+    D --> G[Secrets Scan<br/>Gitleaks CI]
 
     E --> H{Falhou?}
     F --> H
     G --> H
 
-    H --> |Sim| I[❌ PR bloqueado\nDevs corrigem]
-    H --> |Não| J[Build\nDocker image]
+    H --> |Sim| I[❌ PR bloqueado<br/>Devs corrigem]
+    H --> |Não| J[Build<br/>Docker image]
 
-    J --> K[Container Scan\ntrivy image]
-    K --> L[IaC Scan\nCheckov]
+    J --> K[Container Scan<br/>trivy image]
+    K --> L[IaC Scan<br/>Checkov]
 
     L --> M{Falhou?}
     M --> |Sim| I
-    M --> |Não| N[Deploy\nStaging]
+    M --> |Não| N[Deploy<br/>Staging]
 
-    N --> O[DAST\nOWASP ZAP]
+    N --> O[DAST<br/>OWASP ZAP]
     O --> P{Falhou?}
     P --> |Sim| I
-    P --> |Não| Q[✅ Deploy\nProdução]
+    P --> |Não| Q[✅ Deploy<br/>Produção]
 
-    Q --> R[Runtime Monitor\nFalco / Wazuh]
-    R --> |Alerta| S[SIEM\nIncident Response]
+    Q --> R[Runtime Monitor<br/>Falco / Wazuh]
+    R --> |Alerta| S[SIEM<br/>Incident Response]
 ```
 
 ---

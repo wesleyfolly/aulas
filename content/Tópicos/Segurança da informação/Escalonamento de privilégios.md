@@ -67,11 +67,11 @@ Antes de explorar qualquer vetor, o pentester deve **enumerar sistematicamente**
 flowchart TD
     A[Shell obtido como usuário comum] --> B{sudo -l funciona?}
     B -- Sim --> C{Binário listado no GTFOBins?}
-    C -- Sim --> D[🔴 Explorar via GTFOBins\nexemplo: sudo vim → :!/bin/bash]
+    C -- Sim --> D[🔴 Explorar via GTFOBins<br/>exemplo: sudo vim → :!/bin/bash]
     C -- Não --> E[Verificar NOPASSWD + env_keep]
     B -- Não --> F{Binário SUID não-padrão?}
     F -- Sim --> G{Consta no GTFOBins?}
-    G -- Sim --> H[🔴 Explorar SUID\nexemplo: find com -exec /bin/sh]
+    G -- Sim --> H[🔴 Explorar SUID<br/>exemplo: find com -exec /bin/sh]
     G -- Não --> I[Analisar manualmente com strings/ltrace/strace]
     F -- Não --> J{Cron job com script world-writable?}
     J -- Sim --> K[🔴 Editar script cron → reverse shell como root]
@@ -79,10 +79,10 @@ flowchart TD
     L -- Sim --> M[🔴 cap_setuid, cap_dac_override, etc.]
     L -- Não --> N{Kernel desatualizado?}
     N -- Sim --> O[🔴 linux-exploit-suggester + CVE específico]
-    N -- Não --> P[Rodar LinPEAS completo\ne revisar saída manualmente]
+    N -- Não --> P[Rodar LinPEAS completo<br/>e revisar saída manualmente]
     P --> Q{Encontrou vetor?}
     Q -- Sim --> R[Explorar vetor identificado]
-    Q -- Não --> S[Enumeração manual avançada:\nNFS, Docker group,\nsenhas em histórico, etc.]
+    Q -- Não --> S[Enumeração manual avançada:<br/>NFS, Docker group,<br/>senhas em histórico, etc.]
 ```
 
 ---

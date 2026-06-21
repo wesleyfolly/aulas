@@ -268,18 +268,18 @@ graph TB
     subgraph HOST["💻 Máquina Host (seu computador)"]
         VB["VirtualBox / VMware"]
         subgraph VNET["🔒 Rede Host-Only (vboxnet0 / 192.168.56.0/24)"]
-            KALI["🐉 Kali Linux\n192.168.56.101\n(Atacante)"]
-            META["💀 Metasploitable 2\n192.168.56.102\n(Alvo 1)"]
-            DVWA["🕸️ DVWA (Docker)\n192.168.56.102:80\n(Alvo Web)"]
-            JUICE["🧃 OWASP Juice Shop\n192.168.56.102:3000\n(Alvo Web 2)"]
+            KALI["🐉 Kali Linux<br/>192.168.56.101<br/>(Atacante)"]
+            META["💀 Metasploitable 2<br/>192.168.56.102<br/>(Alvo 1)"]
+            DVWA["🕸️ DVWA (Docker)<br/>192.168.56.102:80<br/>(Alvo Web)"]
+            JUICE["🧃 OWASP Juice Shop<br/>192.168.56.102:3000<br/>(Alvo Web 2)"]
         end
-        NAT["🌐 Adaptador NAT\n(só para updates do Kali)"]
+        NAT["🌐 Adaptador NAT<br/>(só para updates do Kali)"]
     end
-    KALI -->|"ataques\nnmap / metasploit\nburpsuite"| META
-    KALI -->|"ataques web\nSQL injection\nXSS"| DVWA
-    KALI -->|"ataques web\nJWT / auth bypass"| JUICE
-    KALI -->|"apenas para\napt update"| NAT
-    NAT -.->|"bloqueado\ndurante ataques"| INTERNET["🌍 Internet"]
+    KALI -->|"ataques<br/>nmap / metasploit<br/>burpsuite"| META
+    KALI -->|"ataques web<br/>SQL injection<br/>XSS"| DVWA
+    KALI -->|"ataques web<br/>JWT / auth bypass"| JUICE
+    KALI -->|"apenas para<br/>apt update"| NAT
+    NAT -.->|"bloqueado<br/>durante ataques"| INTERNET["🌍 Internet"]
 
     style HOST fill:#1a1a2e,color:#fff
     style VNET fill:#16213e,color:#fff,stroke:#e94560
@@ -297,15 +297,15 @@ graph TB
 
 ```mermaid
 flowchart LR
-    A["1️⃣ Instalar\nVirtualBox"] --> B["2️⃣ Criar rede\nHost-Only"]
-    B --> C["3️⃣ Instalar\nKali Linux"]
-    C --> D["4️⃣ Atualizar\nKali"]
-    D --> E["5️⃣ Snapshot\nKali limpo"]
-    E --> F["6️⃣ Instalar\nMetasploitable 2"]
-    F --> G["7️⃣ Configurar\nrede isolada"]
-    G --> H["8️⃣ Testar\nconectividade"]
-    H --> I["9️⃣ Snapshot\nalvos limpos"]
-    I --> J["✅ Lab pronto\npara atacar"]
+    A["1️⃣ Instalar<br/>VirtualBox"] --> B["2️⃣ Criar rede<br/>Host-Only"]
+    B --> C["3️⃣ Instalar<br/>Kali Linux"]
+    C --> D["4️⃣ Atualizar<br/>Kali"]
+    D --> E["5️⃣ Snapshot<br/>Kali limpo"]
+    E --> F["6️⃣ Instalar<br/>Metasploitable 2"]
+    F --> G["7️⃣ Configurar<br/>rede isolada"]
+    G --> H["8️⃣ Testar<br/>conectividade"]
+    H --> I["9️⃣ Snapshot<br/>alvos limpos"]
+    I --> J["✅ Lab pronto<br/>para atacar"]
 
     style A fill:#2d6a4f,color:#fff
     style J fill:#e94560,color:#fff

@@ -69,20 +69,20 @@ flowchart TD
     B --> C[Passiva: sem contato direto com alvo]
     B --> D[Ativa: contato direto com servidores DNS]
 
-    C --> C1[Certificate Transparency Logs\ncrt.sh, Censys]
-    C --> C2[Agregadores DNS\nSecurityTrails, VirusTotal, DNSDumpster]
-    C --> C3[Subfinder, Amass passivo\nConsultam APIs públicas]
+    C --> C1[Certificate Transparency Logs<br/>crt.sh, Censys]
+    C --> C2[Agregadores DNS<br/>SecurityTrails, VirusTotal, DNSDumpster]
+    C --> C3[Subfinder, Amass passivo<br/>Consultam APIs públicas]
 
-    D --> D1[dig / nslookup / host\nConsultas manuais]
-    D --> D2[Zone Transfer AXFR\nnameserver vulnerável]
-    D --> D3[Brute Force de subdomínios\ndnsrecon -t brt, dnsenum]
-    D --> D4[Amass ativo, fierce\nResolução + força bruta]
+    D --> D1[dig / nslookup / host<br/>Consultas manuais]
+    D --> D2[Zone Transfer AXFR<br/>nameserver vulnerável]
+    D --> D3[Brute Force de subdomínios<br/>dnsrecon -t brt, dnsenum]
+    D --> D4[Amass ativo, fierce<br/>Resolução + força bruta]
 
     C1 & C2 & C3 --> E[Lista de subdomínios candidatos]
     D1 & D2 & D3 & D4 --> E
 
-    E --> F[Validar quais resolvem\ndnsx, massdns]
-    F --> G[Verificar quais respondem HTTP/S\nhttpx]
+    E --> F[Validar quais resolvem<br/>dnsx, massdns]
+    F --> G[Verificar quais respondem HTTP/S<br/>httpx]
     G --> H[Superfície de Ataque Mapeada]
 ```
 
@@ -650,10 +650,10 @@ flowchart LR
     D --> D4[amass -brute -recursive]
     D1 & D2 & D3 & D4 --> E[Lista Ativa]
 
-    C & E --> F[Consolidar + Deduplicar\nsort -u]
+    C & E --> F[Consolidar + Deduplicar<br/>sort -u]
     F --> G[dnsx: validar resolução]
     G --> H[httpx: serviços HTTP/S]
-    H --> I[Subdomínio Takeover?\nsubjack]
+    H --> I[Subdomínio Takeover?<br/>subjack]
     I --> J[🗺️ Mapa de Superfície de Ataque]
 ```
 

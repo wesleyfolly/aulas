@@ -502,22 +502,22 @@ airodump-ng wlan0mon
 ```mermaid
 flowchart TD
     A([Início: interface wlan0]) --> B[airmon-ng check kill]
-    B --> C[airmon-ng start wlan0\nInterface: wlan0mon]
-    C --> D[airodump-ng wlan0mon\nReconhecimento: lista todos os APs]
-    D --> E{Selecionar alvo\nBSSID + Canal}
-    E --> F[airodump-ng --bssid TARGET\n-c CANAL -w captura\nAguarda handshake]
-    F --> G{Há cliente\nconectado?}
-    G -- Sim --> H[aireplay-ng -0 5\nDeauth: força reconexão]
-    G -- Não --> I[hcxdumptool PMKID\nSem cliente necessário]
-    H --> J{Handshake capturado?\nWPA handshake: BSSID}
-    I --> K[hcxpcapngtool\nConverter para hc22000]
-    J -- Sim --> L[aircrack-ng -w rockyou.txt\ncaptura-01.cap]
+    B --> C[airmon-ng start wlan0<br/>Interface: wlan0mon]
+    C --> D[airodump-ng wlan0mon<br/>Reconhecimento: lista todos os APs]
+    D --> E{Selecionar alvo<br/>BSSID + Canal}
+    E --> F[airodump-ng --bssid TARGET<br/>-c CANAL -w captura<br/>Aguarda handshake]
+    F --> G{Há cliente<br/>conectado?}
+    G -- Sim --> H[aireplay-ng -0 5<br/>Deauth: força reconexão]
+    G -- Não --> I[hcxdumptool PMKID<br/>Sem cliente necessário]
+    H --> J{Handshake capturado?<br/>WPA handshake: BSSID}
+    I --> K[hcxpcapngtool<br/>Converter para hc22000]
+    J -- Sim --> L[aircrack-ng -w rockyou.txt<br/>captura-01.cap]
     J -- Não --> H
-    K --> M[hashcat -m 22000\nhash.hc22000 wordlist]
-    L --> N{Senha\nencontrada?}
+    K --> M[hashcat -m 22000<br/>hash.hc22000 wordlist]
+    L --> N{Senha<br/>encontrada?}
     M --> N
     N -- Sim --> O([Relatório: senha X em Y minutos])
-    N -- Não --> P[Tentar wordlist maior\nou ataque com regras]
+    N -- Não --> P[Tentar wordlist maior<br/>ou ataque com regras]
     P --> L
 ```
 
@@ -526,17 +526,17 @@ flowchart TD
 ```mermaid
 flowchart TD
     A([Auditar meu AP]) --> B{WPS habilitado?}
-    B -- Sim --> C[Verificar Pixie-Dust\nreaver -K 1]
-    C --> D{PIN encontrado\nem segundos?}
-    D -- Sim --> E([WPS Pixie-Dust bem-sucedido\nDesabilitar WPS!])
-    D -- Não --> F[Brute-force PIN WPS\nreaver sem -K 1]
-    B -- Não --> G{Há clientes\nconectados?}
-    G -- Sim --> H[Capturar handshake WPA2\nairodump-ng + aireplay-ng deauth]
-    G -- Não --> I[Ataque PMKID\nhcxdumptool + hcxpcapngtool]
+    B -- Sim --> C[Verificar Pixie-Dust<br/>reaver -K 1]
+    C --> D{PIN encontrado<br/>em segundos?}
+    D -- Sim --> E([WPS Pixie-Dust bem-sucedido<br/>Desabilitar WPS!])
+    D -- Não --> F[Brute-force PIN WPS<br/>reaver sem -K 1]
+    B -- Não --> G{Há clientes<br/>conectados?}
+    G -- Sim --> H[Capturar handshake WPA2<br/>airodump-ng + aireplay-ng deauth]
+    G -- Não --> I[Ataque PMKID<br/>hcxdumptool + hcxpcapngtool]
     H --> J[Quebrar: aircrack-ng ou hashcat]
     I --> J
     J --> K{É WPA3 puro?}
-    K -- Sim --> L[Verificar modo transição\nse misto: downgrade + ataque WPA2]
+    K -- Sim --> L[Verificar modo transição<br/>se misto: downgrade + ataque WPA2]
     K -- Não --> M([Resultado do pentest])
     L --> M
 ```

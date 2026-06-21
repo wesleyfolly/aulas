@@ -35,18 +35,18 @@ A Tríade CID é o modelo mais reconhecido da segurança da informação. Cada l
 ```mermaid
 graph TD
     subgraph "Tríade CID"
-        C["🔒 Confidencialidade\nSomente quem tem permissão\npode acessar a informação"]
-        I["✅ Integridade\nA informação não foi\nalterada sem autorização"]
-        D["⚡ Disponibilidade\nA informação está acessível\nquando necessário"]
+        C["🔒 Confidencialidade<br/>Somente quem tem permissão<br/>pode acessar a informação"]
+        I["✅ Integridade<br/>A informação não foi<br/>alterada sem autorização"]
+        D["⚡ Disponibilidade<br/>A informação está acessível<br/>quando necessário"]
     end
 
-    C --- centro((Segurança\nda\nInformação))
+    C --- centro((Segurança<br/>da<br/>Informação))
     I --- centro
     D --- centro
 
-    C -.->|"viola"| E1["Espionagem\nVazamento\nSniffing"]
-    I -.->|"viola"| E2["Adulteração\nMan-in-the-Middle\nMalware"]
-    D -.->|"viola"| E3["DDoS\nRansomware\nFalha de hardware"]
+    C -.->|"viola"| E1["Espionagem<br/>Vazamento<br/>Sniffing"]
+    I -.->|"viola"| E2["Adulteração<br/>Man-in-the-Middle<br/>Malware"]
+    D -.->|"viola"| E3["DDoS<br/>Ransomware<br/>Falha de hardware"]
 ```
 
 ---
@@ -136,19 +136,19 @@ Com a evolução das ameaças, a Tríade CID sozinha mostrou-se insuficiente. Pr
 ```mermaid
 flowchart LR
     subgraph "Tríade Base"
-        CID["CID\nConfidencialidade\nIntegridade\nDisponibilidade"]
+        CID["CID<br/>Confidencialidade<br/>Integridade<br/>Disponibilidade"]
     end
 
     subgraph "Camada AAA"
-        Auth["🪪 Autenticação\nQuem é você?"]
-        Authz["🔑 Autorização\nO que você pode fazer?"]
-        Audit["📋 Auditoria\nO que você fez?"]
+        Auth["🪪 Autenticação<br/>Quem é você?"]
+        Authz["🔑 Autorização<br/>O que você pode fazer?"]
+        Audit["📋 Auditoria<br/>O que você fez?"]
     end
 
     subgraph "Princípios Estratégicos"
-        NR["✍️ Não-repúdio\nVocê não pode negar\no que fez"]
-        DiD["🛡️ Defesa em\nProfundidade\nCamadas múltiplas"]
-        LP["👤 Menor\nPrivilígio\nSó o necessário"]
+        NR["✍️ Não-repúdio<br/>Você não pode negar<br/>o que fez"]
+        DiD["🛡️ Defesa em<br/>Profundidade<br/>Camadas múltiplas"]
+        LP["👤 Menor<br/>Privilígio<br/>Só o necessário"]
     end
 
     CID --> Auth
@@ -261,15 +261,15 @@ A **Autenticação Multifator (MFA)** combina dois ou mais fatores, tornando mui
 
 ```mermaid
 graph TD
-    Internet["🌐 Internet\n(Untrusted)"]
-    Internet --> FW["🧱 Firewall de Perímetro\nCamada 1: Filtragem de tráfego"]
-    FW --> DMZ["🔀 DMZ / WAF\nCamada 2: Web Application Firewall"]
-    DMZ --> IDS["👁️ IDS/IPS\nCamada 3: Detecção de intrusão"]
-    IDS --> Auth["🔐 Autenticação MFA\nCamada 4: Controle de identidade"]
-    Auth --> RBAC["🗂️ RBAC\nCamada 5: Controle de acesso"]
-    RBAC --> Crypto["🔒 Criptografia\nCamada 6: Proteção de dados em repouso"]
-    Crypto --> Log["📋 SIEM / Logs\nCamada 7: Detecção e resposta"]
-    Log --> Backup["💾 Backup Imutável\nCamada 8: Recuperação"]
+    Internet["🌐 Internet<br/>(Untrusted)"]
+    Internet --> FW["🧱 Firewall de Perímetro<br/>Camada 1: Filtragem de tráfego"]
+    FW --> DMZ["🔀 DMZ / WAF<br/>Camada 2: Web Application Firewall"]
+    DMZ --> IDS["👁️ IDS/IPS<br/>Camada 3: Detecção de intrusão"]
+    IDS --> Auth["🔐 Autenticação MFA<br/>Camada 4: Controle de identidade"]
+    Auth --> RBAC["🗂️ RBAC<br/>Camada 5: Controle de acesso"]
+    RBAC --> Crypto["🔒 Criptografia<br/>Camada 6: Proteção de dados em repouso"]
+    Crypto --> Log["📋 SIEM / Logs<br/>Camada 7: Detecção e resposta"]
+    Log --> Backup["💾 Backup Imutável<br/>Camada 8: Recuperação"]
 ```
 
 **Camadas típicas em um sistema corporativo:**
@@ -438,7 +438,7 @@ Os princípios não são independentes: eles se reforçam mutuamente e, em algun
 
 ```mermaid
 mindmap
-  root((Segurança da\nInformação))
+  root((Segurança da<br/>Informação))
     Tríade CID
       Confidencialidade
         Criptografia

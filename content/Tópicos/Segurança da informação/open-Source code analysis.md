@@ -44,18 +44,18 @@ A fase de recon em repositórios explora uma realidade comum no desenvolvimento 
 
 ```mermaid
 flowchart TD
-    A([Início: Alvo definido]) --> B[GitHub dorks:\nbusca avançada]
-    B --> C{Repositórios\nencontrados?}
-    C -->|Sim| D[Clonar repositórios\nrelevantes]
-    C -->|Não| E[Tentar org:/user:\ndo alvo]
+    A([Início: Alvo definido]) --> B[GitHub dorks:<br/>busca avançada]
+    B --> C{Repositórios<br/>encontrados?}
+    C -->|Sim| D[Clonar repositórios<br/>relevantes]
+    C -->|Não| E[Tentar org:/user:<br/>do alvo]
     E --> D
-    D --> F[gitleaks detect\nHistórico completo]
-    D --> G[trufflehog git\nVerificação ao vivo]
-    F --> H{Segredos\nencontrados?}
+    D --> F[gitleaks detect<br/>Histórico completo]
+    D --> G[trufflehog git<br/>Verificação ao vivo]
+    F --> H{Segredos<br/>encontrados?}
     G --> H
-    H -->|Sim| I[Documentar:\ntipo, arquivo,\ncommit, data]
-    H -->|Não| J[Analisar branches\nnão-principais]
-    J --> K[Analisar commits\napagados / PRs fechados]
+    H -->|Sim| I[Documentar:<br/>tipo, arquivo,<br/>commit, data]
+    H -->|Não| J[Analisar branches<br/>não-principais]
+    J --> K[Analisar commits<br/>apagados / PRs fechados]
     I --> L[Relatório de pentest]
     K --> L
 ```
@@ -681,15 +681,15 @@ A defesa efetiva contra secret leaks usa múltiplas barreiras, porque uma única
 
 ```mermaid
 graph LR
-    A[Desenvolvedor\nescreve código] --> B{Pre-commit\nhook Gitleaks}
-    B -->|Secret detectado| C[BLOQUEADO\nDev corrige]
-    B -->|Limpo| D{Push\nprotection\nGitHub}
-    D -->|Secret detectado| E[BLOQUEADO\nnativo GitHub]
-    D -->|Limpo| F{CI/CD\nTruffleHog}
-    F -->|Secret verificado\nativo| G[Pipeline falha\nAlerta imediato]
+    A[Desenvolvedor<br/>escreve código] --> B{Pre-commit<br/>hook Gitleaks}
+    B -->|Secret detectado| C[BLOQUEADO<br/>Dev corrige]
+    B -->|Limpo| D{Push<br/>protection<br/>GitHub}
+    D -->|Secret detectado| E[BLOQUEADO<br/>nativo GitHub]
+    D -->|Limpo| F{CI/CD<br/>TruffleHog}
+    F -->|Secret verificado<br/>ativo| G[Pipeline falha<br/>Alerta imediato]
     F -->|Limpo| H[Deploy autorizado]
-    G --> I[Rotação\nobrigatória\nde chave]
-    C --> J[Usar .env\n+ .gitignore]
+    G --> I[Rotação<br/>obrigatória<br/>de chave]
+    C --> J[Usar .env<br/>+ .gitignore]
     J --> B
 ```
 

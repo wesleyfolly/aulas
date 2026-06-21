@@ -73,19 +73,19 @@ username → plataformas ativas
 ```mermaid
 flowchart TD
     A[🎯 Alvo: username conhecido] --> B[Execução paralela de ferramentas]
-    B --> C[Sherlock\n400+ sites]
-    B --> D[Maigret\n3100+ sites]
-    B --> E[WhatsMyName\n700+ sites]
+    B --> C[Sherlock<br/>400+ sites]
+    B --> D[Maigret<br/>3100+ sites]
+    B --> E[WhatsMyName<br/>700+ sites]
     C --> F[Lista de perfis encontrados]
     D --> F
     E --> F
     F --> G[Análise manual dos perfis]
-    G --> H{Novos usernames\nna bio/posts?}
+    G --> H{Novos usernames<br/>na bio/posts?}
     H -- Sim --> A
-    H -- Não --> I[Correlação cruzada\nde dados]
-    I --> J[E-mail, localização,\ncontatos, interesses]
-    J --> K[Relatório OSINT\ndo alvo]
-    K --> L[🛡️ Defesa: reduzir\npegada digital]
+    H -- Não --> I[Correlação cruzada<br/>de dados]
+    I --> J[E-mail, localização,<br/>contatos, interesses]
+    J --> K[Relatório OSINT<br/>do alvo]
+    K --> L[🛡️ Defesa: reduzir<br/>pegada digital]
 
     style A fill:#e74c3c,color:#fff
     style K fill:#2ecc71,color:#fff
@@ -444,17 +444,17 @@ A real inteligência OSINT está em **correlacionar** dados de múltiplas fontes
 ```mermaid
 graph LR
     U[Username] --> S[Sherlock/Maigret]
-    S --> GH[GitHub\ncontribuições + e-mail]
-    S --> TW[Twitter/X\nopiniões + rede]
-    S --> LI[LinkedIn\nempresa + cargo]
-    S --> RD[Reddit\ninteresses + opiniões]
+    S --> GH[GitHub<br/>contribuições + e-mail]
+    S --> TW[Twitter/X<br/>opiniões + rede]
+    S --> LI[LinkedIn<br/>empresa + cargo]
+    S --> RD[Reddit<br/>interesses + opiniões]
     GH --> E[E-mail real]
-    E --> HB[HaveIBeenPwned\nvazamentos]
-    TW --> L[Localização\napproximada]
+    E --> HB[HaveIBeenPwned<br/>vazamentos]
+    TW --> L[Localização<br/>approximada]
     LI --> C[Colegas + empresa]
     RD --> I[Interesses pessoais]
-    HB --> P[Senhas vazadas\nhashcat]
-    L & C & I & P --> PERFIL[🎯 Perfil OSINT\nCompleto]
+    HB --> P[Senhas vazadas<br/>hashcat]
+    L & C & I & P --> PERFIL[🎯 Perfil OSINT<br/>Completo]
 
     style PERFIL fill:#e74c3c,color:#fff
     style U fill:#3498db,color:#fff

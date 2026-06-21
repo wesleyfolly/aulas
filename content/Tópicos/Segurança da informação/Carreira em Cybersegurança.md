@@ -100,28 +100,28 @@ tags:
 
 ```mermaid
 flowchart TD
-    A[🎓 Entrada na área\nFundamentos de TI + Redes] --> B[Security+\nou equivalente]
+    A[🎓 Entrada na área<br/>Fundamentos de TI + Redes] --> B[Security+<br/>ou equivalente]
 
-    B --> C[🔴 Red Team\nOfensivo]
-    B --> D[🔵 Blue Team\nDefensivo]
-    B --> E[⚖️ GRC\nGovernança / Risco / Compliance]
+    B --> C[🔴 Red Team<br/>Ofensivo]
+    B --> D[🔵 Blue Team<br/>Defensivo]
+    B --> E[⚖️ GRC<br/>Governança / Risco / Compliance]
 
     C --> C1[Pentester Jr]
     C1 --> C2[Pentester Sr / OSCP]
-    C2 --> C3[Bug Bounty Hunter\nou Consultor Ofensivo]
+    C2 --> C3[Bug Bounty Hunter<br/>ou Consultor Ofensivo]
 
     D --> D1[Analista SOC Tier 1]
     D1 --> D2[SOC Tier 2 / Incident Responder]
-    D2 --> D3[Threat Hunter\nou Security Engineer]
+    D2 --> D3[Threat Hunter<br/>ou Security Engineer]
 
     E --> E1[Analista GRC Jr]
     E1 --> E2[Auditor / DPO]
-    E2 --> E3[Gestor de Risco\nou CISO]
+    E2 --> E3[Gestor de Risco<br/>ou CISO]
 
     C2 -.->|Purple Team| D3
     D3 -.->|Purple Team| C2
 
-    C3 --> Z[🏆 Liderança\nCSO / CISO / Director]
+    C3 --> Z[🏆 Liderança<br/>CSO / CISO / Director]
     D3 --> Z
     E3 --> Z
 ```

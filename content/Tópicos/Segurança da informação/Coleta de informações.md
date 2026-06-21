@@ -432,7 +432,7 @@ O **nmap** é o scanner de rede mais usado no mundo. Mapeia portas abertas, iden
 
 ```mermaid
 graph LR
-    S1["T0/T1\nParanoico/Quieto\nHoras ou dias"] --> S2["T2\nEducado\nMinutos"] --> S3["T3\nNormal\nDefault"] --> S4["T4/T5\nAgressivo/Insano\nSegundos - RUIDOSO"]
+    S1["T0/T1<br/>Paranoico/Quieto<br/>Horas ou dias"] --> S2["T2<br/>Educado<br/>Minutos"] --> S3["T3<br/>Normal<br/>Default"] --> S4["T4/T5<br/>Agressivo/Insano<br/>Segundos - RUIDOSO"]
     style S1 fill:#51cf66,color:#000
     style S2 fill:#94d82d,color:#000
     style S3 fill:#fcc419,color:#000

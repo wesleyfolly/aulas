@@ -145,20 +145,20 @@ Especialização → OSWE, OSCE, GPEN, etc.
 
 ```mermaid
 flowchart TD
-    A[🎓 Sem Certificação] --> B[eJPT\nIniciante Ofensivo]
-    A --> C[CompTIA Security+\nIniciante Generalista]
+    A[🎓 Sem Certificação] --> B[eJPT<br/>Iniciante Ofensivo]
+    A --> C[CompTIA Security+<br/>Iniciante Generalista]
 
-    B --> D[CompTIA PenTest+\nIntermediário]
+    B --> D[CompTIA PenTest+<br/>Intermediário]
     C --> D
-    C --> E[CEH\nIntermediário]
+    C --> E[CEH<br/>Intermediário]
 
-    D --> F[OSCP\nAvançado Ofensivo]
+    D --> F[OSCP<br/>Avançado Ofensivo]
     E --> F
 
-    C --> G[CISM\nAvançado Gestão]
-    C --> H[CISSP\nAvançado Arquitetura]
+    C --> G[CISM<br/>Avançado Gestão]
+    C --> H[CISSP<br/>Avançado Arquitetura]
 
-    F --> I[OSWE / OSED / OSEP\nEspecialização OffSec]
+    F --> I[OSWE / OSED / OSEP<br/>Especialização OffSec]
     G --> J[CISO / Cargo Gerencial]
     H --> J
 

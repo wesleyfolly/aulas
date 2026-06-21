@@ -40,18 +40,18 @@ Diferente de buscadores de páginas web, o Censys:
 
 ```mermaid
 flowchart TD
-    A["🌐 Internet\n(todos os IPs IPv4 públicos)"] --> B["Censys Zmap/Scanner\n(varre 65k portos)"]
-    B --> C["Coleta de Banners\nHTTP / TLS / SSH / FTP / SMTP"]
-    B --> D["Certificate Transparency\nLogs (Let's Encrypt, DigiCert…)"]
-    C --> E["Indexador Censys\n(Elasticsearch + BigQuery)"]
+    A["🌐 Internet<br/>(todos os IPs IPv4 públicos)"] --> B["Censys Zmap/Scanner<br/>(varre 65k portos)"]
+    B --> C["Coleta de Banners<br/>HTTP / TLS / SSH / FTP / SMTP"]
+    B --> D["Certificate Transparency<br/>Logs (Let's Encrypt, DigiCert…)"]
+    C --> E["Indexador Censys<br/>(Elasticsearch + BigQuery)"]
     D --> E
-    E --> F["Interface Web\nsearch.censys.io"]
-    E --> G["API REST v3\napi.censys.io/v3"]
-    E --> H["SDK Python\ncensys-platform / censys-python"]
-    F --> I["🔴 Red Team\nRecon passivo"]
+    E --> F["Interface Web<br/>search.censys.io"]
+    E --> G["API REST v3<br/>api.censys.io/v3"]
+    E --> H["SDK Python<br/>censys-platform / censys-python"]
+    F --> I["🔴 Red Team<br/>Recon passivo"]
     G --> I
     H --> I
-    F --> J["🔵 Blue Team\nMonitorar superfície exposta"]
+    F --> J["🔵 Blue Team<br/>Monitorar superfície exposta"]
     G --> J
     H --> J
 ```
@@ -669,13 +669,13 @@ done < subdomains.txt
 
 ```mermaid
 flowchart LR
-    A["🎯 Alvo Definido\n(empresa.com)"] --> B["Enumerar subdomínios\ncert.parsed.names: empresa.com"]
-    B --> C["Listar IPs e serviços\nservices.tls.certificates\n.leaf_data.names: empresa.com"]
-    C --> D["Identificar tecnologias\nservices.software.product\nos.description"]
-    D --> E["Mapear portos expostos\nservices.port"]
-    E --> F["Analisar certificados\nVálidos? Autoassinados?\nExpirados?"]
-    F --> G["Checar histórico\nO que mudou recentemente?"]
-    G --> H["Priorizar alvos\npara fase ativa\n(com autorização)"]
+    A["🎯 Alvo Definido<br/>(empresa.com)"] --> B["Enumerar subdomínios<br/>cert.parsed.names: empresa.com"]
+    B --> C["Listar IPs e serviços<br/>services.tls.certificates<br/>.leaf_data.names: empresa.com"]
+    C --> D["Identificar tecnologias<br/>services.software.product<br/>os.description"]
+    D --> E["Mapear portos expostos<br/>services.port"]
+    E --> F["Analisar certificados<br/>Válidos? Autoassinados?<br/>Expirados?"]
+    F --> G["Checar histórico<br/>O que mudou recentemente?"]
+    G --> H["Priorizar alvos<br/>para fase ativa<br/>(com autorização)"]
 ```
 
 ### Script de Reconhecimento Automatizado

@@ -77,17 +77,17 @@ A tabela abaixo consolida as principais ferramentas usadas em assessments reais 
 
 ```mermaid
 flowchart TD
-    A[🎯 Definir escopo e alvo\nlab autorizado] --> B[🔍 Descoberta de Hosts\nnmap -sn / ping sweep]
-    B --> C[🚪 Scan de Portas\nnmap -sV -p-]
-    C --> D[🛡️ Scan de Vulnerabilidades\nnmap --script vuln\nnuclei / OpenVAS]
+    A[🎯 Definir escopo e alvo<br/>lab autorizado] --> B[🔍 Descoberta de Hosts<br/>nmap -sn / ping sweep]
+    B --> C[🚪 Scan de Portas<br/>nmap -sV -p-]
+    C --> D[🛡️ Scan de Vulnerabilidades<br/>nmap --script vuln<br/>nuclei / OpenVAS]
     D --> E{CVE encontrada?}
-    E -- Sim --> F[📊 Calcular CVSS\nnvd.nist.gov]
+    E -- Sim --> F[📊 Calcular CVSS<br/>nvd.nist.gov]
     E -- Não --> G[✅ Documentar como limpo]
     F --> H{CVSS >= 7.0?}
-    H -- Alto/Crítico --> I[🔴 Prioridade 1\nPatch imediato / mitigação]
-    H -- Médio 4.0-6.9 --> J[🟡 Prioridade 2\nPatch no próximo ciclo]
-    H -- Baixo < 4.0 --> K[🟢 Prioridade 3\nAcompanhar]
-    I --> L[📝 Relatório de pentest\nPlano de remediação]
+    H -- Alto/Crítico --> I[🔴 Prioridade 1<br/>Patch imediato / mitigação]
+    H -- Médio 4.0-6.9 --> J[🟡 Prioridade 2<br/>Patch no próximo ciclo]
+    H -- Baixo < 4.0 --> K[🟢 Prioridade 3<br/>Acompanhar]
+    I --> L[📝 Relatório de pentest<br/>Plano de remediação]
     J --> L
     K --> L
     G --> L
@@ -578,10 +578,10 @@ Identificar vulnerabilidades é apenas metade do trabalho. O objetivo final é *
 
 ```mermaid
 flowchart LR
-    A[🔍 Descoberta\nscan periódico] --> B[📊 Priorização\nCVSS + contexto]
-    B --> C[🔧 Remediação\npatch / workaround]
-    C --> D[✅ Verificação\nre-scan pós-patch]
-    D --> E[📝 Documentação\nrelatório de evidências]
+    A[🔍 Descoberta<br/>scan periódico] --> B[📊 Priorização<br/>CVSS + contexto]
+    B --> C[🔧 Remediação<br/>patch / workaround]
+    C --> D[✅ Verificação<br/>re-scan pós-patch]
+    D --> E[📝 Documentação<br/>relatório de evidências]
     E --> A
 ```
 

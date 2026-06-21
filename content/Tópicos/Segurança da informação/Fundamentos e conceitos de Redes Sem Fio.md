@@ -354,12 +354,12 @@ O **modo monitor** (RFMON: Radio Frequency MONitor) é o equivalente Wi-Fi do mo
 
 ```mermaid
 flowchart LR
-    A["📡 Quadros no ar\n(todos no canal)"] --> B{Modo da placa?}
-    B -->|"Managed (normal)"| C["Filtro por MAC\n(só meu endereço)"]
-    B -->|"Monitor (RFMON)"| D["TODOS os quadros\nentregues ao software"]
-    C --> E["Stack TCP/IP\nnormal"]
-    D --> F["Wireshark / airodump-ng\n/ kismet / scapy"]
-    F --> G["Análise completa:\nBeacons, Probes,\nHandshakes, Dados cifrados"]
+    A["📡 Quadros no ar<br/>(todos no canal)"] --> B{Modo da placa?}
+    B -->|"Managed (normal)"| C["Filtro por MAC<br/>(só meu endereço)"]
+    B -->|"Monitor (RFMON)"| D["TODOS os quadros<br/>entregues ao software"]
+    C --> E["Stack TCP/IP<br/>normal"]
+    D --> F["Wireshark / airodump-ng<br/>/ kismet / scapy"]
+    F --> G["Análise completa:<br/>Beacons, Probes,<br/>Handshakes, Dados cifrados"]
 ```
 
 ### Processo de Ativação do Modo Monitor

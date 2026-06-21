@@ -88,12 +88,12 @@ Embora o harvesting de e-mails em si seja passivo, o uso dos dados coletados par
 
 ```mermaid
 flowchart TD
-    A[Pesquisador define\ndomínio alvo] --> B[theHarvester]
-    B --> C1[Motores de Busca\nGoogle, Bing, DuckDuckGo]
-    B --> C2[Redes Sociais\nLinkedIn, Twitter]
-    B --> C3[CT Logs / Certificados\ncrtsh, certspotter]
-    B --> C4[APIs Especializadas\nShodan, Hunter, Netlas]
-    B --> C5[Bancos de Dados DNS\ndnsdumpster, rapiddns]
+    A[Pesquisador define<br/>domínio alvo] --> B[theHarvester]
+    B --> C1[Motores de Busca<br/>Google, Bing, DuckDuckGo]
+    B --> C2[Redes Sociais<br/>LinkedIn, Twitter]
+    B --> C3[CT Logs / Certificados<br/>crtsh, certspotter]
+    B --> C4[APIs Especializadas<br/>Shodan, Hunter, Netlas]
+    B --> C5[Bancos de Dados DNS<br/>dnsdumpster, rapiddns]
     C1 --> D[Agregação de Resultados]
     C2 --> D
     C3 --> D
@@ -386,29 +386,29 @@ domain (TEXT): empresa.com.br
 
 ```mermaid
 flowchart LR
-    A[Fase 1\nReconhecimento Passivo] --> B[Fase 2\nColeta de E-mails]
-    B --> C[Fase 3\nValidação]
-    C --> D[Fase 4\nCruzamento de Dados]
-    D --> E[Fase 5\nDocumentação]
+    A[Fase 1<br/>Reconhecimento Passivo] --> B[Fase 2<br/>Coleta de E-mails]
+    B --> C[Fase 3<br/>Validação]
+    C --> D[Fase 4<br/>Cruzamento de Dados]
+    D --> E[Fase 5<br/>Documentação]
 
-    A1[Whois\nDNS] --> A
-    A2[OSINT\nFrameworks] --> A
+    A1[Whois<br/>DNS] --> A
+    A2[OSINT<br/>Frameworks] --> A
 
-    B1[theHarvester\n-b all] --> B
-    B2[Hunter.io\nAPI] --> B
-    B3[Phonebook.cz\nVazamentos] --> B
-    B4[LinkedIn\nNomes] --> B
+    B1[theHarvester<br/>-b all] --> B
+    B2[Hunter.io<br/>API] --> B
+    B3[Phonebook.cz<br/>Vazamentos] --> B
+    B4[LinkedIn<br/>Nomes] --> B
 
-    C1[Have I Been\nPwned] --> C
-    C2[Hunter Verify\nAPI] --> C
-    C3[SMTP VRFY\nse permitido] --> C
+    C1[Have I Been<br/>Pwned] --> C
+    C2[Hunter Verify<br/>API] --> C
+    C3[SMTP VRFY<br/>se permitido] --> C
 
-    D1[Padrão de\nnomenclatura] --> D
-    D2[Cargos do\nLinkedIn] --> D
-    D3[Vazamentos\nassociados] --> D
+    D1[Padrão de<br/>nomenclatura] --> D
+    D2[Cargos do<br/>LinkedIn] --> D
+    D3[Vazamentos<br/>associados] --> D
 
-    E1[Relatório\nHTML/XML] --> E
-    E2[Lista de\nalvos para\nsim. phishing] --> E
+    E1[Relatório<br/>HTML/XML] --> E
+    E2[Lista de<br/>alvos para<br/>sim. phishing] --> E
 ```
 
 ---

@@ -63,12 +63,12 @@ O modelo Cyber Kill Chain descreve as 7 fases que um atacante percorre do reconh
 
 ```mermaid
 flowchart LR
-    A["1. Reconnaissance\n(OSINT, varredura)"] --> B["2. Weaponization\n(exploit + payload)"]
-    B --> C["3. Delivery\n(phishing, USB, web)"]
-    C --> D["4. Exploitation\n(execução da vuln)"]
-    D --> E["5. Installation\n(backdoor, persistence)"]
-    E --> F["6. C2\n(Command & Control)"]
-    F --> G["7. Actions on Objectives\n(exfiltração, ransomware)"]
+    A["1. Reconnaissance<br/>(OSINT, varredura)"] --> B["2. Weaponization<br/>(exploit + payload)"]
+    B --> C["3. Delivery<br/>(phishing, USB, web)"]
+    C --> D["4. Exploitation<br/>(execução da vuln)"]
+    D --> E["5. Installation<br/>(backdoor, persistence)"]
+    E --> F["6. C2<br/>(Command & Control)"]
+    F --> G["7. Actions on Objectives<br/>(exfiltração, ransomware)"]
 ```
 
 | Fase Kill Chain | Técnica Típica | Exemplo Concreto |

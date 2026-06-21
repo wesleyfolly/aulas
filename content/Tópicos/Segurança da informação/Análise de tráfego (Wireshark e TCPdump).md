@@ -92,10 +92,10 @@ Protocolos criados décadas atrás não foram projetados para ambientes hostis. 
 flowchart TD
     NIC["Interface de Rede (NIC)"]
     BPF["Filtro BPF (kernel)"]
-    CAPTURE["Motor de Captura\n(libpcap / Npcap)"]
-    DISSECT["Dissectores de Protocolo\n(HTTP, DNS, TLS, FTP...)"]
-    GUI["Interface Gráfica\n(Lista de Pacotes / Detalhes / Bytes)"]
-    STATS["Estatísticas e Ferramentas\n(Follow Stream, Credentials, Export Objects)"]
+    CAPTURE["Motor de Captura<br/>(libpcap / Npcap)"]
+    DISSECT["Dissectores de Protocolo<br/>(HTTP, DNS, TLS, FTP...)"]
+    GUI["Interface Gráfica<br/>(Lista de Pacotes / Detalhes / Bytes)"]
+    STATS["Estatísticas e Ferramentas<br/>(Follow Stream, Credentials, Export Objects)"]
     PCAP["Arquivo .pcap / .pcapng"]
 
     NIC --> BPF --> CAPTURE --> DISSECT --> GUI

@@ -43,12 +43,12 @@ Enquanto o Google indexa **conteúdo** (páginas HTML), o Shodan indexa **banner
 
 ```mermaid
 flowchart TD
-    A[Crawler do Shodan\nvarre IPs públicos 24/7] -->|envia SYN / probe| B[Porta aberta responde\ncom banner / header]
-    B --> C[Banner indexado\n + IP, porta, ASN, geo]
-    C --> D[Banco de dados\nShodan]
+    A[Crawler do Shodan<br/>varre IPs públicos 24/7] -->|envia SYN / probe| B[Porta aberta responde<br/>com banner / header]
+    B --> C[Banner indexado<br/> + IP, porta, ASN, geo]
+    C --> D[Banco de dados<br/>Shodan]
     D --> E{Usuário pesquisa}
-    E -->|filtros| F[Resultados paginados\nno site ou API]
-    E -->|API key| G[JSON via REST API\nou Shodan CLI]
+    E -->|filtros| F[Resultados paginados<br/>no site ou API]
+    E -->|API key| G[JSON via REST API<br/>ou Shodan CLI]
     style A fill:#1a1a2e,color:#eee
     style D fill:#16213e,color:#eee
     style F fill:#0f3460,color:#eee
@@ -421,12 +421,12 @@ O fluxo abaixo descreve como um pentester usa o Shodan durante a fase de **recon
 
 ```mermaid
 flowchart LR
-    A[Definir\nescopo do alvo] --> B[Coletar ASN\ne blocos de IP]
-    B --> C[Buscar no Shodan\npor org: / asn: / net:]
-    C --> D[Enumerar serviços\ne versões]
-    D --> E[Cruzar com\nCVEs conhecidas]
-    E --> F[Mapear superfície\nde ataque]
-    F --> G[Reportar\nou aprofundar\ncom autorização]
+    A[Definir<br/>escopo do alvo] --> B[Coletar ASN<br/>e blocos de IP]
+    B --> C[Buscar no Shodan<br/>por org: / asn: / net:]
+    C --> D[Enumerar serviços<br/>e versões]
+    D --> E[Cruzar com<br/>CVEs conhecidas]
+    E --> F[Mapear superfície<br/>de ataque]
+    F --> G[Reportar<br/>ou aprofundar<br/>com autorização]
 
     style A fill:#1a1a2e,color:#eee
     style G fill:#0f3460,color:#eee
@@ -604,15 +604,15 @@ A mesma ferramenta que um atacante usa para encontrar sistemas vulneráveis serv
 
 ```mermaid
 flowchart TD
-    A[Identificar exposição\nvia Shodan] --> B{Portas abertas\ndesnecessárias?}
-    B -->|Sim| C[Fechar portas no firewall\nufw / iptables / nftables]
-    B -->|Não| D[Verificar banners\nde serviço]
-    D --> E{Banner revela\nversão / produto?}
-    E -->|Sim| F[Ocultar versão\nnos configs]
-    E -->|Não| G[Verificar CVEs\nvia InternetDB]
+    A[Identificar exposição<br/>via Shodan] --> B{Portas abertas<br/>desnecessárias?}
+    B -->|Sim| C[Fechar portas no firewall<br/>ufw / iptables / nftables]
+    B -->|Não| D[Verificar banners<br/>de serviço]
+    D --> E{Banner revela<br/>versão / produto?}
+    E -->|Sim| F[Ocultar versão<br/>nos configs]
+    E -->|Não| G[Verificar CVEs<br/>via InternetDB]
     G --> H{CVEs ativas?}
-    H -->|Sim| I[Atualizar software\n imediatamente]
-    H -->|Não| J[Monitorar\nperiodicamente]
+    H -->|Sim| I[Atualizar software<br/> imediatamente]
+    H -->|Não| J[Monitorar<br/>periodicamente]
     style A fill:#1a1a2e,color:#eee
     style I fill:#8b0000,color:#eee
     style J fill:#004d00,color:#eee

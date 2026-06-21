@@ -122,15 +122,15 @@ O **PTES** define *como rodar* o pentest. O **ATT&CK** define *o que nomear* cad
 
 ```mermaid
 flowchart TD
-    A["🔍 Reconhecimento\n(Kill Chain: Recon)\nTA0043 - Reconnaissance"] --> B["⚙️ Weaponização\n(Kill Chain: Weaponization)\nTA0042 - Resource Development"]
-    B --> C["📡 Escaneamento\n(Kill Chain: Delivery prep)\nTA0007 - Discovery"]
-    C --> D["💥 Exploração / Acesso Inicial\n(Kill Chain: Exploitation + Delivery)\nTA0001 - Initial Access"]
-    D --> E["🔑 Escalada de Privilégios\n(Kill Chain: Installation)\nTA0004 - Privilege Escalation"]
-    E --> F["🛡️ Evasão de Defesas\n(Kill Chain: Installation)\nTA0005 - Defense Evasion"]
-    F --> G["🔄 Movimentação Lateral\n(Kill Chain: C2 + Actions)\nTA0008 - Lateral Movement"]
-    G --> H["📦 Coleta e Exfiltração\n(Kill Chain: Actions on Obj.)\nTA0009 + TA0010"]
-    H --> I["📌 Persistência\n(Kill Chain: Installation)\nTA0003 - Persistence"]
-    I --> J["📄 Relatório\nCVSS + Evidências + Remediação"]
+    A["🔍 Reconhecimento<br/>(Kill Chain: Recon)<br/>TA0043 - Reconnaissance"] --> B["⚙️ Weaponização<br/>(Kill Chain: Weaponization)<br/>TA0042 - Resource Development"]
+    B --> C["📡 Escaneamento<br/>(Kill Chain: Delivery prep)<br/>TA0007 - Discovery"]
+    C --> D["💥 Exploração / Acesso Inicial<br/>(Kill Chain: Exploitation + Delivery)<br/>TA0001 - Initial Access"]
+    D --> E["🔑 Escalada de Privilégios<br/>(Kill Chain: Installation)<br/>TA0004 - Privilege Escalation"]
+    E --> F["🛡️ Evasão de Defesas<br/>(Kill Chain: Installation)<br/>TA0005 - Defense Evasion"]
+    F --> G["🔄 Movimentação Lateral<br/>(Kill Chain: C2 + Actions)<br/>TA0008 - Lateral Movement"]
+    G --> H["📦 Coleta e Exfiltração<br/>(Kill Chain: Actions on Obj.)<br/>TA0009 + TA0010"]
+    H --> I["📌 Persistência<br/>(Kill Chain: Installation)<br/>TA0003 - Persistence"]
+    I --> J["📄 Relatório<br/>CVSS + Evidências + Remediação"]
 ```
 
 ### Tabela de Mapeamento: Fase x ATT&CK x Ferramentas (2026)

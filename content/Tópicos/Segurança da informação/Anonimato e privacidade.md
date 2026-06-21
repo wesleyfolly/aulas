@@ -206,11 +206,11 @@ sudo systemctl restart tor
 
 ```mermaid
 graph LR
-    A[Sua máquina\n192.168.1.10] -->|"Encripta + envia"| B["Proxy 1\n(SOCKS5 externo)"]
-    B -->|"Re-encaminha"| C["Proxy 2\n(SOCKS5 externo)"]
-    C -->|"Re-encaminha"| D["Nó Guard Tor\n(Entrada)"]
+    A[Sua máquina<br/>192.168.1.10] -->|"Encripta + envia"| B["Proxy 1<br/>(SOCKS5 externo)"]
+    B -->|"Re-encaminha"| C["Proxy 2<br/>(SOCKS5 externo)"]
+    C -->|"Re-encaminha"| D["Nó Guard Tor<br/>(Entrada)"]
     D --> E["Middle Node Tor"]
-    E --> F["Exit Node Tor\n(IP público Tor)"]
+    E --> F["Exit Node Tor<br/>(IP público Tor)"]
     F -->|"Tráfego limpo"| G[Servidor Alvo]
 
     style A fill:#4a4a4a,color:#fff
@@ -737,11 +737,11 @@ gpg --verify tails-amd64-*.img.sig tails-amd64-*.img
 
 ```mermaid
 graph TD
-    A["🔴 Proteção Mínima\n(sem nada)"]
-    B["🟡 Básica\nHTTPS + Senha forte + 2FA"]
-    C["🟠 Intermediária\n+ VPN confiável + DNS over HTTPS"]
-    D["🟢 Avançada\n+ Tor Browser + macchanger + exiftool"]
-    E["🔵 Máxima\n+ Tails/Whonix + Hardware dedicado + OPSEC completo"]
+    A["🔴 Proteção Mínima<br/>(sem nada)"]
+    B["🟡 Básica<br/>HTTPS + Senha forte + 2FA"]
+    C["🟠 Intermediária<br/>+ VPN confiável + DNS over HTTPS"]
+    D["🟢 Avançada<br/>+ Tor Browser + macchanger + exiftool"]
+    E["🔵 Máxima<br/>+ Tails/Whonix + Hardware dedicado + OPSEC completo"]
 
     A --> B --> C --> D --> E
 

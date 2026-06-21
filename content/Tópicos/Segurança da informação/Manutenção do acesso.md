@@ -520,17 +520,17 @@ sliver > profiles beacon-interval --profile long-haul --seconds 3600 --jitter 60
 ```mermaid
 graph LR
     subgraph "Rede Interna (Lab)"
-        V1[VM Alvo Windows\n192.168.56.100]
-        V2[VM Alvo Linux\n192.168.56.101]
+        V1[VM Alvo Windows<br/>192.168.56.100]
+        V2[VM Alvo Linux<br/>192.168.56.101]
     end
 
     subgraph "Atacante (Kali)"
-        SL[Sliver C2 Server\n:443 HTTPS]
-        OP[Operador\nConsole Sliver]
+        SL[Sliver C2 Server<br/>:443 HTTPS]
+        OP[Operador<br/>Console Sliver]
     end
 
-    V1 -->|Beacon HTTPS\ncada 30s| SL
-    V2 -->|Beacon HTTPS\ncada 60s| SL
+    V1 -->|Beacon HTTPS<br/>cada 30s| SL
+    V2 -->|Beacon HTTPS<br/>cada 60s| SL
     SL <-->|Comandos/Respostas| OP
 
     style SL fill:#c0392b,color:#fff
