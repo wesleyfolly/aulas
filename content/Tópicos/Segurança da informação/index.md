@@ -24,6 +24,7 @@ aliases:
 > [!tip] Links Rápidos
 > Acesse rapidamente as informações organizacionais da disciplina.
 
+- [[Teste de Intrusão Express|⚡ Teste de Intrusão Express: guia rápido do início ao fim]]
 - [[Projeto GovSec|🛠️ Projeto GovSec: projeto-âncora da disciplina]]
 - [[Possível Cronograma da disciplina|📅 Cronograma]]
 - [[Trabalhos e Projetos de Segurança da Informação|📝 Trabalhos e Projetos]]
@@ -49,6 +50,9 @@ Antes de partir para a prática, é essencial entender os conceitos que fundamen
 ---
 
 ## 🔓 Hacking Ético e Pentest
+
+> [!tip] ⚡ Com pouco tempo? Comece pela via express
+> O **[[Teste de Intrusão Express]]** leva você do zero a um pentest completo **e aos dois relatórios** (o do ataque e o de correção para o Blue Team) em uma única página, passo a passo. Use as fases abaixo para aprofundar cada etapa quando houver tempo.
 
 > [!tip] Metodologia de Teste de Intrusão
 > O pentest segue uma metodologia estruturada. Cada fase tem seu propósito e ferramentas específicas.
