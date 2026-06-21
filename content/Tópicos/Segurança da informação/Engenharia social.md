@@ -200,7 +200,7 @@ O OSINT ofensivo converte dados públicos em **inteligência acionável**. O pro
 
 ```mermaid
 flowchart LR
-    subgraph Fontes Passivas
+    subgraph SF [Fontes Passivas]
         A[LinkedIn]
         B[Site Corporativo]
         C[Redes Sociais]
@@ -208,17 +208,19 @@ flowchart LR
         E[Shodan / Censys]
         F[WHOIS / DNS]
     end
-    subgraph Ferramentas
+    subgraph ST [Ferramentas]
         G[Maltego]
         H[theHarvester]
         I[recon-ng]
     end
-    subgraph Produto Final
+    subgraph SP [Produto Final]
         J[Mapa de Entidades<br/>Nomes, e-mails, cargos]
         K[Pretexto Personalizado]
         L[Vetor de Ataque]
     end
-    Fontes Passivas --> Ferramentas --> J --> K --> L
+    SF --> ST
+    ST --> J
+    J --> K --> L
 ```
 
 **O que extrair do LinkedIn de um alvo:**
