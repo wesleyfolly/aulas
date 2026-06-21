@@ -73,39 +73,39 @@ O **PTES (Penetration Testing Execution Standard)** define a estrutura mais cons
 
 ```mermaid
 flowchart TD
-    A[Engajamento Autorizado\nEscopo + Contrato] --> B[Reconhecimento\ne Enumeração]
-    B --> C[Identificação de\nVulnerabilidades]
-    C --> D[Exploração\ncom Evidências]
-    D --> E[Documentação\ndo Finding]
-    E --> F{Severidade\nCVSS 4.0}
-    F -->|Crítico 9.0-10.0| G[Notificação Imediata\nao Cliente]
-    F -->|Alto 7.0-8.9| H[Prioridade Alta\nno Relatório]
-    F -->|Médio/Baixo < 7.0| I[Relatório Final\nRodada Normal]
-    G --> J[Relatório Final]
+    A["Engajamento Autorizado<br/>Escopo + Contrato"] --> B["Reconhecimento<br/>e Enumeração"]
+    B --> C["Identificação de<br/>Vulnerabilidades"]
+    C --> D["Exploração<br/>com Evidências"]
+    D --> E["Documentação<br/>do Finding"]
+    E --> F{"Severidade<br/>CVSS 4.0"}
+    F -->|Crítico 9.0-10.0| G["Notificação Imediata<br/>ao Cliente"]
+    F -->|Alto 7.0-8.9| H["Prioridade Alta<br/>no Relatório"]
+    F -->|Médio/Baixo até 6.9| I["Relatório Final<br/>Rodada Normal"]
+    G --> J["Relatório Final"]
     H --> J
     I --> J
-    J --> K[Sumário Executivo\nC-Level]
-    J --> L[Relatório Técnico\nTimes de TI]
-    L --> M[Roadmap de\nRemediação]
+    J --> K["Sumário Executivo<br/>C-Level"]
+    J --> L["Relatório Técnico<br/>Times de TI"]
+    L --> M["Roadmap de<br/>Remediação"]
 ```
 
 ### Diagrama: Achado para Score e Remediação
 
 ```mermaid
 flowchart LR
-    A[Finding\nIdentificado] --> B[Calcular Vetor\nCVSS 4.0]
-    B --> C[Base Score\nAV/AC/AT/PR/UI/VC/VI/VA/SC/SI/SA]
-    C --> D{Score\nResultante}
-    D -->|9.0-10.0| E[🔴 Crítico]
-    D -->|7.0-8.9| F[🟠 Alto]
-    D -->|4.0-6.9| G[🟡 Médio]
-    D -->|0.1-3.9| H[🟢 Baixo]
-    D -->|0.0| I[🔵 Informacional]
-    E --> J[Remediação imediata\n≤ 24-48h]
-    F --> K[Remediação urgente\n≤ 7 dias]
-    G --> L[Remediação planejada\n≤ 30 dias]
-    H --> M[Remediação no\npróximo ciclo]
-    I --> N[Monitorar,\nsem ação obrigatória]
+    A["Finding<br/>Identificado"] --> B["Calcular Vetor<br/>CVSS 4.0"]
+    B --> C["Base Score<br/>AV/AC/AT/PR/UI/VC/VI/VA/SC/SI/SA"]
+    C --> D{"Score<br/>Resultante"}
+    D -->|9.0-10.0| E["🔴 Crítico"]
+    D -->|7.0-8.9| F["🟠 Alto"]
+    D -->|4.0-6.9| G["🟡 Médio"]
+    D -->|0.1-3.9| H["🟢 Baixo"]
+    D -->|0.0| I["🔵 Informacional"]
+    E --> J["Remediação imediata<br/>≤ 24-48h"]
+    F --> K["Remediação urgente<br/>≤ 7 dias"]
+    G --> L["Remediação planejada<br/>≤ 30 dias"]
+    H --> M["Remediação no<br/>próximo ciclo"]
+    I --> N["Monitorar,<br/>sem ação obrigatória"]
 ```
 
 ---
@@ -552,7 +552,7 @@ quadrantChart
     quadrant-2 Planejar
     quadrant-3 Avaliar
     quadrant-4 Considerar
-    Patch SMB (MS17-010): [0.2, 0.95]
+    Patch SMB MS17-010: [0.2, 0.95]
     Desativar SMBv1: [0.15, 0.85]
     Trocar senha padrão admin: [0.1, 0.75]
     Configurar WAF: [0.65, 0.80]
