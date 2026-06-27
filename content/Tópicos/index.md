@@ -43,6 +43,7 @@ tags:
 | [[Tópicos/Empreendedorismo/index\|Empreendedorismo]] | Negócios, inovação e carreira |
 | [[Tópicos/Roadmap do futuro/index\|Roadmap do Futuro]] | IA, automação e ferramentas modernas |
 | [[Tópicos/Roadmap da Produção Acadêmica/index\|Produção Acadêmica]] | Da ideação à publicação de artigos |
+| [[Tópicos/Filosofia da Mente e da Tecnologia/index\|Filosofia da Mente e da Tecnologia]] | Máquinas pensam? Filosofia da IA, epistemologia e pensamento crítico |
 
 ---
 
