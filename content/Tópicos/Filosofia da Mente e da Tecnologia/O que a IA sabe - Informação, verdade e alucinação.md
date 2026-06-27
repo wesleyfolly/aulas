@@ -29,8 +29,8 @@ Na aula sobre o Quarto Chinês perguntamos se a IA **entende**. Aqui a pergunta 
 
 ```mermaid
 flowchart LR
-    D["📊 DADO\n38,5"] -->|"+ forma e contexto"| I["📄 INFORMAÇÃO\n'febre de 38,5 °C'"]
-    I -->|"+ justificação e verdade"| C["🧠 CONHECIMENTO\n'por que isso importa'"]
+    D["📊 DADO<br/>38,5"] -->|"+ forma e contexto"| I["📄 INFORMAÇÃO<br/>'febre de 38,5 °C'"]
+    I -->|"+ justificação e verdade"| C["🧠 CONHECIMENTO<br/>'por que isso importa'"]
 ```
 
 O filósofo **Luciano Floridi**, referência mundial em Filosofia da Informação, defende uma tese forte e polêmica: **informação genuína precisa ser verdadeira.** Dados falsos bem-formados não seriam informação, seriam "desinformação". Guarde essa tese, porque ela é a chave para entender o problema dos LLMs.
@@ -61,10 +61,10 @@ O termo é **criticado pelos filósofos**, e vale entender por quê:
 
 ```mermaid
 flowchart TD
-    Q["Pergunta do usuário"] --> M["LLM gera o texto\nmais plausível"]
-    M --> V{"O mais plausível\ncoincide com a verdade?"}
-    V -->|Sim| OK["✅ Resposta correta\n(sorte estrutural)"]
-    V -->|Não| AL["👻 'Alucinação'\n(mesmo mecanismo,\nresultado falso)"]
+    Q["Pergunta do usuário"] --> M["LLM gera o texto<br/>mais plausível"]
+    M --> V{"O mais plausível<br/>coincide com a verdade?"}
+    V -->|Sim| OK["✅ Resposta correta<br/>(sorte estrutural)"]
+    V -->|Não| AL["👻 'Alucinação'<br/>(mesmo mecanismo,<br/>resultado falso)"]
     OK -.->|"mesma operação interna"| M
     AL -.->|"mesma operação interna"| M
 ```
@@ -128,7 +128,7 @@ Nem todo filósofo é tão duro. Há uma posição intermediária que vale conhe
 
 ```mermaid
 mindmap
-  root(("A IA\nsabe?"))
+  root(("A IA sabe?"))
     A escada
       Dado
       Informação (com sentido)

@@ -31,8 +31,8 @@ aliases:
 O coração da disciplina. Se uma máquina se comporta como se pensasse, ela pensa de verdade? O que é "pensar", afinal?
 
 - [[O Teste de Turing e o Quarto Chinês]] - O experimento mental mais famoso da filosofia da IA: a diferença entre processar símbolos e entender de verdade (Turing, 1950; Searle, 1980)
-- **Funcionalismo e a Postura Intencional** (em construção) - A resposta de Dennett a Searle: talvez "entender" seja só uma questão de função e de ponto de vista
-- **O Problema Difícil da Consciência** (em construção) - Por que sentir é diferente de processar, e por que isso é o osso mais duro de roer (Chalmers)
+- [[Funcionalismo e a Postura Intencional]] - A resposta de Dennett a Searle: talvez "entender" seja só uma questão de função e de ponto de vista (Dennett, 1987)
+- [[O Problema Difícil da Consciência]] - Por que sentir é diferente de processar, e por que isso é o osso mais duro de roer (Chalmers, 1995)
 
 ### Parte 2: O que a IA sabe? (Epistemologia)
 
@@ -50,8 +50,8 @@ A competência transversal mais valiosa: construir um bom argumento, diagnostica
 
 Quem é responsável quando a IA erra? Persona digital pode enganar? Automação e vigilância são neutras?
 
-- **Responsabilidade e agência moral** (em construção) - Quando ninguém escreveu a regra que causou o dano, de quem é a culpa?
-- **Poder, vigilância e automação** (em construção) - A tecnologia carrega valores embutidos (Zuboff, Feenberg, Hans Jonas)
+- [[Ética da IA - Responsabilidade e Agência Moral]] - Quando ninguém escreveu a regra que causou o dano, de quem é a culpa? (Jonas, 1979; Matthias, 2004)
+- [[Ética da IA - Poder, Vigilância e Automação]] - A tecnologia carrega valores embutidos (Zuboff, 2019; Winner, 1980)
 
 ---
 
@@ -71,4 +71,4 @@ Quem é responsável quando a IA erra? Persona digital pode enganar? Automação
 ---
 
 > [!info] Leituras de referência
-> A bibliografia completa, com níveis de confiabilidade, fica em cada aula. As fontes-âncora da disciplina são Alan Turing (1950), John Searle (1980), Daniel Dennett, David Chalmers, Luciano Floridi e Anthony Weston.
+> A bibliografia completa, com níveis de confiabilidade, fica em cada aula. As fontes-âncora da disciplina são Alan Turing (1950), John Searle (1980), Daniel Dennett (1987), David Chalmers (1995), Luciano Floridi (2010), Anthony Weston (1987), Hans Jonas (1979) e Shoshana Zuboff (2019).

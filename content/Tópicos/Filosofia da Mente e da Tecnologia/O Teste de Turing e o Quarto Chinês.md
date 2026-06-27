@@ -40,11 +40,11 @@ A aposta de Turing era epistemológica: nós nem conseguimos provar que *outras 
 
 ```mermaid
 flowchart LR
-    J["🧑‍⚖️ Juiz\n(só lê texto)"] -->|pergunta| A["🧑 Humano oculto (A)"]
+    J["🧑‍⚖️ Juiz<br/>(só lê texto)"] -->|pergunta| A["🧑 Humano oculto (A)"]
     J -->|mesma pergunta| B["🤖 Máquina oculta (B)"]
     A -->|resposta| J
     B -->|resposta| J
-    J --> D{"Consegue dizer\nquem é a máquina?"}
+    J --> D{"Consegue dizer<br/>quem é a máquina?"}
     D -->|Não| P["✅ Máquina passou"]
     D -->|Sim| F["❌ Máquina reprovou"]
 ```
@@ -75,10 +75,10 @@ A conclusão de Searle: **um computador executando um programa é exatamente com
 
 ```mermaid
 flowchart TD
-    IN["📥 Pergunta em chinês\n(símbolos)"] --> PESSOA["🧑 Você na sala\n(não sabe chinês)"]
-    LIVRO["📕 Livro de regras\n(forma dos símbolos)"] --> PESSOA
-    PESSOA --> OUT["📤 Resposta em chinês\n(perfeita)"]
-    OUT --> FORA["🧑‍🤝‍🧑 Nativos lá fora:\n'a sala entende chinês!'"]
+    IN["📥 Pergunta em chinês<br/>(símbolos)"] --> PESSOA["🧑 Você na sala<br/>(não sabe chinês)"]
+    LIVRO["📕 Livro de regras<br/>(forma dos símbolos)"] --> PESSOA
+    PESSOA --> OUT["📤 Resposta em chinês<br/>(perfeita)"]
+    OUT --> FORA["🧑‍🤝‍🧑 Nativos lá fora:<br/>'a sala entende chinês!'"]
     PESSOA -.->|"verdade interna"| ZERO["🚫 Nenhuma compreensão"]
 ```
 
@@ -154,7 +154,7 @@ Isto não é abstração de filósofo. A distinção sintaxe/semântica muda com
 
 ```mermaid
 mindmap
-  root(("Máquinas\npensam?"))
+  root(("Máquinas pensam?"))
     Turing 1950
       Troca a pergunta por um teste
       Comportamento basta

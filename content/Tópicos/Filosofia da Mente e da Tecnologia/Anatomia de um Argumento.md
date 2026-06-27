@@ -127,7 +127,7 @@ Quando um argumento é longo, desenhe. Separe a conclusão principal, as premiss
 
 ```mermaid
 flowchart BT
-    P1["Premissa: o sistema lida com dados sensíveis"] --> C["CONCLUSÃO:\neste sistema precisa de revisão de segurança humana"]
+    P1["Premissa: o sistema lida com dados sensíveis"] --> C["CONCLUSÃO:<br/>este sistema precisa de revisão de segurança humana"]
     P2["Premissa: código gerado por IA falha em segurança com frequência"] --> C
     SP1["Sub-premissa: estudos mostram alta taxa de vulnerabilidade"] --> P2
     SP2["Sub-premissa: a IA otimiza por 'funciona', não por 'é seguro'"] --> P2
