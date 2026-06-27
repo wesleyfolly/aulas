@@ -31,6 +31,8 @@ Chamam-se "fáceis" não porque sejam simples, mas porque sabemos **que tipo de 
 
 ## 2. O problema difícil 🔴
 
+![[Recursos/Filosofia da Mente e da Tecnologia/david-chalmers.jpg|David Chalmers, que formulou o "problema difícil da consciência" em 1995. Fonte: Wikimedia Commons]]
+
 > [!INFO] O problema difícil
 > Por que todo esse processamento vem **acompanhado de experiência subjetiva**? Por que **é como alguma coisa** ver o vermelho, sentir dor, provar um café? Esse "ser como algo" é o que os filósofos chamam de **experiência** ou **qualia**.
 

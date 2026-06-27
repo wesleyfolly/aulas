@@ -25,6 +25,8 @@ Duas frases, trinta anos de distância, e o debate mais importante da filosofia 
 
 ## 1. O problema: como saber se uma máquina pensa? 🤔
 
+![[Recursos/Filosofia da Mente e da Tecnologia/alan-turing.jpg|Alan Turing (1912-1954), matemático britânico que propôs o teste em 1950. Fonte: Wikimedia Commons]]
+
 Em 1950, **Alan Turing** (o matemático que ajudou a quebrar a Enigma na Segunda Guerra e que praticamente fundou a ciência da computação) percebeu um problema. A pergunta "máquinas podem pensar?" é uma armadilha, porque ninguém concorda com o que "pensar" significa.
 
 A solução de Turing foi genial: **trocar a pergunta**. Em vez de definir "pensar", ele propôs um teste comportamental. Se a máquina se comporta de modo indistinguível de um ser humano numa conversa, paramos de exigir mais que isso.
@@ -37,6 +39,8 @@ A solução de Turing foi genial: **trocar a pergunta**. Em vez de definir "pens
 > No **Teste de Turing**, um juiz humano conversa por texto (sem ver nem ouvir) com dois interlocutores escondidos: um humano e uma máquina. Se, depois de conversar bastante, o juiz não consegue dizer com segurança qual é qual, a máquina **passou no teste**.
 
 A aposta de Turing era epistemológica: nós nem conseguimos provar que *outras pessoas* pensam, confiamos no comportamento delas. Por que exigir da máquina uma prova que não exigimos do colega de carteira?
+
+![[Recursos/Filosofia da Mente e da Tecnologia/teste-de-turing-diagrama.png|O Jogo da Imitação: o interrogador (C) conversa só por texto com um humano e uma máquina (A e B) e tenta descobrir qual é qual. Fonte: Wikimedia Commons]]
 
 ```mermaid
 flowchart LR
@@ -59,6 +63,8 @@ Em conversas curtas e casuais, modelos como ChatGPT, Claude e Gemini **já engan
 ---
 
 ## 3. O Quarto Chinês: a grande objeção 📦
+
+![[Recursos/Filosofia da Mente e da Tecnologia/john-searle.jpg|John Searle, filósofo que formulou o argumento do Quarto Chinês em 1980. Fonte: Wikimedia Commons]]
 
 Em 1980, o filósofo **John Searle** publicou um experimento mental para mostrar que **passar no Teste de Turing não é entender**. É talvez o argumento mais discutido da filosofia da mente moderna.
 

@@ -58,6 +58,8 @@ Para responsabilizar **alguém**, costumamos exigir certas condições. Veja se 
 
 ## 3. Hans Jonas e a ética para a era tecnológica 🌍
 
+![[Recursos/Filosofia da Mente e da Tecnologia/hans-jonas.jpg|Hans Jonas (1903-1993), autor de "O Princípio Responsabilidade" (1979). Fonte: Wikimedia Commons]]
+
 A ética clássica pensava em ações próximas: não minta para o vizinho, não roube. A tecnologia mudou a **escala**: hoje uma decisão de design afeta milhões de pessoas e gerações futuras.
 
 > [!INFO] O Princípio Responsabilidade (Jonas, 1979)
@@ -69,6 +71,8 @@ A ética clássica pensava em ações próximas: não minta para o vizinho, não
 ---
 
 ## 4. Casos que tiram o problema do abstrato 📰
+
+![[Recursos/Filosofia da Mente e da Tecnologia/dilema-do-bonde.png|O dilema do bonde (Philippa Foot, 1967): desviar e matar um para salvar cinco, ou não agir? O carro autônomo transforma o dilema em código. Fonte: Wikimedia Commons]]
 
 > [!example] Carro autônomo e o dilema do bonde
 > Um carro autônomo vai bater. Ele pode seguir reto (atropela 3 pessoas) ou desviar (mata o passageiro). Quem decide a regra? O engenheiro, meses antes, escrevendo o código. O clássico **dilema do bonde** (Philippa Foot, 1967) deixou de ser exercício de classe e virou especificação de software.

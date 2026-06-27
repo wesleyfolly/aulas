@@ -49,6 +49,8 @@ Essa ideia tem nome: **realização múltipla** (Hilary Putnam, anos 1960). O me
 
 ## 3. A Postura Intencional de Dennett 🎯
 
+![[Recursos/Filosofia da Mente e da Tecnologia/daniel-dennett.jpg|Daniel Dennett (1942-2024), defensor do funcionalismo e autor da "postura intencional". Fonte: Wikimedia Commons]]
+
 Dennett dá uma ferramenta prática. Ele diz que, para **prever** o comportamento de um sistema, adotamos uma de três posturas:
 
 | Postura | Como você prevê o sistema | Exemplo |

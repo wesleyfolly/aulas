@@ -35,6 +35,10 @@ Existe um mito confortável: o de que a tecnologia é apenas uma ferramenta neut
 
 ## 2. Capitalismo de vigilância 👁️
 
+![[Recursos/Filosofia da Mente e da Tecnologia/cctv-vigilancia.jpg|As câmeras são a face visível da vigilância; o capitalismo de vigilância opera sobretudo de forma invisível, nos seus dados. Fonte: Wikimedia Commons]]
+
+![[Recursos/Filosofia da Mente e da Tecnologia/shoshana-zuboff.jpg|Shoshana Zuboff, autora de "A Era do Capitalismo de Vigilância" (2019). Fonte: Wikimedia Commons]]
+
 A grande tese da filósofa **Shoshana Zuboff** (2019) sobre o modelo de negócio que domina a internet:
 
 > [!INFO] Capitalismo de vigilância

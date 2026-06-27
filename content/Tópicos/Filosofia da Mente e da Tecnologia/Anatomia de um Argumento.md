@@ -100,6 +100,8 @@ quadrantChart
 
 ## 4. Falácias: os erros que parecem certos ⚠️
 
+![[Recursos/Filosofia da Mente e da Tecnologia/aristoteles.jpg|Aristóteles (384-322 a.C.) foi o primeiro a catalogar as falácias, nas "Refutações Sofísticas". Fonte: Wikimedia Commons]]
+
 > [!INFO] Definição
 > Uma **falácia** é um argumento que parece convincente mas tem um defeito lógico. Saber nomeá-las é como ter um detector de fumaça mental.
 

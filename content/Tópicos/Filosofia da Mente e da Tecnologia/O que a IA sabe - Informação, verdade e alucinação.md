@@ -33,6 +33,10 @@ flowchart LR
     I -->|"+ justificação e verdade"| C["🧠 CONHECIMENTO<br/>'por que isso importa'"]
 ```
 
+![[Recursos/Filosofia da Mente e da Tecnologia/piramide-dikw.png|A pirâmide DIKW: dado na base, depois informação, conhecimento e, no topo, sabedoria. Cada degrau acrescenta estrutura e sentido ao anterior. Fonte: Wikimedia Commons]]
+
+![[Recursos/Filosofia da Mente e da Tecnologia/luciano-floridi.jpg|Luciano Floridi, referência mundial em Filosofia da Informação. Fonte: Wikimedia Commons]]
+
 O filósofo **Luciano Floridi**, referência mundial em Filosofia da Informação, defende uma tese forte e polêmica: **informação genuína precisa ser verdadeira.** Dados falsos bem-formados não seriam informação, seriam "desinformação". Guarde essa tese, porque ela é a chave para entender o problema dos LLMs.
 
 ---
