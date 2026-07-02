@@ -16,3 +16,23 @@ tags:
 
 
 # 📋 Trabalhos e Avaliações
+
+Trabalho 1: Estruturar projeto pessoal individual para utilizar os conceitos de engenharia de software moderna.
+
+Brainstorm de Projetos (Fase 0)
+1. Breno - Chatbot para auxiliar pessoas na aprendizagem de línguas. 
+2. Igor - 
+3. Gian - Uber só que para barbearias
+4. Pietra - Dashboard de aprendizagem com apego visual para aprendizagem de Computação quântica. Com laboratórios e objetos de aprendizagem. 
+5. Iago - Sistema para consulta da base da biblioteca, de forma externa. Um sistema web específico para esse objetivo. Com aplicativo mobile. 
+6. Pedro - Sistema para geração automática de provas (para professores), com algumas funcionalidades acadêmicas. 
+7. Arthur - Sistema de gerenciamento para imobiliárias
+8. Bernardo - IA para automação em futebol de robôs, com restrições e regras específicas do jogo. Pesquisar ambientes de simulação para isso. 
+9. Isaac - RNA para reconstrução de núcleo de reator nuclear. Com dashboard de aprendizado de energia nuclear com um roadmap do básico até o entendimento do projeto.
+10. Amanda - Plataforma web para pesque e pague. 
+
+Fase 1 - Estruturar o sistema
+	1. Quais tecnologias serão utilizadas?
+	2. Onde o sistema será hospedado?
+	3. Se usar IA, será modelo local ou API externa?
+	4. Definir o ambiente de desenvolvimento: IDE, máquinas virtuais, etc
