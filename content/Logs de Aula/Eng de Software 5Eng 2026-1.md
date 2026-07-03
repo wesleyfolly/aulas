@@ -14,6 +14,7 @@ tags:
 
 - 25/06/2026 - Ficamos decididos que os alunos estudarão a parte de engenharia de software clássica e haverá uma prova de até 3 pontos. Os 7 pontos será um projeto prático aplicando os conceitos de engenharia de software moderna. 
 
+- 01/07/2026 - Fizemos um brainstorm com a turma da ideia de projeto de cada pessoa, com a contribuição tanto do professor quando dos alunos da turma. Essa foi a Fase 0 descrita em trabalhos e avaliações abaixo. Também definimos o próximo passo a Fase 1 que também está descrita abaixo.
 
 # 📋 Trabalhos e Avaliações
 
