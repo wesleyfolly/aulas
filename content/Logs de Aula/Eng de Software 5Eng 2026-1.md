@@ -37,3 +37,8 @@ Fase 1 - Estruturar o sistema
 	2. Onde o sistema será hospedado?
 	3. Se usar IA, será modelo local ou API externa?
 	4. Definir o ambiente de desenvolvimento: IDE, máquinas virtuais, etc
+
+Como o trabalho será entregue?
+1. Você irá criar um arquivo no google docs com todo o planejamento do projeto
+2. Nesse arquivo também deve conter as especificações do software e quais IA estão sendo utilizadas
+3. Você deve colocar esse arquivo como link público e enviar esse arquivo para o professor via email wesley.souza@iff.edu.br
