@@ -16,9 +16,12 @@ tags:
 
 - 01/07/2026 - Fizemos um brainstorm com a turma da ideia de projeto de cada pessoa, com a contribuição tanto do professor quando dos alunos da turma. Essa foi a Fase 0 descrita em trabalhos e avaliações abaixo. Também definimos o próximo passo a Fase 1 que também está descrita abaixo.
 
+- 08/07/2026 - Estruturação do projeto num arquivo de texto. Foi definido como o projeto será entregue e foram tiradas dúvidas individuais dos alunos sobre cada projeto.
+
 # 📋 Trabalhos e Avaliações
 
-Trabalho 1: Estruturar projeto pessoal individual para utilizar os conceitos de engenharia de software moderna.
+### Trabalho 1: Estruturar projeto pessoal individual para utilizar os conceitos de engenharia de software moderna.
+Data: 23/07/2026 (quem não conseguir apresentar nesse dia, pode apresentar em outro momento, porém até no máximo 29/07/2026)
 
 Brainstorm de Projetos (Fase 0)
 1. Breno - Chatbot para auxiliar pessoas na aprendizagem de línguas. 
@@ -31,6 +34,7 @@ Brainstorm de Projetos (Fase 0)
 8. Bernardo - IA para automação em futebol de robôs, com restrições e regras específicas do jogo. Pesquisar ambientes de simulação para isso. 
 9. Isaac - RNA para reconstrução de núcleo de reator nuclear. Com dashboard de aprendizado de energia nuclear com um roadmap do básico até o entendimento do projeto.
 10. Amanda - Plataforma web para pesque e pague. 
+11. Bento - Simulador online de conversão de caractere para matriz braile 
 
 Fase 1 - Estruturar o sistema
 	1. Quais tecnologias serão utilizadas?
@@ -42,3 +46,7 @@ Como o trabalho será entregue?
 1. Você irá criar um arquivo no google docs com todo o planejamento do projeto
 2. Nesse arquivo também deve conter as especificações do software e quais IA estão sendo utilizadas
 3. Você deve colocar esse arquivo como link público e enviar esse arquivo para o professor via email wesley.souza@iff.edu.br
+
+### Prova 
+Data: 22/07/2026
+Conteúdo da prova: Engenharia de Software Clássica

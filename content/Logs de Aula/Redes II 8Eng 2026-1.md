@@ -15,4 +15,8 @@ tags:
 
 
 # 📋 Trabalhos e Avaliações
-1. Fazer a aula prática do laboratório de teste de intrusão express [[Teste de Intrusão Express]]
+1. Fazer a aula prática do laboratório de teste de intrusão express [[Teste de Intrusão Express]]. Montar um arquivo de relatório com a prática desse laboratório. 
+2. Teste de intrusão no IFFbot. Tando a parte de infraestrutura (como IP, porta, serviço, servidor web, xss, cookie); como também tentar quebrar o Modelo de LLM, com prompt injection, extrair informações do sistema, ou informações sigilosas de configuração interna do sistema.
+3. Me dizer, como a cybersegurança pode de ajudar nos projetos que vocês estão desenvolvendo hoje. Como você precisa estar seguro?
+
+Data de entrega dos 3 itens acima: 30/07/2026

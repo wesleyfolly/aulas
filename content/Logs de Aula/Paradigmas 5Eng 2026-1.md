@@ -22,12 +22,12 @@ tags:
 - Tarefa 1: Leitura do material, se possível fazendo os exercícios. 
 - Tarefa 2: Relatório do IFFBot, sugestões de novas funcionalidades, novos documentos ou erros/problemas. 
 - Trabalho A1/A2 - Apresentação dos paradigmas de programação - Seminário. 
+* Ao enviar trabalhos para o email do professor colocar nome nome, turma e título do trabalho.
 
-
-| **Equipe**   | **Integrantes**                        | **Tema Sorteado**                         |
-| ------------ | -------------------------------------- | ----------------------------------------- |
-| **Equipe 1** | Arthur, Isaac e Breno                  | **Programação Funcional**                 |
-| **Equipe 2** | Abraão, Gabriel e Igor Brites          | **Programação Estruturada**               |
-| **Equipe 3** | Pietra, Gian, Bernardo Rainha e Amanda | **POO (Programação Orientada a Objetos)** |
-| **Equipe 4** | Miguel, Bento e Bernardo Pimentel      | **Programação Procedural**                |
-| **Equipe 5** | Igor Lima e Iago                       | **Programação Lógica**                    |
+| **Equipe**   | **Integrantes**                                       | **Tema Sorteado**                         |
+| ------------ | ----------------------------------------------------- | ----------------------------------------- |
+| **Equipe 1** | Arthur, Isaac e Breno                                 | **Programação Funcional**                 |
+| **Equipe 2** | Abraão, Gabriel e Igor Brites                         | **Programação Estruturada**               |
+| **Equipe 3** | Pietra, Gian, Bernardo Rainha e Amanda                | **POO (Programação Orientada a Objetos)** |
+| **Equipe 4** | Miguel, Bento, Bernardo Pimentel, Cassemiro e Rodrigo | **Programação Procedural**                |
+| **Equipe 5** | Igor Lima e Iago                                      | **Programação Lógica**                    |
