@@ -20,7 +20,7 @@ tags:
 # 📋 Trabalhos e Avaliações
 
 - Recomendação: Leitura do material, fazendo os exercícios. 
-- Trabalho 1 (servirá para A1): Relatório do IFFBot, sugestões de novas funcionalidades, novos documentos ou erros/problemas. Teste de segurança, vulnerabilidades e prompt injection. Enviar pelo email wesley.souza@iff.edu.br com o título Relatório IFFbot Disciplina Paradigmas de programação (e seu nome). 
+- Trabalho 1 (servirá para A1): Relatório do IFFBot, sugestões de novas funcionalidades, novos documentos ou erros/problemas. Teste de segurança, vulnerabilidades e prompt injection. Enviar pelo email wesley.souza@iff.edu.br com o título Relatório IFFbot Disciplina Paradigmas de programação (e seu nome). Data limite 27/07/2026
 - Trabalho 2 (servirá para A2) - Apresentação dos paradigmas de programação - Seminário. 
 	- Datas de apresentação do trabalho 2: 23/07/2026 e 24/07/2026.
 * Ao enviar trabalhos para o email do professor colocar nome nome, turma e título do trabalho. (wesley.souza@iff.edu.br)
