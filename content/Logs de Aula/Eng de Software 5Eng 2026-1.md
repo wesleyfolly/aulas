@@ -25,7 +25,7 @@ Data: 23/07/2026 (quem não conseguir apresentar nesse dia, pode apresentar em o
 
 Brainstorm de Projetos (Fase 0)
 1. Breno - Chatbot para auxiliar pessoas na aprendizagem de línguas. 
-2. Igor - 
+2. Igor - Agenda inteligente
 3. Gian - Uber só que para barbearias
 4. Pietra - Dashboard de aprendizagem com apego visual para aprendizagem de Computação quântica. Com laboratórios e objetos de aprendizagem. 
 5. Iago - Sistema para consulta da base da biblioteca, de forma externa. Um sistema web específico para esse objetivo. Com aplicativo mobile. 
