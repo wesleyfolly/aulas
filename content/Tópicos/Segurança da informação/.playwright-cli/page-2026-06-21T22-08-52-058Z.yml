@@ -1,9 +1,0 @@
-- generic [active] [ref=e1]:
-  - heading "ENG (subgraphs com ID + ligação por ID)" [level=3] [ref=e2]
-  - img [ref=e5]
-  - heading "ESC (sem wikilink no nó)" [level=3] [ref=e6]
-  - generic [ref=e7]:
-    - text: "flowchart TD A([Início: Alvo definido e autorizado]) --> B[Host Discovery"
-    - text: "nmap -sn REDE/24] B --> C{Host ativo?} C -- Sim --> E[Scan de Portas"
-    - text: nmap -sS -p- TARGET] E --> L[Classificar CVEs
-    - text: nmap --script vulners -sV] L --> M([📄 Relatório final])
