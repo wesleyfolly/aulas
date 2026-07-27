@@ -18,6 +18,8 @@ tags:
 
 - 08/07/2026 - Estruturação do projeto num arquivo de texto. Foi definido como o projeto será entregue e foram tiradas dúvidas individuais dos alunos sobre cada projeto.
 
+- 26/07/2026 (Domingo) - Lancei as notas no sistema. Quem está como prova final é porque ainda não me enviou o link do trabalho. Assim que enviar eu lanço no sistema. Trabalho (7 pontos) e Prova (3 pontos). A nota foi lançada tanto na A1 como na A2. Qualquer dúvida só me procurar. OBS: Algumas pessoas me enviaram link fechado. Se for versão final pode ser em PDF.
+
 # 📋 Trabalhos e Avaliações
 
 ### Trabalho 1: Estruturar projeto pessoal individual para utilizar os conceitos de engenharia de software moderna.
