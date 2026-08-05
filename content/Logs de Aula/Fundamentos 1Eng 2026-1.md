@@ -23,3 +23,5 @@ tags:
 	OBS: Pelo menos um item de cada. 
 	Forma de envio: email do professor wesley.souza@iff.edu.br até dia 28/07/2026 (formato do arquivo PDF)
 		No email colocar no assunto: Seu nome e sua turma, exemplo: Maria Fernanda - 1 Período - Fundamentos da Computação
+
+ATENÇÃO:  Sobre a A3 (ou também conhecida como P3) - A avaliação da A3 será o próprio relatório do iffbot a ser enviado por email.  Quem ainda não entregou, pode entregar atrasado como A3, porém quem já entregou e ainda ficou com nota insuficiente, poderá entregar o trabalho novamente de forma aprimorada para contar como nota da A3. A prazo máximo para essa entrega é até o dia 07/08/2026 (sexta-feira), porém recomendo entregar antes para evitar contratempos. Qualquer dúvida pode me mandar por email ou me procurar pessoalmente no IFF.  
