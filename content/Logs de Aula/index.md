@@ -22,6 +22,7 @@ tags:
 ### Engenharia da Computação — 2026.2
 
 - **7º Período**
+  - [[Comp Sociedade 7Eng 2026-2]] - Computação, Sociedade e Inclusão
   - [[SO I 7Eng 2026-2]] - Sistemas Operacionais I
 
 ### Engenharia da Computação — 2026.1
