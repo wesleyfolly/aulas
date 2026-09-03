@@ -288,7 +288,7 @@ A Maritaca é nacional, competente e **fechada**; o Tucano é nacional, **aberto
 
 ## 6. 🛠️ Como produzir um REA (o passo a passo da sua oficina)
 
-Isto não é teoria: é o procedimento da entrega de REA do [[Projeto de Extensão - IA para Todos]], com rascunho para revisão até 27/11 e versão final até 18/12.
+Isto não é teoria: é o procedimento da entrega de REA do [[Projeto de Extensão - IA para Todos]]; as datas do rascunho e da versão final são combinadas em aula e ficam no [[Comp Sociedade 7Eng 2026-2|log da turma]].
 
 ```mermaid
 flowchart LR

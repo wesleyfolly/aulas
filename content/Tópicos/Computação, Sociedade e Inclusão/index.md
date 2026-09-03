@@ -23,16 +23,15 @@ aliases:
 > [!abstract] 🧭 Sobre esta disciplina (7º período, 2026.2)
 > **Computação, Sociedade e Inclusão** (CSECBJ.54) é a disciplina em que o engenheiro de computação para de olhar só para dentro da máquina e passa a olhar para o que a máquina faz com as pessoas. A ementa do curso tem oito unidades: **fundamentação crítica** (aspectos sociais, econômicos, culturais e políticos), **o computador na sociedade atual**, **relações de poder** (o público, o privado e o sujeito), **recursos educacionais abertos**, **cultura e identidade**, **cidadania e educação na sociedade digital**, **tecnologia social** e **relevância social e investimento em tecnologia**. Esta turma lê as oito a partir da maior transformação da nossa época: a **inteligência artificial**, o **futuro do trabalho** e o que vem depois, com uma **lente filosófica** que ajuda a pensar com clareza e sem hype.
 >
-> A carga horária é de 60 horas-aula: 20 de teoria, 20 de prática e **20 de extensão**. As 20 horas de extensão viram um projeto real com a comunidade de Bom Jesus do Itabapoana: o [[Projeto de Extensão - IA para Todos]].
+> A carga horária é de 60 horas-aula: 20 de teoria, 20 de prática e **20 de extensão**. A proposta para as 20 horas de extensão é um projeto real com a comunidade de Bom Jesus do Itabapoana, o [[Projeto de Extensão - IA para Todos]]; o que vale no semestre é definido em aula.
 
 ---
 
 ## 🎯 Organização da disciplina
 
 > [!tip] Links rápidos
-> - [[Cronograma de Computação, Sociedade e Inclusão|📅 Cronograma 2026.2]]: o que acontece em cada sexta-feira, provas e entregas.
-> - [[Trabalhos e Projetos de Computação, Sociedade e Inclusão|📝 Trabalhos e projetos]]: T1 a T4 e o projeto de extensão, com rubrica.
-> - [[Projeto de Extensão - IA para Todos|🤝 Projeto de Extensão: IA para Todos]]: oficinas de letramento em IA e inclusão digital com a comunidade, e os recursos educacionais abertos que vamos publicar.
+> - [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão|📝 Possíveis trabalhos e projetos]]: banco de trabalhos com roteiro e rubrica; o professor define em aula quais valem no semestre.
+> - [[Projeto de Extensão - IA para Todos|🤝 Projeto de Extensão: IA para Todos]]: proposta de oficinas de letramento em IA e inclusão digital com a comunidade, com o material publicado como recurso educacional aberto.
 > - [[Kit de ferramentas de Computação e Sociedade|🧰 Kit de ferramentas]]: métodos e ferramentas de todas as atividades (dados, autoinspeção, auditoria, campo, debate, escrita). Comece por aqui na primeira semana.
 > - [[Materiais, leituras, filmes e podcasts de Computação e Sociedade|📚 Materiais, leituras, filmes e podcasts]]: a bibliografia do curso comentada e o que ler, ver e ouvir de graça.
 > - [[Glossário de Computação, Sociedade e Inclusão|📖 Glossário]]: os termos da disciplina em uma linha, com o autor de cada conceito.
@@ -124,7 +123,7 @@ flowchart LR
 ## 🤝 O projeto de extensão
 
 > [!example] IA para Todos
-> Um terço da carga horária desta disciplina é **extensão**: as equipes planejam, produzem e executam **oficinas de letramento em inteligência artificial e inclusão digital** para públicos reais de Bom Jesus do Itabapoana (pessoas idosas, alunos de escolas públicas, produtores rurais e comerciantes, a comunidade do campus), e publicam o material como **recurso educacional aberto** com licença Creative Commons. Tudo com evidência: lista de presença, avaliação dos participantes e material publicado. Detalhes, públicos, roteiro e rubrica em [[Projeto de Extensão - IA para Todos]].
+> Um terço da carga horária desta disciplina é **extensão**. A proposta desta turma: as equipes planejam, produzem e executam **oficinas de letramento em inteligência artificial e inclusão digital** para públicos reais de Bom Jesus do Itabapoana (pessoas idosas, alunos de escolas públicas, produtores rurais e comerciantes, a comunidade do campus), e publicam o material como **recurso educacional aberto** com licença Creative Commons. Tudo com evidência: lista de presença, avaliação dos participantes e material publicado. Detalhes, públicos, roteiro e rubrica em [[Projeto de Extensão - IA para Todos]]; o que vale, os públicos e as datas são definidos em aula.
 
 ---
 

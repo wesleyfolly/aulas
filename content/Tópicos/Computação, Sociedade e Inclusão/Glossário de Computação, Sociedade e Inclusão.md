@@ -249,7 +249,7 @@ mindmap
 - **PLACTS**: Pensamento Latino-Americano em Ciência, Tecnologia e Sociedade (anos 1960 e 1970): Varsavsky, Herrera e Sábato, raiz da tecnologia social. Ver [[Tecnologia social e tecnologia convencional]].
 - **Plataforma**: infraestrutura de intermediação entre grupos distintos, que ganha valor com o efeito de rede e tende a concentrar. Ver [[Poder, plataformas e vigilância - o público, o privado e o sujeito]].
 - **Polarização de tarefas**: a automação atinge primeiro o meio rotineiro da escala e o emprego cresce nos extremos. Autor (2015) lembra que ela complementa tanto quanto substitui. Ver [[Automação, trabalho e o futuro das profissões]].
-- **Policy brief**: duas páginas com problema em dados, opções, recomendação, custo com fonte e indicadores. É formato de entrega aqui. Ver [[Trabalhos e Projetos de Computação, Sociedade e Inclusão]].
+- **Policy brief**: duas páginas com problema em dados, opções, recomendação, custo com fonte e indicadores. É formato de entrega aqui. Ver [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão]].
 - **Psicopolítica**: o poder não proíbe, agrada: o Big Data não reprime como o panóptico, prediz e estimula, e a exploração vira auto-exploração (Han, 2014). Ver [[Poder, plataformas e vigilância - o público, o privado e o sujeito]].
 
 ---
@@ -345,9 +345,8 @@ Todas as páginas da disciplina, na ordem do semestre:
 - [[Relevância social, investimento e políticas públicas de tecnologia]]
 - [[O engenheiro de computação em 2036 - trabalho, carreira e responsabilidade]]
 - [[Kit de ferramentas de Computação e Sociedade]] (métodos e ferramentas das atividades)
-- [[Trabalhos e Projetos de Computação, Sociedade e Inclusão]]
+- [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão]]
 - [[Projeto de Extensão - IA para Todos]]
-- [[Cronograma de Computação, Sociedade e Inclusão]]
 - [[Materiais, leituras, filmes e podcasts de Computação e Sociedade]] (onde ler cada termo)
 
 Glossários irmãos e páginas que aprofundam verbetes daqui:

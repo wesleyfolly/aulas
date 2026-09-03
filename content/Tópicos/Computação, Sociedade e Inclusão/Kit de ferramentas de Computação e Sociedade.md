@@ -12,7 +12,7 @@ tags:
 # Kit de ferramentas de Computação e Sociedade
 
 > [!quote] Aqui a opinião vem depois da evidência
-> *Toda página desta disciplina manda você fazer alguma coisa: consultar um dado, auditar um sistema, entrevistar uma pessoa, publicar um material. Esta página é a caixa de ferramentas: onde fazer, com que conta, seguindo qual passo e com que resultado na mão no fim. Ela é cobrada em todos os trabalhos de [[Trabalhos e Projetos de Computação, Sociedade e Inclusão]].*
+> *Toda página desta disciplina manda você fazer alguma coisa: consultar um dado, auditar um sistema, entrevistar uma pessoa, publicar um material. Esta página é a caixa de ferramentas: onde fazer, com que conta, seguindo qual passo e com que resultado na mão no fim. Ela é cobrada em todos os trabalhos de [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão]].*
 
 As atividades se organizam em cinco famílias, e nenhuma se resolve escrevendo no caderno. As seções **1 a 4** são ferramentas (onde clicar), as **5 a 8** são métodos (como fazer com rigor) e a **9** é a regra da casa sobre IA.
 
@@ -463,7 +463,7 @@ Usar IA é **permitido e esperado**: avalia-se o seu julgamento, a evidência qu
 | Comparar respostas de dois modelos e tabular | Anotar ferramenta, versão e data | Trabalho gerado que você não consegue defender oralmente |
 
 > [!warning] O teste de defesa
-> Na devolutiva, o professor escolhe **uma linha** da sua tabela, **uma entrada** do seu diário de campo ou **uma frase** da sua transcrição e pergunta o que é aquilo. Quem coletou responde em cinco segundos. As regras gerais de entrega (só PDF, prazo, atraso valendo 6,0) estão em [[Regras e boas práticas]] e em [[Trabalhos e Projetos de Computação, Sociedade e Inclusão]].
+> Na devolutiva, o professor escolhe **uma linha** da sua tabela, **uma entrada** do seu diário de campo ou **uma frase** da sua transcrição e pergunta o que é aquilo. Quem coletou responde em cinco segundos. As regras gerais de entrega (só PDF, prazo, atraso valendo 6,0) estão em [[Regras e boas práticas]] e em [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão]].
 
 ---
 
@@ -512,8 +512,8 @@ Dois cenários honestos convivem para 2036: quem defende a "IA como tecnologia n
 
 ## 🔗 Veja também
 
-- [[Trabalhos e Projetos de Computação, Sociedade e Inclusão]]: os enunciados que cobram cada ferramenta deste kit · [[Projeto de Extensão - IA para Todos]]: a oficina com a comunidade, em detalhe.
-- [[Cronograma de Computação, Sociedade e Inclusão]] e [[Comp Sociedade 7Eng 2026-2]]: datas e o registro das aulas · [[Glossário de Computação, Sociedade e Inclusão]] e [[Materiais, leituras, filmes e podcasts de Computação e Sociedade]]: os conceitos com autor e o que ler, ver e ouvir.
+- [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão]]: os enunciados que cobram cada ferramenta deste kit · [[Projeto de Extensão - IA para Todos]]: a oficina com a comunidade, em detalhe.
+- [[Comp Sociedade 7Eng 2026-2]]: o log da turma, com o registro das aulas e o que foi definido em sala · [[Glossário de Computação, Sociedade e Inclusão]] e [[Materiais, leituras, filmes e podcasts de Computação e Sociedade]]: os conceitos com autor e o que ler, ver e ouvir.
 - As páginas que usam este kit: [[A tecnologia não é neutra - Computação e Sociedade]] · [[Filosofia da Tecnologia - as grandes perguntas da era da IA]] · [[A virada da IA - o que mudou no mundo desde 2022]] · [[Automação, trabalho e o futuro das profissões]] · [[Poder, plataformas e vigilância - o público, o privado e o sujeito]] · [[Vieses, discriminação algorítmica e inclusão]] · [[Cultura, identidade e tecnologias digitais]] · [[Recursos Educacionais Abertos]] · [[Cidadania e educação na sociedade digital]] · [[Tecnologia social e tecnologia convencional]] · [[Relevância social, investimento e políticas públicas de tecnologia]] · [[O engenheiro de computação em 2036 - trabalho, carreira e responsabilidade]].
 - [[Anatomia de um Argumento]] (falácias, para a seção 7) · [[Regras e boas práticas]] (formato de entrega e integridade) · [[Anonimato e privacidade]] e [[Ollama - gerenciamento de modelos de IA]] (aprofundam as seções 3 e 4).
 - [[Tópicos/Computação, Sociedade e Inclusão/index|Computação, Sociedade e Inclusão]]: página principal da disciplina.

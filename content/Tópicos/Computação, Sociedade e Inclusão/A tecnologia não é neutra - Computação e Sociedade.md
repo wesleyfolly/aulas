@@ -304,12 +304,12 @@ O placar parcial de 2026: o AI 2027 previa **deslocamento de engenheiros juniore
 
 | Onde | O que tem lá |
 |---|---|
-| [[Cronograma de Computação, Sociedade e Inclusão]] | datas, conteúdo de cada aula, prazos de entrega |
 | [[Kit de ferramentas de Computação e Sociedade]] | as ferramentas das atividades, com tutorial e conta |
-| [[Trabalhos e Projetos de Computação, Sociedade e Inclusão]] | enunciados, rubrica e critérios de avaliação |
-| [[Projeto de Extensão - IA para Todos]] | a extensão: oficina de letramento em IA com a comunidade |
+| [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão]] | banco de possíveis trabalhos, com roteiro e rubrica; o professor define em aula quais valem |
+| [[Projeto de Extensão - IA para Todos]] | a proposta de extensão: oficina de letramento em IA com a comunidade |
 | [[Glossário de Computação, Sociedade e Inclusão]] | os termos, com a definição que vale nas provas |
 | [[Materiais, leituras, filmes e podcasts de Computação e Sociedade]] | o que ler, ver e ouvir por fora |
+| [[Comp Sociedade 7Eng 2026-2]] | o log da turma: o que foi dado em cada aula e os trabalhos e provas definidos em sala |
 
 **As regras de uso de IA aqui** são três palavras. **Pedir:** use o modelo à vontade para começar, resumir, traduzir, criticar o próprio texto e gerar contra-argumento. **Verificar na fonte:** todo número, data, lei e citação tem que ser conferido na fonte primária; um LLM que inventa referência não está mentindo, está fazendo aquilo para que foi treinado, produzir texto plausível ([[O que a IA sabe - Informação, verdade e alucinação]]). **Registrar:** no trabalho, diga em uma linha o que a IA fez e o que você conferiu. Isso vale nota; omitir e ser pego vale zero.
 

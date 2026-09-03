@@ -231,7 +231,7 @@ O art. 20 é onde o "dividual" de Deleuze encontra a lei: você pode exigir expl
 > 3. Registre **data e hora do envio** e calcule a **data limite dos 15 dias** do art. 19, II.
 > 4. Na data limite, registre o resultado: resposta completa, parcial ou silêncio. Em caso de silêncio, anote o caminho para peticionar à ANPD.
 >
-> **Resultado esperado:** um PDF com o pedido enviado (com data), a resposta (ou o print da caixa vazia na data limite) e três linhas avaliando se ela cumpre o requisito de "informações claras e adequadas". **Peça apenas os seus próprios dados.** Este material entra direto no [[Trabalhos e Projetos de Computação, Sociedade e Inclusão|T1: auditoria de um algoritmo do cotidiano]].
+> **Resultado esperado:** um PDF com o pedido enviado (com data), a resposta (ou o print da caixa vazia na data limite) e três linhas avaliando se ela cumpre o requisito de "informações claras e adequadas". **Peça apenas os seus próprios dados.** Este material entra direto no [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão|T1: auditoria de um algoritmo do cotidiano]].
 >
 > 📱 **Só com celular:** vários apps já têm o pedido em Configurações → Privacidade → "Baixar seus dados". Serve, desde que você registre data de envio e de resposta.
 
@@ -403,7 +403,7 @@ Isso é **privacy by design**, requisito não funcional do mesmo tipo que desemp
 - [[Engenharia social]]: por que o dado que vaza vira ataque contra pessoas, não contra máquinas.
 - [[A tecnologia não é neutra - Computação e Sociedade]]: a tese geral de que escolha técnica embute escolha política.
 - [[Vieses, discriminação algorítmica e inclusão]]: o mecanismo técnico do erro desigual do reconhecimento facial.
-- [[Trabalhos e Projetos de Computação, Sociedade e Inclusão]]: a atividade 6 é o embrião do **T1**.
+- [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão]]: a atividade 6 é o embrião do **T1**.
 - [[Kit de ferramentas de Computação e Sociedade]]: formato do debate, protocolo ético e modelos de termo.
 - ⬅️ **Aula anterior:** [[Automação, trabalho e o futuro das profissões]]
 - ➡️ **Próxima aula:** [[Cultura, identidade e tecnologias digitais]]

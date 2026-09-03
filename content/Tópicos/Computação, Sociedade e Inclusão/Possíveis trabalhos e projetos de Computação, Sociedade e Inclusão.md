@@ -1,6 +1,6 @@
 ---
 tipo: avaliacao
-resumo: "Enunciados dos trabalhos, das provas e do projeto de extensão de Computação, Sociedade e Inclusão: roteiro com ferramentas reais, evidências, rubrica em pontos, regras de uso de IA e integridade."
+resumo: "Banco de possíveis trabalhos e projetos de Computação, Sociedade e Inclusão: roteiros com ferramentas reais, evidências, sugestão de rubrica em pontos, regras de uso de IA e integridade. O professor define em aula quais valem no semestre."
 tags:
   - avaliacao
   - computacao-sociedade-inclusao
@@ -9,7 +9,13 @@ tags:
   - extensao
 ---
 
-# Trabalhos e Projetos de Computação, Sociedade e Inclusão
+# Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão
+
+> [!quote] Aprendizado Prático
+> *Não é necessário realizar todas as tarefas abaixo, somente as que forem solicitadas pelo professor.*
+
+> [!info] Isto é um banco de possibilidades
+> Ao longo das aulas o professor decide **quais** destes trabalhos entram no semestre, **quanto** cada um vale e **quando** é a entrega. Os pontos indicados em cada enunciado são sugestões; a versão que vale é a anunciada em aula e registrada no [[Comp Sociedade 7Eng 2026-2|log da turma]].
 
 > [!quote] O que você entrega aqui é evidência, não opinião
 > *Nenhum trabalho desta disciplina pode ser respondido de cabeça. Todos exigem que você tenha olhado um dado de verdade, mexido numa ferramenta de verdade, falado com uma pessoa de verdade ou publicado alguma coisa de verdade. A sua opinião é bem-vinda, mas ela vem depois da evidência, e com a fonte ao lado.*
@@ -42,7 +48,7 @@ tags:
 
 | Situação | Consequência |
 |---|---|
-| Entrega **atrasada** | Nota fixa de **6,0 na escala de 0 a 10**, ou seja, **60% dos pontos**: T1 = 1,2 · T2 = 1,5 · T3 = 1,5 · T4 = 1,2 · Projeto de extensão = 3,0. Corrijo mesmo assim e devolvo o feedback completo |
+| Entrega **atrasada** | Nota fixa de **6,0 na escala de 0 a 10**, ou seja, **60% dos pontos** que o trabalho valer. Corrijo mesmo assim e devolvo o feedback completo |
 | Formato diferente de **PDF** | Desconto equivalente a 2,0 pontos na escala de 0 a 10 (20% dos pontos). O trabalho é corrigido normalmente |
 | **Prompt injection** no PDF, visível ou escondida (texto branco, fonte 1pt, metadado) | Fraude: **nota 0**, sem revisão manual |
 | Entrevista, diário de campo ou dado **inventados** | Fraude: **nota 0** no trabalho |
@@ -53,42 +59,24 @@ tags:
 
 ---
 
-## 2. 🗓️ Mapa das entregas
+## 2. 🧭 O que há neste banco
 
-| Trabalho | Pontos | Etapa | Formato | Lançamento | Entrega |
-|---|---|---|---|---|---|
-| **T1** Auditoria de um algoritmo do cotidiano | 2,0 | A1 | Individual | 18/09 | **09/10** |
-| **T2** Dossiê: o futuro da minha profissão | 2,5 | A1 | Duplas | 25/09 | **23/10** |
-| **T3** Etnografia digital de uma comunidade | 2,5 | A1 | Individual | 02/10 | **30/10** |
-| **Projeto de Extensão** IA para Todos | 5,0 | A2 | Equipes de 3 a 4, ajuste individual | 06/11 | proposta **13/11** · oficinas **23/11 a 17/12** · relatório e apresentação **18/12** |
-| **T4** Policy brief: uma política pública de tecnologia para o Noroeste Fluminense | 2,0 | A2 | Duplas | 27/11 | **11/12** |
+| Trabalho | Sugestão de pontos | Formato | Tempo estimado |
+|---|---|---|---|
+| **T1** Auditoria de um algoritmo do cotidiano | 2,0 | Individual | 6 a 8 h |
+| **T2** Dossiê: o futuro da minha profissão | 2,5 | Duplas | 10 a 12 h por dupla |
+| **T3** Etnografia digital de uma comunidade | 2,5 | Individual | 10 dias de campo + 4 h de escrita |
+| **T4** Policy brief: uma política pública de tecnologia para o Noroeste Fluminense | 2,0 | Duplas | 6 a 8 h por dupla |
+| **Projeto de Extensão** IA para Todos | 5,0 | Equipes de 3 a 4, ajuste individual | as 20 h de extensão da disciplina |
+| **Provas objetivas** | 3,0 por etapa | Individual | |
 
-Com as provas objetivas (3,0 em cada etapa), A1 e A2 fecham 10,0 pontos cada, por **soma**, nunca por média ponderada. Calendário completo em [[Cronograma de Computação, Sociedade e Inclusão]].
-
-```mermaid
-gantt
-    title Linha do tempo das entregas de CSI (2026.2)
-    dateFormat YYYY-MM-DD
-    axisFormat %d/%m
-    section Etapa A1
-    T1 Auditoria de algoritmo        :a1t1, 2026-09-18, 2026-10-09
-    T2 Dossiê do futuro da profissão :a1t2, 2026-09-25, 2026-10-23
-    T3 Etnografia digital            :a1t3, 2026-10-02, 2026-10-30
-    Prova A1                         :milestone, mA1, 2026-10-30, 0d
-    section Etapa A2
-    Projeto de extensão              :a2p, 2026-11-06, 2026-12-18
-    Proposta da equipe               :milestone, mp1, 2026-11-13, 0d
-    Janela das oficinas              :a2o, 2026-11-23, 2026-12-17
-    T4 Policy brief                  :a2t4, 2026-11-27, 2026-12-11
-    Prova A2                         :milestone, mA2, 2026-12-11, 0d
-    Apresentações da extensão        :milestone, mp3, 2026-12-18, 0d
-```
+Etapa (A1 ou A2), valor e prazo de cada item: **definidos em aula** e registrados no [[Comp Sociedade 7Eng 2026-2|log da turma]]. Cada etapa fecha em 10,0 pontos pela **soma** dos itens escolhidos, nunca por média ponderada.
 
 ---
 
 ## 3. 🔍 T1: Auditoria de um algoritmo do cotidiano (2,0 pontos)
 
-**2,0 pontos · A1 · individual · lançado 18/09 · entrega 09/10 · 6 a 8 h**
+**Sugestão: 2,0 pontos · individual · 6 a 8 h · etapa e prazo definidos em aula**
 **Apoio:** [[A tecnologia não é neutra - Computação e Sociedade]] · [[Poder, plataformas e vigilância - o público, o privado e o sujeito]] · [[Vieses, discriminação algorítmica e inclusão]] · [[Kit de ferramentas de Computação e Sociedade]]
 
 **Objetivo.** Escolher **um sistema algorítmico que decide algo na sua vida** e produzir o **laudo de auditoria** dele: o que ele sabe de você, como se comporta quando você muda as condições, que política carrega (o teste de Winner) e o que a lei te permite fazer a respeito.
@@ -119,7 +107,7 @@ gantt
 
 ## 4. 💼 T2: Dossiê: o futuro da minha profissão (2,5 pontos)
 
-**2,5 pontos · A1 · duplas · lançado 25/09 · entrega 23/10 · 10 a 12 h por dupla**
+**Sugestão: 2,5 pontos · duplas · 10 a 12 h por dupla · etapa e prazo definidos em aula**
 **Apoio:** [[Automação, trabalho e o futuro das profissões]] · [[A virada da IA - o que mudou no mundo desde 2022]] · [[O engenheiro de computação em 2036 - trabalho, carreira e responsabilidade]] · [[Kit de ferramentas de Computação e Sociedade]]
 
 **Objetivo.** Escolher **uma profissão** (a de vocês, engenharia de computação, ou a de alguém da família: professor, contador, agricultor, enfermeiro, motorista, comerciante) e responder com evidência: o que a IA já faz das tarefas dessa profissão, o que os dados de 2025-2026 dizem sobre ela, o que dizem as pessoas que a exercem, e três cenários fundamentados para 2036.
@@ -150,7 +138,7 @@ gantt
 
 ## 5. 📓 T3: Etnografia digital de uma comunidade (2,5 pontos)
 
-**2,5 pontos · A1 · individual · lançado 02/10 · entrega 30/10 · 10 dias de campo + 4 h de escrita**
+**Sugestão: 2,5 pontos · individual · 10 dias de campo + 4 h de escrita · etapa e prazo definidos em aula**
 **Apoio:** [[Cultura, identidade e tecnologias digitais]] · [[Poder, plataformas e vigilância - o público, o privado e o sujeito]] · [[Kit de ferramentas de Computação e Sociedade]]
 
 **Objetivo.** Passar **dez dias observando uma comunidade online** como um etnógrafo: com diário de campo datado, vocabulário nativo, regras explícitas e implícitas, e depois analisar o que viu com os conceitos de cultura e identidade da disciplina (Laraia, Geertz, Hall, Castells, Kozinets).
@@ -181,7 +169,7 @@ gantt
 
 ## 6. 🏛️ T4: Policy brief: uma política pública de tecnologia para o Noroeste Fluminense (2,0 pontos)
 
-**2,0 pontos · A2 · duplas · lançado 27/11 · entrega 11/12 · 6 a 8 h por dupla**
+**Sugestão: 2,0 pontos · duplas · 6 a 8 h por dupla · etapa e prazo definidos em aula**
 **Apoio:** [[Relevância social, investimento e políticas públicas de tecnologia]] · [[Cidadania e educação na sociedade digital]] · [[Tecnologia social e tecnologia convencional]] · [[Kit de ferramentas de Computação e Sociedade]]
 
 **Objetivo.** Escrever um **policy brief** de 2 a 3 páginas, no formato que assessores e gestores usam, sobre **um problema real de tecnologia e sociedade do Noroeste Fluminense** (Bom Jesus do Itabapoana e vizinhos): conectividade rural, inclusão digital de pessoas idosas, IA na escola pública, dados abertos da prefeitura, telecentro ou laboratório aberto, acessibilidade dos serviços digitais municipais, capacitação em IA para o comércio local.
@@ -207,28 +195,25 @@ gantt
 
 ## 7. 🤝 Projeto de Extensão: IA para Todos (5,0 pontos)
 
-**5,0 pontos · A2 · equipes de 3 a 4 · lançado 06/11 · proposta 13/11 · oficinas 23/11 a 17/12 · relatório e apresentação 18/12**
+**Sugestão: 5,0 pontos · equipes de 3 a 4 · marcos: proposta, REA, oficina, relatório e apresentação · etapa e datas definidas em aula**
 
-É um terço da carga horária da disciplina e a entrega mais importante do semestre: **oficinas de letramento em inteligência artificial e inclusão digital** para públicos reais de Bom Jesus do Itabapoana, com o material publicado como **recurso educacional aberto**. O enunciado completo (públicos, parceiros, roteiro da oficina de 2 horas, evidências, ética, consentimento, cronograma e rubrica detalhada) está em [[Projeto de Extensão - IA para Todos]].
+Corresponde às 20 horas de extensão da disciplina e, se for escolhido, é a entrega mais importante do semestre: **oficinas de letramento em inteligência artificial e inclusão digital** para públicos reais de Bom Jesus do Itabapoana, com o material publicado como **recurso educacional aberto**. O enunciado completo (públicos, parceiros, roteiro da oficina de 2 horas, evidências, ética, consentimento, marcos e rubrica detalhada) está em [[Projeto de Extensão - IA para Todos]].
 
 | Rubrica (5,0 pontos, resumo) | Pontos |
 |---|---|
-| **Proposta** (13/11: público, parceiro, data, local, roteiro, materiais, responsáveis, riscos) | **0,5** |
+| **Proposta** (público, parceiro, data, local, roteiro, materiais, responsáveis, riscos) | **0,5** |
 | **REA publicado** (material da oficina com licença Creative Commons, acessível, com créditos, no GitHub e no Zenodo ou Wikimedia Commons) | **1,5** |
 | **Oficina executada com evidências** (público real, lista de presença, fotos com consentimento, avaliação dos participantes) | **2,0** |
-| **Relatório e apresentação** (18/12) | **1,0** |
+| **Relatório e apresentação** | **1,0** |
 
 > [!info] Ajuste individual
 > A nota é da equipe, com ajuste individual pela presença na oficina, pela participação registrada (commits, materiais, lista) e pela apresentação. Quem não foi à oficina não recebe os pontos de execução.
 
 ---
 
-## 8. 📝 Provas objetivas (3,0 pontos em cada etapa)
+## 8. 📝 Provas objetivas
 
-| Prova | Data | O que cai | Formato |
-|---|---|---|---|
-| **A1** | 30/10 | As páginas das partes 1 e 2: [[A tecnologia não é neutra - Computação e Sociedade]], [[Filosofia da Tecnologia - as grandes perguntas da era da IA]], [[A virada da IA - o que mudou no mundo desde 2022]], [[Automação, trabalho e o futuro das profissões]], [[Poder, plataformas e vigilância - o público, o privado e o sujeito]], [[Cultura, identidade e tecnologias digitais]], [[Vieses, discriminação algorítmica e inclusão]] | 100% objetiva (múltipla escolha e verdadeiro ou falso), com cartão-resposta; questões de caso: um cenário real e o conceito que o explica |
-| **A2** | 11/12 | As páginas das partes 3 e 4: [[Recursos Educacionais Abertos]], [[Cidadania e educação na sociedade digital]], [[Tecnologia social e tecnologia convencional]], [[Relevância social, investimento e políticas públicas de tecnologia]], [[O engenheiro de computação em 2036 - trabalho, carreira e responsabilidade]] | Idem |
+Sugestão: **3,0 pontos em cada etapa**. As provas são **100% objetivas** (múltipla escolha e verdadeiro ou falso), com cartão-resposta, e privilegiam **questões de caso**: um cenário real e o conceito que o explica. O que cai em cada prova, a data e o valor são anunciados em aula e registrados no [[Comp Sociedade 7Eng 2026-2|log da turma]].
 
 > [!tip] Como estudar
 > Os quizzes no fim de cada página têm o mesmo estilo da prova. O [[Glossário de Computação, Sociedade e Inclusão]] tem os conceitos com o autor. Estude pelos casos: para cada conceito, saiba um caso real que o ilustra e quem o formulou.
@@ -237,7 +222,7 @@ gantt
 
 ## 9. ⭐ Pontos extras por contribuição pública
 
-Até **0,5 ponto por etapa**, somado à etapa em que foi conquistado, para quem publicar algo útil de verdade e provar:
+Sugestão: até **0,5 ponto por etapa**, somado à etapa em que foi conquistado, para quem publicar algo útil de verdade e provar:
 
 | Contribuição | Evidência | Pontos |
 |---|---|---|
@@ -253,6 +238,6 @@ Até **0,5 ponto por etapa**, somado à etapa em que foi conquistado, para quem 
 
 - [[Projeto de Extensão - IA para Todos]]: o enunciado completo do projeto.
 - [[Kit de ferramentas de Computação e Sociedade]]: roteiros de entrevista, template de diário de campo, template de policy brief, termo de consentimento, fontes de dados.
-- [[Cronograma de Computação, Sociedade e Inclusão]]: todas as datas.
+- [[Comp Sociedade 7Eng 2026-2]]: o log da turma, onde ficam os trabalhos escolhidos, os valores e as datas definidos em aula.
 - [[Regras e boas práticas]]: formato de entrega e regras gerais.
 - [[Tópicos/Computação, Sociedade e Inclusão/index|Computação, Sociedade e Inclusão]]: página principal da disciplina.

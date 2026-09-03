@@ -162,7 +162,7 @@ Isto não é retórica de professor. A **Lei nº 11.892, de 29 de dezembro de 20
 
 A expressão "tecnologia social" está no artigo que define **para que serve** o IFF, desde 2008. A extensão curricularizada (a Resolução CNE/CES nº 7, de 18/12/2018, exige no mínimo 10% da carga horária da graduação em extensão) e as **20 horas-aula de extensão desta disciplina** (CSECBJ.54, 60 h/a) não são apêndice simpático: são o inciso IX sendo cumprido, com você dentro.
 
-O [[Projeto de Extensão - IA para Todos]] é a peça prática desta unidade. Hoje, 27/11, cada equipe traz o **rascunho do REA** e ensaia 15 minutos da oficina para a turma. Use os parâmetros do ITS (seção 1.1) como roteiro de crítica ao trabalho dos colegas.
+O [[Projeto de Extensão - IA para Todos]] é a peça prática desta unidade. Na aula combinada para isso, cada equipe traz o **rascunho do REA** e ensaia 15 minutos da oficina para a turma. Use os parâmetros do ITS (seção 1.1) como roteiro de crítica ao trabalho dos colegas.
 
 > [!example] 🧪 Atividade 3: Mapa dos serviços digitais da cidade (uMap)
 > **Ferramenta:** [uMap](https://umap.openstreetmap.fr/pt-br/), que monta mapas colaborativos sobre a base do OpenStreetMap sem instalar nada.

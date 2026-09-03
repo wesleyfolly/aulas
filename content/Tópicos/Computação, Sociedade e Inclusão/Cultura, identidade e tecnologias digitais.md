@@ -94,7 +94,7 @@ Este é o instrumento do **T3** e o coração do método. Regra de ouro: **fato 
 | **Regra implícita** | o que ninguém escreveu e todos cumprem | preço se negocia no privado, nunca no grupo |
 | **Pergunta que ficou** | o que você ainda não entendeu | quem decide o que é propaganda demais? |
 
-O template completo está na seção 5.4 do [[Kit de ferramentas de Computação e Sociedade]], com o roteiro de entrevista e os termos de consentimento. Quem usa isso é o **T3** ([[Trabalhos e Projetos de Computação, Sociedade e Inclusão]]): dez dias de campo, dez entradas, três episódios em descrição densa e a análise com os conceitos desta página.
+O template completo está na seção 5.4 do [[Kit de ferramentas de Computação e Sociedade]], com o roteiro de entrevista e os termos de consentimento. Quem usa isso é o **T3** ([[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão]]): dez dias de campo, dez entradas, três episódios em descrição densa e a análise com os conceitos desta página.
 
 ```mermaid
 flowchart LR
@@ -393,7 +393,7 @@ Formato do debate no [[Kit de ferramentas de Computação e Sociedade]]. Não é
 - [[Vieses, discriminação algorítmica e inclusão]]: o mecanismo técnico do erro desigual, que aqui aparece como desequilíbrio cultural.
 - [[Cidadania e educação na sociedade digital]]: o que fazer, como cidadão e como escola, com o que esta aula descreveu.
 - [[Filosofia da Tecnologia - as grandes perguntas da era da IA]]: Heidegger, Winner e Feenberg, a moldura em que Yuk Hui entra.
-- [[Trabalhos e Projetos de Computação, Sociedade e Inclusão]]: a **atividade 1** é o embrião direto do **T3**.
+- [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão]]: a **atividade 1** é o embrião direto do **T3**.
 - [[Kit de ferramentas de Computação e Sociedade]]: template do diário (seção 5.4), consentimento e formato do debate.
 - ⬅️ **Aula anterior:** [[Poder, plataformas e vigilância - o público, o privado e o sujeito]]
 - ➡️ **Próxima aula:** [[Vieses, discriminação algorítmica e inclusão]]

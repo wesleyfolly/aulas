@@ -78,7 +78,7 @@ timeline
 > 2. Copie as **10 primeiras tarefas** para uma planilha e classifique cada uma: (A) um agente faz sozinho hoje, (B) faz com supervisão, (C) não faz.
 > 3. Peça a um LLM que classifique as **mesmas** 10 e marque as divergências.
 >
-> **Resultado esperado:** planilha com os percentuais A/B/C, a tabela de divergências com a IA e a defesa escrita de **três** classificações polêmicas. Guarde: é a base do [[Trabalhos e Projetos de Computação, Sociedade e Inclusão|T2]].
+> **Resultado esperado:** planilha com os percentuais A/B/C, a tabela de divergências com a IA e a defesa escrita de **três** classificações polêmicas. Guarde: é a base do [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão|T2]].
 
 ---
 
@@ -277,7 +277,7 @@ Se o problema é real, quais respostas estão em experimentação? Vale a regra 
 > 2. Faça **à mão** e cronometre (T1).
 > 3. Faça de novo com o agente e cronometre **tudo**: escrever o prompt, esperar, corrigir e **verificar** se está certo (T2). Avalie o resultado de 0 a 5 em correção, completude e retrabalho.
 >
-> **Resultado esperado:** tabela com T1, T2, os 3 critérios e o veredito. **Só conta como sucesso se você verificou o resultado, não se ele "pareceu certo".** Confronte o resultado da turma com os 19% de lentidão da METR e com a divergência de 39 pontos entre percepção e medição. Esta atividade é o embrião do [[Trabalhos e Projetos de Computação, Sociedade e Inclusão|T2]].
+> **Resultado esperado:** tabela com T1, T2, os 3 critérios e o veredito. **Só conta como sucesso se você verificou o resultado, não se ele "pareceu certo".** Confronte o resultado da turma com os 19% de lentidão da METR e com a divergência de 39 pontos entre percepção e medição. Esta atividade é o embrião do [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão|T2]].
 >
 > 📱 **Só com celular:** escolha uma tarefa de texto (padronizar mensagens, extrair dados de prints) e use o app do modelo.
 

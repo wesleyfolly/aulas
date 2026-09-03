@@ -326,7 +326,7 @@ flowchart TD
 | **Registrar** | Anote a **diferença** entre o que o modelo disse e o que a fonte diz. Essa diferença é o aprendizado, não o resumo | duas a cinco linhas por item |
 
 > [!warning] O teste que você faz uma vez e nunca esquece
-> Peça a um LLM cinco referências brasileiras sobre racismo algorítmico, com DOI, e cheque cada DOI em <https://doi.org>. Faça isso **antes** de confiar em qualquer bibliografia gerada: a taxa de invenção varia por modelo e por tema, e o único jeito de saber a sua é medir. Esse teste é uma das atividades avaliadas em [[Trabalhos e Projetos de Computação, Sociedade e Inclusão]].
+> Peça a um LLM cinco referências brasileiras sobre racismo algorítmico, com DOI, e cheque cada DOI em <https://doi.org>. Faça isso **antes** de confiar em qualquer bibliografia gerada: a taxa de invenção varia por modelo e por tema, e o único jeito de saber a sua é medir. Esse teste aparece nos [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão]].
 
 > [!tip] Onde a IA ajuda de verdade
 > Traduzir um parágrafo denso de Castells para linguagem de engenheiro. Gerar dez perguntas sobre o capítulo que você acabou de ler. Ser advogado do diabo num debate. Achar o timestamp numa transcrição que você já assistiu. Em todos, você já tem a fonte na mão e usa o modelo como ferramenta, não como oráculo.
@@ -337,7 +337,7 @@ flowchart TD
 
 Na ordem do semestre: [[Tópicos/Computação, Sociedade e Inclusão/index|Computação, Sociedade e Inclusão]] · [[A tecnologia não é neutra - Computação e Sociedade]] · [[Filosofia da Tecnologia - as grandes perguntas da era da IA]] · [[A virada da IA - o que mudou no mundo desde 2022]] · [[Automação, trabalho e o futuro das profissões]] · [[Poder, plataformas e vigilância - o público, o privado e o sujeito]] · [[Vieses, discriminação algorítmica e inclusão]] · [[Cultura, identidade e tecnologias digitais]] · [[Recursos Educacionais Abertos]] · [[Cidadania e educação na sociedade digital]] · [[Tecnologia social e tecnologia convencional]] · [[Relevância social, investimento e políticas públicas de tecnologia]] · [[O engenheiro de computação em 2036 - trabalho, carreira e responsabilidade]].
 
-Apoio: [[Kit de ferramentas de Computação e Sociedade]] (debates, rubricas e regras de citação) · [[Trabalhos e Projetos de Computação, Sociedade e Inclusão]] · [[Projeto de Extensão - IA para Todos]] · [[Cronograma de Computação, Sociedade e Inclusão]] · [[Glossário de Computação, Sociedade e Inclusão]].
+Apoio: [[Kit de ferramentas de Computação e Sociedade]] (debates, rubricas e regras de citação) · [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão]] · [[Projeto de Extensão - IA para Todos]] · [[Glossário de Computação, Sociedade e Inclusão]].
 
 Fora da disciplina: [[Tópicos/Filosofia da Mente e da Tecnologia/index|Filosofia da Mente e da Tecnologia]], com [[Ética da IA - Poder, Vigilância e Automação]], [[Ética da IA - Responsabilidade e Agência Moral]], [[O que a IA sabe - Informação, verdade e alucinação]] e [[Anatomia de um Argumento]] · [[Carreira e mercado de trabalho]] · [[Tendências do futuro]].
 

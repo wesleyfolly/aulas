@@ -409,7 +409,7 @@ O debate sobre "o futuro do trabalho do dev" quase sempre pressupõe alguém mor
 - [[Ética da IA - Responsabilidade e Agência Moral]]: Hans Jonas, imputação e agência moral de máquinas.
 - [[Relevância social, investimento e políticas públicas de tecnologia]]: a aula anterior, sobre quem paga a conta da tecnologia que você vai construir.
 - [[Kit de ferramentas de Computação e Sociedade]]: como fazer cada atividade desta página, passo a passo.
-- ➡️ **Próxima aula (fechamento):** [[Trabalhos e Projetos de Computação, Sociedade e Inclusão]]
+- ➡️ **Para fechar o semestre:** [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão]]: o banco de trabalhos da disciplina; o professor define em aula quais valem.
 
 ---
 

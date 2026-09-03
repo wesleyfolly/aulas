@@ -1,6 +1,6 @@
 ---
 tipo: projeto
-resumo: "Projeto de extensão da disciplina Computação, Sociedade e Inclusão (2026.2): oficinas de letramento em inteligência artificial e inclusão digital para públicos reais de Bom Jesus do Itabapoana, com o material publicado como recurso educacional aberto."
+resumo: "Proposta de projeto de extensão para Computação, Sociedade e Inclusão: oficinas de letramento em inteligência artificial e inclusão digital para públicos reais de Bom Jesus do Itabapoana, com o material publicado como recurso educacional aberto. O professor define em aula se, como e quando o projeto acontece."
 tags:
   - projeto
   - extensao
@@ -12,11 +12,17 @@ tags:
 
 # Projeto de Extensão: IA para Todos
 
+> [!quote] Aprendizado Prático
+> *Não é necessário realizar todas as tarefas abaixo, somente as que forem solicitadas pelo professor.*
+
+> [!info] Isto é uma proposta
+> Este é um **possível projeto** para as 20 horas de extensão da disciplina. O professor define em aula se ele acontece, com quais públicos, quanto vale e qual é a data de cada marco. Os pontos e os marcos desta página são sugestões; a versão que vale é a anunciada em aula e registrada no [[Comp Sociedade 7Eng 2026-2|log da turma]].
+
 > [!quote] Extensão ou comunicação?
 > *Paulo Freire perguntou isso em 1969, muito antes da internet: levar conhecimento "para" a comunidade é diferente de construir conhecimento "com" ela. Este projeto existe para você descobrir, na prática, que ensinar uma pessoa idosa a reconhecer um golpe feito com inteligência artificial, ou um estudante de escola pública a estudar com IA sem ser enganado por ela, ensina mais sobre computação e sociedade do que qualquer texto.*
 
 > [!abstract] 🧭 O que é
-> Um terço da carga horária desta disciplina (20 das 60 horas-aula) é **extensão curricularizada**: a Resolução CNE/CES 7/2018 exige que pelo menos 10% dos currículos de graduação sejam atividades de extensão, e o projeto pedagógico do curso coloca essa carga dentro desta disciplina. Extensão, aqui, significa **trabalho com público externo ao campus, com troca de mão dupla e evidência**. Em equipes de 3 a 4, vocês vão planejar, produzir e executar **uma oficina de letramento em inteligência artificial e inclusão digital** para um público real de Bom Jesus do Itabapoana, e publicar o material como **recurso educacional aberto** (REA) para que qualquer pessoa reutilize.
+> Um terço da carga horária desta disciplina (20 das 60 horas-aula) é **extensão curricularizada**: a Resolução CNE/CES 7/2018 exige que pelo menos 10% dos currículos de graduação sejam atividades de extensão, e o projeto pedagógico do curso coloca essa carga dentro desta disciplina. Extensão, aqui, significa **trabalho com público externo ao campus, com troca de mão dupla e evidência**. A proposta: em equipes de 3 a 4, planejar, produzir e executar **uma oficina de letramento em inteligência artificial e inclusão digital** para um público real de Bom Jesus do Itabapoana, e publicar o material como **recurso educacional aberto** (REA) para que qualquer pessoa reutilize.
 
 ---
 
@@ -85,47 +91,45 @@ journey
 
 ## 4. 📦 Entregas e evidências
 
-| Entrega | Quando | O que contém |
+| Entrega | Marco | O que contém |
 |---|---|---|
-| **Proposta** | 13/11 | Público e parceiro (com contato feito e resposta), data e local previstos, roteiro da oficina adaptado ao público, lista de materiais, divisão de responsabilidades na equipe, riscos e plano B. PDF de 2 a 3 páginas |
-| **REA** | até 18/12 (rascunho para revisão até 27/11) | O material da oficina: guia ou cartilha em PDF acessível (contraste, fonte legível, texto alternativo nas imagens) e os slides ou o vídeo usados; **licença CC BY-SA 4.0** (ou CC BY), créditos de todas as imagens e fontes, versão editável; publicado no **repositório da turma no GitHub** e depositado no **Zenodo** (com DOI) ou no **Wikimedia Commons** |
-| **Execução** | 23/11 a 17/12 | Lista de presença assinada (nome e assinatura; nada de CPF), 3 a 5 fotos com consentimento escrito (sem rosto de menores), formulário de avaliação respondido por pelo menos 5 participantes, relato de 1 página escrito no mesmo dia (o que funcionou, o que não funcionou, o que perguntaram) |
-| **Relatório e apresentação** | 18/12 | Relatório de até 8 páginas: contexto e público, o que foi feito, evidências, resultados da avaliação, o que a equipe aprendeu (ligando com Freire, Cazeloto, tecnologia social), próximos passos e como o parceiro pode continuar. Apresentação de 10 minutos por equipe, com fala de cada integrante |
+| **Proposta** | 1º marco, logo após a formação das equipes | Público e parceiro (com contato feito e resposta), data e local previstos, roteiro da oficina adaptado ao público, lista de materiais, divisão de responsabilidades na equipe, riscos e plano B. PDF de 2 a 3 páginas |
+| **REA** | rascunho para revisão antes da oficina; versão final no fechamento | O material da oficina: guia ou cartilha em PDF acessível (contraste, fonte legível, texto alternativo nas imagens) e os slides ou o vídeo usados; **licença CC BY-SA 4.0** (ou CC BY), créditos de todas as imagens e fontes, versão editável; publicado no **repositório da turma no GitHub** e depositado no **Zenodo** (com DOI) ou no **Wikimedia Commons** |
+| **Execução** | janela das oficinas, definida em aula | Lista de presença assinada (nome e assinatura; nada de CPF), 3 a 5 fotos com consentimento escrito (sem rosto de menores), formulário de avaliação respondido por pelo menos 5 participantes, relato de 1 página escrito no mesmo dia (o que funcionou, o que não funcionou, o que perguntaram) |
+| **Relatório e apresentação** | último marco | Relatório de até 8 páginas: contexto e público, o que foi feito, evidências, resultados da avaliação, o que a equipe aprendeu (ligando com Freire, Cazeloto, tecnologia social), próximos passos e como o parceiro pode continuar. Apresentação de 10 minutos por equipe, com fala de cada integrante |
 
 > [!info] Registro institucional
 > As oficinas fazem parte de uma disciplina com carga de extensão prevista no projeto do curso. O professor cuida do registro da ação junto à coordenação de extensão do campus e providencia, quando solicitada, declaração de participação para parceiros e participantes. A lista de presença e o relatório alimentam esse registro: capriche neles.
 
 ---
 
-## 5. 🗓️ Cronograma do projeto
+## 5. 🗺️ Marcos do projeto (a ordem, sem datas)
 
 ```mermaid
-gantt
-    title Projeto de Extensão IA para Todos (2026.2)
-    dateFormat YYYY-MM-DD
-    axisFormat %d/%m
-    section Planejamento
-    Lançamento, equipes e públicos    :milestone, m1, 2026-11-06, 0d
-    Contato com o parceiro            :p1, 2026-11-06, 2026-11-13
-    Proposta da equipe                :milestone, m2, 2026-11-13, 0d
-    section Produção
-    Material da oficina (REA)         :p2, 2026-11-13, 2026-11-27
-    Revisão do rascunho pelo professor:milestone, m3, 2026-11-27, 0d
-    Ensaio da oficina em sala         :p3, 2026-11-27, 2026-12-04
-    section Execução
-    Janela das oficinas               :p4, 2026-11-23, 2026-12-17
-    Acompanhamento em sala            :milestone, m4, 2026-12-04, 0d
-    section Fechamento
-    Publicação do REA (GitHub + Zenodo):p5, 2026-12-11, 2026-12-18
-    Relatório e apresentações         :milestone, m5, 2026-12-18, 0d
+flowchart LR
+    A(["🏁 Lançamento: equipes,<br/>público e formato"]) --> B["📞 Contato com o parceiro"]
+    B --> C{{"📄 Proposta da equipe"}}
+    C --> D["🛠️ Produção do REA"]
+    D --> E{{"👀 Rascunho revisado<br/>e ensaio em sala"}}
+    E --> F["🤝 Oficina com o público"]
+    F --> G["📣 Acompanhamento em sala"]
+    G --> H["🌐 Publicação do REA<br/>GitHub + Zenodo"]
+    H --> I(["🎤 Relatório e apresentações"])
+
+    classDef marco stroke:#e53e3e,stroke-width:3px
+    classDef ext stroke:#38a169,stroke-width:3px
+    class C,E,I marco
+    class F ext
 ```
 
-- **06/11:** lançamento na aula de [[Recursos Educacionais Abertos]]; equipes formadas; cada equipe escolhe público e formato em sala.
-- **13/11:** proposta entregue, na aula de [[Cidadania e educação na sociedade digital]]. Contato com o parceiro já feito.
-- **27/11:** rascunho do material revisado em sala ([[Tecnologia social e tecnologia convencional]]); ensaio de 15 minutos de cada equipe com a turma como público.
-- **23/11 a 17/12:** janela das oficinas (dia e horário combinados com o parceiro; pode ser fora do horário da aula).
-- **04/12:** acompanhamento: cada equipe reporta em 3 minutos o que já executou.
-- **18/12:** apresentações finais e entrega do relatório com as evidências.
+- **Lançamento:** equipes formadas; cada equipe escolhe público e formato em sala.
+- **Proposta:** entregue com o contato com o parceiro já feito.
+- **Rascunho e ensaio:** o material é revisado em sala e cada equipe ensaia 15 minutos da oficina com a turma como público.
+- **Janela das oficinas:** dia e horário combinados com o parceiro; pode ser fora do horário da aula.
+- **Acompanhamento:** cada equipe reporta em 3 minutos o que já executou.
+- **Fechamento:** apresentações finais e entrega do relatório com as evidências.
+
+As datas de cada marco são combinadas em aula e ficam no [[Comp Sociedade 7Eng 2026-2|log da turma]].
 
 ---
 
@@ -149,11 +153,11 @@ gantt
 
 ---
 
-## 7. 📊 Rubrica (5,0 pontos)
+## 7. 📊 Rubrica (sugestão: 5,0 pontos)
 
 | Item | Critério | Pontos |
 |---|---|---|
-| **Proposta (13/11)** | Público e parceiro definidos com contato feito; roteiro adaptado; materiais; responsabilidades; riscos e plano B | **0,5** |
+| **Proposta** | Público e parceiro definidos com contato feito; roteiro adaptado; materiais; responsabilidades; riscos e plano B | **0,5** |
 | **REA publicado** | Qualidade pedagógica (linguagem do público, exemplos locais, atividades) | 0,7 |
 | | Licença CC, publicação no GitHub e Zenodo/Commons, acessibilidade (PDF acessível, legendas) | 0,5 |
 | | Créditos e fontes (imagens, dados, textos) | 0,3 |
@@ -162,13 +166,13 @@ gantt
 | | Evidências completas (lista assinada, fotos com consentimento, relato do dia) | 0,5 |
 | | Avaliação dos participantes (≥ 5 respostas) analisada | 0,5 |
 | | *subtotal* | **2,0** |
-| **Relatório e apresentação (18/12)** | Relatório com evidências, resultados e aprendizado ligado aos conceitos | 0,5 |
+| **Relatório e apresentação** | Relatório com evidências, resultados e aprendizado ligado aos conceitos | 0,5 |
 | | Apresentação: cada integrante fala e responde | 0,5 |
 | | *subtotal* | **1,0** |
 | **Total** | | **5,0** |
 
 > [!info] Ajuste individual
-> A nota é da equipe. Ajustes individuais: quem não foi à oficina não recebe os 2,0 pontos de execução; a parte de apresentação (0,5) é individual; participação registrada (commits, materiais, contato com o parceiro) desempata. Entrega atrasada do relatório vale 6,0 na escala de 0 a 10 (3,0 pontos), como em todos os trabalhos ([[Trabalhos e Projetos de Computação, Sociedade e Inclusão]]).
+> A nota é da equipe. Ajustes individuais: quem não foi à oficina não recebe os 2,0 pontos de execução; a parte de apresentação (0,5) é individual; participação registrada (commits, materiais, contato com o parceiro) desempata. Entrega atrasada do relatório vale 6,0 na escala de 0 a 10 (60% dos pontos), como em todos os trabalhos ([[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão]]).
 
 ---
 
@@ -183,8 +187,8 @@ gantt
 
 ## 🔗 Veja também
 
-- [[Trabalhos e Projetos de Computação, Sociedade e Inclusão]]: todas as entregas da disciplina.
-- [[Cronograma de Computação, Sociedade e Inclusão]]: as datas.
+- [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão]]: o banco de trabalhos da disciplina.
+- [[Comp Sociedade 7Eng 2026-2]]: o log da turma, com o que foi definido em aula.
 - [[Recursos Educacionais Abertos]], [[Cidadania e educação na sociedade digital]], [[Tecnologia social e tecnologia convencional]] e [[Relevância social, investimento e políticas públicas de tecnologia]]: as unidades da ementa que o projeto coloca em prática.
 - [[Tópicos/Computação, Sociedade e Inclusão/index|Computação, Sociedade e Inclusão]]: página principal da disciplina.
 

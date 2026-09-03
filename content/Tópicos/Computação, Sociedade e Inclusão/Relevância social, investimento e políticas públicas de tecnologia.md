@@ -300,7 +300,7 @@ O "não fazer nada" não é piada: é a linha de base contra a qual as outras du
 > 3. Escreva **um parágrafo de no máximo 6 linhas** no formato do brief: quem tem o problema, o tamanho dele em números, e por que agora.
 > 4. Passe ao colega e peça que ele marque **toda frase sem número atrás**. Reescreva.
 >
-> **Resultado esperado:** o parágrafo final com as duas fontes e ano, mais a versão marcada pelo colega. Ele é o começo do [[Trabalhos e Projetos de Computação, Sociedade e Inclusão|T4]] e vale nota lá.
+> **Resultado esperado:** o parágrafo final com as duas fontes e ano, mais a versão marcada pelo colega. Ele é o começo do [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão|T4]] e vale nota lá, se esse trabalho for escolhido.
 
 > [!abstract] 🧠 Lente filosófica: Milton Santos (*A Natureza do Espaço*, 1996; *Por uma outra globalização*, 2000)
 > Milton Santos (1926 a 2001), geógrafo brasileiro, lê a globalização em três chaves simultâneas: **fábula** (o mundo como nos fazem crer), **perversidade** (o mundo como é, concentração disfarçada de inevitabilidade técnica) e **possibilidade** (o mundo como pode ser, aberta a partir dos países pobres). E cunha o **meio técnico-científico-informacional**: técnica, ciência e informação fundidas no espaço, com densidade **diferente em cada lugar**.
@@ -442,7 +442,7 @@ Formato no [[Kit de ferramentas de Computação e Sociedade]].
 
 - [[Tecnologia social e tecnologia convencional]]: o conceito que a Lei 11.892/2008 põe como finalidade do IF, e que esta aula financia.
 - [[Projeto de Extensão - IA para Todos]]: a política pública em miniatura que a sua equipe vai executar e medir.
-- [[Trabalhos e Projetos de Computação, Sociedade e Inclusão]]: o **T4** é o policy brief, e a atividade 6 é o parágrafo de problema dele.
+- [[Possíveis trabalhos e projetos de Computação, Sociedade e Inclusão]]: o **T4** é o policy brief, e a atividade 6 é o parágrafo de problema dele.
 - [[Kit de ferramentas de Computação e Sociedade]]: o brief completo em 10 blocos, ABNT e o diário de uso de IA.
 - [[Cidadania e educação na sociedade digital]]: participação, LAI e serviços digitais do lado do cidadão.
 - [[Empreendedorismo digital]] e [[Formas de ganhar dinheiro]]: o outro caminho, quando você é quem pede o edital.
