@@ -254,7 +254,7 @@ mindmap
 
 - **Windows NT (arquitetura):** modelo híbrido com HAL, kernel, executive e subsistemas; a API Win32 fica sobre a API nativa do `ntdll.dll`. Ver [[Windows]].
 - **Working set:** as páginas que o processo realmente usa numa janela recente; mantê-lo na memória é a receita contra thrashing. Ver [[Memória Virtual e Substituição de Páginas]].
-- **WSL2:** VM leve de Hyper-V com um kernel Linux real compilado pela Microsoft; por isso suporta systemd e containers, e o WSL1 não. Ver [[Laboratório de SO: preparando o ambiente]].
+- **WSL2:** VM leve de Hyper-V com um kernel Linux real compilado pela Microsoft; por isso suporta systemd e containers, e o WSL1 não. Ver [[Laboratório de SO - preparando o ambiente]].
 
 ## ✖️ X
 
@@ -318,7 +318,7 @@ flowchart TB
 
 - [[Tópicos/Sistemas operacionais/index|Sistemas Operacionais]]: o índice da disciplina, com as páginas na ordem em que serão vistas.
 - [[Materiais, cursos e certificações de SO]]: livros abertos, cursos, simuladores e certificações para ir além de cada verbete.
-- [[Laboratório de SO: preparando o ambiente]]: monte o ambiente antes de tentar executar qualquer coisa daqui.
+- [[Laboratório de SO - preparando o ambiente]]: monte o ambiente antes de tentar executar qualquer coisa daqui.
 - [[Sistemas Operacionais|Sistemas Operacionais (Fundamentos da Computação)]]: a visão introdutória do 1º período, boa para revisar os termos básicos.
 - [[Glossário de Engenharia de Software com IA]]: o glossário irmão, do lado de cima da pilha (agentes, contexto, MCP, RAG).
 - ➡️ **Continue por aqui:** [[Cronograma da disciplina]], para saber em que semana cada família de termos aparece.

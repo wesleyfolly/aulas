@@ -16,7 +16,7 @@ tags:
 > *Um `ls` numa pasta com dois arquivos executa 79 chamadas de sistema. Um `curl https://example.com` executa 732. Nenhum programa que você escreve consegue, sozinho, ler um arquivo, abrir um socket ou criar um processo: ele precisa pedir. Esta aula é sobre esse guichê, sobre o preço de cada pedido (medido aqui em nanossegundos) e sobre por que, em 2026, trancar o guichê virou o jeito de colocar um agente de IA dentro de uma caixa.*
 
 > [!abstract] 🧭 O que você vai fazer nesta aula
-> Ver com `strace` cada pedido que os seus programas fazem ao kernel, medir a diferença entre uma chamada real (centenas de nanossegundos) e uma que nem chega ao kernel (dezenas, via vDSO), escrever código em C e em Python que fala direto com o kernel, descobrir por que `printf` e `write` saem fora de ordem e achar quais processos do seu Linux já rodam com filtro `seccomp`. Ambiente: Ubuntu no WSL2, VM ou máquina real ([[Laboratório de SO: preparando o ambiente]]).
+> Ver com `strace` cada pedido que os seus programas fazem ao kernel, medir a diferença entre uma chamada real (centenas de nanossegundos) e uma que nem chega ao kernel (dezenas, via vDSO), escrever código em C e em Python que fala direto com o kernel, descobrir por que `printf` e `write` saem fora de ordem e achar quais processos do seu Linux já rodam com filtro `seccomp`. Ambiente: Ubuntu no WSL2, VM ou máquina real ([[Laboratório de SO - preparando o ambiente]]).
 >
 > As saídas coladas aqui foram capturadas em **Ubuntu 22.04.5, kernel 6.8.0-138, Intel Core i7-9750H, strace 5.16** (02/09/2026): os seus números serão parecidos, não idênticos.
 

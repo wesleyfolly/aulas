@@ -15,7 +15,7 @@ tags:
 > *O livro que Wisconsin, Duke e Rose-Hulman adotam é gratuito em PDF, o kernel didático do MIT vem com 9 laboratórios e corretor automático, e os simuladores que dizem "quanto esse processo esperou na fila" cabem em 27 arquivos Python.*
 
 > [!abstract] 🧭 Como ler esta página
-> Cada item traz **link**, **custo** (🆓 grátis, 💰 pago, 🟡 freemium) e **idioma** (🇧🇷 ou 🇬🇧); tudo conferido em **02 e 03/09/2026**. Onde o preço só existe dentro da loja ou muda por país, está escrito "não publicado" em vez de um número inventado. As **cinco atividades 🧪** são o jeito certo de usar o material: monte antes o [[Laboratório de SO: preparando o ambiente|ambiente de laboratório]].
+> Cada item traz **link**, **custo** (🆓 grátis, 💰 pago, 🟡 freemium) e **idioma** (🇧🇷 ou 🇬🇧); tudo conferido em **02 e 03/09/2026**. Onde o preço só existe dentro da loja ou muda por país, está escrito "não publicado" em vez de um número inventado. As **cinco atividades 🧪** são o jeito certo de usar o material: monte antes o [[Laboratório de SO - preparando o ambiente|ambiente de laboratório]].
 
 ---
 
@@ -358,7 +358,7 @@ flowchart LR
 A disciplina é Linux-first, mas metade do que vamos medir também existe no Windows, com outro nome:
 
 - [**Sysinternals Suite**](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite) 🆓 (Russinovich, 19/08/2026): o laboratório num zip, com [**Process Explorer**](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) (processos e handles), **Process Monitor** (chamadas de arquivo e registro), **VMMap**, **RAMMap** e **Sysmon**.
-- [**Documentação do WSL**](https://learn.microsoft.com/en-us/windows/wsl/) 🆓: instalar o Ubuntu dentro do Windows, WSL 1 contra WSL 2, GPU e memória. É o caminho oficial da disciplina, com passo a passo em [[Laboratório de SO: preparando o ambiente]].
+- [**Documentação do WSL**](https://learn.microsoft.com/en-us/windows/wsl/) 🆓: instalar o Ubuntu dentro do Windows, WSL 1 contra WSL 2, GPU e memória. É o caminho oficial da disciplina, com passo a passo em [[Laboratório de SO - preparando o ambiente]].
 - [**User mode and kernel mode**](https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/user-mode-and-kernel-mode) 🆓 e a nossa página [[Windows]] 🇧🇷: a mesma fronteira de anéis de proteção que estudamos, na linguagem da Microsoft e depois na nossa.
 
 ---
@@ -384,7 +384,7 @@ A disciplina é Linux-first, mas metade do que vamos medir também existe no Win
 
 ## 🔗 Veja também
 
-- [[Laboratório de SO: preparando o ambiente]]: monte o ambiente antes de tentar qualquer atividade desta página.
+- [[Laboratório de SO - preparando o ambiente]]: monte o ambiente antes de tentar qualquer atividade desta página.
 - [[Cronograma da disciplina]] e [[Trabalhos e Projetos de Sistemas Operacionais]]: em que semana cada material é cobrado.
 - [[Glossário de Sistemas Operacionais]]: os termos dos livros e das questões, em uma linha cada.
 - [[Escalonamento de Processos]] e [[Memória Virtual e Substituição de Páginas]]: as aulas que mais usam os simuladores da seção 5.

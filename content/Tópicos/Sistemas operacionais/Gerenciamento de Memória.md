@@ -16,7 +16,7 @@ tags:
 > *Rode dois programas iguais ao mesmo tempo no seu Linux e peça o endereço da mesma variável global. Os dois respondem o mesmo número, `0x555555558010`, e ainda assim guardam valores diferentes lá dentro sem nunca se atrapalharem. Essa mentira coordenada, sustentada por uma tabela em RAM e um circuito dentro da CPU, é o que permite o seu notebook rodar 300 processos com 16 GB, e o que decide se um modelo de 7 bilhões de parâmetros cabe na sua máquina.*
 
 > [!abstract] 🧭 O que você vai fazer nesta aula
-> Provar que dois processos usam o mesmo endereço sem conflito, ver o `malloc` virar `mmap` no `strace`, traduzir um endereço na mão e conferir no simulador da OSTEP, contar page faults, medir copy-on-write com `smaps_rollup`, ler o mapa do seu processo em `/proc/self/maps`, abrir o VMMap no Windows e calcular por que um LLM de 7B em FP16 não entra em 8 GB. Ambiente: Ubuntu 24.04 (WSL2, VM ou nativo), veja [[Laboratório de SO: preparando o ambiente]].
+> Provar que dois processos usam o mesmo endereço sem conflito, ver o `malloc` virar `mmap` no `strace`, traduzir um endereço na mão e conferir no simulador da OSTEP, contar page faults, medir copy-on-write com `smaps_rollup`, ler o mapa do seu processo em `/proc/self/maps`, abrir o VMMap no Windows e calcular por que um LLM de 7B em FP16 não entra em 8 GB. Ambiente: Ubuntu 24.04 (WSL2, VM ou nativo), veja [[Laboratório de SO - preparando o ambiente]].
 
 Na aula anterior, [[Escalonamento de Processos]], a disputa era pela CPU. Aqui a pergunta muda: **quem usa a RAM, e como o SO faz cada processo acreditar que ela é toda dele**.
 

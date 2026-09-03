@@ -401,7 +401,7 @@ No mercado isso tem nome de vaga: quem sabe justificar a escolha entre VM, micro
 - [[Windows]]: a arquitetura do NT em detalhe (Executive, HAL, Gerenciador de Tarefas, PowerShell).
 - [[Sistemas utilizados]]: como montar VMs, WSL2 e distros de laboratório.
 - [[Sistemas Operacionais na Era da IA]]: sandbox de agente, GPU como recurso e servidores de inferência.
-- [[Laboratório de SO: preparando o ambiente]]: se algum comando desta aula não rodou, o problema está aqui.
+- [[Laboratório de SO - preparando o ambiente]]: se algum comando desta aula não rodou, o problema está aqui.
 - ➡️ **Próxima aula:** [[Processos]]
 
 ---

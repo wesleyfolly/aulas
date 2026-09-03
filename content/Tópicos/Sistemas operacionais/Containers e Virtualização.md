@@ -16,7 +16,7 @@ tags:
 > *Docker aparece em 71,1% das respostas do Stack Overflow 2025 (49 mil desenvolvedores, 177 países), 17 pontos a mais que no ano anterior. Mesmo assim quase ninguém sabe dizer o que acontece quando você digita `docker run`. A resposta é decepcionante e libertadora: não acontece quase nada de novo. O kernel cria o mesmo processo de sempre, só que mentindo para ele sobre quem são os vizinhos, quanta memória existe e onde fica a raiz do sistema de arquivos. Nesta aula a gente monta essa mentira à mão, sem Docker e sem `sudo`.*
 
 > [!abstract] 🧭 O que você vai fazer nesta aula
-> Ver os 8 namespaces do seu processo, construir um container do zero com `unshare` + `chroot`, limitar CPU e memória com cgroups v2 e provar o kill por OOM lendo `memory.events`, descobrir por que `--cap-drop ALL` **não** impede o `ping`, e montar o sandbox mínimo para rodar um agente de IA sem ele apagar o seu projeto. Pré-requisito: [[Linux na prática]] e o ambiente de [[Laboratório de SO: preparando o ambiente]].
+> Ver os 8 namespaces do seu processo, construir um container do zero com `unshare` + `chroot`, limitar CPU e memória com cgroups v2 e provar o kill por OOM lendo `memory.events`, descobrir por que `--cap-drop ALL` **não** impede o `ping`, e montar o sandbox mínimo para rodar um agente de IA sem ele apagar o seu projeto. Pré-requisito: [[Linux na prática]] e o ambiente de [[Laboratório de SO - preparando o ambiente]].
 
 ---
 

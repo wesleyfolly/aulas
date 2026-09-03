@@ -15,7 +15,7 @@ tags:
 > *Na máquina onde escrevi esta aula há **295 processos** e **845 threads** disputando **12 núcleos**. Quantos estão de fato executando? **Dois.** O resto dorme, esperando uma tecla, um pacote de rede ou um bloco de disco. A ilusão de que tudo roda ao mesmo tempo é a primeira grande mentira do sistema operacional, e ela tem nome: processo.*
 
 > [!abstract] 🧭 O que você vai fazer nesta aula
-> Duplicar um processo com `fork()` em Python e em C, ver o `execve` trocar o programa sem trocar o PID, criar um **zumbi** e descobrir por que `kill -9` não resolve, ler a ficha que o kernel mantém sobre você em `/proc`, congelar e ressuscitar um processo com sinais, medir uma troca de contexto e abrir um servidor de LLM para ver que ele é só... processo. Ambiente: Ubuntu 24.04 em WSL2, VM ou Docker ([[Laboratório de SO: preparando o ambiente]]).
+> Duplicar um processo com `fork()` em Python e em C, ver o `execve` trocar o programa sem trocar o PID, criar um **zumbi** e descobrir por que `kill -9` não resolve, ler a ficha que o kernel mantém sobre você em `/proc`, congelar e ressuscitar um processo com sinais, medir uma troca de contexto e abrir um servidor de LLM para ver que ele é só... processo. Ambiente: Ubuntu 24.04 em WSL2, VM ou Docker ([[Laboratório de SO - preparando o ambiente]]).
 
 ---
 

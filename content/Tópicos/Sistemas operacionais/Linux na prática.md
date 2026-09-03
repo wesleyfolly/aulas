@@ -16,7 +16,7 @@ tags:
 > *Desde novembro de 2017, os 500 supercomputadores mais rápidos do planeta rodam kernel Linux, sem exceção. Em setembro de 2026, o W3Techs mede sistemas Unix em 92,0% dos sites da web. A GPU que responde ao seu chatbot, o roteador da sua casa, o Android no seu bolso e o container onde a sua API vai para produção usam as mesmas chamadas de sistema das aulas anteriores. A diferença é que hoje você opera essa máquina em vez de só descrevê-la.*
 
 > [!abstract] 🧭 O que você vai fazer nesta aula
-> Identificar a sua máquina, atravessar o sistema de arquivos como quem caça um bug, quebrar e consertar permissões, escrever um serviço `systemd` real para uma API Python com `MemoryMax=100M` e ver o kernel matar e reiniciar o processo, ler o log com `journalctl`, agendar um timer, achar quem está na porta 8000, aplicar um runbook de incidente em cinco passos, escrever um backup que passa no `shellcheck` e limitar a memória do seu WSL2. Sem ambiente ainda? Comece por [[Laboratório de SO: preparando o ambiente]].
+> Identificar a sua máquina, atravessar o sistema de arquivos como quem caça um bug, quebrar e consertar permissões, escrever um serviço `systemd` real para uma API Python com `MemoryMax=100M` e ver o kernel matar e reiniciar o processo, ler o log com `journalctl`, agendar um timer, achar quem está na porta 8000, aplicar um runbook de incidente em cinco passos, escrever um backup que passa no `shellcheck` e limitar a memória do seu WSL2. Sem ambiente ainda? Comece por [[Laboratório de SO - preparando o ambiente]].
 
 ---
 
@@ -637,7 +637,7 @@ swap=2GB
 - [[Escalonamento de Processos]]: `nice`, `CPUQuota=` e a fila de execução da coluna `r` do `vmstat`.
 - [[Segurança em Sistemas Operacionais]] e [[Escalonamento de privilégios]]: setuid, `sudo`, capabilities e o hardening das units.
 - [[Windows]] e [[Sistemas utilizados]]: o outro lado, e como montar VM ou WSL2. [[Ferramentas de rede]] e [[Automações]] aprofundam `ss`, firewall e agendamento.
-- [[Laboratório de SO: preparando o ambiente]]: se algum comando desta página não rodou na sua máquina.
+- [[Laboratório de SO - preparando o ambiente]]: se algum comando desta página não rodou na sua máquina.
 - ➡️ **Próxima aula:** [[Containers e Virtualização]]
 
 ---

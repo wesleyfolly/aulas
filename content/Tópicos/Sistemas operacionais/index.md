@@ -29,7 +29,7 @@ aliases:
 > [!tip] Links rápidos
 > - [[Cronograma da disciplina|📅 Cronograma 2026.2]]: o que acontece em cada quinta-feira, provas e entregas.
 > - [[Trabalhos e Projetos de Sistemas Operacionais|📝 Trabalhos e projetos]]: T1 a T4 e o projeto final, com rubrica.
-> - [[Laboratório de SO: preparando o ambiente|🧪 Laboratório: preparando o ambiente]]: comece por aqui na primeira semana (WSL2, VM, Docker, navegador).
+> - [[Laboratório de SO - preparando o ambiente|🧪 Laboratório: preparando o ambiente]]: comece por aqui na primeira semana (WSL2, VM, Docker, navegador).
 > - [[Materiais, cursos e certificações de SO|📚 Materiais, cursos e certificações]]: livros abertos, cursos de referência, simuladores, canais e concursos.
 > - [[Glossário de Sistemas Operacionais|📖 Glossário]]: os termos da disciplina explicados em uma linha.
 > - [[SO I 7Eng 2026-2|🗒️ Log da turma]]: o que foi dado em cada aula.

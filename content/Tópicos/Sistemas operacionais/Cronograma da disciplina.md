@@ -14,7 +14,7 @@ tags:
 > *Cada quinta-feira você observa uma parte do sistema operacional funcionando na sua própria máquina. No fim do semestre você terá construído um shell, medido um LLM na memória, limitado um serviço com cgroups e colocado um agente de IA dentro de uma caixa.*
 
 > [!info] Como usar esta página
-> - **Antes da aula:** leia a página do encontro e deixe o [[Laboratório de SO: preparando o ambiente|ambiente de laboratório]] funcionando.
+> - **Antes da aula:** leia a página do encontro e deixe o [[Laboratório de SO - preparando o ambiente|ambiente de laboratório]] funcionando.
 > - **Na aula:** fazemos as atividades 🧪 da página juntos. Traga o notebook.
 > - **Depois da aula:** os trabalhos ficam em [[Trabalhos e Projetos de Sistemas Operacionais]] e as datas aqui. O que foi dado em cada aula fica registrado no [[SO I 7Eng 2026-2|log da turma]].
 > - Datas podem mudar por evento do campus ou feriado. A versão desta página é sempre a que vale.
@@ -26,7 +26,7 @@ tags:
 | # | Data | Aula | O que fazemos em sala | Entregas e avisos |
 |---|------|------|-----------------------|-------------------|
 | 1 | 27/08 | Apresentação da disciplina | Regras, site, metodologia, ferramentas | Criar conta no GitHub; instalar WSL2 ou VM |
-| 2 | 03/09 | [[Introdução aos Sistemas Operacionais]] + [[Laboratório de SO: preparando o ambiente]] | Primeiro contato com o kernel: `uname`, `htop`, `/proc`, `nvidia-smi` | Ambiente pronto (print de `uname -a` e `htop`) |
+| 2 | 03/09 | [[Introdução aos Sistemas Operacionais]] + [[Laboratório de SO - preparando o ambiente]] | Primeiro contato com o kernel: `uname`, `htop`, `/proc`, `nvidia-smi` | Ambiente pronto (print de `uname -a` e `htop`) |
 | 3 | 10/09 | [[Chamadas de Sistema]] | `strace` em programas reais; syscalls de processo e de arquivo | |
 | 4 | 17/09 | [[Estrutura dos Sistemas Operacionais]] | Módulos do kernel, WSL2 por dentro, VM × container | **T1 lançado** |
 | 5 | 24/09 | [[Processos]] | `fork`/`exec`/`wait` em Python e C, zumbis, sinais | Semana da Mostra do Conhecimento: confirmar a aula |

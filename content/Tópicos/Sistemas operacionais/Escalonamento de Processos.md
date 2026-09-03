@@ -16,7 +16,7 @@ tags:
 > *Na máquina onde esta página foi preparada, `ps -e --no-headers | wc -l` contou **295 processos** disputando **12 núcleos**. Nenhum esperou visivelmente. O código que faz esse malabarismo milhares de vezes por segundo já mudou de nome quatro vezes em vinte anos e, desde novembro de 2024, pode ser substituído por um programa **seu**, escrito em BPF, sem recompilar o kernel.*
 
 > [!abstract] 🧭 O que você vai fazer nesta aula
-> Calcular FCFS, SJF, round-robin e prioridades na mão e conferir no simulador da OSTEP; medir com cronômetro a diferença entre `nice 0` e `nice 19` no mesmo núcleo; pôr um teto de CPU num processo com uma linha de `systemd-run`; auditar as classes de escalonamento do seu sistema; e medir a **latência p99** de um processo interativo enquanto quatro devoradores de CPU brigam pelo mesmo núcleo. Aula anterior: [[Comunicação entre Processos]]. Ambiente ainda não montado? Comece por [[Laboratório de SO: preparando o ambiente]].
+> Calcular FCFS, SJF, round-robin e prioridades na mão e conferir no simulador da OSTEP; medir com cronômetro a diferença entre `nice 0` e `nice 19` no mesmo núcleo; pôr um teto de CPU num processo com uma linha de `systemd-run`; auditar as classes de escalonamento do seu sistema; e medir a **latência p99** de um processo interativo enquanto quatro devoradores de CPU brigam pelo mesmo núcleo. Aula anterior: [[Comunicação entre Processos]]. Ambiente ainda não montado? Comece por [[Laboratório de SO - preparando o ambiente]].
 
 ---
 

@@ -10,7 +10,7 @@ tags:
   - ia-no-ensino
 ---
 
-# Laboratório de SO: preparando o ambiente
+# Laboratório de SO - preparando o ambiente
 
 > [!quote] Nesta disciplina, o sistema operacional não é slide
 > *Você vai parar processos com sinais, provocar um OOM killer de propósito, medir quantas páginas de memória um LLM ocupa e prender um agente de IA dentro de um container. Nada disso cabe num caderno: cabe num terminal Linux. Esta página existe para que, ao fim de hoje, todo mundo tenha esse terminal, com rede de segurança para quando algo quebrar (e vai quebrar: é parte do plano).*
@@ -18,7 +18,7 @@ tags:
 > [!abstract] 🧭 O que você vai fazer nesta aula
 > Escolher o seu caminho para o Linux, instalar, provar com `uname -a` e `htop`, limitar os recursos da sua máquina virtual e ver o SO obedecer, criar a rede de segurança (snapshot ou `wsl --export`), montar a caixa de ferramentas numa linha só e combinar as regras de uso de IA do semestre.
 
-![[Recursos/Sistemas operacionais/Laboratório de SO: preparando o ambiente/tux-mascote-linux.png|Tux, mascote do Linux, desenhado por Larry Ewing em 1996. O pinguim está em quase todo servidor, celular Android e supercomputador do planeta, e vai estar no seu notebook até fevereiro.]]
+![[Recursos/Sistemas operacionais/Laboratório de SO - preparando o ambiente/tux-mascote-linux.png|Tux, mascote do Linux, desenhado por Larry Ewing em 1996. O pinguim está em quase todo servidor, celular Android e supercomputador do planeta, e vai estar no seu notebook até fevereiro.]]
 
 ---
 
@@ -82,7 +82,7 @@ wsl --version            # versão do WSL, do kernel e do WSLg
 wsl --shutdown           # desliga a VM do WSL2 (após mudar o .wslconfig)
 ```
 
-![[Recursos/Sistemas operacionais/Laboratório de SO: preparando o ambiente/ubuntu-no-wsl.png|Ubuntu no Windows Terminal via WSL2. Na segunda linha o kernel se identifica como "5.15.133.1-microsoft-standard-WSL2": esse sufixo é a prova de que o Linux ali é real, com kernel compilado pela Microsoft.]]
+![[Recursos/Sistemas operacionais/Laboratório de SO - preparando o ambiente/ubuntu-no-wsl.png|Ubuntu no Windows Terminal via WSL2. Na segunda linha o kernel se identifica como "5.15.133.1-microsoft-standard-WSL2": esse sufixo é a prova de que o Linux ali é real, com kernel compilado pela Microsoft.]]
 
 | Armadilha que trava a turma todo ano | Conserto |
 |---|---|
@@ -141,7 +141,7 @@ Pela Microsoft, `memory` aceita sufixo (`8GB`, `512MB`), `processors` é um núm
 
 VirtualBox, VMware e UTM já foram comparados em [[Sistemas utilizados]]. O que interessa aqui é **por que** ter uma VM mesmo tendo WSL2: o **snapshot**.
 
-![[Recursos/Sistemas operacionais/Laboratório de SO: preparando o ambiente/virtualbox-gerenciador.png|O gerenciador do Oracle VM VirtualBox: cada linha é um sistema operacional inteiro dentro de um arquivo de disco, e à direita estão a memória, os processadores e a ordem de boot que o hipervisor entrega àquele "hardware" fictício.]]
+![[Recursos/Sistemas operacionais/Laboratório de SO - preparando o ambiente/virtualbox-gerenciador.png|O gerenciador do Oracle VM VirtualBox: cada linha é um sistema operacional inteiro dentro de um arquivo de disco, e à direita estão a memória, os processadores e a ordem de boot que o hipervisor entrega àquele "hardware" fictício.]]
 
 | Situação da disciplina | WSL2 dá conta? | Por que a VM ajuda |
 |---|---|---|

@@ -84,7 +84,7 @@ gantt
 ## 3. 🔬 T1: Anatomia de um processo (2,0 pontos)
 
 **2,0 pontos · A1 · individual · lançado 17/09 · entrega 01/10 · 6 a 8 h**
-**Apoio:** [[Processos]] · [[Chamadas de Sistema]] · [[Linux na prática]] · [[Laboratório de SO: preparando o ambiente]]
+**Apoio:** [[Processos]] · [[Chamadas de Sistema]] · [[Linux na prática]] · [[Laboratório de SO - preparando o ambiente]]
 
 **Objetivo.** Escolher **um programa real em execução** (navegador, Ollama, VS Code, servidor web, jogo) e produzir o **laudo de investigação** desse processo: quem ele é, com quem fala, quantas threads tem, quanta memória usa de verdade e o que acontece quando o sistema operacional o interrompe.
 
@@ -549,7 +549,7 @@ Valem na etapa (A1 ou A2) em que foram conquistados, com **teto de 1,0 ponto por
 ## 🔗 Veja também
 
 - [[Cronograma da disciplina]]: todas as datas do semestre, aula a aula.
-- [[Laboratório de SO: preparando o ambiente]]: WSL2, VM, Docker, Codespaces e Killercoda funcionando antes do primeiro trabalho.
+- [[Laboratório de SO - preparando o ambiente]]: WSL2, VM, Docker, Codespaces e Killercoda funcionando antes do primeiro trabalho.
 - [[Regras e boas práticas]]: formato de entrega, prazos, apresentações e trabalhos em grupo.
 - [[Materiais, cursos e certificações de SO]]: livros, cursos e laboratórios para ir além do mínimo.
 - [[Glossário de Sistemas Operacionais]]: os termos que aparecem nos enunciados.
