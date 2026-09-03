@@ -463,7 +463,7 @@ E a lacuna é real: o relatório *2025 State of Tech Talent* da Linux Foundation
 > 3. Marque 1 quando o tópico aparece, mesmo com outro nome ("troubleshooting de performance" conta como escalonamento e memória), e 0 quando não aparece.
 > 4. Some as colunas e responda: qual tópico aparece nas três vagas e qual não apareceu em nenhuma. Repita com **um edital de concurso** recente de analista de TI e compare vaga com edital.
 >
-> **Resultado esperado:** planilha com 4 linhas (3 vagas e 1 edital), URLs e datas verificáveis, totais por coluna e um parágrafo de conclusão. É o embrião do trabalho de análise de mercado em [[Trabalhos e Projetos de Sistemas Operacionais]].
+> **Resultado esperado:** planilha com 4 linhas (3 vagas e 1 edital), URLs e datas verificáveis, totais por coluna e um parágrafo de conclusão. É o embrião do trabalho de análise de mercado em [[Possíveis trabalhos e projetos de Sistemas Operacionais]].
 
 ---
 
@@ -494,7 +494,7 @@ E a lacuna é real: o relatório *2025 State of Tech Talent* da Linux Foundation
 - [[Segurança em Sistemas Operacionais]] (**aula anterior**): seccomp, capabilities, Landlock e menor privilégio aplicados a um programa que decide sozinho o que executar.
 - [[Linux na prática]]: os comandos de observação das atividades. [[Materiais, cursos e certificações de SO]]: onde estudar para LFCS, CKA e concursos.
 - [[Desenvolvimento de Software com IA]] e [[Vibe Coding e Engenharia Agêntica]]: o lado do desenvolvedor da mesma história.
-- ➡️ **Próxima aula:** [[Trabalhos e Projetos de Sistemas Operacionais]]
+- ➡️ **Próxima aula:** [[Possíveis trabalhos e projetos de Sistemas Operacionais]]
 
 ---
 

@@ -321,7 +321,7 @@ flowchart TB
 - [[Laboratório de SO - preparando o ambiente]]: monte o ambiente antes de tentar executar qualquer coisa daqui.
 - [[Sistemas Operacionais|Sistemas Operacionais (Fundamentos da Computação)]]: a visão introdutória do 1º período, boa para revisar os termos básicos.
 - [[Glossário de Engenharia de Software com IA]]: o glossário irmão, do lado de cima da pilha (agentes, contexto, MCP, RAG).
-- ➡️ **Continue por aqui:** [[Cronograma da disciplina]], para saber em que semana cada família de termos aparece.
+- ➡️ **Continue por aqui:** [[Tópicos/Sistemas operacionais/index|Sistemas Operacionais]], a página principal da disciplina, para ver em que unidade cada família de termos aparece.
 
 ---
 

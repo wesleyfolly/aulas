@@ -458,7 +458,7 @@ Em 2024 a IA entrou no sistema operacional; em 2025 e 2026 o sistema operacional
 
 - [[Laboratório de SO - preparando o ambiente]]: WSL2, VM, Docker ou navegador; deixe pronto antes da próxima aula.
 - [[Sistemas Operacionais|Sistemas Operacionais (Fundamentos da Computação)]] e [[Hardware]]: a visão do 1º período, para revisar o vocabulário.
-- [[Cronograma da disciplina]] e [[Trabalhos e Projetos de Sistemas Operacionais]]: datas, provas e o que cada trabalho pede.
+- [[Tópicos/Sistemas operacionais/index|página da disciplina]] e [[Possíveis trabalhos e projetos de Sistemas Operacionais]]: datas, provas e o que cada trabalho pede.
 - [[Glossário de Sistemas Operacionais]]: kernel, ring, interrupção, page fault, DMA e os demais termos desta página em uma linha cada.
 - [[Sistemas utilizados]]: distribuições, VMs e WSL2 na disciplina de Segurança.
 - [[Desenvolvimento de Software com IA]]: por que os agentes de código precisam de uma caixa (sandbox) para rodar.

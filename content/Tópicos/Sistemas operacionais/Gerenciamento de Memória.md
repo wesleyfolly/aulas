@@ -442,7 +442,7 @@ Quatro conceitos desta aula, aplicados:
 > 🪟 **No Windows:** o equivalente é um Job Object com limite de memória, ou o WSL2 (que já usa cgroups). Com Docker: `docker run --rm -m 200m python:3-slim python -c "x=bytearray(500_000_000)"` termina com exit code 137. Mais sobre cgroups em [[Containers e Virtualização]].
 
 > [!tip] 💼 Por que isso cai em entrevista
-> "O modelo não cabe" é o primeiro incidente na vida de quem trabalha com MLOps, e "o container morreu com exit 137" é o segundo. Vagas de SRE/DevOps no Brasil tinham mediana de R\$ 10.438 por mês em jun/2026 (Glassdoor BR), e a conversa técnica passa por aqui: diferença entre RSS e PSS, o que o OOM killer olha e por que `free` mostrar pouca memória livre não é problema. Estas atividades são o roteiro do trabalho prático de memória em [[Trabalhos e Projetos de Sistemas Operacionais]].
+> "O modelo não cabe" é o primeiro incidente na vida de quem trabalha com MLOps, e "o container morreu com exit 137" é o segundo. Vagas de SRE/DevOps no Brasil tinham mediana de R\$ 10.438 por mês em jun/2026 (Glassdoor BR), e a conversa técnica passa por aqui: diferença entre RSS e PSS, o que o OOM killer olha e por que `free` mostrar pouca memória livre não é problema. Estas atividades são o roteiro do trabalho prático de memória em [[Possíveis trabalhos e projetos de Sistemas Operacionais]].
 
 ---
 

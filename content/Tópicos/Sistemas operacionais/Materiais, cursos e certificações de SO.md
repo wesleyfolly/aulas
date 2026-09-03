@@ -385,7 +385,7 @@ A disciplina é Linux-first, mas metade do que vamos medir também existe no Win
 ## 🔗 Veja também
 
 - [[Laboratório de SO - preparando o ambiente]]: monte o ambiente antes de tentar qualquer atividade desta página.
-- [[Cronograma da disciplina]] e [[Trabalhos e Projetos de Sistemas Operacionais]]: em que semana cada material é cobrado.
+- [[Tópicos/Sistemas operacionais/index|página da disciplina]] e [[Possíveis trabalhos e projetos de Sistemas Operacionais]]: em que semana cada material é cobrado.
 - [[Glossário de Sistemas Operacionais]]: os termos dos livros e das questões, em uma linha cada.
 - [[Escalonamento de Processos]] e [[Memória Virtual e Substituição de Páginas]]: as aulas que mais usam os simuladores da seção 5.
 - [[Certificações de redes]]: a trilha equivalente do lado de redes, e [[Tópicos/Redes de Computadores/DevOps|DevOps]] com [[Tópicos/Segurança da informação/index|Segurança da Informação]] mostram onde essas certificações são usadas.

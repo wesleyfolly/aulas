@@ -292,7 +292,7 @@ Pronto: `--user --map-root-user` deu o UID 0 de mentira, `--pid` fez o shell vir
 > 5. **Rede:** repita com `--net` e capture a mensagem do `ping`.
 > 6. Liste as 3 coisas que o seu container **ainda não** isola (dica: limites de recurso, syscalls e relógio).
 >
-> **Resultado esperado:** um `evidencias.txt` com as 4 saídas lado a lado (dentro e fora) e as 3 lacunas identificadas. É o esqueleto do trabalho T2 de [[Trabalhos e Projetos de Sistemas Operacionais]].
+> **Resultado esperado:** um `evidencias.txt` com as 4 saídas lado a lado (dentro e fora) e as 3 lacunas identificadas. É o esqueleto do trabalho T2 de [[Possíveis trabalhos e projetos de Sistemas Operacionais]].
 >
 > 🪟 **No Windows:** funciona no WSL2 com Ubuntu 24.04. Se `unshare --user` falhar com `Operation not permitted`, o kernel está com user namespace sem privilégio desabilitado: verifique `sysctl kernel.unprivileged_userns_clone` e, no Ubuntu 24.04+, o perfil AppArmor. Alternativa sem instalar nada: [Killercoda](https://killercoda.com/playgrounds/scenario/ubuntu) no navegador.
 
@@ -476,7 +476,7 @@ Duas limitações declaradas pela própria documentação: montar `/var/run/dock
 > 3. Tente as 5 ações proibidas e **anote a mensagem exata**: ler `/root/.ssh/id_rsa`; escrever em `/etc/passwd`; escrever fora do projeto (`touch /opt/x`); acessar a internet (`wget -T3 https://example.com`); e uma fork bomb. Ao lado de cada erro escreva **qual mecanismo** barrou: permissão de arquivo, `--read-only`, capabilities, namespace de rede ou `pids.max`.
 > 4. Repita sem as flags de proteção e conte quantas das 5 passam.
 >
-> **Resultado esperado:** uma matriz 5x3 (ação, erro exato, mecanismo). Escrever em `/projeto` deve continuar funcionando: sandbox que impede o trabalho não é usado por ninguém. Essa matriz é a entrega central do trabalho T7 de [[Trabalhos e Projetos de Sistemas Operacionais]].
+> **Resultado esperado:** uma matriz 5x3 (ação, erro exato, mecanismo). Escrever em `/projeto` deve continuar funcionando: sandbox que impede o trabalho não é usado por ninguém. Essa matriz é a entrega central do trabalho T7 de [[Possíveis trabalhos e projetos de Sistemas Operacionais]].
 >
 > 🪟 **No Windows:** roda igual no Docker Desktop. Para o sandbox nativo do agente, o Claude Code exige WSL2 (`sudo apt-get install bubblewrap socat`); Windows nativo não é suportado.
 

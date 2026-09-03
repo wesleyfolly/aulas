@@ -481,7 +481,7 @@ No Kubernetes isso vira recurso agendável: `nvidia.com/gpu` para a GPU inteira,
 | `pidstat` | `pidstat -w -t -p PID 1` | trocas voluntárias e involuntárias por thread |
 | `perf sched` / `bpftrace` | `sudo perf sched latency`; `sudo bpftrace -e 'tracepoint:sched:sched_switch { @[comm] = count(); }'` | latência de escalonamento e quem troca de contexto |
 
-No mercado, escalonamento aparece em três lugares concretos: **SRE e Platform** (por que o p99 piorou depois que subimos as réplicas? o pod está sofrendo *CPU throttling*?), **MLOps** (dividir uma GPU entre times com MIG ou time-slicing) e **concurso público**, quase sempre no formato "calcule o turnaround médio deste conjunto em SJF", que é a Atividade 2. O trabalho que fecha o tema está em [[Trabalhos e Projetos de Sistemas Operacionais]]; termos soltos, no [[Glossário de Sistemas Operacionais]].
+No mercado, escalonamento aparece em três lugares concretos: **SRE e Platform** (por que o p99 piorou depois que subimos as réplicas? o pod está sofrendo *CPU throttling*?), **MLOps** (dividir uma GPU entre times com MIG ou time-slicing) e **concurso público**, quase sempre no formato "calcule o turnaround médio deste conjunto em SJF", que é a Atividade 2. O trabalho que fecha o tema está em [[Possíveis trabalhos e projetos de Sistemas Operacionais]]; termos soltos, no [[Glossário de Sistemas Operacionais]].
 
 ---
 

@@ -27,8 +27,7 @@ aliases:
 ## 🎯 Organização da disciplina
 
 > [!tip] Links rápidos
-> - [[Cronograma da disciplina|📅 Cronograma 2026.2]]: o que acontece em cada quinta-feira, provas e entregas.
-> - [[Trabalhos e Projetos de Sistemas Operacionais|📝 Trabalhos e projetos]]: T1 a T4 e o projeto final, com rubrica.
+> - [[Possíveis trabalhos e projetos de Sistemas Operacionais|📝 Possíveis trabalhos e projetos]]: banco de trabalhos práticos com rubrica; o professor define em aula quais valem no semestre.
 > - [[Laboratório de SO - preparando o ambiente|🧪 Laboratório: preparando o ambiente]]: comece por aqui na primeira semana (WSL2, VM, Docker, navegador).
 > - [[Materiais, cursos e certificações de SO|📚 Materiais, cursos e certificações]]: livros abertos, cursos de referência, simuladores, canais e concursos.
 > - [[Glossário de Sistemas Operacionais|📖 Glossário]]: os termos da disciplina explicados em uma linha.

@@ -1,6 +1,6 @@
 ---
 tipo: avaliacao
-resumo: "Enunciados dos trabalhos e do projeto final de Sistemas Operacionais I: roteiro com comandos verificados, evidências, rubrica em pontos, regras de uso de IA e integridade."
+resumo: "Banco de possíveis trabalhos e projetos de Sistemas Operacionais: roteiros com comandos verificados, evidências, sugestão de rubrica em pontos, regras de uso de IA e integridade. O professor define em aula quais valem no semestre."
 tags:
   - avaliacao
   - sistemas-operacionais
@@ -8,7 +8,13 @@ tags:
   - projetos
 ---
 
-# Trabalhos e Projetos de Sistemas Operacionais
+# Possíveis trabalhos e projetos de Sistemas Operacionais
+
+> [!quote] Aprendizado Prático
+> *Não é necessário realizar todas as tarefas abaixo, somente as que forem solicitadas pelo professor.*
+
+> [!info] Isto é um banco de possibilidades
+> Ao longo das aulas o professor decide **quais** destes trabalhos entram no semestre, **quanto** cada um vale e **quando** é a entrega. Os pontos indicados em cada enunciado são sugestões; a versão que vale é a anunciada em aula e registrada no [[SO I 7Eng 2026-2|log da turma]].
 
 > [!quote] O que você entrega aqui é evidência, não texto
 > *Nenhum trabalho desta disciplina pode ser respondido de cabeça. Todos exigem que alguma coisa rode na sua máquina, que você meça, cole a saída e explique o número que apareceu. O número é seu: ele tem o PID do seu processo, a hora do seu relógio e o tamanho da sua RAM.*
@@ -40,50 +46,16 @@ tags:
 
 | Situação | Consequência |
 |---|---|
-| Entrega **atrasada** | Nota fixa de **6,0 na escala de 0 a 10**, ou seja, **60% dos pontos**: T1 = 1,2 · T2 = 1,5 · T2.5 = 1,5 · T3 = 1,2 · T4 = 0,9 · Projeto = 2,1. Corrijo mesmo assim e devolvo o feedback completo |
+| Entrega **atrasada** | Nota fixa de **6,0 na escala de 0 a 10**, ou seja, **60% dos pontos** que o trabalho valer. Corrijo mesmo assim e devolvo o feedback completo |
 | Formato diferente de **PDF** | Desconto equivalente a 2,0 pontos na escala de 0 a 10 (20% dos pontos). O trabalho é corrigido normalmente |
 | **Prompt injection** no PDF, visível ou escondida (texto branco, fonte 1pt, metadado) | Fraude: **nota 0**, sem revisão manual |
 | Atraso **com** fraude | A fraude vence: **0** |
 
 ---
 
-## 2. 🗓️ Mapa das entregas
+## 2. 🔬 T1: Anatomia de um processo (2,0 pontos)
 
-| Trabalho | Pontos | Etapa | Formato | Lançamento | Entrega |
-|---|---|---|---|---|---|
-| **T1** Anatomia de um processo | 2,0 | A1 | Individual | 17/09 | **01/10** |
-| **T2** Laboratório de concorrência | 2,5 | A1 | Duplas | 08/10 | **22/10** |
-| **T2.5** Mini-shell | 2,5 | A1 | Individual, com defesa | 08/10 | **29/10** |
-| **T3** Investigação de memória com um LLM local | 2,0 | A2 | Duplas | 05/11 | **19/11** |
-| **T4** Serviço em produção | 1,5 | A2 | Individual | 19/11 | **03/12** |
-| **Projeto final** (trilha A, B, C ou D) | 3,5 | A2 | Equipes de 2 a 3, defesa individual | 26/11 | **11/02/2027** |
-
-Com as provas objetivas (3,0 em cada etapa), A1 e A2 fecham 10,0 pontos cada, por **soma**, nunca por média ponderada. Calendário completo em [[Cronograma da disciplina]].
-
-```mermaid
-gantt
-    title Linha do tempo das entregas de SO I (2026.2)
-    dateFormat YYYY-MM-DD
-    axisFormat %d/%m
-    section Etapa A1
-    T1 Anatomia de um processo     :a1t1, 2026-09-17, 2026-10-01
-    T2 Laboratório de concorrência :a1t2, 2026-10-08, 2026-10-22
-    T2.5 Mini-shell                :a1t3, 2026-10-08, 2026-10-29
-    Prova A1                       :milestone, mA1, 2026-10-29, 0d
-    section Etapa A2
-    T3 Investigação de memória     :a2t1, 2026-11-05, 2026-11-19
-    T4 Serviço em produção         :a2t2, 2026-11-19, 2026-12-03
-    Projeto final                  :a2t3, 2026-11-26, 2027-02-11
-    Proposta do projeto            :milestone, mp1, 2026-11-26, 0d
-    Andamento e prova A2           :milestone, mp2, 2026-12-17, 0d
-    Entrega e defesa do projeto    :milestone, mp3, 2027-02-11, 0d
-```
-
----
-
-## 3. 🔬 T1: Anatomia de um processo (2,0 pontos)
-
-**2,0 pontos · A1 · individual · lançado 17/09 · entrega 01/10 · 6 a 8 h**
+**Sugestão: 2,0 pontos · individual · 6 a 8 h · etapa e prazo definidos em aula**
 **Apoio:** [[Processos]] · [[Chamadas de Sistema]] · [[Linux na prática]] · [[Laboratório de SO - preparando o ambiente]]
 
 **Objetivo.** Escolher **um programa real em execução** (navegador, Ollama, VS Code, servidor web, jogo) e produzir o **laudo de investigação** desse processo: quem ele é, com quem fala, quantas threads tem, quanta memória usa de verdade e o que acontece quando o sistema operacional o interrompe.
@@ -138,9 +110,9 @@ No `STAT`: `R` rodando, `S` dormindo interrompível, `D` dormindo ininterrompív
 
 ---
 
-## 4. 🧵 T2: Laboratório de concorrência (2,5 pontos)
+## 3. 🧵 T2: Laboratório de concorrência (2,5 pontos)
 
-**2,5 pontos · A1 · duplas · lançado 08/10 · entrega 22/10 · 10 a 14 h**
+**Sugestão: 2,5 pontos · duplas · 10 a 14 h · etapa e prazo definidos em aula**
 **Apoio:** [[Threads]] · [[Comunicação entre Processos]] · [[Escalonamento de Processos]] · [[Sistemas Operacionais na Era da IA]]
 
 **Objetivo.** Reproduzir uma condição de corrida de verdade, consertá-la e medir, com números próprios, quando threads ajudam, quando processos ajudam, quando `asyncio` ajuda e o que muda no Python free-threaded.
@@ -209,9 +181,9 @@ Ligue o que viu às filas do sistema operacional: o que é fila do servidor, o q
 
 ---
 
-## 5. 🐚 T2.5: Mini-shell (2,5 pontos)
+## 4. 🐚 T2.5: Mini-shell (2,5 pontos)
 
-**2,5 pontos · A1 · individual, com defesa oral de 5 min · lançado 08/10 · entrega 29/10 · 12 a 16 h**
+**Sugestão: 2,5 pontos · individual, com defesa oral de 5 min · 12 a 16 h · etapa e prazo definidos em aula**
 **Apoio:** [[Processos]] · [[Chamadas de Sistema]] · [[Linux na prática]]
 
 **Objetivo.** Escrever, em C ou Python, um shell que **funciona**: prompt, execução de externos, builtins, pipes, redirecionamento, background e sinais. E provar com `strace` que ele faz o que você diz que faz.
@@ -256,9 +228,9 @@ strace -f -e trace=execve,clone,clone3,wait4,pipe2,dup2 ./minishell
 
 ---
 
-## 6. 🧠 T3: Investigação de memória com um LLM local (2,0 pontos)
+## 5. 🧠 T3: Investigação de memória com um LLM local (2,0 pontos)
 
-**2,0 pontos · A2 · duplas · lançado 05/11 · entrega 19/11 · 14 a 18 h**
+**Sugestão: 2,0 pontos · duplas · 14 a 18 h · etapa e prazo definidos em aula**
 **Apoio:** [[Gerenciamento de Memória]] · [[Memória Virtual e Substituição de Páginas]] · [[Sistemas Operacionais na Era da IA]]
 
 **Objetivo.** Usar um modelo de linguagem rodando na sua máquina como **cobaia de memória**: medir o que ele reserva, o que realmente ocupa, o que vem do page cache, quantas faltas de página provoca e o que acontece quando você aperta o cinto com um cgroup.
@@ -329,9 +301,9 @@ Implemente **FIFO, LRU e Clock** você mesmo, confira contra o `paging-policy.py
 
 ---
 
-## 7. 🛠️ T4: Serviço em produção (1,5 ponto)
+## 6. 🛠️ T4: Serviço em produção (1,5 ponto)
 
-**1,5 ponto · A2 · individual · lançado 19/11 · entrega 03/12 · 12 a 16 h**
+**Sugestão: 1,5 ponto · individual · 12 a 16 h · etapa e prazo definidos em aula**
 **Apoio:** [[Linux na prática]] · [[Containers e Virtualização]] · [[Escalonamento de Processos]] · [[Tópicos/Redes de Computadores/DevOps|DevOps]]
 
 **Objetivo.** Pegar uma API sua de 30 linhas e transformá-la em **serviço de produção**: sobe no boot, reinicia sozinha, respeita limites de memória e CPU, tem log consultável e healthcheck automático. Depois quebrar de propósito e escrever o runbook.
@@ -417,9 +389,9 @@ services:
 
 ---
 
-## 8. 🚀 Projeto final (3,5 pontos)
+## 7. 🚀 Projeto final (3,5 pontos)
 
-**3,5 pontos · A2 · equipes de 2 a 3, com defesa individual · proposta 26/11 · andamento 17/12 · entrega e defesa 11/02/2027 · 20 a 30 h por equipe**
+**Sugestão: 3,5 pontos · equipes de 2 a 3, com defesa individual · três marcos (proposta, andamento, entrega e defesa) · 20 a 30 h por equipe · datas definidas em aula**
 **Apoio:** [[Containers e Virtualização]] · [[Segurança em Sistemas Operacionais]] · [[Sistemas Operacionais na Era da IA]] · [[Estrutura dos Sistemas Operacionais]] · [[Escalonamento de Processos]]
 
 Escolha **uma** trilha. Todas exigem código rodando, medição e relatório curto; o que muda é o pedaço do sistema operacional que vocês vão abrir.
@@ -431,19 +403,19 @@ flowchart TD
     T --> B["🛡️ Trilha B<br/>Sandbox para agente de IA<br/>seccomp, gVisor, microVM"]
     T --> C["🎛️ Trilha C<br/>GPU e inferência como recurso<br/>latência × throughput"]
     T --> D["⏱️ Trilha D<br/>Escalonador em BPF<br/>ou simulador avançado"]
-    A --> P1{{"📄 Proposta<br/>26/11"}}
+    A --> P1{{"📄 Proposta<br/>1 página"}}
     B --> P1
     C --> P1
     D --> P1
-    P1 --> P2{{"🔧 Andamento<br/>17/12"}}
-    P2 --> P3{{"🎤 Entrega e defesa<br/>11/02/2027"}}
+    P1 --> P2{{"🔧 Andamento<br/>demo de 5 min"}}
+    P2 --> P3{{"🎤 Entrega e defesa<br/>15 min + perguntas"}}
     P3 --> N(["✅ Nota individual<br/>equipe + defesa"])
 
     classDef marco stroke:#e53e3e,stroke-width:3px
     class P1,P2,P3 marco
 ```
 
-**Checkpoints.** **26/11:** proposta de 1 página (trilha, escopo mínimo, divisão do trabalho, **como vão medir**, riscos). **17/12:** andamento, com repositório em evolução e demo de 5 min. **11/02/2027:** entrega (repositório + relatório em PDF) e apresentação de 15 min com **defesa individual**. Checkpoint não entregue derruba a nota de processo.
+**Marcos (datas definidas em aula).** **Proposta:** 1 página (trilha, escopo mínimo, divisão do trabalho, **como vão medir**, riscos). **Andamento:** repositório em evolução e demo de 5 min. **Entrega:** repositório + relatório em PDF e apresentação de 15 min com **defesa individual**. Marco não entregue derruba a nota de processo.
 
 ### 📦 Trilha A: container do zero
 
@@ -515,7 +487,7 @@ Com uma carga mista (um processo interativo e vários CPU-bound com `stress-ng`)
 
 ---
 
-## 9. 🌟 Pontos extras
+## 8. 🌟 Pontos extras
 
 Valem na etapa (A1 ou A2) em que foram conquistados, com **teto de 1,0 ponto por etapa**. Todos exigem evidência e podem ser cobrados em 2 minutos de conversa.
 
@@ -530,7 +502,7 @@ Valem na etapa (A1 ou A2) em que foram conquistados, com **teto de 1,0 ponto por
 
 ---
 
-## 10. 🔒 Integridade, IA e defesa
+## 9. 🔒 Integridade, IA e defesa
 
 > [!danger] Regras de integridade
 > - **Usar IA é esperado; esconder o processo não é.** O diário faz parte da nota em todos os trabalhos.
@@ -548,7 +520,7 @@ Valem na etapa (A1 ou A2) em que foram conquistados, com **teto de 1,0 ponto por
 
 ## 🔗 Veja também
 
-- [[Cronograma da disciplina]]: todas as datas do semestre, aula a aula.
+- [[Tópicos/Sistemas operacionais/index|Sistemas Operacionais]]: página principal da disciplina.
 - [[Laboratório de SO - preparando o ambiente]]: WSL2, VM, Docker, Codespaces e Killercoda funcionando antes do primeiro trabalho.
 - [[Regras e boas práticas]]: formato de entrega, prazos, apresentações e trabalhos em grupo.
 - [[Materiais, cursos e certificações de SO]]: livros, cursos e laboratórios para ir além do mínimo.

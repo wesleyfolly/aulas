@@ -18,7 +18,7 @@ tags:
 > [!abstract] 🧭 O que você vai fazer nesta aula
 > Escolher o seu caminho para o Linux, instalar, provar com `uname -a` e `htop`, limitar os recursos da sua máquina virtual e ver o SO obedecer, criar a rede de segurança (snapshot ou `wsl --export`), montar a caixa de ferramentas numa linha só e combinar as regras de uso de IA do semestre.
 
-![[Recursos/Sistemas operacionais/Laboratório de SO - preparando o ambiente/tux-mascote-linux.png|Tux, mascote do Linux, desenhado por Larry Ewing em 1996. O pinguim está em quase todo servidor, celular Android e supercomputador do planeta, e vai estar no seu notebook até fevereiro.]]
+![[Recursos/Sistemas operacionais/Laboratório de SO - preparando o ambiente/tux-mascote-linux.png|Tux, mascote do Linux, desenhado por Larry Ewing em 1996. O pinguim está em quase todo servidor, celular Android e supercomputador do planeta, e vai estar no seu notebook o semestre inteiro.]]
 
 ---
 
@@ -351,7 +351,7 @@ flowchart LR
 
 Divergência não é fracasso, é achado: quando a IA erra a flag ou inventa um campo de `/proc`, **isso vira parágrafo do relatório**, com a man page citada ao lado.
 
-**Diário de uso de IA (obrigatório em todos os trabalhos).** Por marco: data, o que eu tentei, **o que a IA gerou** (ferramenta, versão, prompt resumido), o que estava errado, o que eu mudei e a **evidência** (commit, log, print). Fecha com a declaração de uso: quais ferramentas, para quê, quais trechos foram gerados e revisados, e o que foi feito sem IA. Modelo e rubrica em [[Trabalhos e Projetos de Sistemas Operacionais]]. Na defesa oral sorteio três perguntas: uma sobre um artefato **seu** (uma linha do seu `strace`), uma contrafactual ("e se mudasse X?") e uma de mercado ("como isso aparece num incidente?").
+**Diário de uso de IA (obrigatório em todos os trabalhos).** Por marco: data, o que eu tentei, **o que a IA gerou** (ferramenta, versão, prompt resumido), o que estava errado, o que eu mudei e a **evidência** (commit, log, print). Fecha com a declaração de uso: quais ferramentas, para quê, quais trechos foram gerados e revisados, e o que foi feito sem IA. Modelo e rubrica em [[Possíveis trabalhos e projetos de Sistemas Operacionais]]. Na defesa oral sorteio três perguntas: uma sobre um artefato **seu** (uma linha do seu `strace`), uma contrafactual ("e se mudasse X?") e uma de mercado ("como isso aparece num incidente?").
 
 > [!danger] Comandos que você nunca cola sem entender
 > | Comando | O que pode acontecer |
@@ -377,7 +377,7 @@ Divergência não é fracasso, é achado: quando a IA erra a flag ou inventa um 
 
 ## 8. ✅ Checklist "ambiente pronto"
 
-Esta é a entrega de hoje, **03/09/2026**:
+Esta é a entrega da primeira semana de laboratório (o professor confirma a data em aula):
 
 | # | Item | Como provar | Obrigatório |
 |---|---|---|---|
@@ -422,8 +422,8 @@ Esta é a entrega de hoje, **03/09/2026**:
 - [[Instalação e configurações]]: Python, Git e editores, o outro lado do mesmo problema.
 - [[Linux na prática]]: comandos do dia a dia, permissões, systemd e `journalctl`.
 - [[Containers e Virtualização]] e [[Docker - gerenciamento de containers]]: o que há por baixo do `docker run` de hoje.
-- [[Trabalhos e Projetos de Sistemas Operacionais]]: o modelo do diário de uso de IA e as rubricas.
-- [[Cronograma da disciplina]], [[Materiais, cursos e certificações de SO]], [[Glossário de Sistemas Operacionais]].
+- [[Possíveis trabalhos e projetos de Sistemas Operacionais]]: o modelo do diário de uso de IA e as rubricas.
+- [[Materiais, cursos e certificações de SO]], [[Glossário de Sistemas Operacionais]].
 - ➡️ **Próxima aula:** [[Introdução aos Sistemas Operacionais]]
 
 ---
