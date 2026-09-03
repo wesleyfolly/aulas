@@ -357,6 +357,11 @@ O Windows usa um modelo de controle de acesso baseado em **ACL (Access Control L
 
 ## 📎 Veja Também
 
+- [[Tópicos/Sistemas operacionais/index|Sistemas Operacionais]]: página principal da disciplina.
+- [[Estrutura dos Sistemas Operacionais]]: a arquitetura do Windows NT comparada com Linux, macOS e microkernels.
+- [[Processos]] e [[Threads]]: o que o Gerenciador de Tarefas e o Process Explorer mostram, explicado por dentro.
+- [[Linux na prática]]: o equivalente desta página para o Linux (e o WSL2, que roda Linux dentro do Windows).
+- [[Segurança em Sistemas Operacionais]]: UAC, BitLocker, Secure Boot e o caso CrowdStrike.
 - [[Automações]]
 - [[Docker - gerenciamento de containers]]
 

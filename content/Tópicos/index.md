@@ -32,7 +32,7 @@ tags:
 |------------|-----------|
 | [[Tópicos/Redes de Computadores/index\|Redes de Computadores]] | Protocolos, configuração e ferramentas práticas |
 | [[Tópicos/Segurança da informação/index\|Segurança da Informação]] | Cybersegurança, pentesting e proteção de dados |
-| [[Tópicos/Sistemas operacionais/index\|Sistemas Operacionais]] | Windows, Linux e gerenciamento de recursos |
+| [[Tópicos/Sistemas operacionais/index\|Sistemas Operacionais]] | O kernel por dentro (processos, threads, escalonamento, memória) com Linux de verdade, Windows como contraste, containers e o SO na era da IA |
 
 ---
 

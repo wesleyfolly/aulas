@@ -19,6 +19,11 @@ tags:
 
 ## 📋 Por Curso
 
+### Engenharia da Computação — 2026.2
+
+- **7º Período**
+  - [[SO I 7Eng 2026-2]] - Sistemas Operacionais I
+
 ### Engenharia da Computação — 2026.1
 
 - **1º Período**
